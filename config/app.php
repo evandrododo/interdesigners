@@ -26,7 +26,7 @@ return [
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://interdesigners.evandrocarreira.com.br',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
 	|
 	*/
 
-	'key' => env('APP_KEY', 'SomeRandomString'),
+	'key' => env('APP_KEY', 'H3ieKq3aPTHnF6cvdyC7WxA544aJgSPQ'),
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
