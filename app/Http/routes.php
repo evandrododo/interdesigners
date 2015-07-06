@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'MenuController@index');
+Route::get('inscricoes', 'InscricoesController@index');
 
 Route::controller('admin', 'AdminController');
 

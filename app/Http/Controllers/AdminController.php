@@ -26,7 +26,7 @@ class AdminController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function getIndex()
+	public function getHome()
 	{
 		return view('admin.index');
 	}
@@ -38,17 +38,17 @@ class AdminController extends Controller {
 	 */
 	public function getInscricoes()
 	{
-		return view('admin.index');
+		return view('admin.inscricoes.index');
 	}
 
 	/**
-	* Exibe edição de inscrições
+	* Exibe edição da programação
 	*
 	* @return Response
 	*/
 	public function getProgramacao()
 	{
-		return view('admin.index');
+		return view('admin.programacao.index');
 	}
 
 	/**
