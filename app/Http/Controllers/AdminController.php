@@ -26,9 +26,60 @@ class AdminController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function getIndex()
 	{
 		return view('admin.index');
 	}
+
+	/**
+	 * Exibe edição de inscrições
+	 *
+	 * @return Response
+	 */
+	public function getInscricoes()
+	{
+		return view('admin.index');
+	}
+
+	/**
+	* Exibe edição de inscrições
+	*
+	* @return Response
+	*/
+	public function getProgramacao()
+	{
+		return view('admin.index');
+	}
+
+	/**
+	* Exibe edição de inscrições
+	*
+	* @return Response
+	*/
+	public function getSimposio()
+	{
+		return view('admin.index');
+	}
+
+	/**
+	 * Exibe edição de inscrições
+	 *
+	 * @return Response
+	 */
+	public function getEvento()
+	{
+		return view('admin.index');
+	}
+
+	/**
+	* Exibe edição de inscrições
+	*
+	* @return Response
+	*/
+	public function getConfiguracoes()
+	{
+		return view('admin.index');
+	}
+
 
 }
