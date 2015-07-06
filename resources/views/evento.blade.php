@@ -2,6 +2,6 @@
 
 @section('conteudo')
 
-	Inscreva-se
+	Evento
     @include('_menu')
 @endsection

@@ -2,6 +2,6 @@
 
 @section('conteudo')
 
-	Inscreva-se
+	Simpósio
     @include('_menu')
 @endsection

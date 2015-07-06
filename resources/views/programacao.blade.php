@@ -2,6 +2,6 @@
 
 @section('conteudo')
 
-	Inscreva-se
+	Programacao	
     @include('_menu')
 @endsection

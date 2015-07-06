@@ -13,6 +13,9 @@
 
 Route::get('/', 'MenuController@index');
 Route::get('inscricoes', 'InscricoesController@index');
+Route::get('simposio', 'SimposioController@index');
+Route::get('evento', 'EventoController@index');
+Route::get('programacao', 'ProgramacaoController@index');
 
 Route::controller('admin', 'AdminController');
 
