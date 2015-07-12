@@ -26,6 +26,17 @@ class AdminController extends Controller {
 	 *
 	 * @return Response
 	 */
+	public function getIndex()
+	{
+		return view('admin.index');
+	}
+
+
+	/**
+	* Show app admin
+	*
+	* @return Response
+	*/
 	public function getHome()
 	{
 		return view('admin.index');
