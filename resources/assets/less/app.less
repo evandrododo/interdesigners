@@ -1,0 +1,57 @@
+@import "bootstrap/bootstrap";
+
+@btn-font-weight: 300;
+@font-family-sans-serif: "Ledger", Helvetica, Arial, sans-serif;
+html, body {
+	height:100%;
+	background-color: #f7f7f7;
+}
+body, label, .checkbox label {
+	font-family: 'Ledger', serif;
+	font-weight: 300;
+}
+img {
+	max-width:100%;
+}
+
+#menuinicial{
+	margin: 0 auto;
+	position: relative;
+	a {
+		&:hover .imghover {
+			opacity: 1;
+		}
+	}
+}
+#menuinicial > div {
+	display:block;
+	position: relative;
+	float:left;
+	padding:0.1em;
+}
+#menuinicial img {
+	top: 0;
+	position: absolute;
+	max-width: 90%;
+	margin:5%;
+	transition: opacity ease 0.5s;
+	&.imghover {
+		display:block;
+		opacity:0;
+	}
+}
+#menuinicial .inscricoes {
+	width:16%;
+}
+#menuinicial .programacao {
+	width:16%;
+}
+#menuinicial .logo {
+	width:36%;
+}
+#menuinicial .simposio {
+	width:16%;
+}
+#menuinicial .evento {
+	width:16%;
+}

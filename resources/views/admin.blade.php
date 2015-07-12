@@ -67,7 +67,7 @@
       ******************* -->
 
                   <div class="col-lg-3 ds">
-                      @include('admin.ultimoseventos');
+                     <!-- include('admin.ultimoseventos'); -->
 				  </div><!-- /col-lg-3 -->
 
               </div>
@@ -78,8 +78,8 @@
       <!--footer start-->
       <footer class="site-footer">
           <div class="text-center">
-              2014 - Alvarez.is
-              <a href="index.html#" class="go-top">
+              Grupo Tesseract
+              <a href="http://grupotesseract.com.br" class="go-top">
                   <i class="fa fa-angle-up"></i>
               </a>
           </div>

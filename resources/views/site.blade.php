@@ -10,8 +10,9 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="{{ asset('/css/site.css') }}">
-    	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
+
+		<link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <!--[if lt IE 8]>
