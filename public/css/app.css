@@ -6277,5 +6277,8 @@ img {
 #menuinicial .evento {
   width: 16%;
 }
+img.lettering {
+  padding: 2em;
+}
 
 /*# sourceMappingURL=app.css.map */

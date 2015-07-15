@@ -14,7 +14,7 @@ class SimposioController extends Controller {
 	*/
 	public function index()
 	{
-		return view('simposio');
+		return view('simposio')->with('paginaAtual','simposio');
 	}
 
 }

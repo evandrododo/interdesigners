@@ -15,7 +15,7 @@ class ProgramacaoController extends Controller {
 	*/
 	public function index()
 	{
-		return view('programacao');
+		return view('programacao')->with('paginaAtual','programacao');
 	}
 
 }

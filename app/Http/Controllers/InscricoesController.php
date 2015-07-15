@@ -14,7 +14,7 @@ class InscricoesController extends Controller {
 	 */
 	public function index()
 	{
-		return view('inscricoes');
+		return view('inscricoes')->with('paginaAtual','inscricoes');
 	}
 
 }
