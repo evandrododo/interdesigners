@@ -17,44 +17,114 @@ img {
 #menuinicial{
 	margin: 0 auto;
 	position: relative;
-	a {
-		&:hover .imghover {
-			opacity: 1;
+	height: 50%;
+	width:100%;
+	top:22%;
+	position: absolute;
+	>div {
+		height: 100%;
+		display:block;
+		position: relative;
+		float:left;
+		padding:0.1em;
+		.img-container {
+			margin:0 auto;
+			width:100%;
+			height: 100%;
+		}
+		.img-menu {
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			width:90%;
+			height: 100%;
+			margin: 0 5%;
+			top:0px;
+			position: absolute;
 		}
 	}
+
 }
-#menuinicial > div {
-	display:block;
-	position: relative;
-	float:left;
-	padding:0.1em;
-}
-#menuinicial img {
-	top: 0;
-	position: absolute;
-	max-width: 90%;
-	margin:5%;
-	transition: opacity ease 0.5s;
-	&.imghover {
-		display:block;
-		opacity:0;
+a {
+	&:hover .imghover {
+		opacity: 1;
 	}
 }
+ .imghover {
+	transition: opacity ease 0.5s;
+	display:block;
+	opacity:0;
+}
 #menuinicial .inscricoes {
-	width:16%;
+	width:17.5%;
 }
 #menuinicial .programacao {
-	width:16%;
+	width:17.5%;
 }
 #menuinicial .logo {
-	width:36%;
+	width:30%;
 }
 #menuinicial .simposio {
-	width:16%;
+	width:17.5%;
 }
 #menuinicial .evento {
-	width:16%;
+	width:17.5%;
 }
 img.lettering {
 	padding:2em;
+}
+.menu-interno {
+	list-style: none;
+	padding:0;
+	margin:0;
+	text-transform: uppercase;
+	margin-top: 50px;
+	max-height:50%;
+	li {
+		position:relative;
+		width:100%;
+		height:40px;
+		margin:20px 0;
+	}
+	img {
+		height:100%;
+		top:0px;
+		position: absolute;
+	}
+}
+.descricao {
+	height:100%;
+}
+.descricao-programacao,
+.descricao-programacao a {
+	color:#8B70B0;
+}
+.descricao-simposio,
+.descricao-simposio a {
+	color:#6E73AE;
+}
+.descricao-inscricoes,
+.descricao-inscricoes a {
+	color:#A684A5;
+}
+.descricao-evento,
+.descricao-evento a {
+	color:#5AC0CA;
+}
+.conteudo-interno {
+	position:relative;
+	height:50%;
+	overflow-y: scroll;
+	> div {
+		height:100%;
+		opacity: 0;
+		display: none;
+		transition: opacity ease 0;
+		top:0;
+		position: absolute;
+		&.ativo {
+			opacity: 1;
+			display: block;
+		}
+	}
 }

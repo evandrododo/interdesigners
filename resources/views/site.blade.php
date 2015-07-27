@@ -13,7 +13,6 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
-
 		<link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
     </head>
     <body>
@@ -25,6 +24,7 @@
         @yield('conteudo')
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="{{ asset('/js/min.js') }}"></script>
 
     </body>
 </html>

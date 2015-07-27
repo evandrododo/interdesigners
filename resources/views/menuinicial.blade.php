@@ -4,31 +4,41 @@
 
     <nav class="row" id="menuinicial">
 		<div class="inscricoes">
-			<a href="/inscricoes">
-				<img src="/img/menuinicial/inscricoes.png" alt="Inscrições" title="Inscrições">
-				<img src="/img/menuinicial/inscricoes_hover.png" class="imghover" alt="Inscrições" title="Inscrições">
-			</a>
+			<div class="img-container">
+                <a href="/inscricoes">
+    				<div class="img-menu" style="background-image:url('/img/menuinicial/inscricoes.png');" title="Inscrições"></div>
+    				<div class="imghover img-menu" style="background-image:url('/img/menuinicial/inscricoes_hover.png');" title="Inscrições"></div>
+    			</a>
+            </div>
 		</div>
 		<div class="programacao">
-			<a href="/programacao">
-				<img src="/img/menuinicial/programacao.png" alt="Programação" title="Programação">
-				<img src="/img/menuinicial/programacao_hover.png" class="imghover" alt="Programação" title="Programação">
-			</a>
+			<div class="img-container">
+                <a href="/programacao">
+    				<div class="img-menu" style="background-image:url('/img/menuinicial/programacao.png');" title="Programação"></div>
+    				<div class="imghover img-menu" style="background-image:url('/img/menuinicial/programacao_hover.png');" title="Programação"></div>
+    			</a>
+            </div>
 		</div>
 		<div class="logo">
-			<img src="/img/menuinicial/logo.png" alt="Interdesigners 2015" title="Interdesigners 2015">
+            <div class="img-container">
+                <div class="img-menu" style="background-image:url('/img/menuinicial/logo.png');" title="Interdesigners 2015"></div>
+            </div>
 		</div>
 		<div class="simposio">
-			<a href="/simposio">
-				<img src="/img/menuinicial/simposio.png" alt="Simpósio" title="Simpósio">
-				<img src="/img/menuinicial/simposio_hover.png" class="imghover" alt="Simpósio" title="Simpósio">
-			</a>
+			<div class="img-container">
+                <a href="/simposio">
+    				<div class="img-menu" style="background-image:url('/img/menuinicial/simposio.png');" title="Simpósio"></div>
+    				<div class="imghover img-menu" style="background-image:url('/img/menuinicial/simposio_hover.png');" title="Simpósio"></div>
+    			</a>
+            </div>
 		</div>
 		<div class="evento">
-			<a href="/evento">
-				<img src="/img/menuinicial/evento.png" alt="Evento" title="Evento">
-				<img src="/img/menuinicial/evento_hover.png" class="imghover" alt="Evento" title="Evento">
-			</a>
+			<div class="img-container">
+                <a href="/evento">
+    				<div class="img-menu" style="background-image:url('/img/menuinicial/evento.png');" title="Evento"></div>
+    				<div class="imghover img-menu" style="background-image:url('/img/menuinicial/evento_hover.png');" title="Evento"></div>
+    			</a>
+            </div>
 		</div>
     </nav>
 

@@ -15,7 +15,7 @@
 	</div>
 	<div class="col-sm-2">
 		<a href="/">
-		@if($paginaAtual != "programacao")
+		@if($paginaAtual != "")
 			<img src="/img/{{$paginaAtual}}/menu_logo.png" alt="Menu Inicial" title="Menu Inicial">
 		</a>
 		@endif

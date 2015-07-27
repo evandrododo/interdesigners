@@ -13,4 +13,8 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.less('app.less');
+
+    mix.scripts([
+	    '../../assets/js/menu-interno.js'
+	], 'public/js/min.js');
 });
