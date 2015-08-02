@@ -3,7 +3,9 @@
 @section('conteudo')
 
 	<div class="col-sm-4">
-		<img class="lettering" src="/img/simposio/lettering.png" alt="Simpósio" title="Simpósio">
+		<div class="lettering-container">
+			<img class="lettering" src="/img/simposio/lettering.png" alt="Simpósio" title="Simpósio">
+		</div>
     	@include('_menu')
 	</div>
 	<div class="col-sm-4 descricao-simposio descricao">
@@ -36,7 +38,21 @@
 
 		<div class="conteudo-interno">
 			<div class="sobre ativo">
-				O simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SPO simpósio ocrre na UNESP, em Bauru-SP
+				{!!		nl2br(e("O simpósio ocorrerá na UNESP, em Bauru-SP e os artigos avaliados pelo comitê científico serão publicados nos anais do evento, em formato digital online, com ISBN.
+
+OBJETIVOS
+
+- Promover a integração entre diferentes faces da vivência acadêmica
+
+- Estreitar os laços entre pós-graduação e graduação
+
+- Incentivar a troca de informações tecnológicas, metodológicas e científica entre alunos
+
+- Promover o aprendizado das normas acadêmicas
+
+- Promover o intercâmbio entre universidades brasileiras
+
+- Divulgar o trabalho de graduandos e bacharéis e seu potencial como futuros pesquisadores, mestrandos e doutorandos")) !!}
 			</div>
 			<div class="submissao">
 				O simpósio ocrre na UNESP, em Bauru-SP

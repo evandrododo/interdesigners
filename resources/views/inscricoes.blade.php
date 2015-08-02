@@ -3,10 +3,12 @@
 @section('conteudo')
 
 	<div class="col-sm-4">
-		<img class="lettering" src="/img/inscricoes/lettering.png" alt="Inscrições" title="Inscrições">
+		<div class="lettering-container">
+			<img class="lettering" src="/img/inscricoes/lettering.png" alt="Inscrições" title="Inscrições">
+		</div>
 		@include('_menu')
 	</div>
-	<div class="col-sm-5 descricao-inscricoes">
+	<div class="col-sm-5 descricao-inscricoes descricao">
 		<div class="row">
 			<div class="col-sm-2">
 				<img class="" src="/img/inscricoes/50.png" alt="Inscrições" title="Inscrições">

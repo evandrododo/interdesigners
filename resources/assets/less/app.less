@@ -70,6 +70,9 @@ a {
 #menuinicial .evento {
 	width:17.5%;
 }
+.lettering-container {
+	min-height: 38em;
+}
 img.lettering {
 	padding:2em;
 }
@@ -92,6 +95,12 @@ img.lettering {
 		position: absolute;
 	}
 }
+.item-menu {
+	width:20%;
+	padding:1em;
+	position:relative;
+	float:left;
+}
 .descricao {
 	height:100%;
 }
@@ -110,21 +119,25 @@ img.lettering {
 .descricao-evento,
 .descricao-evento a {
 	color:#5AC0CA;
+	padding-top: 20em;
+	overflow-y: scroll;
 }
 .conteudo-interno {
 	position:relative;
 	height:50%;
 	overflow-y: scroll;
 	> div {
-		height:100%;
 		opacity: 0;
-		display: none;
-		transition: opacity ease 0;
+		height:0;
+		transition: opacity 1s ease;
 		top:0;
 		position: absolute;
+		display:none;
 		&.ativo {
 			opacity: 1;
-			display: block;
+			height:100%;
+			display:block;
+			transition: opacity 0s ease;
 		}
 	}
 }

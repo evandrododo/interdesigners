@@ -3,7 +3,9 @@
 @section('conteudo')
 
 	<div class="col-sm-4">
-		<img class="lettering" src="/img/programacao/lettering.png" alt="Programação" title="Programação">
+		<div class="lettering-container">
+			<img class="lettering" src="/img/programacao/lettering.png" alt="Programação" title="Programação">
+		</div>
     	@include('_menu')
 	</div>
 	<div class="col-sm-4 descricao-programacao descricao">
@@ -36,16 +38,16 @@
 
 		<div class="conteudo-interno">
 			<div class="cronograma ativo">
-				O simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP simpósio ocrre na UNESP, em Bauru-SP
+				EM BREVE
 			</div>
 			<div class="convidados">
-				O simpósio ocrre na UNESP, em Bauru-SP
+				@include('programacao.convidados')
 			</div>
 			<div class="oficinas">
-				O simpósio ocrre na UNESP, em Bauru-SP
+				@include('programacao.oficinas')
 			</div>
 			<div class="palestras">
-				O simpósio ocrre na UNESP, em Bauru-SP
+				@include('programacao.palestras')
 			</div>
 		</div>
 
