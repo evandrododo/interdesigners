@@ -17,6 +17,10 @@ Route::get('simposio', 'SimposioController@index');
 Route::get('evento', 'EventoController@index');
 Route::get('programacao', 'ProgramacaoController@index');
 
+Route::get('admin/convidados', 'ConvidadosController@index');
+
+Route::resource('convidado','ConvidadosController');
+
 Route::controller('admin', 'AdminController');
 
 Route::controllers([

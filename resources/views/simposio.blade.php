@@ -55,13 +55,13 @@ OBJETIVOS
 - Divulgar o trabalho de graduandos e bacharéis e seu potencial como futuros pesquisadores, mestrandos e doutorandos")) !!}
 			</div>
 			<div class="submissao">
-				O simpósio ocrre na UNESP, em Bauru-SP
+				Em breve.
 			</div>
 			<div class="inscricao">
-				O simpósio ocrre na UNESP, em Bauru-SP
+				Em breve.
 			</div>
 			<div class="contato">
-				O simpósio ocrre na UNESP, em Bauru-SP
+				Em breve.
 			</div>
 		</div>
 	</div>

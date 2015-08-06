@@ -38,7 +38,7 @@
 
 		<div class="conteudo-interno">
 			<div class="cronograma ativo">
-				EM BREVE
+				Em breve.
 			</div>
 			<div class="convidados">
 				@include('programacao.convidados')

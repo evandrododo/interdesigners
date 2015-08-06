@@ -2,6 +2,7 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Convidado;
 
 use Illuminate\Http\Request;
 
@@ -15,7 +16,10 @@ class ProgramacaoController extends Controller {
 	*/
 	public function index()
 	{
-		return view('programacao')->with('paginaAtual','programacao');
+		$convidados = Convidado::all();
+		$oficinas = Convidado::all();
+		$palestras = Convidado::all();
+		return view('programacao',compact('convidados'))->with('paginaAtual','programacao');
 	}
 
 }

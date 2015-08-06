@@ -7,9 +7,9 @@
         </a>
     </li>
     <li class="menu">
-        <a class="" href="/admin/inscricoes">
+        <a class="" href="/admin/convidados">
             <i class="fa fa-street-view"></i>
-            <span>Inscrições</span>
+            <span>Convidados</span>
         </a>
     </li>
     <li class="menu">

@@ -42,15 +42,6 @@ class AdminController extends Controller {
 		return view('admin.index');
 	}
 
-	/**
-	 * Exibe edição de inscrições
-	 *
-	 * @return Response
-	 */
-	public function getInscricoes()
-	{
-		return view('admin.inscricoes.index');
-	}
 
 	/**
 	* Exibe edição da programação

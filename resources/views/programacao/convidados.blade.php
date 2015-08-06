@@ -1,4 +1,4 @@
-@if(isset($convidados))
+
 @forelse($convidados as $Convidado)
     <div class="col-sm-3">
         <img src="{{ $Convidado->imagem }}" alt="{{ $Convidado->titulo }}">
@@ -14,4 +14,3 @@
 @empty
     Nenhum convidado cadastrado :(
 @endforelse
-@endif
