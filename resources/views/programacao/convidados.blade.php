@@ -12,5 +12,5 @@
         </p>
     </div>
 @empty
-    Nenhum convidado cadastrado :(
+    Convidados disponíveis em breve.
 @endforelse
