@@ -1,12 +1,3 @@
-$(document).ready( function(){
-    $(".menu-interno a").click(function(){
-        var href = $(this).prop("hash");
-        var link = href.substr(1);
-        $('.conteudo-interno div').removeClass('ativo');
-        $('.conteudo-interno div.'+link).addClass('ativo');
-    });
-});
-
 $('body').on('click', '[data-type="page-transition"]', function(event){
     event.preventDefault();
     //detect which page has been selected
@@ -48,5 +39,3 @@ $(window).on('popstate', function() {
         newPage = newPageArray[newPageArray.length - 1];
     if( !isAnimating ) changePage(newPage);
 });
-
-//# sourceMappingURL=min.js.map

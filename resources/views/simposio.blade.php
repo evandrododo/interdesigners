@@ -38,6 +38,10 @@
 
 		<div class="conteudo-interno">
 			<div class="sobre ativo">
+				<h4>
+					<img  src="/img/simposio/3e4.png" alt="3 e 4 de Novembro">
+				</h4>
+
 				{!!		nl2br(e("O simpósio ocorrerá na UNESP, em Bauru-SP e os artigos avaliados pelo comitê científico serão publicados nos anais do evento, em formato digital online, com ISBN.
 
 OBJETIVOS

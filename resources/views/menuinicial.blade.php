@@ -41,5 +41,6 @@
             </div>
 		</div>
     </nav>
+    <img  src="/img/5a7.png" alt="5 a 7 de Novembro" class="data5a7" title="5 a 7 de Novembro">
 
 @endsection

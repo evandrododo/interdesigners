@@ -1,11 +1,15 @@
 'use strict';
-
+var sizeBody = {};
 $(function() {
+    sizeBody.height = $("html").height();
+    sizeBody.width = $("html").width();
+    console.log(sizeBody);
     $('a.color-source').click(function(event) {
         event.preventDefault();
         $('a.color-source').removeClass('active');
         $(this).addClass('active');
-        updateSource($(this).index() + 1);
+        console.log($(this).find('img'));
+        updateSource($(this).find('img').data('image'));
     });
     $('.preset').click(function(event) {
         event.preventDefault();
@@ -71,7 +75,7 @@ function choosePreset(id) {
 function setup() {
     background(0);
     updateSource(1);
-    canvas = createCanvas(975, 700);
+    canvas = createCanvas(sizeBody.width, sizeBody.height);
     canvas.parent('neobrush');
 
     art = createGraphics(canvas.width, canvas.height);
@@ -109,6 +113,7 @@ function updateSource(index) {
                 colors.push(img.get(x, y));
             }
         }
+        console.log(colors.length);
     });
 }
 
@@ -117,6 +122,7 @@ function mousePressed() {
         var easing = ui.easing.value() + random(-ui.easingJitter.value(), ui.easingJitter.value());
         var speed = ui.speed.value() + random(-ui.speedJitter.value(), ui.speedJitter.value());
         var vertices = ui.vertices.value() + random(-ui.verticesJitter.value(), ui.verticesJitter.value());
+        console.log(vertices);
         var line = new SketchLine(vertices, easing, speed, colors);
         lines.push(line);
     }

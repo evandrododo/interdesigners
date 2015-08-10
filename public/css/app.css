@@ -6238,12 +6238,20 @@ label,
 img {
   max-width: 100%;
 }
+.data5a7 {
+  position: absolute;
+  height: 17%;
+  bottom: 9%;
+  margin: 0 auto;
+  left: 50%;
+  margin-left: -10.2%;
+}
 #menuinicial {
   margin: 0 auto;
   position: relative;
   height: 50%;
   width: 100%;
-  top: 22%;
+  top: 18%;
   position: absolute;
 }
 #menuinicial > div {
@@ -6292,7 +6300,12 @@ a:hover .imghover {
   width: 17.5%;
 }
 .lettering-container {
-  min-height: 38em;
+  height: 80vh;
+  text-align: center;
+}
+.lettering-container img {
+  margin: 0 auto;
+  max-height: 100%;
 }
 img.lettering {
   padding: 2em;
@@ -6342,10 +6355,13 @@ img.lettering {
 .descricao-inscricoes a p.secao {
   min-height: 15em;
 }
+h4 img {
+  max-height: 40px;
+}
 .descricao-evento,
 .descricao-evento a {
   color: #5AC0CA;
-  padding-top: 20em;
+  padding-top: 2em;
   overflow-y: scroll;
 }
 .conteudo-interno {

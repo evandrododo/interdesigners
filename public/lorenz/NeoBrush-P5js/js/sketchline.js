@@ -42,4 +42,13 @@ SketchLine.prototype.render = function() {
         art.curveVertex(this.curveVertices[i].x, this.curveVertices[i].y);
     }
     art.endShape();
+        art.beginShape();
+        for (var i = 0; i < this.numberOfVertices; i++) {
+            art.noFill();
+            art.strokeWeight(1);
+            var c = this.colors[this.colorIndex]
+            art.stroke(c[0], c[1], c[2], 30);
+            art.curveVertex(canvas.width-this.curveVertices[i].x, this.curveVertices[i].y);
+        }
+        art.endShape();
 };

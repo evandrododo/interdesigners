@@ -8,12 +8,18 @@
 
 
 
- body {
+ html {
+     height:100%;
+     width:100%;
+
+}
+body {
   background-color: #222;
   color: #FFF;
-  padding-top: 3em;
-  padding-bottom: 3em;
   font-family: 'Open Sans', sans-serif;
+      height:100%;
+      width:100%;
+
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -27,8 +33,24 @@ h1,h2,h3,h4,h5,h6,p {
 
 canvas {
   box-shadow: 0 0 30px rgba(255,255,255,0.1);
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index:-1;
+}
+.controls {
+    width: 200px;
+    z-index: 2;
+    position:absolute;
+    top:10%;
+    left:10%;
 }
 
+.controls p {
+    display: none;
+}
 .active img {
   box-shadow: 0 0 5px rgba(255,255,255,1);
 }
@@ -49,4 +71,12 @@ p {
 
 .preset {
   margin-bottom: 5px;
+}
+
+#neobrush {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

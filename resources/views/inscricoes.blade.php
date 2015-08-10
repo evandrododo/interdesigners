@@ -11,14 +11,14 @@
 	<div class="col-sm-5 descricao-inscricoes descricao">
 		<div class="row">
 			<div class="col-sm-12">
-				<h4>BORBOLETA (ENCONTRISTA)</h4>
+				<h4><img src="/img/inscricoes/borboleta.png" alt="BORBOLETA (ENCONTRISTA)"></h4>
 				<p class="secao">Em breve mais informações sobre as inscrições.</p>
 
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-12 editais">
-				<h4>EDITAIS</h4>
+				<h4><img src="/img/inscricoes/editais.png" alt="Editais"></h4>
 				<p>Os editais são para aqueles encontristas que querem ajudar na construção de evento junto à COIDe.
 				Abertos até o dia 6/09.</p>
 				<div class="col-sm-9">
