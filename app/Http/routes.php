@@ -10,7 +10,10 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+Route::get('lorenzatractor', function()
+{
+    return  redirect('lorenz/NeoBrush-P5js/index.html');
+});
 Route::get('/', 'MenuController@index');
 Route::get('inscricoes', 'InscricoesController@index');
 Route::get('simposio', 'SimposioController@index');

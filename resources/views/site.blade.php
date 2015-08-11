@@ -16,16 +16,18 @@
 		<link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
     </head>
     <body>
+		<div class="sprite" id="anima_interna"></div>
+
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+		<main>
+        	<!-- Conteúdo -->
+        	@yield('conteudo')
+		</main>
 
-        <!-- Conteúdo -->
-        @yield('conteudo')
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="{{ asset('/js/min.js') }}"></script>
 		<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
-
     </body>
 </html>
