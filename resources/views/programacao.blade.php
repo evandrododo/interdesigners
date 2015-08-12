@@ -11,28 +11,28 @@
 	<div class="col-sm-4 descricao-programacao descricao">
 			<ul id="menu-interno-programacao" class="menu-interno">
 			<li>
-				<a href="#cronograma">
+				<span class="link" data-link="#cronograma">
 					<img  src="/img/programacao/cronograma1.png" alt="Cronograma">
 					<img class="imghover" src="/img/programacao/cronograma2.png" alt="Cronograma">
-				</a>
+				</span>
 			</li>
 			<li>
-				<a href="#convidados">
+				<span class="link" data-link="#convidados">
 					<img  src="/img/programacao/convidados1.png" alt="Convidados">
 					<img class="imghover" src="/img/programacao/convidados2.png" alt="Convidados">
-				</a>
+				</span>
 			</li>
 			<li>
-				<a href="#oficinas">
+				<span class="link" data-link="#oficinas">
 					<img  src="/img/programacao/oficinas1.png" alt="Oficinas">
 					<img class="imghover" src="/img/programacao/oficinas2.png" alt="Oficinas">
-				</a>
+				</span>
 			</li>
 			<li>
-				<a href="#palestras">
+				<span class="link" data-link="#palestras">
 					<img  src="/img/programacao/palestras1.png" alt="Palestras">
 					<img class="imghover" src="/img/programacao/palestras2.png" alt="Palestras">
-				</a>
+				</span>
 			</li>
 		</ul>
 

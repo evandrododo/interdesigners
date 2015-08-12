@@ -2,10 +2,24 @@
 
 @btn-font-weight: 300;
 @font-family-sans-serif: "Ledger", Helvetica, Arial, sans-serif;
-html, body, main {
-	height:100%;
-	background-color: #f7f7f7;
+* {
+	opacity: 1;
+	transition: opacity 1s ease;
 }
+
+html {
+	height:100%;
+
+	body {
+		height:100%;
+		background-color: #f7f7f7;
+	}
+	main {
+		height:100%;
+		z-index: 10;
+	}
+}
+
 body, label, .checkbox label {
 	font-family: 'Ledger', serif;
 	font-weight: 300;
@@ -20,7 +34,7 @@ img {
 	left: 38%;
 	height: 30vh;
 	position: absolute;
-	padding: 2em;
+	padding: 4em;
 	text-align: center;
 	.data5a7 {
 		max-height: 100%;
@@ -59,7 +73,8 @@ img {
 	}
 
 }
-a {
+a, span.link {
+	cursor: pointer;
 	&:hover .imghover {
 		opacity: 1;
 	}
@@ -205,15 +220,24 @@ span.fundo-roxo {
 
 
 .sprite {
-	display:none;
-    width: 256px; // Width of one animation frame
-    height: 256px; // Height of one animation frame
-	&#anima_menu {
-		position: relative;
+	z-index: -1;
+    width: 50vh; // Width of one animation frame
+    height: 50vh; // Height of one animation frame
+	margin: 0 auto;
+	&#anima_aparece {
+	    width: 60vh; // Width of one animation frame
+	    height: 60vh; // Height of one animation frame
+		top: 10vh;
+		left: 50%;
+		margin-left: -30vh;
+		position: absolute;
     	background: url('/img/animacoes/aparece.png');
+		background-size:cover;
+		background-repeat:none;
 	}
 	&#anima_interna {
 		position: absolute;
+		display: none;
 		background: url('/img/animacoes/simposio.png');
 		right:0;
 	}

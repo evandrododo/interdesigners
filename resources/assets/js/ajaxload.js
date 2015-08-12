@@ -9,26 +9,64 @@ function bindaClicks() {
     });
 };
 bindaClicks();
+
 function changePage(url, bool) {
     isAnimating = true;
-    // trigger page animation
+    // Dá fade na tela
     $('main').addClass('transparente');
 
-    loadNewContent(url, bool);
+    // Animação de desconstrução
+    scriptsBeforeUrl(url);
+
+    // Carrega o conteúdo dentro do main
+    setTimeout(function(){
+        loadNewContent(url, bool);
+    },300);
+}
+
+var aparece = {};
+
+function scriptsBeforeUrl(url) {
+    //Faz uma animação diferente pra cada url
+    aparece.to(6);
+
+}
+function scriptsUrl(url) {
+    //Executa um script para cada página carregada
+
+    //Faz uma animação diferente pra cada url
+    if(url == "/") {
+        $('.transparente').removeClass('transparente');
+        aparece.toEnd();
+    }
+
+    if(url == "/programacao" || url == "/simposio") {
+        $(".menu-interno span.link").click(function(){
+            var href = $(this).data("link");
+            var link = href.substr(1);
+
+            $('.conteudo-interno div').removeClass('ativo');
+            $('.conteudo-interno div.'+link).addClass('ativo');
+        });
+    } else if (url == "/simposio") {
+
+    }
 }
 
 function loadNewContent(url, bool) {
     var newSectionName = 'cd-'+url.replace('/', ''),
     	section = $('<div class="cd-main-content '+newSectionName+'"></div>');
 
-    section.load(url+' main', function(event){
-        // load new content and replace <main> content with the new one
-        var content = $(event).filter('main');
+    section.load(url+' main *', function(event){
+        // Carrega o que estiver dentro do main e joga pra dentro do main atual
+        var content = $(event).filter('main').children();
         	window.setTimeout(function () {
                 $('main').html(content);
                 $('main').removeClass('transparente');
                 isAnimating = false;
 
+
+                scriptsUrl(url);
             },300);
 
 
@@ -38,12 +76,14 @@ function loadNewContent(url, bool) {
     	}
     });
 }
+
+
 var isAnimating = false;
-$(window).on('popstate', function() {
-    /*
+$(window).on('popstate', function(e) {
+
     var newPageArray = location.pathname.split('/'),
         //this is the url of the page to be loaded
         newPage = newPageArray[newPageArray.length - 1];
     if( !isAnimating ) changePage(newPage);
-    */
+
 });

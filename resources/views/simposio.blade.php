@@ -11,28 +11,28 @@
 	<div class="col-sm-4 descricao-simposio descricao">
 		<ul id="menu-interno-somposio" class="menu-interno">
 			<li>
-				<a href="#sobre">
+				<span class="link" data-link="#sobre">
 					<img  src="/img/simposio/sobre1.png" alt="Sobre">
 					<img class="imghover" src="/img/simposio/sobre2.png" alt="Sobre">
-				</a>
+				</span>
 			</li>
 			<li>
-				<a href="#submissao">
+				<span class="link" data-link="#submissao">
 					<img  src="/img/simposio/submissao1.png" alt="Submissão">
 					<img class="imghover" src="/img/simposio/submissao2.png" alt="Submissão">
-				</a>
+				</span>
 			</li>
 			<li>
-				<a href="#inscricao">
+				<span class="link" data-link="#inscricao">
 					<img  src="/img/simposio/inscricao1.png" alt="Inscrição">
 					<img class="imghover" src="/img/simposio/inscricao2.png" alt="Inscrição">
-				</a>
+				</span>
 			</li>
 			<li>
-				<a href="#contato">
+				<span class="link" data-link="#contato">
 					<img  src="/img/simposio/contato1.png" alt="Contato">
 					<img class="imghover" src="/img/simposio/contato2.png" alt="Contato">
-				</a>
+				</span>
 			</li>
 		</ul>
 
