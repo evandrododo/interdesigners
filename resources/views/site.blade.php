@@ -17,8 +17,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
     </head>
     <body>
-		<div class="sprite" id="anima_interna"></div>
-
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -27,7 +25,11 @@
         	@yield('conteudo')
 		</main>
 
-		<div class="sprite" id="anima_aparece"></div>
+		<div class="sprite transparente hidden-xs" id="anima_aparece"></div>
+		<div class="sprite transparente hidden-xs" id="anima_inscricoes"></div>
+		<div class="sprite transparente hidden-xs" id="anima_simposio"></div>
+		<div class="sprite transparente hidden-xs" id="anima_programacao"></div>
+		<div class="sprite transparente hidden-xs" id="anima_evento"></div>
 
 		<script src="{{ asset('/js/min.js') }}"></script>
 		<script src="{{ asset('/js/bootstrap.min.js') }}"></script>

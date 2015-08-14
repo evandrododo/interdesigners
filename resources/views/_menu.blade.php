@@ -7,9 +7,9 @@
 		@endif
 	</div>
 	<div class="item-menu">
-		@if($paginaAtual != "simposio")
-		<a href="/simposio" data-type="page-transition">
-			<img src="/img/{{$paginaAtual}}/menu_simposio.png" alt="Simpósio" title="Simpósio">
+		@if($paginaAtual != "programacao")
+		<a href="/programacao" data-type="page-transition">
+			<img src="/img/{{$paginaAtual}}/menu_programacao.png" alt="Programação" title="Programação">
 		</a>
 		@endif
 	</div>
@@ -21,9 +21,9 @@
 		@endif
 	</div>
 	<div class="item-menu">
-		@if($paginaAtual != "programacao")
-		<a href="/programacao" data-type="page-transition">
-			<img src="/img/{{$paginaAtual}}/menu_programacao.png" alt="Programação" title="Programação">
+		@if($paginaAtual != "simposio")
+		<a href="/simposio" data-type="page-transition">
+			<img src="/img/{{$paginaAtual}}/menu_simposio.png" alt="Simpósio" title="Simpósio">
 		</a>
 		@endif
 	</div>

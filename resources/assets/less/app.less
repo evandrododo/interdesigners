@@ -9,14 +9,20 @@
 
 html {
 	height:100%;
+	width: 100%;
 
 	body {
 		height:100%;
+		width: 100%;
+
 		background-color: #f7f7f7;
 	}
 	main {
+		width: 100%;
 		height:100%;
 		z-index: 10;
+		position: absolute;
+		top: 0;
 	}
 }
 
@@ -34,7 +40,7 @@ img {
 	left: 38%;
 	height: 30vh;
 	position: absolute;
-	padding: 4em;
+	padding: 4.5em;
 	text-align: center;
 	.data5a7 {
 		max-height: 100%;
@@ -157,20 +163,25 @@ html, body, main {
 .descricao-inscricoes a {
 	color:#A684A5;
 	padding-top: 1.3em;
+	height: 100%;
+	overflow-y: scroll;
 	p.secao {
 		min-height:15em;
 	}
 
 }
 h4 img {
-	max-height: 40px;
+	max-height: 36px;
 }
 .descricao-evento,
 .descricao-evento a {
 	color:#5AC0CA;
 	padding-top: 2em;
 	overflow-y: scroll;
-
+	h4 {
+		margin-bottom:1em;
+		margin-top:2em;
+	}
 }
 
 .conteudo-interno {
@@ -224,6 +235,7 @@ span.fundo-roxo {
     width: 50vh; // Width of one animation frame
     height: 50vh; // Height of one animation frame
 	margin: 0 auto;
+	transition: opacity 0s linear;
 	&#anima_aparece {
 	    width: 60vh; // Width of one animation frame
 	    height: 60vh; // Height of one animation frame
@@ -235,10 +247,36 @@ span.fundo-roxo {
 		background-size:cover;
 		background-repeat:none;
 	}
-	&#anima_interna {
+	&#anima_inscricoes {
+		top: 0vh;
+		right: 0;
 		position: absolute;
-		display: none;
-		background: url('/img/animacoes/simposio.png');
-		right:0;
+    	background: url('/img/animacoes/inscricoes.png');
+		background-size:cover;
+		background-repeat:none;
+	}
+	&#anima_simposio {
+		top: 0vh;
+		right: 0;
+		position: absolute;
+    	background: url('/img/animacoes/simposio.png');
+		background-size:cover;
+		background-repeat:none;
+	}
+	&#anima_programacao {
+		top: 0vh;
+		right: 0;
+		position: absolute;
+    	background: url('/img/animacoes/programacao.png');
+		background-size:cover;
+		background-repeat:none;
+	}
+	&#anima_evento {
+		top: 0vh;
+		right: 0;
+		position: absolute;
+    	background: url('/img/animacoes/evento.png');
+		background-size:cover;
+		background-repeat:none;
 	}
 }
