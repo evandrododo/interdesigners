@@ -6230,14 +6230,19 @@ button.close {
 }
 html {
   height: 100%;
+  width: 100%;
 }
 html body {
   height: 100%;
+  width: 100%;
   background-color: #f7f7f7;
 }
 html main {
+  width: 100%;
   height: 100%;
   z-index: 10;
+  position: absolute;
+  top: 0;
 }
 body,
 label,
@@ -6255,7 +6260,7 @@ img {
   left: 38%;
   height: 30vh;
   position: absolute;
-  padding: 4em;
+  padding: 4.5em;
   text-align: center;
 }
 .container5a7 .data5a7 {
@@ -6379,19 +6384,26 @@ main {
 .descricao-inscricoes a {
   color: #A684A5;
   padding-top: 1.3em;
+  height: 100%;
+  overflow-y: scroll;
 }
 .descricao-inscricoes p.secao,
 .descricao-inscricoes a p.secao {
   min-height: 15em;
 }
 h4 img {
-  max-height: 40px;
+  max-height: 36px;
 }
 .descricao-evento,
 .descricao-evento a {
   color: #5AC0CA;
   padding-top: 2em;
   overflow-y: scroll;
+}
+.descricao-evento h4,
+.descricao-evento a h4 {
+  margin-bottom: 1em;
+  margin-top: 2em;
 }
 .conteudo-interno {
   position: relative;
@@ -6439,6 +6451,7 @@ span.fundo-roxo {
   width: 50vh;
   height: 50vh;
   margin: 0 auto;
+  transition: opacity 0s linear;
 }
 .sprite#anima_aparece {
   width: 60vh;
@@ -6451,11 +6464,37 @@ span.fundo-roxo {
   background-size: cover;
   background-repeat: none;
 }
-.sprite#anima_interna {
-  position: absolute;
-  display: none;
-  background: url('/img/animacoes/simposio.png');
+.sprite#anima_inscricoes {
+  top: 0vh;
   right: 0;
+  position: absolute;
+  background: url('/img/animacoes/inscricoes.png');
+  background-size: cover;
+  background-repeat: none;
+}
+.sprite#anima_simposio {
+  top: 0vh;
+  right: 0;
+  position: absolute;
+  background: url('/img/animacoes/simposio.png');
+  background-size: cover;
+  background-repeat: none;
+}
+.sprite#anima_programacao {
+  top: 0vh;
+  right: 0;
+  position: absolute;
+  background: url('/img/animacoes/programacao.png');
+  background-size: cover;
+  background-repeat: none;
+}
+.sprite#anima_evento {
+  top: 0vh;
+  right: 0;
+  position: absolute;
+  background: url('/img/animacoes/evento.png');
+  background-size: cover;
+  background-repeat: none;
 }
 
 /*# sourceMappingURL=app.css.map */

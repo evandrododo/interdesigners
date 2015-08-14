@@ -26,7 +26,7 @@ function changePage(url, bool) {
     $('main').addClass('transparente');
 
     // Animação de desconstrução
-    scriptsBeforeUrl(url);
+    scriptsBeforeUrl(window.location.pathname, url);
 
     // Carrega o conteúdo dentro do main
     setTimeout(function(){
@@ -36,18 +36,77 @@ function changePage(url, bool) {
 
 var aparece = {};
 
-function scriptsBeforeUrl(url) {
+function scriptsBeforeUrl(urlPartida, urlDestino) {
     //Faz uma animação diferente pra cada url
-    aparece.to(6);
-
+    if(!urlDestino) {
+        urlDestino = urlPartida;
+    }
+    if(urlPartida != "/") {
+        $('#anima_aparece').addClass('transparente');
+    } else {
+        aparece.toEnd();
+    }
+    // Inscricoes
+    if(urlPartida != "/inscricoes") {
+        $('#anima_inscricoes').addClass('transparente');
+    } else {
+        animaInscricoes.toStart();
+    }
+    // Simpósio
+    if(urlPartida != "/simposio") {
+        $('#anima_simposio').addClass('transparente');
+    } else {
+        animaSimposio.toStart();
+    }
+    // Programação
+    if(urlPartida != "/programacao") {
+        $('#anima_programacao').addClass('transparente');
+    } else {
+        animaProgramacao.toStart();
+    }
+    // Evento
+    if(urlPartida != "/evento") {
+        $('#anima_evento').addClass('transparente');
+    } else {
+        animaEvento.toStart();
+    }
 }
 function scriptsUrl(url) {
     //Executa um script para cada página carregada
 
     //Faz uma animação diferente pra cada url
     if(url == "/") {
-        $('.transparente').removeClass('transparente');
-        aparece.toEnd();
+        $('#anima_aparece').removeClass('transparente');
+
+        $('.img-menu.transparente').removeClass('transparente');
+        $('.container5a7.transparente').removeClass('transparente');
+        aparece.toEnd(true).to(6);
+    }else{
+        $('#anima_aparece').addClass('transparente');
+    }
+    if(url == "/inscricoes") {
+        $('#anima_inscricoes').removeClass('transparente');
+        animaInscricoes.toEnd();
+    }else{
+        $('#anima_inscricoes').addClass('transparente');
+    }
+    if(url == "/simposio") {
+        $('#anima_simposio').removeClass('transparente');
+        animaSimposio.toEnd();
+    }else{
+        $('#anima_simposio').addClass('transparente');
+    }
+    if(url == "/programacao") {
+        $('#anima_programacao').removeClass('transparente');
+        animaProgramacao.toEnd();
+    }else{
+        $('#anima_programacao').addClass('transparente');
+    }
+    if(url == "/evento") {
+        $('#anima_evento').removeClass('transparente');
+        animaEvento.toEnd();
+    }else{
+        $('#anima_evento').addClass('transparente');
     }
 
     if(url == "/programacao" || url == "/simposio") {
@@ -58,8 +117,6 @@ function scriptsUrl(url) {
             $('.conteudo-interno div').removeClass('ativo');
             $('.conteudo-interno div.'+link).addClass('ativo');
         });
-    } else if (url == "/simposio") {
-
     }
 }
 
@@ -77,7 +134,7 @@ function loadNewContent(url, bool) {
 
 
                 scriptsUrl(url);
-            },300);
+            },500);
 
 
     	if(url != window.location){
@@ -105,8 +162,42 @@ $(document).ready( function(){
             fps: 7,
             frames: 14
         });
-        aparece.play();
+        aparece.to(6);
     }
+
+    var frameInscricoes = $('#anima_inscricoes')[0];
+    if(frameInscricoes) {
+        animaInscricoes = new Motio(frameInscricoes, {
+            fps: 5,
+            frames: 4
+        });
+        animaInscricoes.toEnd();
+    }
+    var frameSimposio = $('#anima_simposio')[0];
+    if(frameSimposio) {
+        animaSimposio = new Motio(frameSimposio, {
+            fps: 7,
+            frames: 6
+        });
+        animaSimposio.toEnd();
+    }
+    var frameProgramacao = $('#anima_programacao')[0];
+    if(frameProgramacao) {
+        animaProgramacao = new Motio(frameProgramacao, {
+            fps: 7,
+            frames: 7
+        });
+        animaProgramacao.toEnd();
+    }
+    var frameEvento = $('#anima_evento')[0];
+    if(frameEvento) {
+        animaEvento = new Motio(frameEvento, {
+            fps: 4,
+            frames: 4
+        });
+        animaEvento.toEnd();
+    }
+
     scriptsBeforeUrl(window.location.pathname);
 
     scriptsUrl(window.location.pathname);

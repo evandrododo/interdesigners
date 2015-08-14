@@ -2,13 +2,13 @@
 
 @section('conteudo')
 
-	<div class="col-sm-4">
-		<div class="lettering-container">
+	<div class="col-sm-12 col-md-4 col-lg-4">
+		<div class="lettering-container hidden-xs">
 			<img class="lettering" src="/img/simposio/lettering.png" alt="Simpósio" title="Simpósio">
 		</div>
     	@include('_menu')
 	</div>
-	<div class="col-sm-4 descricao-simposio descricao">
+	<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 descricao-simposio descricao">
 		<ul id="menu-interno-somposio" class="menu-interno">
 			<li>
 				<span class="link" data-link="#sobre">
@@ -44,19 +44,19 @@
 
 				{!!		nl2br(e("O simpósio ocorrerá na UNESP, em Bauru-SP e os artigos avaliados pelo comitê científico serão publicados nos anais do evento, em formato digital online, com ISBN.
 
-OBJETIVOS
+					OBJETIVOS
 
-- Promover a integração entre diferentes faces da vivência acadêmica
+					- Promover a integração entre diferentes faces da vivência acadêmica
 
-- Estreitar os laços entre pós-graduação e graduação
+					- Estreitar os laços entre pós-graduação e graduação
 
-- Incentivar a troca de informações tecnológicas, metodológicas e científica entre alunos
+					- Incentivar a troca de informações tecnológicas, metodológicas e científica entre alunos
 
-- Promover o aprendizado das normas acadêmicas
+					- Promover o aprendizado das normas acadêmicas
 
-- Promover o intercâmbio entre universidades brasileiras
+					- Promover o intercâmbio entre universidades brasileiras
 
-- Divulgar o trabalho de graduandos e bacharéis e seu potencial como futuros pesquisadores, mestrandos e doutorandos")) !!}
+					- Divulgar o trabalho de graduandos e bacharéis e seu potencial como futuros pesquisadores, mestrandos e doutorandos")) !!}
 			</div>
 			<div class="submissao">
 				Em breve.
@@ -69,7 +69,7 @@ OBJETIVOS
 			</div>
 		</div>
 	</div>
-	<div class="col-sm-4">
-		<img id="logo-simposio" src="/img/simposio/logo.png">
+	<div class="hidden-sm col-md-3 col-lg-3">
+		&nbsp;
 	</div>
 @endsection

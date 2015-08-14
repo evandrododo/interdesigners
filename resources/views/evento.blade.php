@@ -2,13 +2,13 @@
 
 @section('conteudo')
 
-	<div class="col-sm-4">
+	<div class="col-sm-12 col-md-4 col-lg-">
 		<div class="lettering-container">
 			<img class="lettering" src="/img/evento/lettering.png" alt="Evento" title="Evento">
 		</div>
     	@include('_menu')
 	</div>
-	<div class="col-sm-4 descricao-evento descricao">
+	<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 descricao-evento descricao">
 	<h3>
 		<img class="" src="/img/evento/5a7.png" alt="5 a 7 de novembro" title="5 a 7 de novembro">
 	</h3>
@@ -72,7 +72,7 @@ interdesigners2015@gmail.com" !!}
 </p>
 
 	</div>
-	<div class="col-sm-4">
-		<img id="logo-evento" src="/img/evento/logo.png">
+	<div class="hidden-sm col-md-3 col-lg-3">
+		&nbsp;
 	</div>
 @endsection

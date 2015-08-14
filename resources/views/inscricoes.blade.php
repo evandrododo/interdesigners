@@ -2,13 +2,13 @@
 
 @section('conteudo')
 
-	<div class="col-sm-4">
-		<div class="lettering-container">
+	<div class="col-sm-12 col-md-4 col-lg-">
+		<div class="lettering-container hidden-xs">
 			<img class="lettering" src="/img/inscricoes/lettering.png" alt="Inscrições" title="Inscrições">
 		</div>
 		@include('_menu')
 	</div>
-	<div class="col-sm-5 descricao-inscricoes descricao">
+	<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 descricao-inscricoes descricao">
 		<div class="row">
 			<div class="col-sm-12">
 				<h4><img src="/img/inscricoes/borboleta.png" alt="BORBOLETA (ENCONTRISTA)"></h4>
@@ -62,8 +62,8 @@
 
 
 	</div>
-	<div class="col-sm-3">
-		<img id="logo-inscricoes" src="/img/inscricoes/logo.png">
+	<div class="hidden-sm col-md-3 col-lg-3">
+		&nbsp;
 	</div>
 
 	<div class="modal fade modal-reflexao" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">

@@ -12,7 +12,12 @@
 */
 Route::get('lorenzatractor', function()
 {
-    return  redirect('lorenz/NeoBrush-P5js/index.html');
+      return File::get(public_path() . '/lorenz/NeoBrush-P5js/index.html');
+});
+
+Route::get('2013', function()
+{
+      return File::get(public_path() . '/2013/index.html');
 });
 Route::get('/', 'MenuController@index');
 Route::get('inscricoes', 'InscricoesController@index');
