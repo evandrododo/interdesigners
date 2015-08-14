@@ -23,6 +23,7 @@ Route::get('programacao', 'ProgramacaoController@index');
 Route::get('admin/convidados', 'ConvidadosController@index');
 
 Route::resource('convidado','ConvidadosController');
+Route::resource('inscricao','SimposioInscricaoController');
 
 Route::controller('admin', 'AdminController');
 

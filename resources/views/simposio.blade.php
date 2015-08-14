@@ -44,25 +44,25 @@
 
 				{!!		nl2br(e("O simpósio ocorrerá na UNESP, em Bauru-SP e os artigos avaliados pelo comitê científico serão publicados nos anais do evento, em formato digital online, com ISBN.
 
-OBJETIVOS
+					OBJETIVOS
 
-- Promover a integração entre diferentes faces da vivência acadêmica
+					- Promover a integração entre diferentes faces da vivência acadêmica
 
-- Estreitar os laços entre pós-graduação e graduação
+					- Estreitar os laços entre pós-graduação e graduação
 
-- Incentivar a troca de informações tecnológicas, metodológicas e científica entre alunos
+					- Incentivar a troca de informações tecnológicas, metodológicas e científica entre alunos
 
-- Promover o aprendizado das normas acadêmicas
+					- Promover o aprendizado das normas acadêmicas
 
-- Promover o intercâmbio entre universidades brasileiras
+					- Promover o intercâmbio entre universidades brasileiras
 
-- Divulgar o trabalho de graduandos e bacharéis e seu potencial como futuros pesquisadores, mestrandos e doutorandos")) !!}
+					- Divulgar o trabalho de graduandos e bacharéis e seu potencial como futuros pesquisadores, mestrandos e doutorandos")) !!}
 			</div>
 			<div class="submissao">
 				Em breve.
 			</div>
 			<div class="inscricao">
-				Em breve.
+				@include('simposio.inscricao')
 			</div>
 			<div class="contato">
 				Em breve.

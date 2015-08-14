@@ -17,4 +17,15 @@ class SimposioController extends Controller {
 		return view('simposio')->with('paginaAtual','simposio');
 	}
 
+
+	/**
+	 * Show the form for creating a new resource.
+	 *
+	 * @return Response
+	 */
+	public function inscricao()
+	{
+		return view('simposio.inscricao')->with('paginaAtual','simposio');
+	}
+
 }
