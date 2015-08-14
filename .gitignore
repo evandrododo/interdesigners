@@ -3,3 +3,4 @@
 .env
 /public/20*
 iniciate.sh
+/public/uploads
