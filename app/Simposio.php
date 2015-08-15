@@ -19,8 +19,17 @@ class Simposio extends Model {
     protected $fillable = [
 		'nome',
 		'email',
+		'cpf',
+		'telefone',
+		'instituicao_de_origem',
+		'tematica',
 		'titulo',
-		'descricao',
+		'autor1',
+		'autor2',
+		'autor3',
+		'autor4',
+		'autor5',
+		'resumo',
 		'arquivo'
 	];
 

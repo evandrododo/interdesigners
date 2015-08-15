@@ -4,13 +4,55 @@
 </div>
 
 <div class="form-group">
-	{!! Form::label("email", "Titulo do trabalho:") !!}
+	{!! Form::label("email", "E-mail:") !!}
 	{!! Form::text("email", null, ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">
-	{!! Form::label("descricao", "Descricao:") !!}
-	{!! Form::text("descricao", null, ['class' => 'form-control']) !!}
+	{!! Form::label("cpf", "CPF:") !!}
+	{!! Form::text("cpf", null, ['class' => 'form-control']) !!}
+</div>
+
+<div class="form-group">
+	{!! Form::label("telefone", "Telefone:") !!}
+	{!! Form::text("telefone", null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+	{!! Form::label("instituicao_de_origem", "Instituição de Origem:") !!}
+	{!! Form::text("instituicao_de_origem", null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+	{!! Form::label("tematica", "Temática:") !!}
+	{!! Form::text("tematica", null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+	{!! Form::label("titulo", "Titulo do trabalho:") !!}
+	{!! Form::text("titulo", null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+	{!! Form::label("autor1", "Autor principal:") !!}
+	{!! Form::text("autor1", null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+	{!! Form::label("autor2", "Demais autores:") !!}
+	{!! Form::text("autor2", null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+	{!! Form::label("autor3", "Demais Autores:") !!}
+	{!! Form::text("autor3", null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+	{!! Form::label("autor4", "Demais Autores:") !!}
+	{!! Form::text("autor4", null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+	{!! Form::label("autor5", "Demais Autores:") !!}
+	{!! Form::text("autor5", null, ['class' => 'form-control']) !!}
+</div>
+
+<div class="form-group">
+	{!! Form::label("resumo", "Descricao:") !!}
+	{!! Form::text("resumo", null, ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">

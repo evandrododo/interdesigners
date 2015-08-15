@@ -1,10 +1,7 @@
+<h1>Formulario de Inscriçao</h1>
 
-    <h1>Formulario de Inscriçao</h1>
+{!! Form::open(['url' => 'inscricao', 'files' => true ]) !!}
 
-	{!! Form::open(['url' => 'inscricao', 'files' => true ]) !!}
+	@include('simposio._form_inscricao', ['btnSubmit' => 'Adicionar!'])
 
-		@include('simposio._form_inscricao', ['btnSubmit' => 'Adicionar!'])
-
-	{!! Form::close() !!}
-
-	@include('admin.error')
+{!! Form::close() !!}

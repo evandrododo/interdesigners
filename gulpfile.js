@@ -17,6 +17,7 @@ elixir(function(mix) {
     mix.scripts([
 	    '../../assets/js/jquery.motio.min.js',
 	    '../../assets/js/ajaxload.js',
+	    '../../assets/js/components/simposio/form.js',
 	    '../../assets/js/menu-interno.js'
 	], 'public/js/min.js');
 });

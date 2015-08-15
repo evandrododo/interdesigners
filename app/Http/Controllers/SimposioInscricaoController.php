@@ -30,7 +30,16 @@ class SimposioInscricaoController extends Controller {
 
         $inscricao->nome = $request->nome;
         $inscricao->email = $request->email;
-        $inscricao->descricao = $request->descricao;
+        $inscricao->cpf = $request->cpf;
+        $inscricao->telefone = $request->telefone;
+        $inscricao->instituicao_de_origem = $request->instituicao_de_origem;
+        $inscricao->tematica = $request->tematica;
+        $inscricao->autor1 = $request->autor1;
+        $inscricao->autor2 = $request->autor2;
+        $inscricao->autor3 = $request->autor3;
+        $inscricao->autor4 = $request->autor4;
+        $inscricao->autor5 = $request->autor5;
+        $inscricao->resumo = $request->resumo;
 
 		$file = Input::file('arquivo');
 		if ($file) {
@@ -44,7 +53,7 @@ class SimposioInscricaoController extends Controller {
 		}
         $inscricao->save();
 
-		return redirect('simposio');
+		return view('simposio/form_sucesso');
 	}
 
 	/**
