@@ -27,6 +27,7 @@
 		</main>
 
 		<div class="sprite transparente" id="anima_aparece"></div>
+		<div class="sprite transparente hidden-xs" id="anima_constroidestroi"></div>
 		<div class="sprite transparente hidden-xs" id="anima_inscricoes"></div>
 		<div class="sprite transparente hidden-xs" id="anima_simposio"></div>
 		<div class="sprite transparente hidden-xs" id="anima_programacao"></div>

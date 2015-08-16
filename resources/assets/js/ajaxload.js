@@ -24,6 +24,15 @@ function changePage(url, bool) {
     },300);
 }
 
+function desconstroi() {
+    $('#anima_constroidestroi').removeClass('transparente');
+    animaConstroiDestroi.toEnd(true).to(6, false, function(){
+        //quando acabar a animação
+        $('#anima_constroidestroi').addClass('transparente');
+        animaConstroiDestroi.toStart(true);
+    });
+}
+
 var aparece = {};
 
 function scriptsBeforeUrl(urlPartida, urlDestino) {
@@ -33,8 +42,14 @@ function scriptsBeforeUrl(urlPartida, urlDestino) {
     }
     if(urlPartida != "/") {
         $('#anima_aparece').addClass('transparente');
-    } else {
+    } else { //ta vindo da home
+        // Anima a borb da entrada para ~explodir~ e mostra a borboleta constuindo do lado
         aparece.toEnd();
+        $('#anima_constroidestroi').removeClass('transparente');
+        animaConstroiDestroi.toEnd(true).to(6, false, function(){
+            //quando acabar a animação
+            $('#anima_constroidestroi').addClass('transparente');
+        });
     }
     // Inscricoes
     if(urlPartida != "/inscricoes") {
@@ -66,6 +81,12 @@ function scriptsUrl(url) {
 
     //Faz uma animação diferente pra cada url
     if(url == "/") {
+
+        $('#anima_constroidestroi').removeClass('transparente');
+        animaConstroiDestroi.to(6,true).toEnd(false, function(){
+            //quando acabar a animação
+            $('#anima_constroidestroi').addClass('transparente');
+        });
         $('#anima_aparece').removeClass('transparente');
 
         $('.img-menu.transparente').removeClass('transparente');

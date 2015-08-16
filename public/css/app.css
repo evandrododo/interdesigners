@@ -6565,6 +6565,14 @@ span.fundo-roxo {
   background-size: cover;
   background-repeat: none;
 }
+.sprite#anima_constroidestroi {
+  top: 0vh;
+  right: 0;
+  position: absolute;
+  background: url('/img/animacoes/aparece.png');
+  background-size: cover;
+  background-repeat: none;
+}
 /*
 * SIMPOSIO
 */

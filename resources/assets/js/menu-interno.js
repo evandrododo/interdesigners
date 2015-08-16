@@ -41,6 +41,16 @@ $(document).ready( function(){
         animaEvento.toEnd();
     }
 
+
+    var frameConstroiDestroi = $('#anima_constroidestroi')[0];
+    if(frameConstroiDestroi) {
+        animaConstroiDestroi = new Motio(frameConstroiDestroi, {
+            fps: 7,
+            frames: 14
+        });
+        animaConstroiDestroi.toStart();
+    }
+
     scriptsBeforeUrl(window.location.pathname);
 
     scriptsUrl(window.location.pathname);
