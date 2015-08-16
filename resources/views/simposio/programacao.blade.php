@@ -57,8 +57,7 @@
 		<span>Mesa Redonda</span>
 	</div>
 </div>
-<br><br>
-<h4>
+<h4 class="titulo-quarta">
 	<img  src="/img/simposio/quarta.png" alt="04/11 - Quarta - feira">
 </h4>
 <div class="col-sm-12">

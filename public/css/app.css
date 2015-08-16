@@ -6384,9 +6384,10 @@ main {
 .descricao-simposio a .inscricao input {
   border-radius: 0px;
 }
-.descricao-simposio .inscricao .btn,
-.descricao-simposio a .inscricao .btn {
+.descricao-simposio .btn,
+.descricao-simposio a .btn {
   background-color: #6E73AE;
+  border-color: #6E73AE;
 }
 .descricao-simposio .programacao .horario,
 .descricao-simposio a .programacao .horario,
@@ -6426,6 +6427,27 @@ main {
 .descricao-simposio .programacao .horario,
 .descricao-simposio a .programacao .horario {
   background-color: #c8c8d3;
+}
+.descricao-simposio .btn-submissao,
+.descricao-simposio a .btn-submissao {
+  padding: 0.2em 0.9em 0.8em;
+  border: 2px solid #c8c8d3;
+  border-radius: 0.5em;
+  transition: border 0.8s ease;
+}
+.descricao-simposio .btn-submissao:hover,
+.descricao-simposio a .btn-submissao:hover {
+  border: 2px solid #6E73AE;
+}
+.descricao-simposio .btn-submissao h4,
+.descricao-simposio a .btn-submissao h4 {
+  padding: 0;
+  margin: 0;
+}
+.descricao-simposio .titulo-quarta,
+.descricao-simposio a .titulo-quarta {
+  margin-top: 2em;
+  float: left;
 }
 .descricao-inscricoes,
 .descricao-inscricoes a {
