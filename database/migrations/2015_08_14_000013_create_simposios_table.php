@@ -21,6 +21,7 @@ class CreateSimposiosTable extends Migration {
 			$table->string('telefone', 140)->nullable();
 			$table->string('instituicao_de_origem', 140)->nullable();
 			$table->string('arquivo')->nullable();
+			$table->string('comprovante')->nullable();
 			$table->string('tematica', 140)->nullable();
 			$table->string('titulo', 140)->nullable();
 			$table->string('autor1', 140)->nullable();

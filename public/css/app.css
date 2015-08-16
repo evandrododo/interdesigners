@@ -6579,5 +6579,8 @@ span.fundo-roxo {
 .submissao .plus-authors {
   padding-bottom: 10px;
 }
+.sobre #datas-importantes {
+  max-height: 29px;
+}
 
 /*# sourceMappingURL=app.css.map */

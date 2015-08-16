@@ -22,11 +22,21 @@
 	{!! Form::text("instituicao_de_origem", null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
-	{!! Form::label("tematica", "Temática:") !!}
-	{!! Form::text("tematica", null, ['class' => 'form-control']) !!}
+	{!! Form::label("tematica", "Temática e grandes áreas:") !!}
+	{!! Form::select("tematica", array('Design de Produto' => 'Design de Produto',
+											 'Design Gráfico' => 'Design Gráfico',
+											 'Design Inclusivo' => 'Design Inclusivo',
+											 'Design Informacional' => 'Design Informacional',
+											 'Design Urbano' => 'Design Urbano',
+											 'Eco Design (design sustentável)' => 'Eco Design (design sustentável)',
+											 'Ergonomia e Acessibilidade' => 'Ergonomia e Acessibilidade',
+											 'Fundamentos Teóricos' => 'Fundamentos Teóricos',
+											 'História do Design' => 'História do Design',
+											 'Materiais e processo' => 'Materiais e processo',
+											 'Comunicação Visual' => 'Comunicação Visual'), 'Design de Produto',['class' => 'form-control']); !!}
 </div>
 <div class="form-group">
-	{!! Form::label("titulo", "Titulo do trabalho:") !!}
+	{!! Form::label("titulo", "Título do trabalho:") !!}
 	{!! Form::text("titulo", null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
@@ -55,13 +65,18 @@
 	</button>
 </div>
 <div class="form-group">
-	{!! Form::label("resumo", "Descricao:") !!}
+	{!! Form::label("resumo", "Resumo:") !!}
 	{!! Form::text("resumo", null, ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">
 	{!! Form::label("arquivo", "Arquivo (PDF):") !!}
 	{!! Form::file("arquivo", ['id' => 'arquivo']) !!}
+</div>
+
+<div class="form-group">
+	{!! Form::label("arquivo", "Comprovante de pagamento (IMG):") !!}
+	{!! Form::file("arquivo", ['id' => 'comprovante']) !!}
 </div>
 
 <div class="form-group">
