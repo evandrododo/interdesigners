@@ -6582,5 +6582,8 @@ span.fundo-roxo {
 .sobre #datas-importantes {
   max-height: 29px;
 }
+.descricao-evento #conceito-reflexo {
+  max-height: 32px;
+}
 
 /*# sourceMappingURL=app.css.map */

@@ -46,7 +46,7 @@
 </p>
 
 <h4>
-	<img class="" src="/img/evento/conceitoreflexo.png" alt="Conceito: reflexo" title="Conceito: reflexo">
+	<img class="" src="/img/evento/conceitoreflexo.png" alt="Conceito: reflexo" title="Conceito: reflexo" id="conceito-reflexo">
 </h4>
 
 
