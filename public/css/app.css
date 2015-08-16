@@ -6350,13 +6350,13 @@ main {
   margin: 0;
   text-transform: uppercase;
   margin-top: 50px;
-  max-height: 50%;
+  max-height: 50vh;
 }
 .menu-interno li {
   position: relative;
   width: 100%;
   height: 40px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .menu-interno img {
   height: 100%;
@@ -6387,6 +6387,45 @@ main {
 .descricao-simposio .inscricao .btn,
 .descricao-simposio a .inscricao .btn {
   background-color: #6E73AE;
+}
+.descricao-simposio .programacao .horario,
+.descricao-simposio a .programacao .horario,
+.descricao-simposio .programacao .roxo,
+.descricao-simposio a .programacao .roxo,
+.descricao-simposio .programacao .roxoterra,
+.descricao-simposio a .programacao .roxoterra,
+.descricao-simposio .programacao .azul,
+.descricao-simposio a .programacao .azul {
+  color: white;
+  text-align: center;
+  line-height: 3em;
+  border-radius: 5px;
+  display: block;
+  margin: 0.2em;
+}
+.descricao-simposio .programacao .roxo,
+.descricao-simposio a .programacao .roxo,
+.descricao-simposio .programacao .roxoterra,
+.descricao-simposio a .programacao .roxoterra,
+.descricao-simposio .programacao .azul,
+.descricao-simposio a .programacao .azul {
+  text-align: left;
+}
+.descricao-simposio .programacao .roxo,
+.descricao-simposio a .programacao .roxo {
+  background-color: #8a71b0;
+}
+.descricao-simposio .programacao .roxoterra,
+.descricao-simposio a .programacao .roxoterra {
+  background-color: #a584a5;
+}
+.descricao-simposio .programacao .azul,
+.descricao-simposio a .programacao .azul {
+  background-color: #5cc0ca;
+}
+.descricao-simposio .programacao .horario,
+.descricao-simposio a .programacao .horario {
+  background-color: #c8c8d3;
 }
 .descricao-inscricoes,
 .descricao-inscricoes a {

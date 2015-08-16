@@ -29,6 +29,12 @@
 				</span>
 			</li>
 			<li>
+				<span class="link" data-link="#programacao">
+					<img  src="/img/simposio/contato1.png" alt="Programação">
+					<img class="imghover" src="/img/simposio/contato2.png" alt="Programação">
+				</span>
+			</li>
+			<li>
 				<span class="link" data-link="#contato">
 					<img  src="/img/simposio/contato1.png" alt="Contato">
 					<img class="imghover" src="/img/simposio/contato2.png" alt="Contato">
@@ -38,34 +44,19 @@
 
 		<div class="conteudo-interno">
 			<div class="sobre ativo">
-				<h4>
-					<img  src="/img/simposio/3e4.png" alt="3 e 4 de Novembro">
-				</h4>
-
-				{!!		nl2br(e("O simpósio ocorrerá na UNESP, em Bauru-SP e os artigos avaliados pelo comitê científico serão publicados nos anais do evento, em formato digital online, com ISBN.
-
-					OBJETIVOS
-
-					- Promover a integração entre diferentes faces da vivência acadêmica
-
-					- Estreitar os laços entre pós-graduação e graduação
-
-					- Incentivar a troca de informações tecnológicas, metodológicas e científica entre alunos
-
-					- Promover o aprendizado das normas acadêmicas
-
-					- Promover o intercâmbio entre universidades brasileiras
-
-					- Divulgar o trabalho de graduandos e bacharéis e seu potencial como futuros pesquisadores, mestrandos e doutorandos")) !!}
+				@include('simposio.sobre')
 			</div>
 			<div class="submissao">
-				Em breve.
+				@include('simposio.submissao')
 			</div>
 			<div class="inscricao col-sm-12">
 				@include('simposio.inscricao')
 			</div>
+			<div class="programacao">
+				@include('simposio.programacao')
+			</div>
 			<div class="contato">
-				Em breve.
+				@include('simposio.contato')
 			</div>
 		</div>
 	</div>

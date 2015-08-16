@@ -129,12 +129,12 @@ html, body, main {
 	margin:0;
 	text-transform: uppercase;
 	margin-top: 50px;
-	max-height:50%;
+	max-height:50vh;
 	li {
 		position:relative;
 		width:100%;
 		height:40px;
-		margin:20px 0;
+		margin:10px 0;
 	}
 	img {
 		height:100%;
@@ -165,6 +165,27 @@ html, body, main {
 		.btn {
 			background-color: #6E73AE;
 		}
+	}
+	@roxo: #8A71B0;
+	@roxoterra: #A584A5;
+	@azul: #5CC0CA;
+	@cinzahorario: #C8C8D3;
+	.programacao {
+		.horario, .roxo, .roxoterra, .azul {
+			color: white;
+			text-align: center;
+			line-height: 3em;
+			border-radius: 5px;
+			display:block;
+			margin:0.2em;
+		}
+		.roxo, .roxoterra, .azul {
+			text-align: left;
+		}
+		.roxo { background-color: @roxo; }
+		.roxoterra { background-color: @roxoterra; }
+		.azul { background-color: @azul; }
+		.horario{ background-color: @cinzahorario; }
 	}
 }
 .descricao-inscricoes,
