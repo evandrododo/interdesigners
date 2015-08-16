@@ -17,7 +17,7 @@ Route::get('lorenzatractor', function()
 
 Route::get('2013', function()
 {
-      return File::get(public_path() . '/2013/index.html');
+      return File::get(public_path() . '/2/index.html');
 });
 Route::get('/', 'MenuController@index');
 Route::get('inscricoes', 'InscricoesController@index');

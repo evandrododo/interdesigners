@@ -1,3 +1,2 @@
 
-    <h1>Registro feito com sucesso</h1>
-
+    <h3>Obrigado!</h3>

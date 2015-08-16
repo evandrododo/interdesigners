@@ -6380,6 +6380,14 @@ main {
 .descricao-simposio a {
   color: #6E73AE;
 }
+.descricao-simposio .inscricao input,
+.descricao-simposio a .inscricao input {
+  border-radius: 0px;
+}
+.descricao-simposio .inscricao .btn,
+.descricao-simposio a .inscricao .btn {
+  background-color: #6E73AE;
+}
 .descricao-inscricoes,
 .descricao-inscricoes a {
   color: #A684A5;

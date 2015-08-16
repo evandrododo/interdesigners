@@ -155,58 +155,33 @@ $(window).on('popstate', function(e) {
 
 });
 
-// $('.inscricao > form').submit('click', function(e){
-// 	e.preventDefault();
-	
-// 	 var
-//         $form = $(this),
-//         url = $form.attr("action");
-
-//     // Send the data using post
-//     var posting = $.post( url, $form.serialize() );
-//     // Put the results in a div
-//     posting.done(function(data) {
-
-//         $.ajax({
-//             url: url,
-//             dataType: 'json'
-//         })
-//         .done(function(data) {
-//         	window.location('http://www.google.com');
-//         });
-
-//     });
-// });
-console.log('entrou aqui');
 //token do laravel para ajax
-    $.ajaxSetup({
-        headers: { 'X-CSRF-TOKEN': $('input[name="_token"]').attr('value') }
+$.ajaxSetup({
+    headers: { 'X-CSRF-TOKEN': $('input[name="_token"]').attr('value') }
+});
+
+/** Funcões para Upload */
+$('.inscricao > form').submit(function (ev) {
+    ev.preventDefault();
+    var frm = $(this),
+        dataForm = new FormData(this),
+        callbackFunction = frm.data('callback');
+    $.ajax({
+        type: frm.attr('method'),
+        url: frm.attr('action'),
+        data: dataForm,
+        contentType: false, //file
+        processData: false,  //file
+        success: function (data) {
+
+            $('.inscricao').html(data);
+            
+            // if(callbackFunction) {
+            //     eval(callbackFunction+"()");
+            // }
+        }
     });
-
-    /** Funcões para Upload */
-    $('.inscricao > form').submit(function (ev) {
-        ev.preventDefault();
-        var frm = $(this),
-            dataForm = new FormData(this),
-            callbackFunction = frm.data('callback');
-        $.ajax({
-            type: frm.attr('method'),
-            url: frm.attr('action'),
-            data: dataForm,
-            contentType: false, //file
-            processData: false,  //file
-            success: function (data) {
-                console.log("Formulário submetido com sucesso:");
-                console.log(data);
-
-                $('.inscricao').html(data);
-
-                if(callbackFunction) {
-                    eval(callbackFunction+"()");
-                }
-            }
-        });
-    });
+});
 $(document).ready( function(){
     var frame = $('#anima_aparece')[0];
     if(frame) {

@@ -61,7 +61,7 @@
 			<div class="submissao">
 				Em breve.
 			</div>
-			<div class="inscricao">
+			<div class="inscricao col-sm-12">
 				@include('simposio.inscricao')
 			</div>
 			<div class="contato">
