@@ -30,8 +30,8 @@
 			</li>
 			<li>
 				<span class="link" data-link="#programacao">
-					<img  src="/img/simposio/contato1.png" alt="Programação">
-					<img class="imghover" src="/img/simposio/contato2.png" alt="Programação">
+					<img  src="/img/simposio/programacao1.png" alt="Programação">
+					<img class="imghover" src="/img/simposio/programacao2.png" alt="Programação">
 				</span>
 			</li>
 			<li>

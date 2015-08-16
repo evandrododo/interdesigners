@@ -1,5 +1,5 @@
 <h4>
-	03/11 - Terça - feira
+	<img  src="/img/simposio/terca.png" alt="03/11 - Terça - feira">
 </h4>
 <div class="col-sm-12">
 	<div class="col-sm-2 horario">
@@ -59,7 +59,7 @@
 </div>
 <br><br>
 <h4>
-	04/11 - Quarta - feira
+	<img  src="/img/simposio/quarta.png" alt="04/11 - Quarta - feira">
 </h4>
 <div class="col-sm-12">
 	<div class="col-sm-2 horario">
