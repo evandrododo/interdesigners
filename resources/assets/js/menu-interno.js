@@ -41,7 +41,6 @@ $(document).ready( function(){
         animaEvento.toEnd();
     }
 
-
     var frameConstroiDestroi = $('#anima_constroidestroi')[0];
     if(frameConstroiDestroi) {
         animaConstroiDestroi = new Motio(frameConstroiDestroi, {

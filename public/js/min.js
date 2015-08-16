@@ -134,6 +134,8 @@ function scriptsUrl(url) {
         $(".menu-interno span.link").click(function(){
             var href = $(this).data("link");
             var link = href.substr(1);
+            $(".menu-interno span").removeClass('ativo');
+            $(this).addClass('ativo');
 
             $('.conteudo-interno div').removeClass('ativo');
             $('.conteudo-interno div.'+link).addClass('ativo');
@@ -256,7 +258,6 @@ $(document).ready( function(){
         });
         animaEvento.toEnd();
     }
-
 
     var frameConstroiDestroi = $('#anima_constroidestroi')[0];
     if(frameConstroiDestroi) {

@@ -81,7 +81,8 @@ img {
 }
 a, span.link {
 	cursor: pointer;
-	&:hover .imghover {
+	&:hover .imghover,
+	&.ativo .imghover {
 		opacity: 1;
 	}
 }
@@ -332,7 +333,7 @@ span.fundo-roxo {
     	background: url('/img/animacoes/aparece.png');
 		background-size:cover;
 		&.transparente {
-		}	
+		}
 		background-repeat:none;
 	}
 }

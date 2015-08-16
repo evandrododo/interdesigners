@@ -6301,7 +6301,9 @@ span.link {
   cursor: pointer;
 }
 a:hover .imghover,
-span.link:hover .imghover {
+span.link:hover .imghover,
+a.ativo .imghover,
+span.link.ativo .imghover {
   opacity: 1;
 }
 .imghover {
