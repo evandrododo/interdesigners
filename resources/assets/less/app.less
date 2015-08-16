@@ -162,9 +162,11 @@ html, body, main {
 		input {
 			border-radius: 0px;
 		}
-		.btn {
-			background-color: #6E73AE;
-		}
+
+	}
+	.btn {
+		background-color: #6E73AE;
+		border-color: #6E73AE;
 	}
 	@roxo: #8A71B0;
 	@roxoterra: #A584A5;
@@ -186,6 +188,23 @@ html, body, main {
 		.roxoterra { background-color: @roxoterra; }
 		.azul { background-color: @azul; }
 		.horario{ background-color: @cinzahorario; }
+	}
+	.btn-submissao {
+		padding:0.2em 0.9em 0.8em;
+		border: 2px solid @cinzahorario;
+		border-radius: 0.5em;
+		transition: border 0.8s ease;
+		&:hover {
+			border: 2px solid #6E73AE;
+		}
+		h4 {
+			padding:0;
+			margin:0;
+		}
+	}
+	.titulo-quarta {
+		margin-top:2em;
+		float:left;
 	}
 }
 .descricao-inscricoes,
@@ -256,7 +275,6 @@ span.fundo-roxo {
 	margin: 0px;
 	background-color: transparent;
 }
-
 
 .sprite {
 	z-index: -1;
