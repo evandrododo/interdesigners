@@ -33,23 +33,27 @@
 	{!! Form::label("autor1", "Autor principal:") !!}
 	{!! Form::text("autor1", null, ['class' => 'form-control']) !!}
 </div>
-<div class="form-group">
+<div class="form-group input-hidden">
 	{!! Form::label("autor2", "Demais autores:") !!}
 	{!! Form::text("autor2", null, ['class' => 'form-control']) !!}
 </div>
-<div class="form-group">
+<div class="form-group input-hidden">
 	{!! Form::label("autor3", "Demais Autores:") !!}
 	{!! Form::text("autor3", null, ['class' => 'form-control']) !!}
 </div>
-<div class="form-group">
+<div class="form-group input-hidden">
 	{!! Form::label("autor4", "Demais Autores:") !!}
 	{!! Form::text("autor4", null, ['class' => 'form-control']) !!}
 </div>
-<div class="form-group">
+<div class="form-group input-hidden">
 	{!! Form::label("autor5", "Demais Autores:") !!}
 	{!! Form::text("autor5", null, ['class' => 'form-control']) !!}
 </div>
-
+<div class="form-group plus-authors">
+	<button class="btn btn-primary pull-right" id="btnMoreAuthors">
+		<i class="fa fa-plus"> Autores</i>
+	</button>
+</div>
 <div class="form-group">
 	{!! Form::label("resumo", "Descricao:") !!}
 	{!! Form::text("resumo", null, ['class' => 'form-control']) !!}

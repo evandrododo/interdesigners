@@ -13,6 +13,7 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('font-awesome/css/font-awesome.css') }}">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
     </head>

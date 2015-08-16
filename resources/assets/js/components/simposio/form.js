@@ -25,3 +25,14 @@ $('.inscricao > form').submit(function (ev) {
         }
     });
 });
+
+$('#btnMoreAuthors').on('click', function(ev){
+	ev.preventDefault();
+	nextAuthor = $('.input-hidden').first();
+	// lastAuthor = $('.input-hidden:nth-childe(2)');
+	// if (lastAuthor = null){
+	// 	$('#btnMoreAuthors').remove();
+	// }
+	nextAuthor.removeClass('input-hidden');
+	nextAuthor.show();
+});
