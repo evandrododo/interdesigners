@@ -18,6 +18,7 @@ elixir(function(mix) {
 	    '../../assets/js/jquery.motio.min.js',
 	    '../../assets/js/ajaxload.js',
 	    '../../assets/js/components/simposio/form.js',
-	    '../../assets/js/menu-interno.js'
+	    '../../assets/js/menu-interno.js',
+	    '../../../bower_components/DataTables/media/js/jquery.dataTables.js'
 	], 'public/js/min.js');
 });

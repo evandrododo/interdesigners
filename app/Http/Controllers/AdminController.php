@@ -1,4 +1,5 @@
 <?php namespace App\Http\Controllers;
+use App\Simposio;
 
 class AdminController extends Controller {
 
@@ -60,7 +61,9 @@ class AdminController extends Controller {
 	*/
 	public function getSimposio()
 	{
-		return view('admin.index');
+		$inscritos = Simposio::all();
+		
+		return view('admin.simposio.index', compact('inscritos'));
 	}
 
 	/**

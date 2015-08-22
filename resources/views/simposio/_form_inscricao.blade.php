@@ -75,8 +75,8 @@
 </div>
 
 <div class="form-group">
-	{!! Form::label("arquivo", "Comprovante de pagamento (IMG):") !!}
-	{!! Form::file("arquivo", ['id' => 'comprovante']) !!}
+	{!! Form::label("comprovante", "Comprovante de pagamento (IMG):") !!}
+	{!! Form::file("comprovante", ['id' => 'comprovante']) !!}
 </div>
 
 <div class="form-group">

@@ -51,6 +51,16 @@ class SimposioInscricaoController extends Controller {
 				$inscricao->arquivo = '/uploads/' . $filename;
 			}
 		}
+		$file = Input::file('comprovante');
+		if ($file) {
+			$destinationPath = public_path() . '/uploads/';
+			$filename = $file->getClientOriginalName();
+			$upload_success = $file->move($destinationPath, $filename);
+
+			if ($upload_success) {
+				$inscricao->comprovante = '/uploads/' . $filename;
+			}
+		}
         $inscricao->save();
 
 		return view('simposio/form_sucesso');
