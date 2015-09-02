@@ -12,8 +12,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<h4><img src="/img/inscricoes/borboleta.png" alt="BORBOLETA (ENCONTRISTA)"></h4>
-				<p class="secao">Em breve mais informações sobre as inscrições.</p>
-
+				<p class="">				
 			</div>
 		</div>
 		<div class="row">

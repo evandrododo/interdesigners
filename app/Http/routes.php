@@ -29,6 +29,7 @@ Route::get('admin/convidados', 'ConvidadosController@index');
 
 Route::resource('convidado','ConvidadosController');
 Route::resource('inscricao','SimposioInscricaoController');
+Route::resource('submitInscricao','SubmitInscricaoController');
 
 Route::controller('admin', 'AdminController');
 

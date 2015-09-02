@@ -17,7 +17,7 @@ $('.inscricao > form').submit(function (ev) {
         processData: false,  //file
         success: function (data) {
 
-            $('.inscricao').html(data);
+            $('.modal-backdrop ').html(data);
             
             // if(callbackFunction) {
             //     eval(callbackFunction+"()");
