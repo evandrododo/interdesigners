@@ -6646,5 +6646,8 @@ span.fundo-roxo {
 .descricao-evento #conceito-reflexo {
   max-height: 32px;
 }
+.contato .img-lattes {
+  height: 30px;
+}
 
 /*# sourceMappingURL=app.css.map */
