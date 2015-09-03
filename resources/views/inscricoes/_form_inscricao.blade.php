@@ -6,8 +6,7 @@
 
 <div class="form-group">
 	{!! Form::label("pacote", "Pacote de Inscrição:") !!}
-	{!! Form::select("pacote", array('Design de Produto' => 'Design de Produto',
-											 'Interdesigners - 1º Lote (R$65)' => 'Interdesigners - 1º Lote (R$65)',
+	{!! Form::select("pacote", array('Interdesigners - 1º Lote (R$65)' => 'Interdesigners - 1º Lote (R$65)',
 											 'Interdesigners - 2º Lote (R$75)' => 'Interdesigners - 2º Lote (R$75)',
 											 'Interdesigners - 3º Lote (R$85)' => 'Interdesigners - 3º Lote (R$85)',
 											 'Interdesigners - 1º Lote + Desconto Simpósio (R$60)' => 'Interdesigners - 1º Lote + Desconto Simpósio (R$60)',
@@ -30,8 +29,7 @@
 </div>
 <div class="form-group">
 	{!! Form::label("tiposanguineo", "Tipo Sanguíneo:") !!}
-	{!! Form::select("tiposanguineo", array('Design de Produto' => 'Design de Produto',
-											 'AB+' => 'AB+',
+	{!! Form::select("tiposanguineo", array('AB+' => 'AB+',
 											 'AB-' => 'AB-',
 											 'A+' => 'A+',
 											 'A-' => 'A-',
@@ -116,9 +114,8 @@
 	{!! Form::text("outrocongresso", null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
-	{!! Form::label("camiseta", "Temática e grandes áreas:") !!}
-	{!! Form::select("camiseta", array('Design de Produto' => 'Design de Produto',
-											 'P (feminina)' => 'P (feminina)',
+	{!! Form::label("camiseta", "Tamanho da camiseta:") !!}
+	{!! Form::select("camiseta", array('P (feminina)' => 'P (feminina)',
 											 'M (feminina)' => 'M (feminina)',
 											 'G (feminina)' => 'G (feminina)',
 											 'P' => 'P',
@@ -135,15 +132,13 @@
 </div>
 <div class="form-group">
 	{!! Form::label("tipo_comida", "Tipo de comida:") !!}
-	{!! Form::select("tipo_comida", array('Design de Produto' => 'Design de Produto',
-											 'Vegetariano' => 'Vegetariano',
+	{!! Form::select("tipo_comida", array('Vegetariano' => 'Vegetariano',
 											 'Com Carne' => 'Com Carne',
 											 'Vegano' => 'Vegano'), 'Vegetariano',['class' => 'form-control']); !!}
 </div>
 <div class="form-group">
 	{!! Form::label("tamanho_comida", "Tamanho:") !!}
-	{!! Form::select("tamanho_comida", array('Design de Produto' => 'Design de Produto',
-											 'Pequeno (R$30)' => 'Pequeno (R$30)',
+	{!! Form::select("tamanho_comida", array('Pequeno (R$30)' => 'Pequeno (R$30)',
 											 'Médio (R$35)' => 'Médio (R$35)'), 'Pequeno (R$30)',['class' => 'form-control']); !!}
 </div>
 <div class="form-group">
