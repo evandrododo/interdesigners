@@ -6462,6 +6462,57 @@ main {
 .descricao-inscricoes a p.secao {
   min-height: 15em;
 }
+.descricao-inscricoes .modal-inscricao {
+  color: #A684A5;
+}
+.descricao-inscricoes .modal-inscricao .inscricao input {
+  border-radius: 0px;
+}
+.descricao-inscricoes .modal-inscricao .btn {
+  background-color: #A684A5;
+  border-color: #A684A5;
+}
+.descricao-inscricoes .programacao .horario,
+.descricao-inscricoes .programacao .roxo,
+.descricao-inscricoes .programacao .roxoterra,
+.descricao-inscricoes .programacao .azul {
+  color: white;
+  text-align: center;
+  line-height: 3em;
+  border-radius: 5px;
+  display: block;
+  margin: 0.2em;
+}
+.descricao-inscricoes .programacao .roxo,
+.descricao-inscricoes .programacao .roxoterra,
+.descricao-inscricoes .programacao .azul {
+  text-align: left;
+}
+.descricao-inscricoes .programacao .roxo {
+  background-color: #a684a5;
+}
+.descricao-inscricoes .programacao .roxoterra {
+  background-color: #a584a5;
+}
+.descricao-inscricoes .programacao .azul {
+  background-color: #5cc0ca;
+}
+.descricao-inscricoes .programacao .horario {
+  background-color: #c8c8d3;
+}
+.descricao-inscricoes .btn-submissao {
+  padding: 0.2em 0.9em 0.8em;
+  border: 2px solid #a684a5;
+  border-radius: 0.5em;
+  transition: border 0.8s ease;
+}
+.descricao-inscricoes .btn-submissao:hover {
+  border: 2px solid #8A73AD;
+}
+.descricao-inscricoes .btn-submissao h4 {
+  padding: 0;
+  margin: 0;
+}
 h4 img {
   max-height: 36px;
 }

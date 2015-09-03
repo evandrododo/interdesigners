@@ -2,14 +2,14 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Inscricoes extends Model {
+class InscricoesGeraisSimposio extends Model {
 
 	/**
      * The table associated with the model.
      *
      * @var string
      */
-    protected $table = 'InscritoGeral';
+    protected $table = 'InscritoSimposioGeral';
 
 	/**
      * The fields that will be filled out.
@@ -18,15 +18,9 @@ class Inscricoes extends Model {
      */
     protected $fillable = [
 		'nome',
-		'pacote',
 		'rg',
 		'cpf',
 		'dob',
-		'tiposanguineo',
-		'necessecidades_especiais',
-		'medicacao_controlada',
-		'alergias',
-		'restricoes_alimenticias',
 		'email',
 		'telefone',
 		'facebook',
@@ -37,10 +31,8 @@ class Inscricoes extends Model {
 		'curso',
 		'anotermo',
 		'outrocongresso',
-		'camiseta',
-		'alimentacao',
-		'tipo_comida',
-		'tamanho_comida',
+		'artigo',
+		'tituloartigo',
 		'comprovante'
 	];
 

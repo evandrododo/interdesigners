@@ -219,6 +219,55 @@ html, body, main {
 	}
 
 }
+.descricao-inscricoes{
+	.modal-inscricao{
+		color:#A684A5;
+		.inscricao {
+			input {
+				border-radius: 0px;
+			}
+
+		}
+		.btn {
+			background-color: #A684A5;
+			border-color: #A684A5;
+		}
+	}
+	@roxo: #A684A5;
+	@roxoterra: #A584A5;
+	@azul: #5CC0CA;
+	@cinzahorario: #C8C8D3;
+	.programacao {
+		.horario, .roxo, .roxoterra, .azul {
+			color: white;
+			text-align: center;
+			line-height: 3em;
+			border-radius: 5px;
+			display:block;
+			margin:0.2em;
+		}
+		.roxo, .roxoterra, .azul {
+			text-align: left;
+		}
+		.roxo { background-color: @roxo; }
+		.roxoterra { background-color: @roxoterra; }
+		.azul { background-color: @azul; }
+		.horario{ background-color: @cinzahorario; }
+	}
+	.btn-submissao {
+		padding:0.2em 0.9em 0.8em;
+		border: 2px solid @roxo;
+		border-radius: 0.5em;
+		transition: border 0.8s ease;
+		&:hover {
+			border: 2px solid #8A73AD;
+		}
+		h4 {
+			padding:0;
+			margin:0;
+		}
+	}
+}
 h4 img {
 	max-height: 36px;
 }

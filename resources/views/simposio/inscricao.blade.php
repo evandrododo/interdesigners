@@ -29,7 +29,7 @@ Com exceção do terceiro e último lote, que serão apenas aceitos inscrições
 
 									{!! Form::open(['url' => 'submitInscricao', 'files' => true ]) !!}
 
-										@include('inscricoes._form_inscricao', ['btnSubmit' => 'SUBMETER'])
+										@include('simposio._form_inscricao_geral', ['btnSubmit' => 'SUBMETER'])
 
 									{!! Form::close() !!}
 								</div>

@@ -7,7 +7,7 @@ use Input;
 
 use Illuminate\Http\Request;
 
-class SubmitInscricaoController extends Controller {
+class InscricoesSubmitController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -26,11 +26,34 @@ class SubmitInscricaoController extends Controller {
 	 */
 	public function store(Request $request)
 	{
+
 		$inscricao = new Inscricoes;
         $inscricao->nome = $request->nome;
+        $inscricao->pacote = $request->pacote;
         $inscricao->rg = $request->rg;
         $inscricao->cpf = $request->cpf;
         $inscricao->dob = $request->dob;
+        $inscricao->tiposanguineo = $request->tiposanguineo;
+        if ($request->necessecidades_especiais == '1' || $request->necessecidades_especiais == 1)
+        	$inscricao->necessecidades_especiais = true;
+        else
+        	$inscricao->necessecidades_especiais = false;
+        $inscricao->necessecidades_especiais = $request->necessecidades_especiais;
+        if ($request->medicacao_controlada == '1' || $request->medicacao_controlada == 1)
+        	$inscricao->medicacao_controlada = true;
+        else
+        	$inscricao->medicacao_controlada = false;
+        $inscricao->medicacao_controlada = $request->medicacao_controlada;
+        if ($request->alergias == '1' || $request->alergias == 1)
+        	$inscricao->alergias = true;
+        else
+        	$inscricao->alergias = false;
+        $inscricao->alergias = $request->alergias;
+        if ($request->restricoes_alimenticias == '1' || $request->restricoes_alimenticias == 1)
+        	$inscricao->restricoes_alimenticias = true;
+        else
+        	$inscricao->restricoes_alimenticias = false;
+        $inscricao->restricoes_alimenticias = $request->restricoes_alimenticias;
         $inscricao->email = $request->email;
         $inscricao->telefone = $request->telefone;
         $inscricao->facebook = $request->facebook;
@@ -41,11 +64,14 @@ class SubmitInscricaoController extends Controller {
         $inscricao->curso = $request->curso;
         $inscricao->anotermo = $request->anotermo;
         $inscricao->outrocongresso = $request->outrocongresso;
-        if ($request->artigo == '1' || $request->artigo == 1)
-        	$inscricao->artigo = true;
+        $inscricao->camiseta = $request->camiseta;
+        if ($request->alimentacao == '1' || $request->alimentacao == 1)
+        	$inscricao->alimentacao = true;
         else
-        	$inscricao->artigo = false;
-        $inscricao->tituloartigo = $request->tituloartigo;
+        	$inscricao->alimentacao = false;
+        $inscricao->alimentacao = $request->alimentacao;
+        $inscricao->tipo_comida = $request->tipo_comida;
+        $inscricao->tamanho_comida = $request->tamanho_comida;
 
 		$file = Input::file('comprovante');
 		if ($file) {
