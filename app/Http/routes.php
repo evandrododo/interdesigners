@@ -33,6 +33,9 @@ Route::get('admin/convidados', ['uses' => 'ConvidadosController@index', 'middlew
 
 Route::resource('convidado','ConvidadosController');
 Route::resource('inscricao','SimposioInscricaoController');
+Route::resource('submitInscricao','SimposioInscricaoGeralController');
+Route::resource('submitInscricaoGeral','InscricoesSubmitController');
+
 
 Route::controller('admin', 'AdminController');
 

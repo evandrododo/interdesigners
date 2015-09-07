@@ -6462,6 +6462,57 @@ main {
 .descricao-inscricoes a p.secao {
   min-height: 15em;
 }
+.descricao-inscricoes .modal-inscricao {
+  color: #A684A5;
+}
+.descricao-inscricoes .modal-inscricao .inscricao input {
+  border-radius: 0px;
+}
+.descricao-inscricoes .modal-inscricao .btn {
+  background-color: #A684A5;
+  border-color: #A684A5;
+}
+.descricao-inscricoes .programacao .horario,
+.descricao-inscricoes .programacao .roxo,
+.descricao-inscricoes .programacao .roxoterra,
+.descricao-inscricoes .programacao .azul {
+  color: white;
+  text-align: center;
+  line-height: 3em;
+  border-radius: 5px;
+  display: block;
+  margin: 0.2em;
+}
+.descricao-inscricoes .programacao .roxo,
+.descricao-inscricoes .programacao .roxoterra,
+.descricao-inscricoes .programacao .azul {
+  text-align: left;
+}
+.descricao-inscricoes .programacao .roxo {
+  background-color: #a684a5;
+}
+.descricao-inscricoes .programacao .roxoterra {
+  background-color: #a584a5;
+}
+.descricao-inscricoes .programacao .azul {
+  background-color: #5cc0ca;
+}
+.descricao-inscricoes .programacao .horario {
+  background-color: #c8c8d3;
+}
+.descricao-inscricoes .btn-submissao {
+  padding: 0.2em 0.9em 0.8em;
+  border: 2px solid #a684a5;
+  border-radius: 0.5em;
+  transition: border 0.8s ease;
+}
+.descricao-inscricoes .btn-submissao:hover {
+  border: 2px solid #8A73AD;
+}
+.descricao-inscricoes .btn-submissao h4 {
+  padding: 0;
+  margin: 0;
+}
 h4 img {
   max-height: 36px;
 }
@@ -6495,17 +6546,20 @@ h4 img {
   display: block;
   transition: opacity 0s ease;
 }
+.editais {
+  margin-bottom: 50px;
+}
 .editais > div {
   padding: 0.2em;
 }
 span.fundo-roxo {
   border-radius: 0.5em;
   padding: 0.5em;
-  background-color: #A684A5;
+  background-color: #C8C6C7;
   color: white;
   width: 100%;
   display: inline-block;
-  border: solid 1px #A684A5;
+  border: solid 1px #C8C6C7;
 }
 .btn-edital:hover span.fundo-roxo {
   background-color: white;
@@ -6594,6 +6648,28 @@ span.fundo-roxo {
 }
 .descricao-evento #conceito-reflexo {
   max-height: 32px;
+}
+.contato .img-lattes {
+  height: 30px;
+}
+.rubber_stamp {
+  font-family: "Vollkorn", serif;
+  font-size: 40px;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #F00;
+  border: 7px solid #F00;
+  float: left;
+  padding: 10px 7px;
+  border-radius: 10px;
+  position: relative;
+  opacity: 0.8;
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  position: absolute;
+  z-index: 1;
+  top: 55%;
 }
 
 /*# sourceMappingURL=app.css.map */

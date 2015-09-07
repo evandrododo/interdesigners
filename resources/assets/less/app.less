@@ -219,6 +219,55 @@ html, body, main {
 	}
 
 }
+.descricao-inscricoes{
+	.modal-inscricao{
+		color:#A684A5;
+		.inscricao {
+			input {
+				border-radius: 0px;
+			}
+
+		}
+		.btn {
+			background-color: #A684A5;
+			border-color: #A684A5;
+		}
+	}
+	@roxo: #A684A5;
+	@roxoterra: #A584A5;
+	@azul: #5CC0CA;
+	@cinzahorario: #C8C8D3;
+	.programacao {
+		.horario, .roxo, .roxoterra, .azul {
+			color: white;
+			text-align: center;
+			line-height: 3em;
+			border-radius: 5px;
+			display:block;
+			margin:0.2em;
+		}
+		.roxo, .roxoterra, .azul {
+			text-align: left;
+		}
+		.roxo { background-color: @roxo; }
+		.roxoterra { background-color: @roxoterra; }
+		.azul { background-color: @azul; }
+		.horario{ background-color: @cinzahorario; }
+	}
+	.btn-submissao {
+		padding:0.2em 0.9em 0.8em;
+		border: 2px solid @roxo;
+		border-radius: 0.5em;
+		transition: border 0.8s ease;
+		&:hover {
+			border: 2px solid #8A73AD;
+		}
+		h4 {
+			padding:0;
+			margin:0;
+		}
+	}
+}
 h4 img {
 	max-height: 36px;
 }
@@ -252,7 +301,9 @@ h4 img {
 		}
 	}
 }
-
+.editais {
+	margin-bottom: 50px;
+}
 .editais > div {
 	padding:0.2em;
 
@@ -260,11 +311,11 @@ h4 img {
 span.fundo-roxo {
 	border-radius:0.5em;
 	padding:0.5em;
-	background-color: #A684A5;
+	background-color: #C8C6C7;
 	color:white;
 	width:100%;
 	display: inline-block;
-	border: solid 1px #A684A5;
+	border: solid 1px #C8C6C7;
 }
 .btn-edital:hover span.fundo-roxo{
 	background-color:white;
@@ -366,4 +417,30 @@ span.fundo-roxo {
 	#conceito-reflexo{
 		max-height: 32px;
 	}
+}
+.contato{
+	.img-lattes{
+		height: 30px;
+	}
+}
+
+// Inscriç~oes encerradas
+
+.rubber_stamp {
+    font-family: "Vollkorn",serif;
+    font-size: 40px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F00;
+    border: 7px solid #F00;
+    float: left;
+    padding: 10px 7px;
+    border-radius: 10px;
+    position: relative;
+    opacity: 0.8;
+    transform: rotate(-10deg);
+    position: absolute;
+	z-index: 1;
+	top: 55%;
 }

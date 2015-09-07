@@ -1,4 +1,4 @@
-<table style="width: 100%;" aria-describedby="example_info" role="grid" id="example" class="display dataTable" cellspacing="0" width="100%">
+<table style="width: 100%;" aria-describedby="inscritos-simposio_info" role="grid" id="inscritos-simposio" class="display dataTable" cellspacing="0" width="100%">
 	<thead>
 		<tr role="row">
 			<th>Nome</th>
