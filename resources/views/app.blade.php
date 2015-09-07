@@ -28,12 +28,12 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Laravel</a>
+				<a class="navbar-brand" href="#">{{ trans('siteconfig.nome') }}</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="{{ url('/') }}">{{ trans('siteconfig.nome') }}</a></li>
+					<li><a href="{{ url('/') }}">Visualizar site</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -47,6 +47,7 @@
 							</ul>
 						</li>
 					@endif
+					<img src="/img/tlogo32.png" alt="Tesseract"/>
 				</ul>
 			</div>
 		</div>

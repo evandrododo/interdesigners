@@ -10,22 +10,26 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+
+//teste de interação
 Route::get('lorenzatractor', function()
 {
       return File::get(public_path() . '/lorenz/NeoBrush-P5js/index.html');
 });
 
+// Rota antiga funcionando?
 Route::get('2013', function()
 {
       return File::get(public_path() . '/2/index.html');
 });
+
 Route::get('/', 'MenuController@index');
 Route::get('inscricoes', 'InscricoesController@index');
 Route::get('simposio', 'SimposioController@index');
 Route::get('evento', 'EventoController@index');
 Route::get('programacao', 'ProgramacaoController@index');
 
-Route::get('admin/convidados', 'ConvidadosController@index');
+Route::get('admin/convidados', ['uses' => 'ConvidadosController@index', 'middleware' => 'auth']);
 
 Route::resource('convidado','ConvidadosController');
 Route::resource('inscricao','SimposioInscricaoController');

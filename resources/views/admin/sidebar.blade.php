@@ -1,7 +1,7 @@
 <ul class="sidebar-menu" id="nav-accordion">
 
     <li class="menu">
-        <a class="active" href="/admin/home">
+        <a class="" href="/admin/home">
             <i class="fa fa-dashboard"></i>
             <span>Visão Geral</span>
         </a>
