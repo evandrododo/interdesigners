@@ -1,7 +1,7 @@
 @extends('site')
 
 @section('conteudo')
-
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn:700" rel="stylesheet" type="text/css">
 	<div class="col-sm-12 col-md-4 col-lg-">
 		<div class="lettering-container hidden-xs">
 			<img class="lettering" src="/img/inscricoes/lettering.png" alt="Inscrições" title="Inscrições">
@@ -80,6 +80,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12 editais">
+				<div class="rubber_stamp">INSCRIÇÕES ENCERRADAS</div>
 				<h4><img src="/img/inscricoes/editais.png" alt="Editais"></h4>
 				<p>Os editais são para aqueles encontristas que querem ajudar na construção de evento junto à COIDe.
 				Abertos até o dia 6/09.</p>
@@ -87,37 +88,37 @@
 					<span class="fundo-roxo">REFLEXÃO - OFICINA</span>
 				</div>
 				<div class="col-sm-3">
-					<button type="button" class="btn-edital" data-toggle="modal" data-target=".modal-reflexao"><span class="fundo-roxo">INSCREVA-SE</span></button>
+					<button type="button" class="btn-edital" data-toggle="modal" data-target="" disabled><span class="fundo-roxo">INSCREVA-SE</span></button>
 				</div>
 				<div class="col-sm-9">
 					<span class="fundo-roxo">REFRAÇÃO - MONITORIA</span>
 				</div>
 				<div class="col-sm-3">
-					<button type="button" class="btn-edital" data-toggle="modal" data-target=".modal-refracao"><span class="fundo-roxo">INSCREVA-SE</span></button>
+					<button type="button" class="btn-edital" data-toggle="modal" data-target="" disabled><span class="fundo-roxo">INSCREVA-SE</span></button>
 				</div>
 				<div class="col-sm-9">
 					<span class="fundo-roxo">OBJETIVA - REGISTRO</span>
 				</div>
 				<div class="col-sm-3">
-					<button type="button" class="btn-edital" data-toggle="modal" data-target=".modal-objetiva"><span class="fundo-roxo">INSCREVA-SE</span></button>
+					<button type="button" class="btn-edital" data-toggle="modal" data-target="" disabled><span class="fundo-roxo">INSCREVA-SE</span></button>
 				</div>
 				<div class="col-sm-9">
 					<span class="fundo-roxo">PRISMA - BAZAR</span>
 				</div>
 				<div class="col-sm-3">
-					<button type="button" class="btn-edital" data-toggle="modal" data-target=".modal-prisma"><span class="fundo-roxo">INSCREVA-SE</span></button>
+					<button type="button" class="btn-edital" data-toggle="modal" data-target="" disabled><span class="fundo-roxo">INSCREVA-SE</span></button>
 				</div>
 				<div class="col-sm-9">
 					<span class="fundo-roxo">CALEIDOSCÓPIO - INSTALAÇÃO</span>
 				</div>
 				<div class="col-sm-3">
-					<button type="button" class="btn-edital" data-toggle="modal" data-target=".modal-caleidoscopio"><span class="fundo-roxo">INSCREVA-SE</span></button>
+					<button type="button" class="btn-edital" data-toggle="modal" data-target="" disabled><span class="fundo-roxo">INSCREVA-SE</span></button>
 				</div>
 				<div class="col-sm-9">
 					<span class="fundo-roxo">LUPA - EXPOSIÇÃO</span>
 				</div>
 				<div class="col-sm-3">
-					<button type="button" class="btn-edital" data-toggle="modal" data-target=".modal-lupa"><span class="fundo-roxo">INSCREVA-SE</span></button>
+					<button type="button" class="btn-edital" data-toggle="modal" data-target="" disabled><span class="fundo-roxo">INSCREVA-SE</span></button>
 				</div>
 			</div>
 		</div>
