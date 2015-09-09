@@ -2,13 +2,13 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Convidado;
+use App\Simposio;
 use App\Http\Requests\EditarConvidadoRequest;
 use Input;
 
 use Illuminate\Http\Request;
 
-class ConvidadosController extends Controller {
+class CorrecaoController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -17,9 +17,23 @@ class ConvidadosController extends Controller {
 	 */
 	public function index()
 	{
-		$convidados = Convidado::all();
+		$inscritos = Simposio::all();
+		// var_dump($inscritos);
+		// die();
+		foreach ($inscritos as $inscrito) {
+			
+			$inscrito->acoes = '<a href="viewPaper/'.$inscrito->id.'"><i class="fa fa-2x fa-pencil-square-o"></i></a>';
+		}
+		
+		return view('admin.correcao.index', compact('inscritos'));
+	}
 
-		return view('admin.convidados.index', compact('convidados'));
+	public function viewPaper($idInscrito)
+	{
+		$inscrito = Simposio::findOrFail($idInscrito);
+		// var_dump($inscritos);
+		// die();
+		return view('admin.correcao.view_paper', compact('inscrito'));
 	}
 
 	/**
@@ -30,7 +44,7 @@ class ConvidadosController extends Controller {
 	public function create()
 	{
 
-		return view('admin.convidados.create');
+		return view('admin.correcao.create');
 	}
 
 	/**
@@ -40,24 +54,24 @@ class ConvidadosController extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		// $convidado = new Convidado;
+		$convidado = new Convidado;
 
-  //       $convidado->nome = $request->nome;
-  //       $convidado->descricao = $request->descricao;
+        $convidado->nome = $request->nome;
+        $convidado->descricao = $request->descricao;
 
-		// $file = Input::file('foto');
-		// if ($file) {
-		// 	$destinationPath = public_path() . '/uploads/';
-		// 	$filename = $file->getClientOriginalName();
-		// 	$upload_success = $file->move($destinationPath, $filename);
+		$file = Input::file('foto');
+		if ($file) {
+			$destinationPath = public_path() . '/uploads/';
+			$filename = $file->getClientOriginalName();
+			$upload_success = $file->move($destinationPath, $filename);
 
-		// 	if ($upload_success) {
-		// 		$convidado->foto = '/uploads/' . $filename;
-		// 	}
-		// }
-  //       $convidado->save();
+			if ($upload_success) {
+				$convidado->foto = '/uploads/' . $filename;
+			}
+		}
+        $convidado->save();
 
-		// return redirect('admin/convidados');
+		return redirect('admin/correcao');
 	}
 
 	/**
@@ -81,7 +95,7 @@ class ConvidadosController extends Controller {
 	{
 		$convidado = Convidado::findOrFail($id);
 
-		return view('admin.convidados.edit', compact('convidado'));
+		return view('admin.correcao.edit', compact('convidado'));
 	}
 
 	/**
@@ -113,7 +127,7 @@ class ConvidadosController extends Controller {
 
 		$convidado->save();
 
-		return redirect('admin/convidados');
+		return redirect('admin/correcao');
 
 	}
 

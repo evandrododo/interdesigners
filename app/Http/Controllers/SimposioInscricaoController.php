@@ -34,6 +34,7 @@ class SimposioInscricaoController extends Controller {
         $inscricao->telefone = $request->telefone;
         $inscricao->instituicao_de_origem = $request->instituicao_de_origem;
         $inscricao->tematica = $request->tematica;
+        $inscricao->titulo = $request->titulo;
         $inscricao->autor1 = $request->autor1;
         $inscricao->autor2 = $request->autor2;
         $inscricao->autor3 = $request->autor3;

@@ -25,15 +25,21 @@
         </a>
     </li>
     <li class="menu">
+        <a class="" href="/admin/correcao">
+            <i class="fa fa-graduation-cap"></i>
+            <span>Correção Simpósio</span>
+        </a>
+    </li> <!--
+    <li class="menu">
         <a class="" href="/admin/evento">
             <i class="fa fa-star"></i>
             <span>Evento</span>
         </a>
-    </li>
+    </li> 
     <li class="menu">
         <a href="/admin/configuracoes" >
             <i class="fa fa-cogs"></i>
             <span>Configurações</span>
         </a>
-    </li>
+    </li> -->
 </ul>
