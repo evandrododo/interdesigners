@@ -55,6 +55,9 @@ DesignUrbano_MobiliárioUrbanoNaCidadeDeSãoPaulo.pdf<br>
 Para que a mesma aconteça, cobraremos uma taxa de submissão no valor de R$ 10,00 (dez reais). O pagamento deverá fazer um depósito na conta do Banco do Brasil, agência 6533-1, conta poupança 16.931-5, variação 51. Este valor deve ser pago anteriormente ao envio, pois o comprovante do depósito deve constar no momento que o trabalho for submetido. Se houver mais de um trabalho do mesmo autor, o pagamento e submissão deve ser feito de maneira separada. Não fazer pagamentos em conjuntos pois a submissão deve ser feita separadamente.
 </p>
 <p>
+	O valor da taxa de submissão será futuramente descontado no momento de inscrição caso o trabalho for aceito. Lembrando que os autores deverão se inscrever até 20/10 para terem seus trabalhos publicados.
+</p>
+<p>
 Se seu trabalho for aceito ou negado o feedback e correções chegará no email do qual você submeteu o trabalho. Caso seja aceito, corrija-o conforme necessidade e indicações do comitê científico e envie o arquivo final em formato .doc para interdesigners.unesp@gmail.com dentro do template do evento, já com nome dos autores, email e instituição de origem. O assunto do email deverá ser ARTIGO SIMPÓSIO e nomeado da seguinte forma: áreadotrabalho_títulodotrabalho_final.doc
 </p>
 <p>

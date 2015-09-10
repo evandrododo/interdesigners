@@ -12,6 +12,9 @@ A inscrição no evento poderá ser feita a partir do dia 30 de agosto até o ev
 <p>	
 	Lembrando que pelo menos um dos autores dos trabalhos deverá estar inscrito no evento até dia 20/10 para que o trabalho seja publicado nos anais do mesmo.
 </p>
+<p>
+	Também gostaríamos de lembrar que as inscrições de autores terá um desconto devido a taxa de submissão já efetuada. No caso, se o autor já fez o pagamento desta taxa, ele deverá descontar o valor da mesma (R$ 10,00 – dez reais) de sua inscrição, respeitando os valores dos lotes.<b> As taxas de submissão não são acomulativas, e portante será apenas descontado uma vez, independente de quantos trabalhos o autor submeteu. Este desconto será válido apenas para UM autor do trabalho, no caso aquele que submeteu o trabalho.</b>
+</p>
 A inscrição é feita online em nosso site e seu pagamento deve ser feito por depósito na conta: <br> <br>
 <p>
 	Banco do Brasil <br>
