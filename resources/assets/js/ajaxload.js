@@ -104,6 +104,17 @@ function scriptsUrl(url) {
     if(url == "/simposio") {
         $('#anima_simposio').removeClass('transparente');
         animaSimposio.toEnd();
+
+        $('#btnMoreAuthors').on('click', function(ev){
+        	ev.preventDefault();
+        	nextAuthor = $('.input-hidden').first();
+        	// lastAuthor = $('.input-hidden:nth-childe(2)');
+        	// if (lastAuthor = null){
+        	// 	$('#btnMoreAuthors').remove();
+        	// }
+        	nextAuthor.removeClass('input-hidden');
+        	nextAuthor.show();
+        });
     }else{
         $('#anima_simposio').addClass('transparente');
     }
