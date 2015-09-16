@@ -1,5 +1,6 @@
 <ul class="sidebar-menu" id="nav-accordion">
-
+    @if( Auth::check() && Auth::user()->id == 1)
+        
     <li class="menu">
         <a class="" href="/admin/home">
             <i class="fa fa-dashboard"></i>
@@ -24,6 +25,7 @@
             <span>Simpósio</span>
         </a>
     </li>
+    @endif
     <li class="menu">
         <a class="" href="/admin/correcao">
             <i class="fa fa-graduation-cap"></i>
