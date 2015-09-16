@@ -43,10 +43,7 @@ class InscricaoGeralSimposio extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('InscritoSimposioGeral', function(Blueprint $table)
-		{
-			//
-		});
+		Schema::drop('InscritoSimposioGeral');
 	}
 
 }

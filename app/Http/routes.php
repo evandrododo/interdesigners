@@ -35,6 +35,7 @@ Route::get('admin/viewPaper/{id}', ['uses' => 'CorrecaoController@viewPaper', 'm
 
 Route::resource('convidado','ConvidadosController');
 Route::resource('inscricao','SimposioInscricaoController');
+Route::resource('correcao','CorrecaoController');
 Route::resource('submitInscricao','SimposioInscricaoGeralController');
 Route::resource('submitInscricaoGeral','InscricoesSubmitController');
 

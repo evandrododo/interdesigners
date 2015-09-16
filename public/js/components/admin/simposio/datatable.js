@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('#inscritos-simposio').DataTable({
-	    'language': {url: SIGIP.base_url('assets/js/datatables_ptbr.json')},
+	    'language': {url: 'local.interdesigners/js/components/datatable/datatables_ptbr.json'},
 	    'order': [[1, 'asc']],
 	    'drawCallback': function() {
 	        $('#ocorrencias-data-table .mark_for_update').click(function (e) {
@@ -29,7 +29,7 @@ $(document).ready(function(){
 	    },
 	    'aoColumnDefs': [
 	        {'bSortable': false, 'aTargets': [2]},
-	        {'orderable': false, 'targets': [0]}
+	        {'orderable': false, 'targets': [2]}
 	    ]
 	});	
 });

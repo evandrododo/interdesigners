@@ -57,19 +57,9 @@
           <section class="wrapper">
 
             <div class="row">
-                <div class="col-lg-9 main-chart">
+                <div class="col-lg-12 main-chart">
                     @yield('content')
-                  </div><!-- /col-lg-9 END SECTION MIDDLE -->
-
-
-      <!-- ******************
-      RIGHT SIDEBAR CONTENT
-      ******************* -->
-
-                  <div class="col-lg-3 ds">
-                     <!-- include('admin.ultimoseventos'); -->
-				  </div><!-- /col-lg-3 -->
-
+                  </div><!-- /col-lg-12 END SECTION MIDDLE -->
               </div>
           </section>
       </section>

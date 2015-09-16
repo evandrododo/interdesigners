@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Simposio;
 use App\Http\Requests\EditarConvidadoRequest;
+use Illuminate\Auth\Guard;
 use Input;
 
 use Illuminate\Http\Request;
@@ -54,10 +55,10 @@ class CorrecaoController extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		$convidado = new Convidado;
+		$inscritos = new Simposio;
 
-        $convidado->nome = $request->nome;
-        $convidado->descricao = $request->descricao;
+        $inscritos->nome = $request->nome;
+        $inscritos->descricao = $request->descricao;
 
 		$file = Input::file('foto');
 		if ($file) {
@@ -66,10 +67,10 @@ class CorrecaoController extends Controller {
 			$upload_success = $file->move($destinationPath, $filename);
 
 			if ($upload_success) {
-				$convidado->foto = '/uploads/' . $filename;
+				$inscritos->foto = '/uploads/' . $filename;
 			}
 		}
-        $convidado->save();
+        $inscritos->save();
 
 		return redirect('admin/correcao');
 	}
@@ -93,9 +94,9 @@ class CorrecaoController extends Controller {
 	 */
 	public function edit($id)
 	{
-		$convidado = Convidado::findOrFail($id);
+		$inscritos = Simposio::findOrFail($id);
 
-		return view('admin.correcao.edit', compact('convidado'));
+		return view('admin.correcao.edit', compact('inscritos'));
 	}
 
 	/**
@@ -104,33 +105,63 @@ class CorrecaoController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id, EditarConvidadoRequest $request)
+	public function update($id, Request $request)
 	{
+		$inscritos = Simposio::findOrFail($id);
 
-		$convidado = Convidado::findOrFail($id);
-
-		/*
-		$file = Input::file('image');
-		if ($file) {
-			$destinationPath = public_path() . '/uploads/';
-			$filename = self::formatFileNameWithUserAndTimestamps($file->getClientOriginalName());
-			$upload_success = $file->move($destinationPath, $filename);
-
-			if ($upload_success) {
-				$convidado->foto = $destinationPath . $filename;
-			}
-		}
-		*/
-
-        $convidado->nome = $request->nome;
-        $convidado->descricao = $request->descricao;
-
-		$convidado->save();
+        $inscritos->decimal_nota = $this->calculaNotaMedia($inscritos, $request);
+        $inscritos->json_avaliacao = $this->insereAvaliacaoEmJson($inscritos, $request);
+      
+		$inscritos->save();
 
 		return redirect('admin/correcao');
-
 	}
 
+
+	/**
+	 * Calcula Média do aluno de acordo com a avaliação
+	 *
+	 * @param  int  $id
+	 * @return Response
+	 */
+	public function calculaNotaMedia($inscritos, $request)
+	{	
+		$i = 0;
+		$sum = 0;
+		if ($inscritos->json_avaliacao == NULL){
+			return floatval($request->nota.'.'.$request->nota_dec);
+		} else {
+			$avaliacoes = json_decode($inscritos->json_avaliacao);
+			foreach ($avaliacoes as $key => $avaliacao) {
+				$i++;
+				$sum += $avaliacao->nota;
+			}
+			return ($sum + floatval($request->nota.'.'.$request->nota_dec))/($i + 1);
+		}
+	}
+
+	/**
+	 * Insere no json os dados da Avaliação
+	 *
+	 * @param  int  $id
+	 * @return Response
+	 */
+	public function insereAvaliacaoEmJson($inscritos, $request)
+	{	
+		$json = array();
+		$json['professor'] = \Auth::user()->id;
+		$json['nota'] = floatval($request->nota.'.'.$request->nota_dec);
+		$json['observacao'] = $request->observacao;
+		if ($inscritos->json_avaliacao == NULL){
+			$avaliacoes = array();
+			array_push($avaliacoes, $json);
+			return json_encode($avaliacoes);
+		} else {
+			$avaliacoes = json_decode($inscritos->json_avaliacao);
+			array_push($avaliacoes, $json);
+			return json_encode($avaliacoes);
+		}
+	}
 	/**
 	 * Remove the specified resource from storage.
 	 *

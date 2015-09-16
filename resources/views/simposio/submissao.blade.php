@@ -44,7 +44,7 @@ Serão aceitos apenas trabalhos de alunos de graduação, recém formado ou alun
 <li>Comunicação Visual </li>
 </ul>
 <p>
-Eles devem ser enviados em formato .pdf de acordo com o <b><a href="https://drive.google.com/file/d/0By1o8AZJGyKMQWZERFh5blNNM0E/view?usp=sharing" target="_blank"> <i class="fa fa-download"></i> template disponível</a></b> de modo avaliação cega. Os trabalhos que não estiverem neste formato não serão avaliados.
+Eles devem ser enviados em formato .pdf de acordo com o <b><a href="https://drive.google.com/file/d/0By1o8AZJGyKMcmdQa3pQQ3FROG8/view" target="_blank"> <i class="fa fa-download"></i> template disponível</a></b> de modo avaliação cega. Os trabalhos que não estiverem neste formato não serão avaliados.
 </p>
 <p>Seu trabalho deve ser nomeado da seguinte maneira: áreadotrabalho_títulodotrabalho.pdf<br><br>
 Por exemplo:<br>

@@ -59,6 +59,10 @@
 	{!! Form::label("autor5", "Demais Autores:") !!}
 	{!! Form::text("autor5", null, ['class' => 'form-control']) !!}
 </div>
+<div class="form-group input-hidden">
+	{!! Form::label("autor6", "Demais Autores:") !!}
+	{!! Form::text("autor6", null, ['class' => 'form-control']) !!}
+</div>
 <div class="form-group plus-authors">
 	<button class="btn btn-primary pull-right" id="btnMoreAuthors">
 		<i class="fa fa-plus"> Autores</i>

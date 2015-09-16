@@ -29,6 +29,7 @@ class Simposio extends Model {
 		'autor3',
 		'autor4',
 		'autor5',
+		'autor6',
 		'resumo',
 		'arquivo',
 		'comprovante'
