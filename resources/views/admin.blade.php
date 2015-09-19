@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('js/gritter/css/jquery.gritter.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('lineicons/style.css') }}" />
 
+    <!-- Custom styles Interdesigners -->
+    <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
     <!-- Custom styles for this template -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style-responsive.css') }}" rel="stylesheet">

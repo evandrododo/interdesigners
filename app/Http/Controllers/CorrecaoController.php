@@ -151,7 +151,15 @@ class CorrecaoController extends Controller {
 		$json = array();
 		$json['professor'] = \Auth::user()->id;
 		$json['nota'] = floatval($request->nota.'.'.$request->nota_dec);
-		$json['observacao'] = $request->observacao;
+		$json['observacao_titulo'] = $request->observacao_titulo;
+		$json['observacao_abstract'] = $request->observacao_abstract;
+		$json['observacao_introducao'] = $request->observacao_introducao;
+		$json['observacao_revisaoteorica'] = $request->observacao_revisaoteorica;
+		$json['observacao_metodo'] = $request->observacao_metodo;
+		$json['observacao_resultados'] = $request->observacao_resultados;
+		$json['observacao_contribuicao'] = $request->observacao_contribuicao;
+		$json['observacao_bibliografia'] = $request->observacao_bibliografia;
+		$json['observacao_redacao'] = $request->observacao_redacao;
 		if ($inscritos->json_avaliacao == NULL){
 			$avaliacoes = array();
 			array_push($avaliacoes, $json);

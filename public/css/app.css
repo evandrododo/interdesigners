@@ -6670,5 +6670,12 @@ span.fundo-roxo {
   z-index: 1;
   top: 55%;
 }
+.form-correcao {
+  overflow-y: scroll;
+  height: 650px;
+}
+.form-correcao textarea.form-control {
+  height: 50px;
+}
 
 /*# sourceMappingURL=app.css.map */
