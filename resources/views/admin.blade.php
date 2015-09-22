@@ -24,6 +24,14 @@
     <link href="{{ asset('css/style-responsive.css') }}" rel="stylesheet">
 
     <script src="{{ asset('js/chart-master/Chart.js') }}"></script>
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.8/css/jquery.dataTables.css">
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+      
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.8/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="/js/components/admin/simposio/datatable.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

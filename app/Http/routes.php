@@ -32,6 +32,7 @@ Route::get('programacao', 'ProgramacaoController@index');
 Route::get('admin/convidados', ['uses' => 'ConvidadosController@index', 'middleware' => 'auth']);
 Route::get('admin/correcao', ['uses' => 'CorrecaoController@index', 'middleware' => 'auth']);
 Route::get('admin/viewPaper/{id}', ['uses' => 'CorrecaoController@viewPaper', 'middleware' => 'auth']);
+Route::get('admin/viewInscrito/{id}', ['uses' => 'AdminController@viewInscrito', 'middleware' => 'auth']);
 
 Route::resource('convidado','ConvidadosController');
 Route::resource('inscricao','SimposioInscricaoController');

@@ -19,8 +19,6 @@ class CorrecaoController extends Controller {
 	public function index()
 	{
 		$inscritos = Simposio::all();
-		// var_dump($inscritos);
-		// die();
 		foreach ($inscritos as $inscrito) {
 			
 			$inscrito->acoes = '<a href="viewPaper/'.$inscrito->id.'"><i class="fa fa-2x fa-pencil-square-o"></i></a>';
@@ -32,8 +30,6 @@ class CorrecaoController extends Controller {
 	public function viewPaper($idInscrito)
 	{
 		$inscrito = Simposio::findOrFail($idInscrito);
-		// var_dump($inscritos);
-		// die();
 		return view('admin.correcao.view_paper', compact('inscrito'));
 	}
 

@@ -62,8 +62,23 @@ class AdminController extends Controller {
 	public function getSimposio()
 	{
 		$inscritos = Simposio::all();
-		
+		foreach ($inscritos as $inscrito) {			
+			$inscrito->acoes = 	'<a href="viewInscrito/'.$inscrito->id.'"><i class="fa fa-2x fa-search"></i></a>'.
+								'&nbsp;&nbsp;<a href="'.$inscrito->comprovante.'" alt="Comprovante de Pagamento"><i class="fa fa-2x fa-money"></i></a>'.
+								'&nbsp;&nbsp;<a href="'.$inscrito->arquivo.'" alt="Arquivo Simpósio"><i class="fa fa-2x fa-file-pdf-o"></i></a>';
+		}
 		return view('admin.simposio.index', compact('inscritos'));
+	}
+
+	/**
+	* Exibe Inscrito isoladamente
+	*
+	* @return Response
+	*/
+	public function viewInscrito($idInscrito)
+	{
+		$inscrito = Simposio::findOrFail($idInscrito);
+		return view('admin.simposio.view_inscrito', compact('inscrito'));
 	}
 
 	/**
