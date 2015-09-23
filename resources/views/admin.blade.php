@@ -9,7 +9,7 @@
 
     <title>{{ trans('siteconfig.nome') }}</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap -->
     <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
     <!--external css-->
     <link href="{{ asset('font-awesome/css/font-awesome.css') }}" rel="stylesheet" />
@@ -164,5 +164,7 @@
     </script>
 
 
+    <script src="{{ asset('/js/min.js') }}"></script>
+    <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
   </body>
 </html>

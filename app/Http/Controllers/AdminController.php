@@ -78,6 +78,21 @@ class AdminController extends Controller {
 	public function viewInscrito($idInscrito)
 	{
 		$inscrito = Simposio::findOrFail($idInscrito);
+		
+
+		if ($inscrito->autor2 != null) 
+			$inscrito->autor2 = ', ' . $inscrito->autor2;
+		if ($inscrito->autor3 != null) 
+			$inscrito->autor3 = ', ' . $inscrito->autor3;
+		if ($inscrito->autor4 != null) 
+			$inscrito->autor4 = ', ' . $inscrito->autor4;
+		if ($inscrito->autor5 != null) 
+			$inscrito->autor5 = ', ' . $inscrito->autor5;
+		if ($inscrito->autor6 != null) 
+			$inscrito->autor6 = ', ' . $inscrito->autor6;
+		
+		$inscrito->json_avaliacao = json_decode($inscrito->json_avaliacao);
+
 		return view('admin.simposio.view_inscrito', compact('inscrito'));
 	}
 
