@@ -29,7 +29,7 @@
 
     <li class="menu">
         <a class="" href="/admin/simposioGeral">
-            <i class="fa fa-newspaper-o"></i>
+            <i class="fa fa-child"></i>
             <span>Simpósio Geral</span>
         </a>
     </li>
