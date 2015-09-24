@@ -2,11 +2,51 @@
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="col-sm-12">
-			@forelse($inscrito->json_avaliacao as $avaliacao)
-				<h4 class="title"><i class="fa fa-graduation-cap"></i>  Avaliação do Professor: {{ $avaliacao->professor }}</h4>
-			@empty
-			@endforelse
+			&nbsp;
+				@if($inscrito->json_avaliacao != null)			
+					@forelse($inscrito->json_avaliacao as $avaliacao)
+						
+						@forelse($avaliacao as $i => $v)
+
+						    @if($i == 'professor')
+									<h4 class="title"><i class="fa fa-graduation-cap"></i>  Avaliação do Professor: {{ $v }}</h4>
+									<ul style="padding-left: 20px">
+						    @endif
+						    @if($i == 'observacao_titulo' && $v != '')
+						        	<li><b>Título: </b>{{ $v }}</li>
+						    @endif
+						    @if($i == 'observacao_abstract' && $v != '')
+						        	<li><b>Abstract: </b>{{ $v }}</li>
+				        	@endif
+						    @if($i == 'observacao_introducao' && $v != '')
+						        	<li><b>Introdução: </b>{{ $v }}</li>
+				        	@endif
+						    @if($i == 'observacao_revisaoteorica' && $v != '')
+						        	<li><b>Revisão Teórica: </b>{{ $v }}</li>
+				        	@endif
+						    @if($i == 'observacao_metodo' && $v != '')
+						        	<li><b>Métodos: </b>{{ $v }}</li>
+				        	@endif
+						    @if($i == 'observacao_resultados' && $v != '')
+						        	<li><b>Resultados e Discussão: </b>{{ $v }}</li>
+				        	@endif
+						    @if($i == 'observacao_contribuicao' && $v != '')
+						        	<li><b>Contribuição para a área de conhecimento: </b>{{ $v }}</li>
+				        	@endif
+						    @if($i == 'observacao_bibliografia' && $v != '')
+						        	<li><b>Bibliografia: </b>{{ $v }}</li>
+				        	@endif
+						    @if($i == 'observacao_redacao' && $v != '')
+						        	<li><b>Redação: </b>{{ $v }}</li>
+				        	@endif
+						@empty
+						@endforelse
+						</ul>
+					@empty
+					@endforelse
+				@endif
 			</div>
+			&nbsp;
 		</div>
 	</div>
 </div>
@@ -106,7 +146,7 @@
                 <span class="input-group-addon"><i class="fa fa-star"></i></span>
                 <input value="{{ $inscrito->decimal_nota }}" class="form-control" disabled>
                 <div class="input-group-btn">
-                	<!-- <button class="btn btn-success" data-toggle="modal" data-target=".modal-"><i class="fa fa-comment"></i>&nbsp;Visualizar Comentários</button> -->
+                	<button class="btn btn-success" data-toggle="modal" data-target=".modal-avaliacao"><i class="fa fa-comment"></i>&nbsp;Visualizar Comentários</button>
             	</div>
             </div>
         </div>

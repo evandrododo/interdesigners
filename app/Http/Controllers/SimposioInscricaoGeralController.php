@@ -36,7 +36,7 @@ class SimposioInscricaoGeralController extends Controller {
         $inscricao->facebook = $request->facebook;
         $inscricao->contatoemergencia = $request->contatoemergencia;
         $inscricao->telefoneemergencia = $request->telefoneemergencia;
-        $inscricao->cidadeestado = $request->cidadestado;
+        $inscricao->cidadeestado = $request->cidadeestado;
         $inscricao->instituicao_de_origem = $request->instituicao_de_origem;
         $inscricao->curso = $request->curso;
         $inscricao->anotermo = $request->anotermo;

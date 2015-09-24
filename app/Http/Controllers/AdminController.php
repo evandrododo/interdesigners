@@ -1,5 +1,7 @@
 <?php namespace App\Http\Controllers;
 use App\Simposio;
+use App\Inscricoes;
+use App\InscricoesGeraisSimposio;
 
 class AdminController extends Controller {
 
@@ -70,6 +72,28 @@ class AdminController extends Controller {
 		return view('admin.simposio.index', compact('inscritos'));
 	}
 
+	public function getInscritoGeral()
+	{
+		$inscritos = Inscricoes::all();
+		foreach ($inscritos as $inscrito) {			
+			$inscrito->acoes = 	'<a href="viewInscritoGeral/'.$inscrito->id.'"><i class="fa fa-2x fa-search"></i></a>'.
+								'&nbsp;&nbsp;<a href="'.$inscrito->comprovante.'" alt="Comprovante de Pagamento"><i class="fa fa-2x fa-money"></i></a>';
+								
+		}
+		return view('admin.evento.index', compact('inscritos'));
+	}
+
+	public function getInscritoSimposioGeral()
+	{
+		$inscritos = InscricoesGeraisSimposio::all();
+		foreach ($inscritos as $inscrito) {			
+			$inscrito->acoes = 	'<a href="viewInscritoSimposioGeral/'.$inscrito->id.'"><i class="fa fa-2x fa-search"></i></a>'.
+								'&nbsp;&nbsp;<a href="'.$inscrito->comprovante.'" alt="Comprovante de Pagamento"><i class="fa fa-2x fa-money"></i></a>';
+								
+		}
+		return view('admin.simposio.geral.index', compact('inscritos'));
+	}
+
 	/**
 	* Exibe Inscrito isoladamente
 	*
@@ -94,6 +118,20 @@ class AdminController extends Controller {
 		$inscrito->json_avaliacao = json_decode($inscrito->json_avaliacao);
 
 		return view('admin.simposio.view_inscrito', compact('inscrito'));
+	}
+
+	public function viewInscritoGeral($idInscrito)
+	{
+		$inscrito = Inscricoes::findOrFail($idInscrito);
+		
+		return view('admin.evento.view_inscrito', compact('inscrito'));
+	}
+
+	public function viewInscritoSimposioGeral($idInscrito)
+	{
+		$inscrito = InscricoesGeraisSimposio::findOrFail($idInscrito);
+		
+		return view('admin.simposio.geral.view_inscrito', compact('inscrito'));
 	}
 
 	/**

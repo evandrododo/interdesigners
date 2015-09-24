@@ -19,10 +19,25 @@
             <span>Programação</span>
         </a>
     </li>
+
     <li class="menu">
         <a class="" href="/admin/simposio">
             <i class="fa fa-newspaper-o"></i>
             <span>Simpósio</span>
+        </a>
+    </li>
+
+    <li class="menu">
+        <a class="" href="/admin/simposioGeral">
+            <i class="fa fa-newspaper-o"></i>
+            <span>Simpósio Geral</span>
+        </a>
+    </li>
+
+    <li class="menu">
+        <a class="" href="/admin/evento">
+            <i class="fa fa-flag"></i>
+            <span>Evento</span>
         </a>
     </li>
     @endif

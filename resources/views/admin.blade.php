@@ -41,52 +41,52 @@
   </head>
 
   <body>
+  <main>
+      <section id="container" >
+          <!--  TOP BAR CONTENT & NOTIFICATIONS -->
+          <!--header start-->
+          @include('admin.header');
+          <!--header end-->
 
-  <section id="container" >
-      <!--  TOP BAR CONTENT & NOTIFICATIONS -->
-      <!--header start-->
-      @include('admin.header');
-      <!--header end-->
-
-      <!--   MAIN SIDEBAR MENU -->
-      <!--sidebar start-->
-      <aside>
-          <div id="sidebar"  class="nav-collapse ">
-              <!-- sidebar menu start-->
-              @include('admin.sidebar');
-              <!-- sidebar menu end-->
-          </div>
-      </aside>
-      <!--sidebar end-->
-
-      <!-- **********************************************************************************************************************************************************
-      MAIN CONTENT
-      *********************************************************************************************************************************************************** -->
-      <!--main content start-->
-      <section id="main-content">
-          <section class="wrapper">
-
-            <div class="row">
-                <div class="col-lg-12 main-chart">
-                    @yield('content')
-                  </div><!-- /col-lg-12 END SECTION MIDDLE -->
+          <!--   MAIN SIDEBAR MENU -->
+          <!--sidebar start-->
+          <aside>
+              <div id="sidebar"  class="nav-collapse ">
+                  <!-- sidebar menu start-->
+                  @include('admin.sidebar');
+                  <!-- sidebar menu end-->
               </div>
+          </aside>
+          <!--sidebar end-->
+
+          <!-- **********************************************************************************************************************************************************
+          MAIN CONTENT
+          *********************************************************************************************************************************************************** -->
+          <!--main content start-->
+          <section id="main-content">
+              <section class="wrapper">
+
+                <div class="row">
+                    <div class="col-lg-12 main-chart">
+                        @yield('content')
+                      </div><!-- /col-lg-12 END SECTION MIDDLE -->
+                  </div>
+              </section>
           </section>
+
+          <!--main content end-->
+          <!--footer start-->
+          <footer class="site-footer">
+              <div class="text-center">
+                  Grupo Tesseract
+                  <a href="http://grupotesseract.com.br" class="go-top">
+                      <i class="fa fa-angle-up"></i>
+                  </a>
+              </div>
+          </footer>
+          <!--footer end-->
       </section>
-
-      <!--main content end-->
-      <!--footer start-->
-      <footer class="site-footer">
-          <div class="text-center">
-              Grupo Tesseract
-              <a href="http://grupotesseract.com.br" class="go-top">
-                  <i class="fa fa-angle-up"></i>
-              </a>
-          </div>
-      </footer>
-      <!--footer end-->
-  </section>
-
+    </main>
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/jquery-1.8.3.min.js"></script>
