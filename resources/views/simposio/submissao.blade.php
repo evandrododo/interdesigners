@@ -1,25 +1,4 @@
-
-<div class="modal fade modal-submissao" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="col-sm-12">
-
-				<h4><img src="/img/simposio/formulariodesubmissao.png" alt="Formulário de submissão"></h4>
-
-
-				{!! Form::open(['url' => 'inscricao', 'files' => true ]) !!}
-
-					@include('simposio._form_inscricao', ['btnSubmit' => 'SUBMETER'])
-
-				{!! Form::close() !!}
-
-			</div>
-			&nbsp;
-		</div>
-	</div>
-</div>
-
-<button type="button" class="btn-submissao" data-toggle="modal" data-target=".modal-submissao"><h4><img src="/img/simposio/formulariodesubmissao.png" alt="Formulário de submissão"><h4></button>
+<button type="button" class="btn-submissao" data-toggle="modal"><h4><img src="/img/simposio/submissao-encerrada.png" alt="Formulário de submissão" disabled><h4></button>
 
 
 <h4>
