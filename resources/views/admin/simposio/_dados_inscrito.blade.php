@@ -12,6 +12,9 @@
 									<h4 class="title"><i class="fa fa-graduation-cap"></i>  Avaliação do Professor: {{ $v }}</h4>
 									<ul style="padding-left: 20px">
 						    @endif
+						    @if($i == 'nota' && $v != '')
+						        	<li><b>Nota: </b>{{ $v }}</li>
+						    @endif
 						    @if($i == 'observacao_titulo' && $v != '')
 						        	<li><b>Título: </b>{{ $v }}</li>
 						    @endif
