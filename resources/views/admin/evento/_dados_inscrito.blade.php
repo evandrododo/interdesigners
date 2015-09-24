@@ -172,7 +172,7 @@
 	            <label class="form-label">Tamanho da comida</label>
 	            <div class="input-group">
 	                <span class="input-group-addon"><i class="fa fa-cubes"></i></span>
-	                <input value="{{ $inscrito->tipo_comida }}" class="form-control" disabled>
+	                <input value="{{ $inscrito->tamanho_comida }}" class="form-control" disabled>
 	            </div>
 	        </div>
 	        @endif

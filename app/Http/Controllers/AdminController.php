@@ -66,8 +66,8 @@ class AdminController extends Controller {
 		$inscritos = Simposio::all();
 		foreach ($inscritos as $inscrito) {			
 			$inscrito->acoes = 	'<a href="viewInscrito/'.$inscrito->id.'"><i class="fa fa-2x fa-search"></i></a>'.
-								'&nbsp;&nbsp;<a href="'.$inscrito->comprovante.'" alt="Comprovante de Pagamento"><i class="fa fa-2x fa-money"></i></a>'.
-								'&nbsp;&nbsp;<a href="'.$inscrito->arquivo.'" alt="Arquivo Simpósio"><i class="fa fa-2x fa-file-pdf-o"></i></a>';
+								'&nbsp;&nbsp;<a href="'.$inscrito->comprovante.'" alt="Comprovante de Pagamento" target="_blank"><i class="fa fa-2x fa-money"></i></a>'.
+								'&nbsp;&nbsp;<a href="'.$inscrito->arquivo.'" alt="Arquivo Simpósio" target="_blank"><i class="fa fa-2x fa-file-pdf-o"></i></a>';
 		}
 		return view('admin.simposio.index', compact('inscritos'));
 	}
@@ -77,7 +77,7 @@ class AdminController extends Controller {
 		$inscritos = Inscricoes::all();
 		foreach ($inscritos as $inscrito) {			
 			$inscrito->acoes = 	'<a href="viewInscritoGeral/'.$inscrito->id.'"><i class="fa fa-2x fa-search"></i></a>'.
-								'&nbsp;&nbsp;<a href="'.$inscrito->comprovante.'" alt="Comprovante de Pagamento"><i class="fa fa-2x fa-money"></i></a>';
+								'&nbsp;&nbsp;<a href="'.$inscrito->comprovante.'" alt="Comprovante de Pagamento" target="_blank"><i class="fa fa-2x fa-money"></i></a>';
 								
 		}
 		return view('admin.evento.index', compact('inscritos'));
@@ -88,7 +88,7 @@ class AdminController extends Controller {
 		$inscritos = InscricoesGeraisSimposio::all();
 		foreach ($inscritos as $inscrito) {			
 			$inscrito->acoes = 	'<a href="viewInscritoSimposioGeral/'.$inscrito->id.'"><i class="fa fa-2x fa-search"></i></a>'.
-								'&nbsp;&nbsp;<a href="'.$inscrito->comprovante.'" alt="Comprovante de Pagamento"><i class="fa fa-2x fa-money"></i></a>';
+								'&nbsp;&nbsp;<a href="'.$inscrito->comprovante.'" alt="Comprovante de Pagamento" target="_blank"><i class="fa fa-2x fa-money"></i></a>';
 								
 		}
 		return view('admin.simposio.geral.index', compact('inscritos'));
