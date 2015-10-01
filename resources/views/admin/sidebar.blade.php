@@ -2,9 +2,9 @@
     @if( Auth::check() && Auth::user()->id == 1)
         
     <li class="menu">
-        <a class="" href="/admin/home">
-            <i class="fa fa-dashboard"></i>
-            <span>Visão Geral</span>
+        <a class="" href="/admin/programacao">
+            <i class="fa fa-calendar"></i>
+            <span>Programação</span>
         </a>
     </li>
     <li class="menu">
@@ -13,13 +13,19 @@
             <span>Convidados</span>
         </a>
     </li>
+
     <li class="menu">
-        <a class="" href="/admin/programacao">
-            <i class="fa fa-calendar"></i>
-            <span>Programação</span>
+        <a class="" href="/admin/oficinas">
+            <i class="fa fa-street-view"></i>
+            <span>Oficinas</span>
         </a>
     </li>
-
+    <li class="menu">
+        <a class="" href="/admin/palestras">
+            <i class="fa fa-street-view"></i>
+            <span>Palestras</span>
+        </a>
+    </li>
     <li class="menu">
         <a class="" href="/admin/simposio">
             <i class="fa fa-newspaper-o"></i>

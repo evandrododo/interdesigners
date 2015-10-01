@@ -3,7 +3,7 @@
 @section('content')
     <h1>Atualizar Convidado</h1>
 
-  	{!! Form::model($convidado, ['method' => 'PATCH', 'action' => ['ConvidadosController@update', $convidado->id] ]) !!}
+  	{!! Form::model($convidado, ['method' => 'PATCH', 'action' => ['ConvidadosController@update', $convidado->id], 'files'=>true ]) !!}
 
 		@include('admin.convidados._form', ['btnSubmit' => 'Atualizar Dados']);
 

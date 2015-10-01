@@ -40,36 +40,26 @@ class ConvidadosController extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		// $convidado = new Convidado;
+		 $convidado = new Convidado;
 
-  //       $convidado->nome = $request->nome;
-  //       $convidado->descricao = $request->descricao;
+         $convidado->nome = $request->nome;
+         $convidado->descricao = $request->descricao;
 
-		// $file = Input::file('foto');
-		// if ($file) {
-		// 	$destinationPath = public_path() . '/uploads/';
-		// 	$filename = $file->getClientOriginalName();
-		// 	$upload_success = $file->move($destinationPath, $filename);
+		 $file = Input::file('foto');
+		 if ($file) {
+		 	$destinationPath = public_path() . '/uploads/';
+		 	$filename = $file->getClientOriginalName();
+		 	$upload_success = $file->move($destinationPath, $filename);
 
-		// 	if ($upload_success) {
-		// 		$convidado->foto = '/uploads/' . $filename;
-		// 	}
-		// }
-  //       $convidado->save();
+		 	if ($upload_success) {
+		 		$convidado->foto = '/uploads/' . $filename;
+		 	}
+		 }
+         $convidado->save();
 
-		// return redirect('admin/convidados');
+		 return redirect('admin/convidados');
 	}
 
-	/**
-	 * Display the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function show($id)
-	{
-		//
-	}
 
 	/**
 	 * Show the form for editing the specified resource.
@@ -95,25 +85,23 @@ class ConvidadosController extends Controller {
 
 		$convidado = Convidado::findOrFail($id);
 
-		/*
-		$file = Input::file('image');
+
+		$file = Input::file('foto');
 		if ($file) {
-			$destinationPath = public_path() . '/uploads/';
-			$filename = self::formatFileNameWithUserAndTimestamps($file->getClientOriginalName());
-			$upload_success = $file->move($destinationPath, $filename);
+		 	$destinationPath = public_path() . '/uploads/';
+		 	$filename = $file->getClientOriginalName();
+		 	$upload_success = $file->move($destinationPath, $filename);
 
-			if ($upload_success) {
-				$convidado->foto = $destinationPath . $filename;
-			}
+		 	if ($upload_success) {
+		 		$convidado->foto = '/uploads/' . $filename;
+		 	}
 		}
-		*/
 
-        $convidado->nome = $request->nome;
-        $convidado->descricao = $request->descricao;
+                $convidado->nome = $request->nome;
+                $convidado->descricao = $request->descricao;
 
 		$convidado->save();
-
-		return redirect('admin/convidados');
+		return redirect()->route('admin/convidados');
 
 	}
 
@@ -125,7 +113,13 @@ class ConvidadosController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		//
+            $convidado = Convidado::findOrFail($id);
+
+            $convidado->delete();
+
+
+            $convidados = Convidado::all();
+            return view('admin.convidados.index', compact('convidados'));
 	}
 
 }
