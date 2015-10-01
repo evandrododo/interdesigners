@@ -2,13 +2,13 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Convidado;
-use App\Http\Requests\EditarConvidadoRequest;
+use App\Palestra;
+use App\Http\Requests\EditarPalestraRequest;
 use Input;
 
 use Illuminate\Http\Request;
 
-class ConvidadosController extends Controller {
+class PalestrasController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -17,9 +17,9 @@ class ConvidadosController extends Controller {
 	 */
 	public function index()
 	{
-		$convidados = Convidado::all();
+		$palestras = Palestra::all();
 
-		return view('admin.convidados.index', compact('convidados'));
+		return view('admin.palestras.index', compact('palestras'));
 	}
 
 	/**
@@ -30,7 +30,7 @@ class ConvidadosController extends Controller {
 	public function create()
 	{
 
-		return view('admin.convidados.create');
+		return view('admin.palestras.create');
 	}
 
 	/**
@@ -40,10 +40,10 @@ class ConvidadosController extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		 $convidado = new Convidado;
+		 $palestra = new Palestra;
 
-         $convidado->nome = $request->nome;
-         $convidado->descricao = $request->descricao;
+         $palestra->nome = $request->nome;
+         $palestra->descricao = $request->descricao;
 
 		 $file = Input::file('foto');
 		 if ($file) {
@@ -52,12 +52,12 @@ class ConvidadosController extends Controller {
 		 	$upload_success = $file->move($destinationPath, $filename);
 
 		 	if ($upload_success) {
-		 		$convidado->foto = '/uploads/' . $filename;
+		 		$palestra->foto = '/uploads/' . $filename;
 		 	}
 		 }
-         $convidado->save();
+         $palestra->save();
 
-		 return redirect('admin/convidados');
+		 return redirect('admin/palestras');
 	}
 
 
@@ -69,9 +69,9 @@ class ConvidadosController extends Controller {
 	 */
 	public function edit($id)
 	{
-		$convidado = Convidado::findOrFail($id);
+		$palestra = Palestra::findOrFail($id);
 
-		return view('admin.convidados.edit', compact('convidado'));
+		return view('admin.palestras.edit', compact('palestra'));
 	}
 
 	/**
@@ -80,10 +80,10 @@ class ConvidadosController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id, EditarConvidadoRequest $request)
+	public function update($id, EditarPalestraRequest $request)
 	{
 
-		$convidado = Convidado::findOrFail($id);
+		$palestra = Palestra::findOrFail($id);
 
 
 		$file = Input::file('foto');
@@ -93,15 +93,15 @@ class ConvidadosController extends Controller {
 		 	$upload_success = $file->move($destinationPath, $filename);
 
 		 	if ($upload_success) {
-		 		$convidado->foto = '/uploads/' . $filename;
+		 		$palestra->foto = '/uploads/' . $filename;
 		 	}
 		}
 
-                $convidado->nome = $request->nome;
-                $convidado->descricao = $request->descricao;
+                $palestra->nome = $request->nome;
+                $palestra->descricao = $request->descricao;
 
-		$convidado->save();
-		return redirect('admin/convidados');
+		$palestra->save();
+		return redirect('admin/palestras');
 
 	}
 
@@ -113,13 +113,15 @@ class ConvidadosController extends Controller {
 	 */
 	public function destroy($id)
 	{
-            $convidado = Convidado::findOrFail($id);
+            $palestra = Palestra::findOrFail($id);
 
-            $convidado->delete();
+            $palestra->delete();
 
 
-            $convidados = Convidado::all();
-            return view('admin.convidados.index', compact('convidados'));
+            $palestras = Palestra::all();
+            return view('admin.palestras.index', compact('palestras'));
 	}
+
+	//
 
 }

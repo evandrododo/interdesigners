@@ -16,13 +16,13 @@
 
     <li class="menu">
         <a class="" href="/admin/oficinas">
-            <i class="fa fa-street-view"></i>
+            <i class="fa fa-cubes"></i>
             <span>Oficinas</span>
         </a>
     </li>
     <li class="menu">
         <a class="" href="/admin/palestras">
-            <i class="fa fa-street-view"></i>
+            <i class="fa fa-comment"></i>
             <span>Palestras</span>
         </a>
     </li>
