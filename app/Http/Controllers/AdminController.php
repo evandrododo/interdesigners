@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 use App\Simposio;
+use App\User;
 use App\Inscricoes;
 use App\InscricoesGeraisSimposio;
 
@@ -116,6 +117,9 @@ class AdminController extends Controller {
 			$inscrito->autor6 = ', ' . $inscrito->autor6;
 		
 		$inscrito->json_avaliacao = json_decode($inscrito->json_avaliacao);
+		foreach ($inscrito->json_avaliacao as $key => $value) {
+			$value->professor = User::find($value->professor)->name;
+		}
 
 		return view('admin.simposio.view_inscrito', compact('inscrito'));
 	}
