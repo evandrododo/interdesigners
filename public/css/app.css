@@ -6530,6 +6530,7 @@ h4 img {
 .conteudo-interno {
   position: relative;
   height: 50%;
+  overflow-x: hidden;
   overflow-y: scroll;
 }
 .conteudo-interno > div {
@@ -6539,6 +6540,7 @@ h4 img {
   top: 0;
   position: absolute;
   display: none;
+  width: 97%;
 }
 .conteudo-interno > div.ativo {
   opacity: 1;
@@ -6686,6 +6688,32 @@ span.fundo-roxo {
 }
 .modal-open .modal-backdrop {
   display: none;
+}
+.titulo-secao {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.foto-secao img {
+  border-radius: 2em;
+  overflow: hidden;
+}
+.margin-b-1 {
+  margin-bottom: 1em;
+}
+.padding-bt-1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.zebra:nth-child(odd) {
+  background-color: #ddd;
+}
+div a {
+  color: #424A5D;
 }
 
 /*# sourceMappingURL=app.css.map */

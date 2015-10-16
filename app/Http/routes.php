@@ -30,6 +30,8 @@ Route::get('evento', 'EventoController@index');
 Route::get('programacao', 'ProgramacaoController@index');
 
 Route::get('admin/convidados', ['uses' => 'ConvidadosController@index', 'middleware' => 'auth']);
+Route::get('admin/oficinas', ['uses' => 'OficinasController@index', 'middleware' => 'auth']);
+Route::get('admin/palestras', ['uses' => 'PalestrasController@index', 'middleware' => 'auth']);
 Route::get('admin/evento', ['uses' => 'AdminController@getInscritoGeral', 'middleware' => 'auth']);
 Route::get('admin/simposioGeral', ['uses' => 'AdminController@getInscritoSimposioGeral', 'middleware' => 'auth']);
 Route::get('admin/correcao', ['uses' => 'CorrecaoController@index', 'middleware' => 'auth']);
@@ -39,6 +41,8 @@ Route::get('admin/viewInscritoGeral/{id}', ['uses' => 'AdminController@viewInscr
 Route::get('admin/viewInscritoSimposioGeral/{id}', ['uses' => 'AdminController@viewInscritoSimposioGeral', 'middleware' => 'auth']);
 
 Route::resource('convidado','ConvidadosController');
+Route::resource('oficina','OficinasController');
+Route::resource('palestra','PalestrasController');
 Route::resource('inscricao','SimposioInscricaoController');
 Route::resource('correcao','CorrecaoController');
 Route::resource('submitInscricao','SimposioInscricaoGeralController');

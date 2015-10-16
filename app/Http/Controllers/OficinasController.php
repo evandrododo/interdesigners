@@ -2,13 +2,13 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Convidado;
-use App\Http\Requests\EditarConvidadoRequest;
+use App\Oficina;
+use App\Http\Requests\EditarOficinaRequest;
 use Input;
 
 use Illuminate\Http\Request;
 
-class ConvidadosController extends Controller {
+class OficinasController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -17,9 +17,9 @@ class ConvidadosController extends Controller {
 	 */
 	public function index()
 	{
-		$convidados = Convidado::all();
+		$oficinas = Oficina::all();
 
-		return view('admin.convidados.index', compact('convidados'));
+		return view('admin.oficinas.index', compact('oficinas'));
 	}
 
 	/**
@@ -30,7 +30,7 @@ class ConvidadosController extends Controller {
 	public function create()
 	{
 
-		return view('admin.convidados.create');
+		return view('admin.oficinas.create');
 	}
 
 	/**
@@ -40,10 +40,10 @@ class ConvidadosController extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		 $convidado = new Convidado;
+		 $oficina = new Oficina;
 
-         $convidado->nome = $request->nome;
-         $convidado->descricao = $request->descricao;
+         $oficina->nome = $request->nome;
+         $oficina->descricao = $request->descricao;
 
 		 $file = Input::file('foto');
 		 if ($file) {
@@ -52,12 +52,12 @@ class ConvidadosController extends Controller {
 		 	$upload_success = $file->move($destinationPath, $filename);
 
 		 	if ($upload_success) {
-		 		$convidado->foto = '/uploads/' . $filename;
+		 		$oficina->foto = '/uploads/' . $filename;
 		 	}
 		 }
-         $convidado->save();
+         $oficina->save();
 
-		 return redirect('admin/convidados');
+		 return redirect('admin/oficinas');
 	}
 
 
@@ -69,9 +69,9 @@ class ConvidadosController extends Controller {
 	 */
 	public function edit($id)
 	{
-		$convidado = Convidado::findOrFail($id);
+		$oficina = Oficina::findOrFail($id);
 
-		return view('admin.convidados.edit', compact('convidado'));
+		return view('admin.oficinas.edit', compact('oficina'));
 	}
 
 	/**
@@ -80,10 +80,10 @@ class ConvidadosController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id, EditarConvidadoRequest $request)
+	public function update($id, EditarOficinaRequest $request)
 	{
 
-		$convidado = Convidado::findOrFail($id);
+		$oficina = Oficina::findOrFail($id);
 
 
 		$file = Input::file('foto');
@@ -93,15 +93,15 @@ class ConvidadosController extends Controller {
 		 	$upload_success = $file->move($destinationPath, $filename);
 
 		 	if ($upload_success) {
-		 		$convidado->foto = '/uploads/' . $filename;
+		 		$oficina->foto = '/uploads/' . $filename;
 		 	}
 		}
 
-                $convidado->nome = $request->nome;
-                $convidado->descricao = $request->descricao;
+                $oficina->nome = $request->nome;
+                $oficina->descricao = $request->descricao;
 
-		$convidado->save();
-		return redirect('admin/convidados');
+		$oficina->save();
+		return redirect('admin/oficinas');
 
 	}
 
@@ -113,13 +113,13 @@ class ConvidadosController extends Controller {
 	 */
 	public function destroy($id)
 	{
-            $convidado = Convidado::findOrFail($id);
+            $oficina = Oficina::findOrFail($id);
 
-            $convidado->delete();
+            $oficina->delete();
 
 
-            $convidados = Convidado::all();
-            return view('admin.convidados.index', compact('convidados'));
+            $oficinas = Oficina::all();
+            return view('admin.oficinas.index', compact('oficinas'));
 	}
 
 }

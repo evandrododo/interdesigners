@@ -3,6 +3,8 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Convidado;
+use App\Oficina;
+use App\Palestra;
 
 use Illuminate\Http\Request;
 
@@ -17,9 +19,9 @@ class ProgramacaoController extends Controller {
 	public function index()
 	{
 		$convidados = Convidado::all();
-		$oficinas = Convidado::all();
-		$palestras = Convidado::all();
-		return view('programacao',compact('convidados'))->with('paginaAtual','programacao');
+		$oficinas = Oficina::all();
+		$palestras = Palestra::all();
+		return view('programacao',compact('oficinas','palestras','convidados'))->with('paginaAtual','programacao');
 	}
 
 }
