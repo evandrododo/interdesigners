@@ -6,7 +6,7 @@
 		<span>8h</span>
 	</div>
 	<div class="col-sm-9 roxo">
-		<span>Credenciamento e fixação de painéis</span>
+		<span>Credenciamento</span>
 	</div>
 </div>
 <div class="col-sm-12">
@@ -14,7 +14,7 @@
 		<span>10h</span>
 	</div>
 	<div class="col-sm-9 azul">
-		<span>Palestra de Abertura</span>
+		<span>Palestra - <b>As Múltiplas Facetas da Pesquisa</b> com a PROPe Maria José S. M. Giannini</span>
 	</div>
 </div>
 <div class="col-sm-12">
@@ -30,7 +30,7 @@
 		<span>14h</span>
 	</div>
 	<div class="col-sm-9 roxo">
-		<span>Sessão de painéis</span>
+		<span>Fixação de painéis</span>
 	</div>
 </div>
 <div class="col-sm-12">
@@ -46,7 +46,7 @@
 		<span>17h</span>
 	</div>
 	<div class="col-sm-9 azul">
-		<span>Palestra</span>
+		<span>Palestra - Práticas Interdisciplinares em Design: Tecnologia e Inovação</b> com Prof. Dr. Rosinei</span>
 	</div>
 </div>
 <div class="col-sm-12">
@@ -54,7 +54,7 @@
 		<span>19h</span>
 	</div>
 	<div class="col-sm-9 roxo">
-		<span>Mesa Redonda</span>
+		<span>Mesa Redonda - Como pesquisar mudou minha carreira</span>
 	</div>
 </div>
 <h4 class="titulo-quarta">
@@ -65,7 +65,7 @@
 		<span>8h</span>
 	</div>
 	<div class="col-sm-9 roxo">
-		<span>Credenciamento e fixação de painéis</span>
+		<span>Credenciamento</span>
 	</div>
 </div>
 <div class="col-sm-12">
@@ -73,7 +73,7 @@
 		<span>10h</span>
 	</div>
 	<div class="col-sm-9 azul">
-		<span>Palestra</span>
+                    <span>Palestra - <b>A formação do designer crítico como potencial inovador</b> com Carolina Vaitiekunas Pizarro</span>
 	</div>
 </div>
 <div class="col-sm-12">
@@ -89,7 +89,7 @@
 		<span>14h</span>
 	</div>
 	<div class="col-sm-9 roxo">
-		<span>Sessão de painéis</span>
+		<span>Apresentação de painéis</span>
 	</div>
 </div>
 <div class="col-sm-12">
@@ -105,6 +105,6 @@
 		<span>17h</span>
 	</div>
 	<div class="col-sm-9 azul">
-		<span>Encerramento do Simpósio</span>
+		<span>Encerramento do Simpósio e Premiação</span>
 	</div>
 </div>

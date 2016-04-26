@@ -40,8 +40,7 @@
 
 					<ul>
 						<li>1º Lote: R$65 - Até o dia 23/09</li>
-						<li>2º Lote: R$75 - Até o dia 20/10</li>
-						<li>3º Lote: R$85 - Até o dia 5/11</li>
+						<li>2º Lote: R$75 - Até o dia 05/11</li>
 					</ul>
 					<p>
 						Para quem participar do 2º Simpósio Interdesigners, haverá um desconto de R$5 (5 reais) na inscrição básica do Interdesigners Reflexo.
