@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /inscricao/
+    RewriteRule ^main\.php$ - [L]
+    RewriteRule !\.(js|ico|gif|jpg|png|pdf|css|otf|ttf|eot|woff|svg|txt|html)$ /inscricao/main.php [L]
+</IfModule>

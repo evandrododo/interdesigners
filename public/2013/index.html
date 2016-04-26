@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<!--
+* Desenvolvido por LTIA - Laboratório de Tecnologia da Informação Aplicada.
+* Programador: Gabriel Oliveira.
+* Designer: 
+* 
+-->
+<html>
+	<head>
+		<title>interdesigners 2013</title>
+		<meta charset="utf-8">
+		<meta http-equiv="cache-control" content="no-cache" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrollto.js"></script>
+		<script type="text/javascript" src="js/jquery.fn.js"></script>
+	</head>
+	<body>
+		<div id="inicio" class="page">	
+			<div id="logo-inter">
+				<img src="img/logo-inter.png" class="fltLeft" />
+				<div id="data" class="fltLeft">
+					<p>23 a 26/10</p>
+					<p>UNESP Bauru</p>
+					<iframe src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Finterdesigners&amp;width=400&amp;height=60&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;send=false&amp;appId=124607100952041" scrolling="no" frameborder="0" style="margin-top:10px;border:none; overflow:hidden; width:400px; height:60px;" allowTransparency="true"></iframe>
+				</div>
+				<br clear="left" />
+			</div>
+			<div id="fitas">
+				<div id="fita-verde-r"></div>
+				<div id="fita-verde" class="fita">
+					<img src="img/fitas-novas/fita-verde-01.png" />
+					<img src="img/fitas-novas/fita-verde-02.png" />
+					<img src="img/fitas-novas/fita-verde-03.png" />
+					<img src="img/fitas-novas/fita-verde-04.png" />
+					<div id="fita-verde-05">
+						<center><a href="#!/evento" class="navigate">Evento</a></center>
+					</div>
+				</div>
+				<div id="fita-rosa-r"></div>
+				<div id="fita-rosa" class="fita">
+					<img src="img/fitas-novas/fita-rosa-01.png" style="margin-left:-123px;" />
+					<img src="img/fitas-novas/fita-rosa-02.png" />
+					<img src="img/fitas-novas/fita-rosa-03.png" />
+					<img src="img/fitas-novas/fita-rosa-04.png" />
+					<div id="fita-rosa-05">
+						<center><a href="#!/inscricoes" class="navigate">Inscrições</a></center>
+					</div>
+				</div>
+				<div id="fita-laranja-r"></div>
+				<div id="fita-laranja" class="fita">
+					<img src="img/fitas-novas/fita-laranja-01.png" style="margin-left:-24px;"/>
+					<img src="img/fitas-novas/fita-laranja-02.png" style="margin-left:49px;" />
+					<img src="img/fitas-novas/fita-laranja-03.png" style="margin-left:49px;" />
+					<div id="fita-laranja-04">
+						<center><a href="#!/programacao" class="navigate">Programação</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="inscricoes" class="page">
+			<div id="texto-inscricoes" class="textos">
+				<h3>Encontristas</h3>
+				<p> 23/10, das 8h às 11h, no <a href="#!/programacao" class="navigate" onclick="programacao('cronograma'); janela('#programacao-janela')">Credenciamento!</a></p>
+				<span>Lá (no Guilhermão) você se inscreve para participar do evento, ganha o kit de encontrista com camiseta e outros brindes e a entrada da festa de encerramento!</span>
+				<div class="mascara"></div>
+				<div id="encontristas-janela" class="janela">
+					<a class="fechar">fechar</a>
+					<iframe src="https://docs.google.com/forms/d/1128WYmE3bgSSSoyy33jEJX5pPsqpGsQhqdtlgaMLzDQ/viewform" frameborder="0"></iframe>
+				</div>
+				<h3>Oficineiros</h3>
+				<p> (até 20 de setembro) <a style="text-decoration:line-through">Inscreva-se!</a></p>
+				<span>Aqui você se inscreve para participar do evento e para ministrar uma oficina! Se sua oficina for aprovada, a gente devolve $15 para você depois que você cumprir seu dever como oficineiro! </span>
+				<h3>Apoios</h3>
+				<p> (até 20 de setembro) <a style="text-decoration:line-through">Inscreva-se!</a></p>
+				<span>Aqui você se inscreve para participar do evento como apoio! Lembre-se: se você se inscreveu aqui, não se inscreva nos outros editais! Se você for aprovado, o evento é na faixa!</span>
+				<h3>Registro</h3>
+				<p> (até 20 de setembro) <a style="text-decoration:line-through">Inscreva-se!</a></p>
+				<span>Se você adora tirar fotos e quer ajudar no evento - e de quebra não pagar nadinha pra participar - esse é o link certo! Lembre-se: se você se inscreveu aqui, não se inscreva em outros editais! </span>
+			</div>
+			<div id="titulo-inscricoes">
+				<p class="texto">Inscrições</p>
+			</div>
+			<div id="botoes-inscricoes">
+				<p><a href="#!/inicio" class="navigate">Início</a></p>
+				<p><a href="#!/programacao" class="navigate">Programação</a></p>
+				<p><a href="#!/evento" class="navigate">Evento</a></p>
+			</div>
+			<div id="fita-laranja-topo" class="fita">
+				<img src="img/fitas-novas/fita-laranja-topo-01.png" />
+				<img src="img/fitas-novas/fita-laranja-topo-02.png" />
+				<img src="img/fitas-novas/fita-laranja-topo-03.png" />
+				<img src="img/fitas-novas/fita-laranja-topo-04.png" />
+				<img src="img/fitas-novas/fita-laranja-topo-05.png" />
+				<img src="img/fitas-novas/fita-laranja-topo-06.png" />
+				<img src="img/fitas-novas/fita-laranja-topo-05.png" />
+				<img src="img/fitas-novas/fita-laranja-topo-04.png" />
+				<img src="img/fitas-novas/fita-laranja-topo-03.png" />
+				<img src="img/fitas-novas/fita-laranja-topo-02.png" />
+				<img src="img/fitas-novas/fita-laranja-topo-01.png" />
+			</div>
+			<div id="fita-verde-topo" class="fita-vert">
+				<img src="img/fitas-novas/fita-verde-topo-01.png" />
+				<img src="img/fitas-novas/fita-verde-topo-02.png" />
+				<img src="img/fitas-novas/fita-verde-topo-03.png" />
+				<img src="img/fitas-novas/fita-verde-topo-04.png" />
+				<img src="img/fitas-novas/fita-verde-topo-05.png" />
+				<img src="img/fitas-novas/fita-verde-topo-06.png" />
+			</div>
+			<div id="fita-rosa-topo" class="fita-vert">
+				<img src="img/fitas-novas/fita-rosa-topo-01.png" />
+				<img src="img/fitas-novas/fita-rosa-topo-02.png" />
+			</div>
+			<div id="fita-rosa-grande"><img src="img/fitas-novas/fita-rosa-grande.png" /></div>
+			<div id="fita-verde-grande"><img src="img/fitas-novas/fita-verde-grande.png" /></div>
+			<div id="fita-verde-baixo"></div>
+			<div id="fita-laranja-grande"><img src="img/fitas-novas/fita-laranja-grande.png" /></div>
+			<div id="fita-laranja-baixo"></div>
+		</div>
+		<div id="evento" class="page">
+			<div id="texto-evento" class="textos">
+				<h3>O Interdesigners</h3>
+				<p>O Interdesigners é um evento anual da UNESP de Bauru, que reúne alunos, profissionais e docentes promovendo a troca de informações, a discussão e a prática do Design e áreas relacionadas.</p>
+				<p>Organizado pelos estudantes dos cursos de Design Gráfico e Design de Produto, com o apoio do Departamento de Design e da Faculdade de Arquitetura, Artes e Comunicação, a primeira edição do evento foi realizada em 1991. Tendo sua importância consolidada ao longo dos anos, agora apresenta sua 15ª edição que ocorrerá nos dias 23, 24, 25 e 26 de Outubro de 2013 no Campus da UNESP de Bauru.</p>
+				<h3 style="margin-top:20px;">A edição 2013</h3>
+				<p>15 edições de Inter!</p>
+				<p>Neste ano, o tema do Interdesigners é Nós, uma ideia que remete a coletividade e conexões. Nenhum de nós está sozinho: sempre há laços que nos mantém em movimento; sempre estamos amarrados a algo ou alguém e há redes por toda parte.</p>
+				<p>O Interdesigners é apenas uma de muitas delas.</p>
+				<p>O evento tem diversas linhas, cada uma delas cruzando-se com diversas outras. Cabe a cada eu fazer seus próprios nós, e continuar amarrando pelo mundo afora, porque aqui é só o começo.</p>
+				<p class="rosa">Comissão Organizadora do Interdesigners (COIDE 2013)</p>
+			</div>
+			<div id="botoes-evento">
+				<p><a href="#!/inicio" class="navigate">Início</a></p>
+				<p style="padding-top:16px;"><a href="#!/programacao" class="navigate">Programação</a></p>
+				<p><a href="#!/inscricoes" class="navigate">Inscrições</a></p>
+			</div>
+			<div id="fita-verde-tudo">
+				<p class="texto">O Evento</p>
+			</div>
+			<div class="patrocinio">
+				<h3>Patrocínio:</h3>
+				<br/>
+				<a href="http://www.ictusbrindes.com.br" target="_blank"><img src="img/logos/logos-02.png"/></a>
+				<a href="http://www.zupi.com.br" target="_blank"><img style="max-height:50px;" src="img/logos/zupi.png"/></a>
+				<a href="http://www.2design.com.br/" target="_blank"><img src="img/logos/logos-04.png"/></a>
+				<a href="https://www.facebook.com/impricolor" target="_blank"><img src="img/logos/logos-05.png"/></a>
+				<a href="http://www.computerarts.com.br/" target="_blank"><img src="img/logos/computerarts.png"/></a>
+				<a href="http://www.lecom.com.br" target="_blank"><img src="img/logos/lecom.png"/></a>
+				<a><img src="img/logos/papel.png"/></a>				
+			</div>
+			<div class="patrocinio apoio">
+				<h3>Apoio:</h3>
+				<br/>
+				<a href="http://www.faac.unesp.br/#47,47" target="_blank"><img src="img/logos/logos-07.png"/></a>
+				<a href="http://www.faac.unesp.br/" target="_blank"><img src="img/logos/logos-08.png"/></a>
+				<a href="http://www.ltia.fc.unesp.br/" target="_blank"><img src="img/logos/logos-09.png"/></a>
+				<a href="https://www.bauru.unesp.br/" target="_blank"><img src="img/logos/logos-06.png"/></a>
+			</div>
+			<div id="fita-laranja-lateral" class="fita-vert">
+				<img src="img/fitas-novas/fita-laranja-v-06.png" />
+				<img src="img/fitas-novas/fita-laranja-v-05.png" />
+				<img src="img/fitas-novas/fita-laranja-v-04.png" />
+				<img src="img/fitas-novas/fita-laranja-v-05.png" />
+				<img src="img/fitas-novas/fita-laranja-v-06.png" />
+			</div>
+		</div>
+		<div id="programacao" class="page">
+			<div id="fita-verde-grande-02">
+				<img src="img/fitas-novas/fita-verde-grande-02.png" />
+			</div>
+			<div id="botoes-programacao">
+				<p><a href="#!/inicio" class="navigate">Início</a></p>
+				<p><a href="#!/inscricoes" class="navigate">Inscrições</a></p>
+				<p><a href="#!/evento" class="navigate">Evento</a></p>
+			</div>
+			<div id="titulo-programacao">
+				<p class="texto">Programação</p>
+			</div>
+			<div id="botao-cronograma" class="fita-verde-p-05">
+				<p><center><a href="javascript:programacao('cronograma'); janela('#programacao-janela')">Cronograma</a></center></p>
+			</div>
+			<div class="mascara"></div>
+			<div id="programacao-janela" class="janela">
+				<a class="fechar">fechar</a>
+				<table class="cronograma" border="0">
+					<tbody>
+						<tr>
+							<td class="hora">clique na atividade e veja a descrição e o local</td>
+							<td class="palestra naoclica">Palestras</td>
+							<td class="oficina naoclica">Oficinas</td>
+							<td class="convidados"><em>Convidados Especiais</em></td>
+							<td class="paralela naoclica">Atividades paralelas</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="cronograma">
+					<h3>23/10 - Quarta-feira</h3>
+					<table border="0">
+						<tbody>
+							<tr>
+								<td class="hora">8:00 </td>
+								<td colspan="4" class="horario naoclica"><p>Credenciamento - Anfiteatro Guilherme R. Ferraz ( Guilhermão )<br/><br/><br/></p></td>
+							</tr>
+							<tr>
+								<td class="hora">11:00 </td>
+								<td colspan="4" class="palestra naoclica"><p>Abertura - Anfiteatro Guilherme R. Ferraz ( Guilhermão )</p></td>
+							</tr>
+							<tr>
+								<td class="hora">12:00 </td>
+								<td class="horario" colspan="3" rowspan="2" onclick="atividade('almoco');"><p>Almoço e Banda</p></td>
+								<td class="paralela" rowspan="2" onclick="atividade('bazar');"><p>Bazar</p></td>
+							</tr>
+							<tr>
+								<td class="hora">13:00 </td>
+							</tr>
+							<tr>
+								<td class="hora">14:00 </td>
+								<td class="oficina" onclick="atividade('rodolfonogueira');"><p><em>Rodolfo Nogueira</em> - paleoarte com softwares Maya e Zbrush</p></td>
+								<td rowspan="2" class="oficina" onclick="atividade('givemeasign');"><p>Give me a sign (Design Júnior)</p></td>
+								<td rowspan="2" class="oficina" onclick="atividade('designcorporal');"><p>Design Corporal</p></td>
+								<td rowspan="2" class="paralela" onclick="atividade('painelr');"><p>Painel R - como misturar e repensar desenhos</p></td>
+							</tr>
+							<tr>
+								<td class="hora">16:00 </td>
+								<td class="palestra" onclick="atividade('hugohissashi');"><p><em>Hugo Hissashi</em> - design automotivo<br/><br/></p></td>
+							</tr>
+							<tr>
+								<td class="hora">18:00 </td>
+								<td class="horario" colspan="3" onclick="atividade('coffeebreak');"><p>Coffee Break</p></td>
+								<td class="paralela" onclick="atividade('bazar');"><p>Bazar</p></td>
+
+							</tr>
+							<tr>
+								<td class="hora">19:00 </td>
+								<td class="palestra" onclick="atividade('heloisacatalanipalestra');"><p><em>Heloísa Catalani</em> - bate-papo sobre carreira em editoria</p></td>
+								<td class="oficina" onclick="atividade('luminariasraiox');"><p>Luminárias Raio-X (Labsol)</p></td>
+								<td class="paralela" rowspan="2" onclick="atividade('dancascirculares');"><p>Danças circulares</p></td>
+								<td class="paralela" onclick="atividade('merdafonicas');"><p>Merdafônicas</p></td>
+							</tr>
+							<tr>
+								<td class="hora">21:00 </td>
+								<td class="palestra" onclick="atividade('celticbotan');"><p><em>Celtic Botan</em> - pintura digital e curiosidades de um processo criativo para ilustração</p></td>
+								<td class="palestra" onclick="atividade('nospalestra');"><p>Nós</p></td>
+							</tr>
+						</tbody>
+					</table>
+					<h3>24/10 - Quinta-feira</h3>
+					<table border="0">
+						<tbody>
+							<tr>
+								<td class="hora">8:00 </td>
+								<td class="oficina" onclick="atividade('fernandokebex');"><p style="width:261px"><em>Fernando Kebex</em> - audiovisual, motion graphics e efeitos (parte 1)</p></td>
+								<td class="oficina" onclick="atividade('panoramagnomon');"><p>Panorama GNOMON</p></td>
+								<td class="oficina" onclick="atividade('designdeprodutoculturahacker');"><p>Design de Produto + Cultura Hacker</p></td>
+								<td class="paralela" rowspan="2" onclick="atividade('nosnovirtual');"><p>Nós no virtual</p></td>
+							</tr>
+							<tr>
+								<td class="hora">10:00 </td>
+								<td class="palestra" onclick="atividade('carolpizarro');"><p><em>Carol Pizarro</em> - experiência em concursos de Design de Produto</p></td>
+								<td class="oficina" onclick="atividade('personagenspraanimacao');"><p>Personagens pra animação!</p></td>
+								<td class="oficina" onclick="atividade('sketchgourmet');"><p>Sketch Gourmet</p></td>
+							</tr>
+							<tr>
+								<td class="hora">12:00 </td>
+								<td class="horario" colspan="3" rowspan="2" onclick="atividade('almoco');"><p>Almoço e Banda</p></td>
+								<td class="paralela" rowspan="2" onclick="atividade('bazar');"><p>Bazar</p></td>
+							</tr>
+							<tr>
+								<td class="hora">13:00 </td>
+							</tr>
+							<tr>
+								<td class="hora">14:00 </td>
+								<td class="palestra" onclick="atividade('felipebozo');"><p><em>Felipe Bozo</em> - o lado B do trabalho de estúdio</p></td>
+								<td class="oficina" onclick="atividade('portafolio');"><p>Portafólio</p></td>
+								<td rowspan="2" class="oficina" onclick="atividade('encadernacao');"><p>Encadernação (Inky Design)</p></td>
+							</tr>
+							<tr>
+								<td class="hora">16:00 </td>
+								<td class="oficina" onclick="atividade('heloisacatalanioficina');"><p><em>Heloísa Catalani</em> - fechamento de arquivo pré-impressão editoria</p></td>
+								<td class="oficina" onclick="atividade('lockpicking');"><p>Lockpicking</p></td>
+								<td class="paralela" onclick="atividade('unesplay');"><p>UNESPLAY</p></td>
+							</tr>
+							<tr>
+								<td class="hora">18:00 </td>
+								<td class="horario" colspan="3" onclick="atividade('coffeebreak');"><p>Coffee Break</p></td>
+								<td class="paralela" onclick="atividade('bazar');"><p>Bazar</p></td>
+							</tr>
+							<tr>
+								<td class="hora">19:00 </td>
+								<td class="palestra" onclick="atividade('juniao');"><p><em>Junião</em> - processo de criação com mostra de cases</p></td>
+								<td class="oficina" onclick="atividade('cetemdado');"><p>Cê tem dado?<br/><br/></p></td>
+								<td class="oficina" rowspan="2" onclick="atividade('valeria');"><p><em>Valéria Bordin</em> - joalheria artesanal</p></td>
+								<td class="paralela" rowspan="2"  onclick="atividade('unesplay');"><p>UNESPLAY</p></td>
+							</tr>
+							<tr>
+								<td class="hora">21:00 </td>
+								<td class="palestra" onclick="atividade('lecompalestra');"><p><em>Lecom</em> - Nós e a web<br/><br/></p></td>
+								<td class="oficina" onclick="atividade('justadanca');"><p>Justa Dança</p></td>
+							</tr>
+						</tbody>
+					</table>
+					<h3>25/10 - Sexta-feira</h3>
+					<table border="0">
+						<tbody>
+							<tr>
+								<td class="hora">8:00 </td>
+								<td class="oficina" onclick="atividade('fernandokebex');"><p><em>Fernando Kebex</em> - audiovisual, motion graphics e efeitos (parte 2)</p></td>
+								<td class="oficina" colspan="2" rowspan="2" onclick="atividade('tipografiamodular');"><p>Tipografia Modular</p></td>
+								<td class="oficina" rowspan="2" onclick="atividade('omeucartoonefriboi');"><p>O meu cartoon é Friboi?</p></td>
+							</tr>
+							<tr>
+								<td class="hora">10:00 </td>
+								<td class="oficina" onclick="atividade('chaveirodebambu');"><p>Chaveiro de Bambu (Taquara)<br/><br/></p></td>
+							</tr>
+							<tr>
+								<td class="hora">12:00 </td>
+								<td class="horario" colspan="3" rowspan="2" onclick="atividade('almoco');"><p>Almoço e Banda</p></td>
+								<td class="paralela" rowspan="2" onclick="atividade('bazar');"><p>Bazar</p></td>
+							</tr>
+							<tr>
+								<td class="hora">13:00 </td>
+							</tr>
+							<tr>
+								<td class="hora">14:00 </td>
+								<td class="palestra" onclick="atividade('lucascarvalho');"><p><em>Lucas Carvalho (Midio)</em> - Então você quer fazer jogos? Uma visão por dentro do desenvolvimento independente no Brasil</p></td>
+								<td rowspan="2" colspan="2" class="oficina" onclick="atividade('lecomoficina');"><p><em>Lecom</em> - Clean x Conteúdo</p></td>
+								<td class="paralela" rowspan="2"  onclick="atividade('unesplay');"><p>UNESPLAY</p></td>
+							</tr>
+							<tr>
+								<td class="hora">16:00 </td>
+								<td class="palestra" onclick="atividade('vitorelucafaggi');"><p><em>Vitor e Lu Cafaggi</em> - HQs e quadrinhos<br/><br/></p></td>
+							</tr>
+							<tr>
+								<td class="hora">18:00 </td>
+								<td class="horario" colspan="3" onclick="atividade('coffeebreak');"><p>Coffee Break</p></td>
+								<td class="paralela" onclick="atividade('bazar');"><p>Bazar</p></td>
+							</tr>
+							<tr>
+								<td class="hora">19:00 </td>
+								<td class="palestra" onclick="atividade('eddy');"><p><em>Eddy</em> - o designer frente aos desafios do século XXI</p></td>
+								<td class="paralela" onclick="atividade('aceo');"><p>ACEO</p></td>
+								<td rowspan="2" class="oficina" onclick="atividade('alemdosketchautomotivo');"><p>Além do Sketch automotivo</p></td>
+								<td rowspan="2" class="oficina" onclick="atividade('introducaoaastrofotografia');"><p>Introdução à Astrofotografia</p></td>
+							</tr>
+							<tr>
+								<td class="hora">21:00 </td>
+								<td colspan="2" class="palestra" onclick="atividade('alexlimapalestra');"><p><em>Alex Lima (OCARA)</em> - reaproveitamento de material. E eu com isso?</p></td>
+							</tr>
+						</tbody>
+					</table>
+					<h3>26/10 - Sábado</h3>
+					<table border="0">
+						<tbody>
+							<tr>
+								<td class="hora">8:00 </td>
+								<td class="oficina" onclick="atividade('fernandokebex');"><p><em>Fernando Kebex</em> - audiovisual, motion graphics e efeitos (parte 3)</p></td>
+								<td class="oficina" colspan="2" onclick="atividade('storyboardesuasfuncoes');"><p>Storyboard e suas funções</p></td>
+								<td class="paralela" rowspan="2" onclick="atividade('umadobra');"><p>Uma dobra</p></td>
+							</tr>
+							<tr>
+								<td class="hora">10:00 </td>
+								<td class="palestra" onclick="atividade('felipehomem');"><p style="width:261px;"><em>Felipe Homem</em> - animação para televisão e promoção de conteúdo</p></td>
+								<td class="oficina" onclick="atividade('colorgrading101');"><p>Color Grading 101</p></td>
+								<td class="palestra" onclick="atividade('jovensdesigners');"><p><em>Jovens Designers</em> mesa-redonda</p></td>
+							</tr>
+							<tr>
+								<td class="hora">12:00 </td>
+								<td class="horario" colspan="3" rowspan="2" onclick="atividade('almoco');"><p>Almoço e Banda</p></td>
+								<td class="paralela" rowspan="2" onclick="atividade('bazar');"><p>Bazar</p></td>
+							</tr>
+							<tr>
+								<td class="hora">13:00 </td>
+							</tr>
+							<tr>
+								<td class="hora">14:00 </td>
+								<td rowspan="2" class="palestra" onclick="atividade('fernandochamarelli');"><p><em>Fernando Chamarelli</em> - pinturas geométricas, arte e técnica</p></td>
+								<td class="oficina" onclick="atividade('nosdois');"><p>Nós dois</p></td>
+								<td rowspan="3" class="oficina" onclick="atividade('sexdesign');"><p>Sex design</p></td>
+								<td rowspan="3" class="paralela" onclick="atividade('unplugged');"><p>Unplugged</p></td>
+							</tr>
+							<tr>
+								<td class="hora">15:00 </td>
+								<td class="oficina" rowspan="2" onclick="atividade('putag');"><p>PUTAG - Paper Game (LTIA)</p></td>
+							</tr>
+							<tr>
+								<td class="hora">16:00 </td>
+								<td class="oficina" onclick="atividade('alexlimaoficina');"><p><em>Alex Lima</em> - poesia eletrônica digital</p><br/></td>
+							</tr>
+							<tr>
+								<td class="hora">18:00 </td>
+								<td class="horario" colspan="3" onclick="atividade('coffeebreak');"><p>Coffee Break</p></td>
+								<td class="paralela" onclick="atividade('bazar');"><p>Bazar</p></td>
+							</tr>
+							<tr>
+								<td class="hora">19:00 </td>
+								<td colspan="4" class="paralela" onclick="atividade('quadribol');"><p>Quadribol</p><br/></td>
+							</tr>
+							<tr>
+								<td class="hora">21:00 </td>
+								<td class="palestra naoclica" colspan="4"><p>Encerramento - Anfiteatro Guilherme R. Ferraz ( Guilhermão )</p></td>
+							</tr>
+							<tr>
+								<td colspan="5"><br/></td>
+							</tr>
+							<tr>
+								<td class="hora">23:00 </td>
+								<td class="horario" colspan="4" onclick="atividade('festa');"><p style="text-align:center"><em style="font-size:36px;">Festa</em><br/>Sweet Fifteen&nbsp;&nbsp;</p></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<a class="voltacronograma" onclick="atividade()">cronograma</a>
+				<ul class="listaconvidados">
+					<li id="rodolfonogueira">
+						<img src="img/programacao/Rodolfo-Nogueira.png"/>
+						<h3>Rodolfo Nogueira</h3>
+						<em>Ilustração científica (Paleoarte) com Maya e Zbrush - Sala 57</em>
+						<p>É formado em Design pela UNESP – Bauru e especializou-se na reconstrução de animais extintos, trabalhando como paleoartista e ilustrador científico, criando desde 1998 diversas ilustrações com técnicas diversas como grafite, tinta a óleo, aquarela.</p>
+						<p>Atualmente seu foco tem sido a ilustração digital e modelagem 3D de animais pré-históricos, sendo referência no meio científico brasileiro e internacional como ilustrador.</p>
+						<p><a href="http://rodolfonogueira.daportfolio.com/" target="_blank">rodolfonogueira.daportfolio.com</a></p>
+					</li>
+					<li id="celticbotan">
+						<img src="img/programacao/Celtic-Botan.png"/>
+						<h3>Celtic Botan</h3>
+						<em>Pintura digital e curiosidades de um processo criativo para ilustração - Central de Salas</em>
+						<p>Celtic Botan é o nome artístico de Bárbara da Cunha, nascida em 1989, em São Paulo, onde ainda reside.</p>
+						<p>Ilustradora profissional e capista de livros, trabalha com arte digital e sua principal influência são temas fantásticos.</p>
+						<p><a href="http://celticbotan.daportfolio.com/" target="_blank">celticbotan.daportfolio.com</a></p>
+					</li>
+					<li id="lucascarvalho">
+						<img src="img/programacao/midio.png"/>
+						<h3>Lucas Carvalho - Mídio</h3>
+						<em>Então você quer fazer jogos? - Uma visão por dentro do desenvolvimento independente no Brasil - Guilhermão</em>
+						<p>Midio é Arquiteto Urbanista formado pela Unicamp (Campinas) em 2010 e atua desde 2009 com desenvolvimento de jogos.</p>
+						<p>Atualmente é responsável pela arte, direção criativa e relações públicas de seu estúdio independente- Alpaca Team, fundado com outros dois ex colegas de trabalho e realiza freelance de arte digital e ilustração em diversos segmentos, prioritariamente jogos. </p>
+						<p><a href="http://midio.co" target="_blank">midio.co</a> | <a href="http://alpacateam.com" target="_blank">alpacateam.com</a></p>
+					</li>
+					<li id="felipehomem">
+						<img src="img/programacao/Felipe-Homem.png"/>
+						<h3>Felipe Homem</h3>
+						<em>Processo de animação voltado para televisão e promoção de conteúdo - Sala 1</em>
+						<p>Felipe Homem é designer gráfico formado na UNESP e trabalha atualmente com motion graphics em um canal de tv a cabo. Faz e dirige toda parte gráfica de 3 canais de tv, SONY, AXN e SONY SPIN.</p>
+						<p>Sua palestra irá falar sobre o processo de animação voltado para televisão e promoção de conteúdo englobando direção, técnica e prazo.</p>
+						<p><a href="http://cargocollective.com/felipehomem" target="_blank">cargocollective.com/felipehomem</a></p>
+					</li>
+					<li id="carolpizarro">
+						<img src="img/programacao/carolina.png"/>
+						<h3>Carolina Pizarro</h3>
+						<em>Experiências em concursos de Design de Produto - Sala 1</em>
+						<p>Carolina Pizarro se formou em Desenho Industrial 2010 na UNESP e atualmente é mestranda em Design e desenvolve pesquisa com ênfase em Design Automotivo junto ao NUPECAM - Núcleo de Pesquisa Percepção e Cognição Ambiental, sob orientação da Profª.Drª. Paula da Cruz Landim.</p>
+						<p>Durante seu tempo como graduanda, Carolina já venceu concursos como:<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;- Talento Volkswagen de Design 2009 - Categoria Color&Trim(2009)<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;- Concurso Hot Wheels 1:1 - 40 anos da marca(2008)<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;- Finalista do Concurso Tok&Stok de Design Universitário (2007)<br/>
+						</p>
+					</li>
+					<li id="juniao">
+						<img src="img/programacao/Juniao.png"/>
+						<h3>Junião</h3>
+						<em>Processo de criação com mostra de cases - Sala 1</em>
+						<p>Se formou em Artes Visuais em Bauru e desenha profissionalmente há 19 anos indo desde charges a infográficos. Trabalhou durante 11 anos publicando charges pra o Diário do Povo, de Campinas, e mais recentemente tem feito charges e ilustrações para livros, sobre esportes além de trabalhar com aplicativos para redes sociais e celulares.
+						</p>
+					</li>
+					<li id="fernandokebex">
+						<img src="img/programacao/kebex.png"/>
+						<h3>Fernando Kebex</h3>
+						<em>Audiovisual, motion graphics e efeitos - Sala 52</em>
+						<p>Fernando Kebex é bacharel em audiovisual pela UFSCar, com especialização em Direito e Fotografia. Trabalhou na produtora de efeitos especiais Casablanca, fundou a Needle Comunicação.</p>
+						<p>Atualmente é direção de arte e animação na Mistika Post, realizando trabalhos para: Windows 8, Coca-cola, Sky, Raid e vinhetas de programação da FOX.</p>
+						<p><a href="http://vimeo.com/kebex" target="_blank">vimeo.com/kebex</a></p>
+					</li>
+					<li id="lecompalestra">
+						<img src="img/programacao/Lecom.png"/>
+						<h3>Lecom</h3>
+						<em>Nós e a web - Sala 1</em>
+						<p>Lecom significa “Liderança Estratégica em Comunicação Digital”, e atua em todo o território nacional desde 1995, oferecendo soluções criativas e viáveis em Comunicação Digital e Tecnologia da Informação que promovem engajamento e agilidade nas tomadas de decisões.</p>
+						<p>Patrocinando o Interdesigners desde 2008, este ano traz a discussão sobre a forma na qual nos relacionamos, criamos e comunicamos através das interfaces web.</p>
+						<p><a href="http://www.lecom.com.br/" target="_blank">lecom.com.br</a></p>
+					</li>
+					<li id="fernandochamarelli">
+						<img src="img/programacao/Chamarelli.png"/>
+						<h3>Fernando Chamarelli</h3>
+						<em>Pinturas geométricas, arte e técnica - Sala 1</em>
+						<p>Fernando Chamarelli é designer gráfico formado pela UNESP, ilustrador e artista plástico. Suas pinturas geométricas são como mosaicos, unindo formas orgânicas de cores intrigantes através de linhas harmônicas.</p>
+						<p>Já participou de exposições coletivas e realizou exposições individuais em cidades dos Estados Unidos, Inglaterra, México e Alemanha, entre outros países.</p>
+						<p><a href="http://chamarelli.com.br" target="_blank">chamarelli.com.br</a></p>
+					</li>
+					<li id="eddy">
+						<img src="img/programacao/eddy.png"/>
+						<h3>Auresnede Pires Stephan (Profº EDDY)</h3>
+						<em>O designer frente aos desafios do século XXI - Sala 1</em>
+						<p>Formado em Design pela FAAP (1970) e pela Escola Superior de Propaganda (1970) Mestre pela Universidade Presbiteriana Mackenzie (2007) Especialista em Design Gráfico USP (2011) Professor nos cursos de graduação da FAAP, ESPM, FASM E IED, Professor nos cursos de pós-graduação (especialização) da FAAP, FASM e IED.</p>
+						<p>Consultor na área de Design atuando como coordenador técnico do prêmio TOK&STOK de Design Universitário, House&Gift Fair, Curador da Mostra dos Jovens Designers, Coordenador da Coletânea “10 Cases do Design Brasileiro” Editora Blucher e Membro do conselho consultivo do Museu da Casa Brasileira.</p>
+					</li>
+					<li id="vitorelucafaggi">
+						<img src="img/programacao/Vitor-e-Lu-Cafaggi.png"/>
+						<h3>Vitor e Lu Cafaggi</h3>
+						<em>HQS e Quadrinhos - Guilhermão</em>
+						<p>Vitor Cafaggi é natural de Belo Horizonte, se formou na UEMG como designer gráfico e já trabalhou como diretor de arte. Mantém o site <a href="http://punyparker.blogspot.com.br/" target="_blank">Puny Parker</a> onde publica as tirinha “Puny Parker” e “Valente”.</p>
+						<p>Em 2009 foi um convidado para participar da HQ “MSP50” onde fez uma releitura do personagem Chico Bento. Atualmente dá aulas na casa dos quadrinhos e publica semanalmente a tira “Valente” no jornal o Globo.<br/><br/></p>
+						<p>Lu Caffagi estuda jornalismo em Belo Horizonte e trabalha como ilustradora. Publica os seus quadrinhos no blog <a href="http://lospantozelos.blogspot.com.br/" target="_blank">los Pantozelos</a>.</p>
+						<p>Em 2011 lançou a sua primeira HQ impressa, “Mixtape”, uma coletânea de quatro histórias baseadas em canções e em 2013 publicou em parceria com o irmão a HQ “Laços” com o selo MSP.</p>
+					</li>
+					<li id="heloisacatalanipalestra">
+						<img src="img/programacao/heloisa.png"/>
+						<h3>Heloísa Catalani</h3>
+						<em>Bate-papo sobre carreira em editoria - Central de Salas</em>
+						<p>Bacharel em Design Gráfico pelo Centro Belas Artes de São Paulo, e técnica também em Design Gráfico pela ETEC Carlos de Campos. Já passou pelas revistas Mit (Ed. Custom), Living Alone (Ed. Custom), Curves (NBCOM), Decora Baby (Ed Escala) e agora continua na Editora Escala na Revista Molde&Cia.</p>
+						<p>Com alguns lapsos de concentração, muitos cafés diários e vontade infinita de comer temaki, a editora de arte Heloísa Catalani segue fechando as edições das revistas sem perder a cabeça nem todas as horas de sono. Um pesadelo na vida de qualquer designer - o fechamento - nunca é exatamente como planejamos mas após anos nessa brincadeira ela já tira de letra vários dos “monstros fechamentais” que aparecem pelo caminho.</p>
+					</li>
+					<li id="hugohissashi">
+						<img src="img/programacao/hugo.png"/>
+						<h3>Hugo Hissashi</h3>
+						<em>Design automotivo - Central de Salas</em>
+						<p>Natural de Tupã, é graduando em Design de produto pela UNESP-Bauru. Foi pesquisador de iniciação científica com auxílio da Fundação de Amparo à Pesquisa do Estado de São Paulo/FAPESP de 2009 a 2010, sobre Ecodesign e Design de mobiliário, projetando móveis a partir de aglomerado de bagaço de cana-de-açúcar (resíduo pré-consumo).</p>
+						<p>Foi estagiário na encarroçadora de ônibus Caio-Induscar (Botucatu-SP), tentando um espaço na área automotiva, treinando sketches, renderings e procurando melhorar na elaboração de conceitos de produtos e dando continuidade a projetos pessoais de produtos.</p>
+						<p><a href="http://www.hissashi.tk" target="_blank">hissashi.tk</a></p>
+					</li>
+					<li id="felipebozo">
+						<img src="img/programacao/bozo.png"/>
+						<h3>Felipe Bozo</h3>
+						<em>O Lado B do trabalho de estúdio - Sala 53</em>
+						<p>Trabalha em um estúdio focado em ilustração publicitária, com enfase em personagens. A palestra fala de como funciona a vida de um estúdio, mas o lado B da coisa.</p>
+						<p>Os trabalhos que não deram certo, os problemas de prazo, os pedidos absurdos e como resolver tudo isso. A ideia é aproximar a realidade do mercado de trabalho e tudo que envolve a produção de imagens.</p>
+						<p><a href="http://www.bozobozoca.com" target="_blank">bozobozoca.com</a></p>
+					</li>
+					<li id="alexlimapalestra">
+						<img src="img/programacao/alexlima.png"/>
+						<h3>Alex Lima</h3>
+						<em>Reaproveitamento de material. E eu com isso? - Sala 1</em>
+						<p>Alex Lima faz parte a mais de 10 anos de uma ONG chamada OCARA.  Nela desenvolve e gerencia nos últimos 4 anos um projeto de reaproveitamento de material, nesse caso, de banner de propaganda. Com eles confeccionamos vários tipos de produtos.</p> 
+						<p>A ideia é promover um debate ou reflexão sobre o assunto Design e meio ambiente. Um depoimento sobre o que ele percebeu na ONG: qual a responsabilidade do design sobre esse assunto? O que podemos fazer? quais os dados que temos sobre as questões ambientais? O design e o meio ambiente passam pela universidade?</p>
+					</li>
+					<li id="valeria">
+						<img src="img/programacao/valeria.png"/>
+						<h3>Valéria Bordin</h3>
+						<em>Joalheria artesanal - Sala 52</em>
+						<p>Valéria Bordin trabalha para Sofia Olbrich Atelier, empresa com 25 anos de marca que traz nova proposta de criar jóias sob medida, sob encomenda e com a inspiração voltada para as características individuais de cada cliente</p>
+					</li>
+				</ul>
+				<ul class="listaoficinas">
+					<li id="designcorporal">
+						<img src="img/programacao/designcorporal.png"/>
+						<h3>Design Corporal</h3>
+						<em>Natan Schäfer - Laboratório de Produção Gráfica</em>
+						<p>Aproximando a tradição indígena da pós-moderna , esta oﬁcina buscar explorar as possibilidades do corpo como um suporte criativo e original.</p>
+					</li>
+					<li id="givemeasign">
+						<img src="img/programacao/givemeasign.png"/>
+						<h3>Give me a sign (Design Júnior)</h3>
+						<em>Thiago Pestillo Seles - Sala 52</em>
+						<p>Venham aprender a lendária arte do Sign Painting e criar painéis com letterings arrojados ao estilo de gloriosos e pomposos letreiros.</p>
+						<p><a href="http://designjunior.com.br" target="_blank">designjunior.com.br</a></p>
+					</li>
+					<li id="introducaoaastrofotografia">
+						<img src="img/programacao/astrofotografia.png"/>
+						<h3>Introdução à Astrofotografia</h3>
+						<em>Vítor Ventola Bravin - Observatório IPMET</em>
+						<p>Venha se aventurar com a gente na Astrofotograﬁa! Conheça a teoria e depois pratique com a gente no Observatório da Unesp :D</p>
+						<p><a href="http://behance.net/vitorbravin" target="_blank">behance.net/vitorbravin</a></p>
+					</li>
+					<li id="nospalestra">
+						<img src="img/programacao/nospalestra.png"/>
+						<h3>Palestra "Nós"</h3>
+						<em>Murilo Mugga - Sala 1</em>
+						<p>Qual "eu" deve ser parte de "nós"? Nós conectam ou prendem? Questionamentos entrelaçando as redes acadêmicas, profissionais e pessoais.</p>
+					</li>
+					<li id="luminariasraiox">
+						<img src="img/programacao/luminariasraiox.png"/>
+						<h3>Luminárias Raio-X (Labsol)</h3>
+						<em>Marlon Motta - Sala 54</em>
+						<p>Construção de luminárias a partir do reaproveitamento de chapas de radiograﬁa. Projeto original de Holger Strom!  </p>
+						<p><a href="http://www.facebook.com/labsol" target="_blank">fb.com/labsol</a></p>
+					</li>
+					<li id="designdeprodutoculturahacker">
+						<img src="img/programacao/designdeprodutoculturahacker.png"/>
+						<h3>Design de Produto + Cultura Hacker</h3>
+						<em>Vitor Marchi Moreno Dias - Sala 57</em>
+						<p>Aprenda a hackear/resigniﬁcar produtos e entenda o que os "FabLabs" e "HackLabs" tem a ver com isso.</p>
+					</li>
+					<li id="panoramagnomon">
+						<img src="img/programacao/panoramagnomon.png"/>
+						<h3>Panorama GNOMON</h3>
+						<em>Guilherme Carneiro Homem Alves - Sala 54</em>
+						<p>A oﬁcina será desenvolvida a partir da minha experiência na escola Gnomon no curso de desenvolvimento de personagem</p>
+						<p>A intenção é apresentar os ensinamentos aprendidos durante os 3 meses de curso, desde análise de referências, costume design, direção de arte, anatomia/forma etc.</p>
+						<p><a href="http://www.behance.net/guilhermecarneiro" target="_blank">behance.net/guilhermecarneiro</a></p>
+					</li>
+					<li id="personagenspraanimacao">
+						<img src="img/programacao/personagenparaanimacao.png"/>
+						<h3>Personagens pra animação!</h3>
+						<em>Samuel Bohn - Sala 52</em>
+						<p>Vamos discutir alguns elementos importantes na criação de um personagem para animação [2D e 3D]. Tragam seus materiais para desenho!</p>
+						<p><a href="http://www.behance.net/samuelbohn" target="_blank">behance.net/samuelbohn</a></p>
+					</li>
+					<li id="sketchgourmet">
+						<img src="img/programacao/sketchgourmet.png"/>
+						<h3>Sketch Gourmet</h3>
+						<em>Marcos Takeshi Matsumoto - Salas 50s</em>
+						<p>Venha apreciar uma refeição ﬁna, aprendendo a fazer, sketchiar, conversar e se alimentar! Prato do dia: Yakissoba.</p>
+					</li>
+					<li id="encadernacao">
+						<img src="img/programacao/encadernacao.png"/>
+						<h3>Encadernação (Inky Design)</h3>
+						<em>Daniela Yumi Onari - Sala 52</em>
+						<p>Aprenda um pouco sobre encadernação e faça seu próprio sketchbook com miolo costurado, capa de papel e elástico (tamanho A6).</p>
+						<p><a href="http://facebook.com/inkydesign" target="_blank">fb.com/inkydesign</a></p>
+					</li>
+					<li id="colorgrading101">
+						<img src="img/programacao/colorgrading101.png"/>
+						<h3>Color Grading 101</h3>
+						<em>Victor Claudio de Paula e Silva - Sala 54</em>
+						<p>Color grading (ou marcação de luz) é uma das etapas da pós-produção de qualquer video proﬁssional. É composta pela correção de cor, melhoria e, por ﬁm, estilização da imagem.</p>
+						<p><a href="http://www.behance.net/victorcsilva" target="_blank">behance.net/victorcsilva</a></p>
+					</li>
+					<li id="heloisacatalanioficina">
+						<img src="img/programacao/heloisa.png"/>
+						<h3>Fechamento de arquivo pré-impressão editoria</h3>
+						<em>Heloísa Catalani - Laboratório de Produção Gráfica</em>
+						<p>A oﬁcina ensinará os macetes de fechamento de arquivo que a oﬁcineira aprendeu durante anos trabalhando em editoras.</p>
+						<p>Aprenda como evitar os problemas que um arquivo mal salvo pode trazer e também como prevenir imprevistos de impressão na gráﬁca!</p>
+					</li>
+					<li id="lockpicking">
+						<img src="img/programacao/lockpicking.png"/>
+						<h3>Lockpicking</h3>
+						<em>André Ramires - Laboratório Didático de Materiais e Protótipos</em>
+						<p>Quem é que nunca esqueceu suas chaves e não pode abrir uma porta? Com esta oﬁcina você vai aprender que permanecer trancado se trata apenas de uma opção.</p>
+					</li>
+					<li id="cetemdado">
+						<img src="img/programacao/cetemdado.png"/>
+						<h3>Cê tem dado?</h3>
+						<em>Murilo Mugga - Sala 58</em>
+						<p>Game design na criação de seu próprio jogo! Conheça jogos diferentes como o jogo sem dados e o jogo onde todos devem vencer o tabuleiro.</p>
+					</li>
+					<li id="justadanca">
+						<img src="img/programacao/justadanca.png"/>
+						<h3>Justa Dança</h3>
+						<em>Renan Rabay Rodrigues - Sala 54</em>
+						<p>Venha aprender a dançar forró, samba e outras surpresas! Traga seu par ou venha sozinho mesmo, o que vale é querer curtir bastante.</p>
+					</li>
+					<li id="omeucartoonefriboi">
+						<img src="img/programacao/omeucartoonefriboi.png"/>
+						<h3>O meu cartoon é Friboi?</h3>
+						<em>Tales da Rocha Trindade - Laboratório de Produção Gráfica</em>
+						<p>Venha experimentar criar um Cartoon 3D desde o concept até a modelagem e descobrir de vez se o seu personagem merece o selo Friboi!</p>
+						<p><a href="http://www.behance.net/talesrt" target="_blank">behance.net/talesrt</a></p>
+					</li>
+					<li id="tipografiamodular">
+						<img src="img/programacao/tipografiamodular.png"/>
+						<h3>Tipografia Modular</h3>
+						<em>Daniel Rana - Sala 58</em>
+						<p>De maneira fácil e com um software online simples e gratuito, você pode criar sua primeira tipograﬁa e fazê-la funcionar nos computadores a sua volta!</p>
+					</li>
+					<li id="chaveirodebambu">
+						<img src="img/programacao/chaveirodebambu.png"/>
+						<h3>Chaveiro de Bambu (Taquara)</h3>
+						<em>Letícia Canevazzi Sakomura - Sala 52</em>
+						<p>Não perca essa oportunidade e carregue consigo um chaveiro personalizado, no qual você criará sua arte, e tendo como matéria-prima, o sustentável, o lindo, o escolhido dos pandas: o Bambu!</p>
+						<p><a href="http://taquaraunesp.blogspot.com.br/" target="_blank">taquaraunesp.blogspot.com.br</a></p>
+					</li>
+					<li id="alemdosketchautomotivo">
+						<img src="img/programacao/alemdosketchautomotivo.png"/>
+						<h3>Além do sketch automotivo</h3>
+						<em>Caio Martins De Almeida Rocha, Fernando Pastre e William Gerbi - Sala 58</em>
+						<p>Palestra com o Professor Osmar Rodrigues falando sobre os desaﬁos no design automotivo seguida de um workshop de técnicas para sketch com os alunos Caio Martins, Fernando Pastre e William Gerbi.</p>
+						<p><a href="http://behance.net/gallery/Karmann-Ghia-Redesign/9868977" target="_blank">behance.net/gallery/Karmann-Ghia-Redesign/9868977</a></p>
+					</li>
+					<li id="storyboardesuasfuncoes">
+						<img src="img/programacao/storyboardesuasfuncoes.png"/>
+						<h3>Storyboard e suas funções</h3>
+						<em>João Victor Silva de Macedo - Sala 58</em>
+						<p>Planejamento para ﬁlmes, quadrinhos ou propaganda. A base para a construção e orientação exata do que você quer transmitir para o público com cenas, movimentos e posições.</p>
+					</li>
+					<li id="sexdesign">
+						<img src="img/programacao/sexdesign.png"/>
+						<h3>Sex Design</h3>
+						<em>Caio Pompeu do Nascimento Caropreso - Sala 55</em>
+						<p>Vamos falar de SEXO e DESIGN! Como se relacionam o sexo no design e o design no sexo? Venha com a mente aberta, roupas leves e banho tomado!</p>
+					</li>
+					<li id="alexlimaoficina">
+						<img src="img/programacao/alexlima.png"/>
+						<h3>Poesia Eletrônica Digital - Interpretações da palavra usando o computador como ferramenta de criação e fruição</h3>
+						<em>Alex Lima - Sala 54</em>
+						<p>A ideia é experimentar um processo de interpretação da palavra doando-a movimento, imagens, sons, cor e etc tendo como base as relações semióticas que o signo "palavra" pode carregar.</p>
+					</li>
+					<li id="nosdois">
+						<img src="img/programacao/nosdois.png"/>
+						<h3>Nós Dois</h3>
+						<em>Marina Moraes Dionysio de Souza e André Minei - Sala 52</em>
+						<p>Anos e anos como escoteiros e vamos ensinar um pouquinho dos nós tão famosos. Explicaremos também sua utilidade para você poder usar em algum momento e fazer pose de velho sábio!</p>
+					</li>
+					<li id="putag">
+						<img src="img/programacao/putag.png"/>
+						<h3>PUTAG - Paper Game (LTIA)</h3>
+						<em>Marcel Barcelos Nogueira Barboza e Pedro Pinhata Nami - Sala 58</em>
+						<p>Prototipando o game em papel, você vai</p>
+						<p>Utilizar outras perspectivas para avaliar o level design, transmitir e </p>
+						<p>Testar melhor as idéias e </p>
+						<p>Ainda curtição.</p>
+						<p><a href="http://www.ltia.fc.unesp.br/" target="_blank">ltia.fc.unesp.br</a></p>
+					</li>
+					<li id="lecomoficina">
+						<img src="img/programacao/Lecom.png"/>
+						<h3>Clean x Conteúdo</h3>
+						<em>Lecom - Laboratório de Produção Gráfica</em>
+						<p>Lecom significa “Liderança Estratégica em Comunicação Digital”, e atua em todo o território nacional desde 1995, oferecendo soluções criativas e viáveis em Comunicação Digital e Tecnologia da Informação que promovem engajamento e agilidade nas tomadas de decisões.</p>
+						<p>Patrocinando o Interdesigners desde 2008, este ano traz uma oficina que ensina como criar aplicações web com conteúdos objetivos de forma funcional e efetiva.</p>
+						<p><a href="http://www.lecom.com.br/" target="_blank">lecom.com.br</a></p>
+					</li>
+					<li id="portafolio">
+						<img src="img/programacao/portafolio.png"/>
+						<h3>Portafólio</h3>
+						<em>Pedro Veneziano - Sala 73</em>
+						<p>Dicas de como se apresentar e como construir um portfólio de excelência, da criação de seus primeiros trabalhos ao infinito (e além).</p>
+						<p><a href="http://pedroveneziano.com/" target="_blank">pedroveneziano.com</a></p>
+					</li>
+					<li>
+						<img src="img/programacao/valeria.png"/>
+						<h3>Joalheria artesanal</h3>
+						<em>Valéria Bordin - Sala 52</em>
+						<p>Valéria Bordin trabalha para Sofia Olbrich Atelier, empresa com 25 anos de marca que traz nova proposta de criar jóias sob medida, sob encomenda e com a inspiração voltada para as características individuais de cada cliente</p>
+					</li>
+				</ul>
+				<ul class="listaparalelas">
+					<li id="bazar">
+						<img src="img/programacao/bazar.png"/>
+						<h3>Bazar</h3>
+						<em>Guilhermão (almoço) e 50s (cofee break)</em>
+						<br/>
+						<p>O bazar é um espaço destinado à comercialização de produtos dos encontristas. Neste espaço os inscritos tem a possibilidade de expor, divulgar e vender seu trabalho!</p>
+					</li>
+					<li id="somatoria">
+						<img src="img/programacao/somatoria.png"/>
+						<h3>Somatória</h3>
+						<em>Guilhermão</em>
+						<br/>
+						<p>Exposição de trabalhos dos encontristas que demonstraram interesse em expor seus trabalhos no formulário de inscrição do evento, organizada pela equipe do <a href="http://fb.com/somaprojeto" target="_blank">Projeto Soma</a>.</p>
+					</li>
+					<li id="merdafonicas">
+						<img src="img/programacao/merdafonicas.png"/>
+						<h3>Merdafônicas</h3>
+						<em>Sala 1</em>
+						<br/>						
+						<p>É um grupo de discussão sobre assuntos que aparentemente não são relevantes, mas quando mencionados, os tópicos causam grande polêmica entre os participantes desse debate interativo. Os temas colocados em discussão são dos mais diversos que se pode imaginar.</p>
+						<p>Quem ganharia uma luta entre um crocodilo e um gorila? E entre o Dollynho e o Barriguinha Mole? O correto é o feijão ir por cima ou por baixo do arroz? ... Essas e milhares de outras curiosas indagações irão exigir dos participantes uma grande bagagem cultural, conhecimento de mundo e principalmente astúcia para defender seus argumentos (sejam eles quais forem).</p>
+						<p>Além dessas perguntas, teremos batalhas de Crossovers (disputas entre personagens diversos), Afirmações Mindfuck, indagações sobre o cotidiano em geral! Venham todos discutir, debater e se divertir no 1º Merdafônicas!</p>
+					</li>
+					<li id="aceo">
+						<img src="img/programacao/aceo.png"/>
+						<h3>ACEO</h3>
+						<em>Praça das salas 50s</em>
+						<br/>
+						<p>ACEOs são cartas colecionáveis ilustradas para os mais diversos fins. Existem milhares de variações, e a única regra para a criação delas é o tamanho. O resto é migué e imaginação!</p>
+					</li>
+					<li id="umadobra">
+						<img src="img/programacao/umadobra.png"/>
+						<h3>Uma Dobra</h3>
+						<em>Praça das salas 50s</em>
+						<br/>						
+						<p>Pelo 5º ano consecutivo, a oﬁcina de origamis Uma Dobra propõem mais uma vez agirmos de forma coletiva em prol da brincadeira com o papel.</p>
+					</li>
+					<li id="painelr">
+						<img src="img/programacao/painelr.png"/>
+						<h3>Painel R - como misturar e repensar desenhos</h3>
+						<em>Praça das salas 50s</em>
+						<br/>						
+						<p>Painéis de desenho a serem unidos no final do inter, apresentando como tudo junto e misturado nos faz repensar como vemos as coisas.</p>
+					</li>
+					<li id="unplugged">
+						<img src="img/programacao/unplugged.png"/>
+						<h3>Unplugged</h3>
+						<em>Em frente o Guilhermão</em>
+						<br/>
+						<p>Reunião de pessoas para "expressão musical", com gente que goste de cantar, tocar, bater lata, etc. Que se organize e reorganize a cada música, de acordo com seus interesses musicais, formando assim um conjunto sempre mutável, onde todos tem a chance de tocar com todos</p>
+					</li>
+					<li id="unesplay">
+						<img src="img/programacao/unesplay.png"/>
+						<h3>UNESPLAY</h3>
+						<em>Sala 53</em>
+						<br/>
+						<p>O Unesplay é um evento acadêmico voltado ao entretenimento e é um espaço de manifestação da cultura nerd. No evento, há partidas de Trading Card Games (TCG), jogos de tabuleiro, RPG e videogame.</p>
+						<p>Além disso, pode haver a exposição de trabalhos acadêmicos nerds relacionados e convidamos você a participar!</p>
+					</li>
+					<li id="dancascirculares">
+						<img src="img/programacao/dancascirculares.png"/>
+						<h3>Danças Circulares</h3>
+						<em>Sala 58</em>
+						<br/>
+						<p>As danças circulares tem sua origem em práticas folclóricas de diversos povos ao redor do mundo.</p>
+						<p>A roda precisa de todos para acontecer, precisa que cada um respeite seu ritmo e perceba o ritmo do outro e do todo, transformando a dança circular numa espécie de exercício de percepção pessoal/coletivo.</p>
+						<p>A dança circular traz benefícios mentais, físicos e sociais, a proposta desta atividade paralela no Interdesigners é trazer a discussão do nó coletivo de dentro das ideias pra fora do corpo... e fazer a turma se mexer um pouco!</p>
+					</li>
+					<li id="nosnovirtual">
+						<img src="img/programacao/nosnovirtual.png"/>
+						<h3>Nós no virtual</h3>
+						<em>Pracinha das 50s</em>
+						<br/>
+						<p>Discussão sobre o coletivo no virtual e em redes sociais, explorando esses adventos ágeis na mutação das próprias relações interpessoais, proporcionando uma comunicação instantânea bem como um espaço ausente de leis físicas, um mundo outro que ainda é novo para nós.</p>
+					</li>
+					<li id="quadribol">
+						<img src="img/programacao/quadribol.png"/>
+						<h3>Primeiro Torneio de Quadribol da UNESP/Bauru</h3>
+						<em>Praça de Esportes</em>
+						<p><strong>Oficina de vassouras:</strong> 19/10, 14h - Salas 50s, UNESP</p>
+						<p><strong>Treino:</strong> 19/10, 16h - Praça de esportes, UNESP</p>
+						<p><strong>Inscrições:</strong> envie uma mensagem com o nome do time <a href="https://www.facebook.com/D.J.E.magicos" target="_blank">aqui</a></p>
+						<p><strong>Custo:</strong> R$7,00 por equipe, pagos no dia do Torneio</p>
+						<p><strong>Mais informações:</strong> <a href="https://www.facebook.com/events/519551264785915/" target="_blank">página do evento</a></p>
+					</li>
+				</ul>
+				<ul>
+					<li id="jovensdesigners">
+						<img src="img/programacao/eddy.png"/>
+						<h3>Jovens Designers</h3>
+						<em>mesa-redonda - Central de Salas</em>
+						<p>Mesa-redonda/bate-papo com a participação do Prof. Eddy: "Pré requisitos para atuar na área de design: pés na terra, cabeça nas estrelas e...muito stress!!!"</p>
+					</li>
+					<li id="coffeebreak">
+						<img src="img/programacao/coffeebreak.png"/>
+						<h3>Coffee Break</h3>
+						<em>Salas 50s</em>
+						<p>O coffee break do sábado será gratuito e ocorrerá junto ao Torneio de Quadribol. Nos demais dias haverá delícias à venda junto ao bazar!</p>
+					</li>
+					<li id="almoco">
+						<img src="img/programacao/almoco.png"/>
+						<h3>Almoço e Banda</h3>
+						<em>Guilhermão</em>
+						<p>Todas as marmitas acompanham um copo (caneca) de refrigerante e haverá opção de marmitas vegetarianas. Devem ser pagas até às 9h30 da manhã do dia em que for comer ficando os combos a serem pagos no primeiro dia (23/10).</p>
+						<p>Os pagamentos no primeiro dia serão realizados no Guilhermão e nos demais dias (para marmitas individuais) no QG (sala 51). As entregas serão feitas no Guilhermão.</p>
+						<table style="position:relative; left:18px;">
+							<tr>
+								<td></td>
+								<td class="horario naoclica">PEQ</td>
+								<td class="palestra naoclica">MED</td>
+								<td class="oficina naoclica">GDE</td>
+							</tr>
+							<tr>
+								<td class="hora">Marmitas individuais (preço por dia)</td>
+								<td class="horario naoclica">R$8</td>
+								<td class="palestra naoclica">R$9</td>
+								<td class="oficina naoclica">R$11</td>
+							</tr>
+							<tr>
+								<td class="hora">Combo exclusivo para participantes do Interdesigners (4 dias)</td>
+								<td class="horario naoclica">R$28</td>
+								<td class="palestra naoclica">R$32</td>
+								<td class="oficina naoclica">R$40</td>
+							</tr>
+							<tr>
+								<td class="hora">Combo exclusivo para participantes da SeCom (3 dias)</td>
+								<td class="horario naoclica">R$21</td>
+								<td class="palestra naoclica">R$24</td>
+								<td class="oficina naoclica">R$30</td>
+							</tr>
+						</table>
+					</li>
+					<li id="festa">
+						<img src="img/programacao/festa.png"/>
+						<h3>Sweet Fifteen</h3>
+						<em>República Bigamia</em>
+						<p>O que dizer desse evento que começou há 21 anos mas conserva a carinha de 15? O Interdesigners estreou em 91 e, como toda boa realeza, foi amaldiçoado por uma seita secreta de maritacas raivosas e só pôde completar seus 15 anos em 2013.</p>
+						<p>Venha fechar a 15ª edição do Interdesigners com direito a traje de gala, 15 velas, valsa, champanhe e discursos emotivos de parentes embriagados.</p>
+						<em><br/>Portaria</em>						
+						<p>Trajados a rigor:<strong> R$7</strong></p>
+						<p>Deselegantes:<strong> R$10</strong></p>
+						<p>Inscritos no Interdesigners:<strong> ZERO!</strong></p>
+						<p><br/><a href="https://www.facebook.com/events/1390249987879360" target="_blank">Evento no Facebook</a></p>
+					</li>
+				</ul>
+			</div>
+			<div id="botao-convidados" class="fita-rosa-p-05">
+				<p><center><a href="javascript:programacao('convidados'); janela('#programacao-janela')">Convidados</a></center></p>
+			</div>
+			<div id="botao-oficinas" class="fita-verde-p-05">
+				<p><center><a href="javascript:programacao('oficinas'); janela('#programacao-janela')">Oficinas</a></center></p>
+			</div>
+			<div id="botao-paralelas" class="fita-rosa-p-05">
+				<p><center><a href="javascript:programacao('paralelas'); janela('#programacao-janela')">Paralelas</a></center></p>
+			</div>
+			<div id="fita-laranja-grande-02">
+				<img src="img/fitas-novas/fita-laranja-grande-02.png" />
+			</div>
+			<div id="fita-laranja-v" class="fita-vert">
+				<img src="img/fitas-novas/fita-laranja-v-01.png" />
+				<img src="img/fitas-novas/fita-laranja-v-02.png" />
+				<img src="img/fitas-novas/fita-laranja-v-03.png" />
+				<img src="img/fitas-novas/fita-laranja-v-04.png" />
+				<img src="img/fitas-novas/fita-laranja-v-05.png" />
+				<img src="img/fitas-novas/fita-laranja-v-06.png" />
+				<img src="img/fitas-novas/fita-laranja-v-07.png" />
+			</div>
+			<div id="fita-verde-p" class="fita">
+				<img src="img/fitas-novas/fita-verde-p-01.png" />
+				<img src="img/fitas-novas/fita-verde-p-02.png" />
+				<img src="img/fitas-novas/fita-verde-p-03.png" />
+				<img src="img/fitas-novas/fita-verde-p-04.png" />
+				
+				<img src="img/fitas-novas/fita-verde-p-04.png" style="margin-left:245px;" />
+				<img src="img/fitas-novas/fita-verde-p-03.png" />
+				<img src="img/fitas-novas/fita-verde-p-02.png" />
+				<img src="img/fitas-novas/fita-verde-p-01.png" />
+			</div>
+			<div id="fita-rosa-p" class="fita">
+				<img src="img/fitas-novas/fita-rosa-p-01.png" />
+				<img src="img/fitas-novas/fita-rosa-p-02.png" />
+				<img src="img/fitas-novas/fita-rosa-p-03.png" />
+				<img src="img/fitas-novas/fita-rosa-p-04.png" />
+
+				<img src="img/fitas-novas/fita-rosa-p-04.png" style="margin-left:245px;" />
+				<img src="img/fitas-novas/fita-rosa-p-03.png" />
+				<img src="img/fitas-novas/fita-rosa-p-02.png" />
+				<img src="img/fitas-novas/fita-rosa-p-01.png" />
+			</div>
+			<div id="fita-verde-p-02" class="fita">
+				<img src="img/fitas-novas/fita-verde-p-01.png" />
+				<img src="img/fitas-novas/fita-verde-p-02.png" />
+				<img src="img/fitas-novas/fita-verde-p-03.png" />
+				<img src="img/fitas-novas/fita-verde-p-04.png" />
+
+				<img src="img/fitas-novas/fita-verde-p-04.png" style="margin-left:245px;" />
+				<img src="img/fitas-novas/fita-verde-p-03.png" />
+				<img src="img/fitas-novas/fita-verde-p-02.png" />
+				<img src="img/fitas-novas/fita-verde-p-01.png" />
+			</div>
+			<div id="fita-rosa-p-02" class="fita">
+				<img src="img/fitas-novas/fita-rosa-p-01.png" />
+				<img src="img/fitas-novas/fita-rosa-p-02.png" />
+				<img src="img/fitas-novas/fita-rosa-p-03.png" />
+				<img src="img/fitas-novas/fita-rosa-p-04.png" />
+
+				<img src="img/fitas-novas/fita-rosa-p-04.png" style="margin-left:245px;" />
+				<img src="img/fitas-novas/fita-rosa-p-03.png" />
+				<img src="img/fitas-novas/fita-rosa-p-02.png" />
+				<img src="img/fitas-novas/fita-rosa-p-01.png" />
+			</div>
+		</div>
+	</body>
+</html>

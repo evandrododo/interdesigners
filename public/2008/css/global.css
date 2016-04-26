@@ -1,0 +1,400 @@
+/**** GERAIS ****/
+* {
+outline:none;
+border:none;
+}
+
+body {
+background-repeat: no-repeat;
+background-position: top center;
+margin:0;
+padding:0;
+font:12px verdana,tahoma,sans-serif;
+}
+
+h1 {
+text-align:center;
+}
+
+h2 {
+padding:0;
+background-repeat:no-repeat;
+height:40px;
+margin:30px auto 10px auto;
+width:680px;
+}
+
+h3 {
+margin:0 0 5px 0;
+background-repeat:no-repeat;
+}
+
+h4 {
+margin:15px 0 5px 0;
+font-size:14px;
+}
+
+h5 {
+font-size:12px;
+margin:0 0 5px 0;
+}
+
+hr {
+border-top:1px solid;
+border-bottom:1px solid;
+margin:30px 0;
+}
+
+.limpa {
+margin:0;
+padding:0;
+line-height:0;
+font-size:0;
+clear:both;
+}
+
+#logo {
+text-align:center;
+margin:15px 0;
+height:300px;
+cursor:pointer;
+}
+
+a.linkquebrado:hover { text-decoration:line-through !important; background:transparent !important;}
+
+.some {
+display:none;
+}
+
+.top {
+visibility:hidden;
+margin:0;
+line-height:0;
+}
+
+.espacinho {
+margin-bottom:15px;
+}
+
+span.negrito {
+font-weight:bold;
+}
+
+span.branco {
+color:#fff;
+}
+
+/**** TOPO ****/
+/** menu **/
+#menu {
+width:528px;
+margin:auto;
+}
+
+#menu ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+#menu ul li {
+padding:0;
+margin:0;
+float:left;
+}
+
+#menu ul li a {
+background-repeat:no-repeat;
+background-position:top;
+display:block;
+height:28px;
+}
+
+#menu ul li a:hover {
+background-position:bottom;
+background-color:inherit;
+color:inherit;
+}
+
+li#home a {
+width:55px;
+margin-right:5px;
+}
+
+li#inscricao a {
+width:75px;
+margin-right:5px;
+}
+
+li#sobre-inter a {
+width:104px;
+margin-right:5px;
+}
+
+li#sobre-corde a {
+width:116px;
+margin-right:5px;
+}
+
+li#programacao a {
+width:106px;
+margin-right:5px;
+}
+
+li#blog a {
+width:47px;
+}
+
+/* CONTEÚDO */
+#conteudo {
+background-repeat:repeat-x;
+background-position:top center;
+margin:auto;
+width:680px;
+border-top-style:solid;
+border-top-width:1px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+}
+
+#sub-conteudo {
+border-top-style: solid;
+border-top-width:1px;
+padding:17px 20px 1px 20px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+}
+
+#sub-conteudo a:hover, #links a:hover {
+text-decoration:none;
+}
+
+#conteudo h2 {
+padding:0;
+margin:0 0 5px 0;
+font-size:16px;
+}
+
+#conteudo p {
+padding:0;
+margin:0 0 20px 0;
+}
+
+#conteudo ul {
+margin:-10px 15px 25px 13px;
+padding:0;
+list-style-type:square;
+}
+
+#conteudo li {
+margin:0 0 5px 0;
+}
+
+ul.lembre-se li {
+padding:10px 0 5px 0;
+}
+
+
+/**** SUB-RODAPÉ (BLOG) ****/
+#sub-rodape {
+padding:15px;
+width:650px;
+margin:auto;
+border-bottom:1px solid;
+}
+
+#sub-rodape h3 {
+border:none;
+margin:0;
+padding:0;
+height:17px;
+background-repeat:no-repeat;
+}
+
+#sub-rodape ul {
+padding:0;
+margin:0;
+list-style-type:none;
+}
+
+#sub-rodape ul li {
+float:left;
+margin-right:20px;
+line-height:20px;
+}
+
+#categorias {
+display:block;
+clear:both;
+padding-top:20px;
+}
+
+
+/**** FLICKR, LINKS ****/
+#flickr-links {
+margin:auto;
+width:680px;
+background-repeat:no-repeat;
+background-position:center top;
+}
+
+#flickr-links h3 {
+text-indent:-9999px;
+}
+
+#flickr {
+padding:10px 15px 15px 15px;
+}
+
+#flickr h3 a {
+display:block;
+width:77px;
+height:14px;
+background-repeat:no-repeat;
+}
+
+#flickr img {
+margin-right:15px;
+}
+
+#flickr a img {
+border:4px solid;
+}
+
+#links {
+margin-top:10px;
+width:269px;
+float:right;
+}
+
+#links h3 {
+width:30px;
+height:13px;
+margin-bottom:10px;
+}
+
+#links ul {
+list-style-type:square;
+margin:0;
+padding:0 0 0 15px;
+}
+
+/**** RODAPÉ ****/
+#rodape {
+width:700px;
+margin:15px auto 20px auto;
+text-align:center;
+font-size:11px;
+}
+
+#rodape a {
+text-decoration:none;
+}
+
+#rodape a:hover {
+text-decoration:underline;
+}
+
+#link-topo {
+width:75px;
+margin:auto;
+}
+
+#link-topo a {
+display:block;
+width:75px;
+height:28px;
+background-repeat: no-repeat;
+background-position:top;
+}
+
+#link-topo a:hover {
+background-position:bottom;
+color:inherit;
+}
+
+/**** TABELAS ****/
+table {
+border-right:1px solid;
+border-bottom:1px solid ;
+margin-bottom:17px;
+}
+
+td {
+text-align:center;
+border-top:1px solid;
+border-left:1px solid;
+font-size:10px;
+}
+
+th {
+border-top:1px solid;
+border-left:1px solid;
+font-size:11px;
+}
+
+th.sobra {
+border:none;
+background:none;
+}
+
+th.horas {
+width:47px;
+text-align:right;
+padding-right:5px;
+}
+
+table#legenda {
+border:none;
+margin:0;
+}
+
+table#legenda td {
+border:none;
+background:none;
+text-align:left;
+width:97%;
+font-size:12px;
+}
+
+table#legenda td.refeicoes,
+table#legenda td.trabalhos,
+table#legenda td.repentinas,
+table#legenda td.cred,
+table#legenda td.festas,
+table#legenda td.mostras-videos,
+table#legenda td.oficinas,
+table#legenda td.palestras,
+table#legenda td.abre-fecha,
+table#legenda td.sala-livre,
+table#legenda td.vivencias {
+width:3%;
+border:1px solid;
+text-align:center;
+font-size:10px;
+}
+
+.jHelperTipClose {
+text-align:right;
+}
+
+.mostra-oficina, .mostra-palestra, .jHelperTipClose {
+cursor:pointer;
+}
+
+.descricao-oficina, .descricao-palestra {
+padding:5px;
+font-size:11px;
+border:1px solid;
+}
+
+.descricao-oficina h5, .descricao-palestra h5 {
+font-size:11px;
+margin:10px 0 5px 0;
+padding:0;
+}
+
+.descricao-oficina p, .descricao-palestra p {
+margin:0;
+padding:0;
+}

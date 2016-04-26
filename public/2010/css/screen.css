@@ -1,0 +1,27 @@
+/* -------------------------------------------------------------- 
+  
+   Estilos para tela
+	 * baseado no framework Blueprint v0.6 - http://code.google.com/p/blueprintcss/
+	 
+-------------------------------------------------------------- */
+
+@import 'reset.css';	/* Zera valores igualando os navegadores */
+@import 'tipo.css';		/* Tipografia, fontes, cores e tamanhos */
+@import 'grid.css';		/* Estrutura (container, colunas, etc) */
+@import 'forms.css';	/* Formulários */
+
+/*---------------- Menu com Submenu ------------------*/
+
+/* Primeiro nível */
+.submenu li { padding:0 0 5px; }
+ .submenu li a { cursor:pointer; display:block; text-transform:uppercase; text-decoration:none; padding:5px; background-color:#fff; color:#000; font-weight:bold; }
+ .submenu ul#sm:hover li a { background-color:#fff; color:#000;}
+ .submenu ul#sm:hover li.atividades a:hover, .submenu ul#sm:hover li.atividades:hover a, .atividades .submenu li.atividades a, .home .submenu li.atividades a   { background-color:#009feb; color:#fff; }
+ .submenu ul#sm:hover li.sobre a:hover, .submenu ul#sm:hover li.sobre:hover a, .sobre .submenu li.sobre a, .home .submenu li.sobre a { background-color:#e7007c;  color:#fff; }
+ .submenu ul#sm:hover li.exposicao a:hover, .submenu ul#sm:hover li.exposicao:hover a, .exposicao .submenu li.exposicao a, .home .submenu li.exposicao a { background-color:#ffdb00; color:#fff; }
+ .submenu ul#sm:hover li.kit a:hover, .submenu ul#sm:hover li.kit:hover a, .kit .submenu li.kit a, .home .submenu li.kit a { background-color:#000; color:#fff; }
+
+/* Segundo nível */
+.submenu li ul { border:0; padding:4px 4px 0; background:#fff; }
+.submenu li li a:hover,
+.submenu li li:hover a { color:#bbb; width:90%; } /* OVER */

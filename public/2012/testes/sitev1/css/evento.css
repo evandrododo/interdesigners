@@ -1,0 +1,26 @@
+.theme .lettering { width:470px; margin-top:70px; position:relative; display:inline-block; }
+.theme .lettering span { display:block; width:460px; white-space:normal; text-align:center; }
+.theme .lettering span.nuvem { font-size:126px; line-height:135px; }
+.theme .lettering span.segundo { font-size:22px; }
+.theme .lettering span.somos { font-size:24px; margin-top:10px;}
+.theme .lettering span.conhecimentos { font-size:20px; margin-bottom:15px;}
+.theme .lettering span.manipulamos { text-align:left; line-height:24px; }
+
+.theme .sub { width:330px; margin-left:45px; white-space:normal; height:400px; position:relative; display:inline-block; top:80px; vertical-align:top; }
+.theme .sub.first { margin-left:135px; padding-left:30px; border-left:2px dotted #fff; }
+.theme .sub .title { font-size:26px; line-height:50px; }
+.theme .sub .text { line-height:26px; }
+
+.theme img { position:absolute; top:110px; left:225px; }
+
+.history .lettering { margin-top:70px; position:relative; }
+.history .lettering span { display:block; width:520px; white-space:normal; text-align:center; }
+.history .lettering span.interdesigners { font-size:29px; }
+.history .lettering span.unesp { font-size:54px; line-height:55px; }
+.history .lettering span.reune { font-size:24px; }
+.history .lettering span.desde { font-size:99px; line-height:100px; margin-bottom:-10px; }
+.history .lettering span.promovendo { font-size:17px; text-align:left; margin-bottom:30px;}
+.history .lettering span.promovendo:after {content:''; display:block; width:100%; height:3px; border-top:1px dashed; border-bottom:1px dashed; position:relative; top:15px; }
+.history .lettering span.organizado { font-size:15px; text-align:left; line-height:25px; }
+
+.history img { position:absolute; top:60px; left:620px; }

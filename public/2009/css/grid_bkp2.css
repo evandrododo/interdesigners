@@ -1,0 +1,14 @@
+body { text-align:center; background:#fff url(../img/topo_bg.gif) repeat-x top; }
+.container { width:951px; margin:0 auto; text-align:left; position:relative; overflow:hidden; }
+.topo { width:990px; height:597px; overflow:hidden; }
+.comentario { background:#fff url(../img/comentario_bg.gif) 415px bottom no-repeat; overflow:hidden; }
+.rodape { overflow:hidden; width:100%; background:#f7f3f3; }
+ .rodape div.container { background:url(../img/rodape_bg.gif) top right no-repeat; width:450px; padding:25px 0 20px 450px; }
+ .rodape img { vertical-align:middle; margin:0 5px;}
+ .rodape p { text-align:right; padding:20px 10px 0; }
+ .rodape a:hover { color:#F06459; }
+.comentario ol { float:left; width:100%; clear:both; }
+.comentario ol li { float:left; clear:left; margin-bottom:20px; width:100%; }
+.comentario cite { float:left; width:180px; text-align:right; margin:15px 5px 0 0; }
+.comentario blockquote { float:left; width:690px; background:url(../img/comentario_li.gif) top left no-repeat #f4eff4; padding:15px 15px 15px 28px;  }
+.comentario span { float:left; width:670px; margin:10px 0 0 206px; clear:both; background:url(../img/comentario_resp.gif) top left no-repeat #ebd8e4; padding:15px 15px 15px 28px; color:#888;  }

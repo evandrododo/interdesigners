@@ -1,0 +1,198 @@
+/* Interdesigners 2011 - UNESP - FAAC */
+/* Apoio: LTIA - Lab Tecnologia da Informação Aplicada */
+
+@font-face {
+	font-family: "Myriad Pro Cond";
+	src:url(fonts/MyriadPro-Cond.otf);
+}
+@font-face {
+	font-family: "Myriad Pro";
+	src:url(fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+	font-family:"TitilliumText22L Lt";
+	src:url(fonts/TitilliumText22L002.otf);
+
+}
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+header, footer, section, aside, nav, article {
+display: block;
+}
+
+body {
+	background-color: #000;
+	font-family: "Myriad Pro Cond";
+	color: #878787;
+	font-size: 24px;
+	line-height: 18px;
+	padding-right: 5px;
+}
+
+h1 {
+	font-family: "TitilliumText22L Lt";
+	border-bottom	: 1px solid #666;
+	display			: block;
+	padding			: 0 0 16px;
+	margin			: 0 0 12px;
+	font-size       : 36px;
+	color			:#DF007D
+	font-stretch: extra-condensed;
+}
+
+h3 {
+	font-family: "Myriad Pro Cond";
+	border-bottom	: 1px solid #666;
+	display			: block;
+	font-size		: 25px;
+	font-weight		: normal;
+	padding			: 0 0 10px;
+	margin			: 0 0 8px;
+	color			: #00E496
+}
+
+p {
+	font-style		: normal;
+}
+
+
+/* Basic View */
+
+#main div {
+	padding			: 10px;
+	margin			: 20px 0 0 20px;
+	float			: left;
+}
+
+#main div.intro   {
+	width: 340px;
+	background: #333333;
+}
+#main div.link    {
+	width: auto;
+	background: #333333;
+}
+
+#main div.section {
+	width: 210px;
+	background: #333333;
+}
+#main div.friend {
+	width: 100px;
+}
+#main div.image   {
+	width: auto;
+	background: #ff0000;
+}
+
+#main div.first {
+	clear			: left;
+}
+
+#main div.image {
+	background		: none;
+	padding			: 0;
+}
+
+.section p {
+	color			: #CCCCCC;
+}
+
+.section p .ampersand {
+	color			: #666;
+}
+
+.intro {
+	color			: #CCCCCC;
+}
+
+.intro .ampersand {
+	color			: #ccc;
+}
+
+.link a {
+	color			: #fff;
+}
+
+.link a:hover {
+	color			: #c8d15f;
+}
+
+.link a:hover span {
+	color			: #FFF;
+}
+
+.link em {
+	color			: #fff;
+	display			: block;
+	font-style		: normal;
+	padding			: 0 0 5px;
+	margin			: 0;
+}
+
+.link a em {
+	color			: #FFF;
+}
+
+
+
+.link span {
+	color			: #DF007D;
+	display			: block;
+	font-size		: 18px;
+	padding			: 0;
+}
+
+.friend em {
+	color			: #fff;
+	display			: block;
+	font-style		: normal;
+	padding			: 0 0 5px;
+	margin			: 0;
+}
+
+.friend a em {
+	color			: #FFF;
+}
+
+
+
+.friend span {
+	color			: #CCCCCC;
+	display			: block;
+	font-size		: 16px;
+	padding			: 0;
+}
+
+.place a {
+	color			: #fff;
+}
+
+.friend a {
+	color			: #1A1A1A;
+}
+
+.content {
+	left			: 0;
+	position		: absolute;
+	top				: 0;
+}
+
+a {
+	color			: #222;
+	text-decoration	: none;
+}
+
+.ampersand {
+	font-family: "Myriad Pro Cond";
+	font-style		: italic;
+}
+
+
+
+              

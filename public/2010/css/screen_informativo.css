@@ -1,0 +1,11 @@
+.noticiahome ul.listagem li { height:140px; }
+ .noticiahome img { width:50%; }
+
+.fonte { margin: 15px 0 -15px; }
+ .fonte cite { display:block; }
+
+/* Envio de Notícias */
+#envianoticia { background-color:#fff; }
+ #envianoticia .container { width:295px; overflow:hidden; }
+  #envianoticia input { width:241px; }
+  #envianoticia button { margin-left:221px; }

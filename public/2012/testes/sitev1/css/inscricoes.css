@@ -1,0 +1,47 @@
+.form { padding:20px; position:relative; z-index:1000px; width:500px; height:430px; overflow:scroll; margin-top:60px; overflow-x:hidden; box-shadow:inset 0 0 20px rgba(0,0,0,.5); }
+	textarea { resize:vertical; max-height:270px; }
+	textarea, input[type=text] { width:460px; border:0; padding:5px; font-family:'Bitter', serif; color:#BE2230 }
+		input:focus { background:#FFF6B9; }
+	.form label { margin-top:20px; }
+		.form li:first-child label:first-child { margin-top:0; }
+		.form label:first-child { font-style:italic; display:block; }
+	input[type=radio] { margin-left:20px; }
+	input[type=radio].m-zero { margin-left:0px; }
+	input[type=submit] { margin-bottom:20px; display:block; background:transparent; border:none; font-size:26px; padding:5px 0; float:right; margin-right:10px; cursor:pointer; border-bottom:2px solid; transition:color 0.5s; -webkit-transition:color 0.5s; -moz-transition:color 0.5s; }
+	input[type=submit]:hover { color:#fff; }
+	.obs { white-space:normal; margin:5px 0; }
+
+.apoio .lettering, .oficina .lettering { position:absolute; top:120px; right:50px; }
+
+.lettering span { display:block; text-align:center; }
+
+.apoio .lettering span.monitoria:after,
+.oficina .lettering span.saobem:after { content:''; width:100%; display:block; color:#fae6c5; border-bottom:1px solid; border-top:1px solid; height:3px; position:relative; top:14px; }
+
+.apoio .lettering span.porisso:after,
+.oficina .lettering span.porisso:after { content:''; border-top:1px dashed; border-bottom:1px dashed; display:block; height:3px; position:relative; top:-10px; width:232px; left:120px; }
+
+.apoio .lettering { width:360px; }
+.apoio .lettering span.certo { font-size:23px; }
+.apoio .lettering span.coid { font-size:20px; }
+.apoio .lettering span.porisso { font-size:30px; line-height:24px; text-align:left; }
+.apoio .lettering span.seu { font-size:36px; margin-top:-5px; }
+.apoio .lettering span.ajudando { font-size:27px; line-height:30px; }
+.apoio .lettering span.monitoria { font-size:21px; margin-bottom:30px; }
+.apoio .lettering span.alem { font-size:16px; white-space:normal; line-height:24px; text-align:left; }
+
+.oficina .lettering { width:360px; }
+.oficina .lettering span.nuvens { font-size:19px; }
+.oficina .lettering span.nunca { font-size:16px; }
+.oficina .lettering span.porisso { font-size:30px; line-height:24px; text-align:left; }
+.oficina .lettering span.oficinas { font-size:23px; letter-spacing:-2px; }
+.oficina .lettering span.saobem { font-size:47px; line-height:42px; margin-bottom:30px; }
+.oficina .lettering span.atividades { font-size:16px; white-space:normal; text-align:left; }
+
+.soon .lettering-container { width:400px; height:405px; position:relative; box-shadow:inset 0 0 0 10px white; left:50%; margin-left:-350px; text-align:center; padding:0 150px; top:60px; }
+.soon .lettering { width:340px; }
+.soon .lettering span.entao { font-size:94px; line-height:160px; position:relative; top:30px; }
+.soon .lettering span.ainda { font-size:19px; }
+.soon .lettering span.esperar { font-size:39px; }
+.soon .lettering span.alguns { font-size:35px; margin-top:-10px; }
+.soon .lettering span.podera { font-size:35px; }

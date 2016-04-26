@@ -1,0 +1,190 @@
+body {
+background-color:#eba600;
+background-image:url(../img/bg_programacao.jpg);
+color:#000;
+}
+
+h1 {
+display:none;
+}
+
+h2 {
+text-indent:-9999px;
+background-image:url(../img/tit_programacao.png);
+}
+
+h3 {
+height:23px;
+font-size:14px;
+color:#fff;
+}
+
+h3#h3-legenda {
+text-indent:-9999px;
+background:url(../img/tit_legenda.png) no-repeat;
+}
+
+h4 {
+font-size:12px;
+color:#fff;
+}
+
+#conteudo {
+background-image:url(../img/bg_programacao_content.jpg);
+background-color:#f0ba00;
+border-top-color:#dca000;
+border-bottom-color:#ffd420;
+}
+
+#sub-conteudo {
+border-top-color:#ffe470;
+border-bottom-color:#de970c;
+}
+
+#sub-conteudo a, #links a {
+color:#fff;
+}
+
+#sub-conteudo a:hover, #links a:hover {
+background-color:#fff;
+color:#895d00;
+}
+
+li#home a {
+background-image:url(../img/bt_programacao_home.png);
+}
+
+li#inscricao a {
+background-image:url(../img/bt_programacao_inscricao.png);
+}
+
+li#sobre-inter a {
+background-image:url(../img/bt_programacao_inter.png);
+}
+
+li#sobre-corde a {
+background-image:url(../img/bt_programacao_corde.png);
+}
+
+li#programacao a {
+background-image:url(../img/bt_programacao_programacao.png);
+}
+
+li#blog a {
+background-image:url(../img/bt_programacao_blog.png);
+}
+
+#rodape, #rodape a {
+color:#fed545;
+}
+
+#link-topo, #menu ul li a {
+text-indent:-9999px;
+}
+
+#link-topo a {
+background-image:url(../img/bt_programacao_topo.png);
+}
+
+table {
+border-right-color:#cb9505;
+border-bottom-color:#cb9505;
+}
+
+td {
+border-top-color:#cb9505;
+border-left-color:#cb9505;
+background-image:url(../img/bg_td.png);
+}
+
+th {
+border-top-color:#e2a80b;
+border-left-color:#e2a80b;
+background-image:url(../img/bg_th.png);
+color:#895d00;
+}
+
+table#legenda td.refeicoes, td.refeicoes {
+background:url(../img/bg_td_refeicoes.png);
+}
+
+table#legenda td.festas, td.festas {
+background:url(../img/bg_td_festas.png);
+}
+
+table#legenda td.cred, td.cred {
+background:url(../img/bg_td_credenciamento.png);
+}
+
+table#legenda td.sala-livre, td.sala-livre {
+background:url(../img/bg_td_livre.png);
+}
+
+table#legenda td.trabalhos, td.trabalhos {
+background:url(../img/bg_td_trabalhos.png);
+}
+
+table#legenda td.mostras-videos, td.mostra-videos {
+background:url(../img/bg_td_videos.png);
+}
+
+table#legenda td.repentinas, td.repentinas {
+background:url(../img/bg_td_constantina.png);
+}
+
+table#legenda td.abre-fecha, td.abre-fecha {
+background:url(../img/bg_td_abre.png);
+}
+
+table#legenda td.palestras, td.palestras {
+background:url(../img/bg_td_palestras.png);
+}
+
+table#legenda td.oficinas, td.oficinas {
+background:url(../img/bg_td_oficinas.png);
+}
+
+table#legenda td.vivencias, td.vivencias {
+background:url(../img/bg_td_vivencias.png);
+}
+
+table#legenda td.refeicoes,
+table#legenda td.trabalhos,
+table#legenda td.repentinas,
+table#legenda td.cred,
+table#legenda td.festas,
+table#legenda td.mostras-videos,
+table#legenda td.oficinas,
+table#legenda td.palestras,
+table#legenda td.abre-fecha,
+table#legenda td.sala-livre,
+table#legenda td.vivencias {
+border-color:#cb9505;
+}
+
+.descricao-oficina, .descricao-palestra {
+background-color:#fff;
+border-color:#000;
+}
+
+#flickr-links {
+color:#fff;
+background-image:url(../img/bg_programacao_footer.jpg);
+background-color:#f0bf00;
+}
+
+#flickr a img {
+border-color:#ffe470;
+}
+
+#flickr a:hover img {
+border-color:#fff;
+}
+
+#flickr h3 a {
+background-image:url(../img/tit_flickr_programacao.png);
+}
+
+#links h3 {
+background-image:url(../img/tit_links_programacao.png);
+}

@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { text-align: center; background:#f4f4f4; margin:0;   }
+
+
+.geral {
+	width:800px;
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+}
+.topo {padding:30px 0 30px 0; width:800px; height:105px;}
+
+#logo {padding: 0 80px 0 0; width: 199px; float:left;}
+#menu {padding: 41px 140px 41px 0px; width: 180px; float:left;}
+#data {padding: 27px 0px 0px 0px; width: 201px; float:left;}
+
+.conteudo {width: 800px;}
+
+#info {padding: 20px;}
+#inscricoes { width: 200px; height: 200px; background: url(../imgs/inscr.png) no-repeat top left; float:left;}
+#release{ width: 160px; height: 90px; padding: 90px 20px 20px 20px; background: url(../imgs/release.png) no-repeat top left; float:left;}
+#programacao{ width: 360px; height: 115px; padding: 65px 20px 20px 20px; background: url(../imgs/programacao.png) no-repeat top left; float:left;}
+#festa { width: 400px; height: 200px; float:left;}
+#feira { width: 200px; height: 200px; float:left;}
+#plenaria{ width: 160px; height: 125px; padding: 55px 20px 20px 20px; background: url(../imgs/laranja.png) no-repeat top left; float:left;}
+#expo{ width: 160px; height: 125px; padding: 55px 20px 20px 20px; background: url(../imgs/roxo.png) no-repeat top left; float:left;}
+
+.rodape { padding: 30px 0px 30px 0px; text-align:right; width: 800px; overflow:hidden;}
+
+/* tipo */
+body { font-size: 7.5pt ; color:#898989; font-family: "Arial", Verdana, Tahoma, sans-serif; }
+.style1 {color: #ffffff;}
+.style2 {color: #898989;}
+
+a { text-decoration: none; outline:0; color: #ffffff; }
+a:focus { text-decoration:none;  outline:0; color: #ebebeb; }
+a:hover { text-decoration:none;  outline:0; color: #ebebeb; }
+
+
+
+/* Quadro1 */
+
+.quadro1 { width: 226px; height: 226px; float:left; padding: 0px 10px 10px 0px; background:url(../imgs/quadro1.png) top left no-repeat;}
+.quadro2 { width: 226px; height: 226px; float:left; padding: 0px 10px 10px 0px; background:url(../imgs/quadro2.png) top left no-repeat;}
+.quadro3 { width: 226px; height: 226px; float:left; padding: 0px 10px 10px 0px; background:url(../imgs/quadro3.png) top left no-repeat;}
+.quadro4 { width: 226px; height: 226px; float:left; padding: 0px 10px 10px 0px; background:url(../imgs/incricao.png) top left no-repeat;  }
+.quadro5 { width: 226px; height: 226px; float:left; padding: 0px 10px 10px 0px; background:url(../imgs/plenaria.png) top left no-repeat;  }
+.quadro6 { width: 226px; height: 226px; float:left; padding: 0px 10px 10px 0px; background:url(../imgs/quadro4.png) top left no-repeat;  }
+.quadro7 { width: 226px; height: 226px; float:left; padding: 0px 10px 10px 0px; background:url(../imgs/logointerna.png) top left no-repeat;  }
+
+.quadroin { padding: 26px; width: 226px; height:226px;}
+
+
+.quadroin2 { padding: 58px 26px 26px 26px; width: 226px; height:226px;}
+.blog { width: 175px; height: 26px;  background:url(../imgs/blog.png) top left no-repeat;  }
+.blog2 {width: 135px; padding-left: 40px; padding-top: 5px;}
+.twitter { width: 86px; height: 26px;  background:url(../imgs/twitter.png) top left no-repeat;  }
+.orkut { width: 67px; height: 26px;  background:url(../imgs/orkut.png) top left no-repeat;  }

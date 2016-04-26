@@ -1,0 +1,7 @@
+.parceirohome { position:relative; height:130px; overflow:hidden; }
+ .parceirohome ul { width:80%; text-align:center; position:absolute; left:0; padding:0 10%; }
+  .parceirohome li { border-bottom:1px solid #d9d9d9; padding:5px 0; }
+ul.lisparceiro { overflow:hidden; width:100%; }
+ ul.lisparceiro li { text-align:center; float:left; display:inline; margin:5px 5px 0; height:200px;  }
+  ul.lisparceiro div { font-size:1px; overflow:hidden; height:130px; line-height:130px; clear:both; text-align:left; width:168px; }
+   ul.lisparceiro img { vertical-align:middle; }

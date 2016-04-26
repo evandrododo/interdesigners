@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Interdesigners 2011</title>
+     <link href="css/estilos.css" rel="stylesheet" type="text/css">
+     <link href="css/estilos_interno.css" rel="stylesheet" type="text/css">
+     <link type="image/x-icon" href="images/icon.png" rel="icon" /> 
+    
+	 <script src="js/jquery.tools.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+<header>
+  <nav class="menu">   
+    <ul>
+        <li><a class="cor1" href="home.html" >Home</a></li>
+        <li class="cor2"><a class="cor2" href="evento.html" >O evento</a>
+            <ul>
+            <li><a href="evento.html#historico" title="Anos anteriores">Histórico</a></li>
+            <li><a href="evento.html#conceito" title="Conceito">Conceito</a></li>
+            </ul>
+       </li>
+       <li><a class="cor3" href="cronograma.html" >Cronograma</a>
+       <li><a class="cor4" href="inscricoes.html#nada" >Inscrições</a>
+            <ul>
+            <li><a href="inscricoes.html#participante" title="Participante">Participante</a></li>
+            <li><a href="inscricoes.html#apoio" title="Apoio">Apoio</a></li>
+            <li><a href="inscricoes.html#oficina" title="Oficina">Oficina</a></li>
+            <li><a href="inscricoes.html#bazar" title="Bazar">Bazar</a></li>
+            <li><a href="inscricoes.html#exposicao" title="Exposição">Exposição</a></li>
+            </ul>
+      </li>
+      <li><a class="cor5" href="contato.html" >Contato</a></li>
+    </ul>
+   </nav> 
+    
+</header> 
+
+
+
+<div class="content_cinza">
+   	    <h1 class="vermelho">CRONOGRAMA<img class="logo" src="imgs/logo_int_vermelho.png"/></h1>
+   	    <article>
+        	<!--<div id="bgelo" class="teste">
+            </div>-->
+        </article>
+        <!-- the tabs -->
+<ul class="tabs">
+	<li>
+    <div class="panel_interno" id="bmagenta" >
+            <div class="inside_int">
+                <h4><a href="#palestrantes" class="preto">PALESTRAS</a></h4>
+           
+            </div>
+        </div></li>
+	<li> 
+    	<div class="panel_interno" id="bvermelho">
+            <div class="inside_int">
+                <h4><a href="#oficineiros" class="preto">OFICINAS</a></h4>
+              
+            </div>
+        </div></li>
+	
+</ul>
+
+<!-- tab "panes" -->
+<div class="panes">
+	<div>
+    	<section class="magenta">
+            <h2 class="gelo"> <a name="palestrantes">PALESTRAS</a> </h2> 
+         <div class="minsection"> <h3><a href="http://solutions.3m.com.br" class="magenta">3M</a></h3>
+                <br>
+               <a href="http://solutions.3m.com.br"><img src="img_crono/interdesigners_icone_3M.jpg" width="115" height="115" align="right"/></a>
+            <p>Manami Kawaguchi Torres é designer da 3M, uma empresa global de tecnologia diversificada que apresenta soluções inovadoras para as necessidades do dia-a-dia. Na empresa, o design é tratado de modo essencial e estratégico, aliado a área técnica com o intuito de trazer ao mercado produtos inovadores.</p>
+           
+          </div>
+          <div class="minsection">
+               <br>
+              <h3><a href="http://pianofuzz.com/"class="magenta">Pianofuzz </a></h3>
+              <a href="http://pianofuzz.com/"class="magenta"><img src="img_crono/interdesigners_icone_pianofuzz.jpg" width="115" height="115" align="right"/></a>
+            <p>Pianofuzz é um estúdio de design de Londrina - PR, no qual o importante é interagir e experimentar ao unir as ideias às realizações. Neste contexto, realiza os projetos imerso em um processo de diálogo, pesquisa, percepção e criação.
+            </p>
+           
+         </div>
+        <br>
+        <div class="minsection">
+          <h3><a href="http://colletivo.com"class="magenta">Colletivo </a></h3>
+          <a href="http://colletivo.com"class="magenta"><img src="img_crono/interdesigners_icone_colletivo.jpg" width="115" height="115" align="right"/></a>
+        <p>O Colletivo é um estúdio multidisciplinar de São Paulo - SP que atua nos mais diversos segmentos do design, sempre se dedicando a apresentar novas ideias, explorando os objetivos dos clientes e buscando resultado que vão além das expectativas.</p>
+        <p>&nbsp;</p>
+		
+        </div>
+          <br>
+        <div class="minsection">    
+          <h3><a href="http://www.animatorio.com.br/"class="magenta">Animatorio</a> </h3>
+         <a href="http://www.animatorio.com.br/"class="magenta"> <img src="img_crono/interdesigners_icone_animatorio.jpg" width="115" height="115" align="right"/></a>
+        <p>Guto Terni e PG Santiago são do Animatório,  estúdio de animação brasileiro de São Paulo - SP, e produtores da Vetor Zero.</p>
+        <p>O estúdio preza pelas soluçoes criativas em diferentes técnicas de animação, desde de stop motion ao 3D, desenvolvendo vinhetas, videoclipes e trabalhos para tv. </p>
+		
+        </div>
+        
+            
+		</section>
+    </div>
+
+	<div>  
+    		<section class="vermelho">
+            <h2 class="gelo"> <a name="oficinas">OFICINAS</a> </h2> 
+            
+             <p>As oficinas selecionadas serão divulgadas no dia 2 de Outubro</p>
+           
+            
+  	      	</section></div>
+</div>
+
+
+<!-- This JavaScript snippet activates those tabs -->
+<script>
+
+// perform JavaScript after the document is scriptable.
+$(function() {
+	// setup ul.tabs to work as tabs for each div directly under div.panes
+	$("ul.tabs").tabs("div.panes > div");
+});
+</script>
+        
+        
+ </div> 
+
+  <footer>  
+ 
+  <div class="abaixo">
+  <div class="face">
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#appId=217700604955540&xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        
+        <div class="fb-like" data-href="www.facebook.com/interdesigners" data-send="true" data-layout="box_count" data-width="150" data-show-faces="true" data-colorscheme="dark"></div>
+	</div>
+    <div class="rodape" id="realizacao">
+    	<h6>Realização:</h6>
+        <a href="http://www.unesp.br/"><img src="imgs_foot/logo_unesp.png"/></a>
+        <a href="http://www.faac.unesp.br/"><img src="imgs_foot/logo_faac.png"/></a>
+   	  <a href="contato.html"><img src="imgs_foot/logo_coid.png"/></a></div>
+    <div class="rodape" id="apoio">
+	    <h6>Apoio:</h6>
+        <a href="http://www.zupi.com.br/"><img src="imgs_foot/logo_zupi.png"/></a>
+        <a href="http://www.computerarts.com.br/"><img src="imgs_foot/logo_computerarts.png"/></a>
+        <a href="http://www.ltia.fc.unesp.br"><img src="imgs_foot/logo_ltia.png"/></a>
+        <a href="http://www.camiseteria.com"><img src="imgs_foot/logo_camiseteria.png"/></a>
+        <a href="http://abcdesign.com.br/"><img src="imgs_foot/logo_abcdesign.png"/></a>
+    </div>
+    <div class="rodape" id="patrocinio">
+    	<h6>Patrocínio:</h6>
+      
+        <a href="http://www.sbt.com.br/home/"><img src="imgs_foot/logo_sbt.png"/></a>
+        <a href="http://www.mstech.com.br/"><img src="imgs_foot/logo_mstech.png"/></a>
+        <a href="http://www.2design.com.br/"><img src="imgs_foot/logo_2design.png"/></a>
+    </div>
+  </div> 
+  </footer>
+  <!-- end .container --></div>  
+
+</body>
+</html>

@@ -1,0 +1,388 @@
+body {
+background-color:#17407e;
+background-image:url(../img/bg_inscricao.jpg);
+color:#fff;
+}
+
+hr {
+border-top:1px solid #17407e;
+border-bottom:1px solid #4c84c1;
+margin:30px 0;
+}
+
+h1 {
+display:none;
+}
+
+h2 {
+background-image:url(../img/tit_inscricao.png);
+margin:30px auto 10px auto;
+width:680px;
+}
+
+h2, h3 {
+text-indent:-9999px;
+}
+
+h5 {
+font-size:12px;
+margin-bottom:14px;
+}
+
+h3#login {
+width:206px;
+height:24px;
+background-image:url(../img/tit_login.png);
+}
+
+h3#inscreva-se {
+width:269px;
+height:24px;
+background-image:url(../img/tit_inscrevase.png);
+}
+
+h3#formulario {
+width:175px;
+height:23px;
+background-image:url(../img/tit_formulario.png);
+margin-bottom:20px;
+}
+
+h3#obrigado {
+width:71px;
+height:24px;
+background-image:url(../img/tit_obrigado.png);
+}
+
+h3#importante {
+width:85px;
+height:22px;
+background-image:url(../img/tit_importante.png);
+}
+
+h3#bem-vindo {
+width:87px;
+height:18px;
+background-image:url(../img/tit_bemvindo.png);
+}
+
+h3#lembrete {
+width:142px;
+height:23px;
+background-image:url(../img/tit_lembrete.png);
+}
+
+h3#oficineiros {
+width:152px;
+height:23px;
+background-image:url(../img/tit_oficineiros.png);
+}
+
+#conteudo {
+background-image:url(../img/bg_inscricao_content.jpg);
+background-color:#2f609a;
+border-top-color:#0e2e60;
+border-bottom-color:#4170a8;
+}
+
+#sub-conteudo {
+border-top-color:#6c9fd8;
+border-bottom-color:#0e2e60;
+}
+
+#sub-conteudo a {
+color:#fff;
+}
+
+#sub-conteudo a:hover {
+background-color:#fff;
+color:#17407e;
+text-decoration:none;
+}
+
+li#home a {
+background-image:url(../img/bt_inscricao_home.png);
+}
+
+li#inscricao a {
+background-image:url(../img/bt_inscricao_inscricao.png);
+}
+
+li#sobre-inter a {
+background-image:url(../img/bt_inscricao_inter.png);
+}
+
+li#sobre-corde a {
+background-image:url(../img/bt_inscricao_corde.png);
+}
+
+li#programacao a {
+background-image:url(../img/bt_inscricao_programacao.png);
+}
+
+li#blog a {
+background-image:url(../img/bt_inscricao_blog.png);
+}
+
+#rodape, #rodape a {
+color:#4170a8;
+}
+
+#link-topo, #menu ul li a {
+text-indent:-9999px;
+}
+
+#link-topo a {
+background-image:url(../img/bt_inscricao_topo.png);
+}
+
+ul.lembre-se li {
+padding:10px 0 5px 0;
+}
+
+.espacinho {
+margin-bottom:15px;
+}
+
+/**** FORMULÁRIO ****/
+form {
+margin:0;
+padding:0;
+}
+
+fieldset {
+border:none;
+margin:0;
+padding:0;
+}
+
+legend {
+display:none;
+}
+
+input {
+font-family:verdana, tahoma, sans-serif;
+font-size:12px;
+color:#17407e;
+}
+
+label {
+cursor:pointer;
+line-height:20px;
+}
+
+label.chosen {
+color:#d3dde9;
+}
+
+.label {
+text-align:right;
+width:148px;
+font-weight:bold;
+float:left;
+margin:5px 5px 0 0;
+}
+
+.label-radio {
+text-align:right;
+font-weight:bold;
+float:left;
+margin:-1px 5px 0 0;
+width:148px;
+}
+
+.label-inline {
+font-weight:bold;
+}
+
+.radio-margin {
+padding-left:1000px;
+}
+
+cite {
+color:#acbfd6;
+}
+
+table, tr, td {
+border:0;
+padding:0;
+margin:0;
+}
+
+table {
+margin-bottom:20px;
+}
+
+.table-margin {
+padding-left:15px;
+}
+
+#formLogin {
+margin-top:35px;
+}
+
+/*Transparent items*/
+.outtaHere {
+position:absolute;
+left:-3000px;
+}
+
+/*Radio buttons*/
+.radioArea, .radioAreaChecked {
+display:inline;
+float:left;
+width:17px;
+height:17px;
+font-size:0;
+cursor:pointer;
+}
+
+.radioArea {
+background:url(../img/radio.gif) no-repeat left top;
+}
+.radioAreaChecked {
+background:url(../img/radio.gif) no-repeat left bottom;
+}
+
+/*Text inputs*/
+.textinput, .textinputHovered {
+height:15px;
+background:url(../img/input_bg.gif) repeat-x left top;
+border:none;
+padding:7px 0;
+vertical-align:middle;
+}
+
+.textinputHovered {
+background-position:left bottom;
+}
+
+.inputCorner {
+padding-bottom:0;
+height:29px;
+width:9px;
+vertical-align:middle;
+}
+
+#numero_controle {
+border: 1px solid #17407e;
+background-image:url(../img/bg_select.png);
+padding:4px;
+}
+
+.bt_enviar {
+background-color:#17407e;
+padding:3px 10px;
+color:#fff;
+font-weight:bold;
+border:2px solid #698bb4;
+}
+
+/*Selects*/
+.selectArea {
+width:200px;
+height:25px;
+background:url(../img/select_bg.gif) repeat-x left top;
+}
+
+.selectArea .left {
+width:7px;
+height:25px;
+float:left;
+background:url(../img/select_left.gif) no-repeat left top;
+}
+
+.selectArea .right {
+width:22px;
+height:25px;
+float:right;
+background:url(../img/select_right.gif) no-repeat left top;
+}
+
+.selectArea .right a {
+display:block;
+width:200px;
+height:21px;
+margin-left:-179px;
+position:absolute;
+}
+
+.selectArea .right i {
+display:none;
+}
+
+.selectArea .center {
+width:160px;
+color:#17407e;
+padding-top:5px;
+overflow:hidden;
+white-space:nowrap;
+}
+
+/*Selects drop-down*/
+.optionsDivInvisible, .optionsDivVisible {
+position:absolute;
+padding-top: 1px;
+margin:-1px 0 0 5px;
+background-image:url(../img/bg_select.png);
+border-left:1px solid #618cc4;
+border-right:1px solid #618cc4;
+border-bottom:1px solid #618cc4;
+z-index:20;
+}
+
+.optionsDivInvisible {
+display:none;
+}
+.optionsDivVisible {
+display:block;
+}
+
+.optionsDivVisible p {
+margin:0;
+padding:0;
+}
+
+.optionsDivVisible a {
+color:#17407e;
+text-decoration:none;
+display:block;
+padding:1px;
+border-top:1px solid #618cc4;
+font-size:11px;
+}
+
+.optionsDivVisible a:hover {
+color:#fff;
+background:#17407e;
+}
+
+/*Button*/
+.buttonSubmit, .buttonSubmitHovered {
+width:auto;
+height:28px;
+color:#fff;
+font-weight:bold;
+padding:0 0 4px 0;
+background:url(../img/button_bg.gif) repeat-x left top;
+cursor:pointer;
+border:none;
+}
+
+.buttonSubmitHovered {
+background-position:left bottom;
+}
+
+.buttonImg {
+vertical-align:bottom;
+width:12px;
+height:28px;
+}
+
+.botoes {
+margin-left:152px !important;
+}
+
+p.depositou {margin-bottom:5px !important;}
+
+td {font-size:12px;}

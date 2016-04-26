@@ -1,0 +1,111 @@
+body {
+background-color:#920101;
+background-image:url(../img/bg_inter.jpg);
+color:#fff;
+}
+
+h1 {
+display:none;
+}
+
+h2 {
+background-image:url(../img/tit_inter.png);
+}
+
+h2, h3 {
+text-indent:-9999px;
+}
+
+h3 {
+height:23px;
+}
+
+h3#o-que-e {
+background:url(../img/tit_oqueinter.png) no-repeat;
+width:119px;
+margin-left:175px;
+}
+
+h3#bauru {
+background:url(../img/tit_bauru.png) no-repeat;
+width:69px;
+}
+
+#conteudo {
+background-image:url(../img/bg_inter_content.jpg);
+background-color:#aa0000;
+border-top-color:#990000;
+border-bottom-color:#cc0000;
+}
+
+#sub-conteudo {
+border-top-color:#dd0000;
+border-bottom-color:#660000;
+}
+
+#sub-conteudo a, #links a {
+color:#fff;
+}
+
+#sub-conteudo a:hover, #links a:hover {
+background-color:#fff;
+color:#895d00;
+}
+
+li#home a {
+background-image:url(../img/bt_inter_home.png);
+}
+
+li#inscricao a {
+background-image:url(../img/bt_inter_inscricao.png);
+}
+
+li#sobre-inter a {
+background-image:url(../img/bt_inter_inter.png);
+}
+
+li#sobre-corde a {
+background-image:url(../img/bt_inter_corde.png);
+}
+
+li#programacao a {
+background-image:url(../img/bt_inter_programacao.png);
+}
+
+li#blog a {
+background-image:url(../img/bt_inter_blog.png);
+}
+
+#rodape, #rodape a {
+color:#cc2222;
+}
+
+#link-topo, #menu ul li a {
+text-indent:-9999px;
+}
+
+#link-topo a {
+background-image:url(../img/bt_inter_topo.png);
+}
+
+#flickr-links {
+color:#fff;
+background-image:url(../img/bg_inter_footer.jpg);
+background-color:#ae0000;
+}
+
+#flickr a img {
+border-color:#dd0000;
+}
+
+#flickr a:hover img {
+border-color:#fff;
+}
+
+#flickr h3 a {
+background-image:url(../img/tit_flickr_inter.png)
+}
+
+#links h3 {
+background-image:url(../img/tit_links_inter.png)
+}

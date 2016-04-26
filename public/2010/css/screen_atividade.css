@@ -1,0 +1,15 @@
+.desatividade { float:left; width:400px; margin:33px 0 0 0; position:relative; min-height:316px; }
+.inscricao { width:260px; float:left; padding:32px 0 0 32px; }
+
+.programacao { float:left; clear:both; width:100%; }
+ .programacao table td { font-weight:bold; vertical-align:top; background:#5FCEFF; border:1px solid #fff;  }
+ .programacao table td.palestra { background:#009FEB; }
+ .programacao table td.mesa { background:#0079AF; }
+ .programacao table td.show { background:#4C91AF; }
+ .programacao table td.vazia { background:#fff; }
+ 
+ .programacao table td.hora { background:#000; color:#fff; padding:4px;  }
+  .programacao table td p { float:left; width:158px; padding:4px; color:#fff; }
+   .programacao table td p a { color:#fff; }
+
+.inscricao strong { color:#009FEB; }

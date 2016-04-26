@@ -1,0 +1,70 @@
+/* -------------- FORMULÁRIOS ------------------ */
+
+form ol, form ul { list-style:none; margin:0; float:left; display:inline; width:100%; }
+form li { margin-bottom:8px; float:left; display:inline; clear:left; width:100%;}
+.checkradio ul li { width:100%; clear:none; margin-bottom:0; }
+.colcampo ul li { width:50% }
+
+legend     						{ font-weight: bold; border-bottom:1px solid #ccc; margin-bottom:1em; }
+input   		            	{ border:1px solid #aaa; background:#fff; padding:2px 4px 1px; float:left;  }
+ol input, ul input 				{ display:inline; }
+.checkradio input,
+.formbox .checkradio input		{ border:none; background:none transparent; }
+label		 					{ padding-top:2px; font-weight:bold; float:left; display:inline;}
+textarea       			    	{ border:1px solid #aaa; background:#fff; padding:4px; float:left; display:inline;  }
+select          		    	{ border:1px solid #aaa; background:#fff; }
+
+a.button, button {
+  float:left;
+  display:inline;
+  border:0;
+  color:#fff;
+  background:#b2b2b2;
+  text-decoration:none;
+  font-weight:bold;
+  cursor:pointer;
+  padding:0 7px 2px;
+  font-size:12px;
+  height:16px;
+  line-height:16px;
+  width:auto;
+  overflow:visible;
+}
+
+button.botao { -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; behavior: url(css/PIE.htc); margin-left:190px; }
+.atividades  button.botao { background:#009FEB; }
+
+
+.error,
+.notice, 
+.success    { padding: 0.8em; border: 2px solid #fff; margin-bottom:1em; }
+.error      { background: #FBE3E4; color: #D12F19; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #817134; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #529214; border-color: #C6D880; }
+.error a    { color: #D12F19; }
+.notice a   { color: #817134; }
+.success a  { color: #529214; }
+
+/* -------------------- CLASSES -------------------- */
+
+.formulario fieldset { margin: 15px 0; padding-left:80px; }
+.formulario label { width:105px; text-align:right; padding-right:10px; }
+.formulario label.linear { width:auto; }
+.formulario .checkradio ul label { text-align:left; width:auto; }
+.formulario input, .formulario select, .formulario textarea, .formulario .checkradio ul { width:340px; margin-right:10px; }
+.formulario .checkradio ul input, .checkradio ul input { margin:5px 5px 0 0; width:12px; height:12px; }
+.formulario button { margin-left:255px; display:inline; }
+
+.formbox form, .formbox fieldset { float:right; padding:0; margin:0; width:100%; }
+.formbox input, .inscricao input { clear:left; color:#aaa; width:250px; margin:0 5px 0 0; }
+.inscricao select { width:260px; color:#aaa; }
+.inscricao textarea { color:#aaa; width:250px; overflow:auto; height:4em; }
+.inscricao strong { text-transform:uppercase; font-weight:bold; font-family:"til"; font-size:18px; display:block; text-align:justify; }
+.formbox button { width:16px; height:16px; text-indent:-99999px; float:left; display:inline; background:url(../img/pesquisa.gif) left top no-repeat; padding:0; margin:2px 0 0; }
+
+form#form-contato input#cmp-tel,
+form#form-contato input#cmp-cep,
+form#form-contato input#cmp-cid		{ width:138px; }
+form#form-contato input#cmp-bairro	{ width:134px; }
+form#form-contato select#cmp-uf		{ width:140px; }
+form#form-contato textarea#cmp-msg	{ height:100px; }

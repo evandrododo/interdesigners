@@ -1,0 +1,4 @@
+ul.lisdownloadhome { padding:10px 10px 0; overflow:hidden; }
+ul.lisdownloadhome li { float:left; display:inline; margin-bottom:5px;}
+ul.lisdownloadhome a { text-decoration:underline; }
+ul.lisdownloadhome a:hover { text-decoration:none; }

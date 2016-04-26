@@ -1,0 +1,15 @@
+#areaativa { width:49%; margin:0 1% 10px 0; color:#FFF; float:left; display:inline; }
+ #areaativa ul { overflow:hidden; margin:0 0 0 0; width:100%; }
+  #areaativa ul li { float:left; display:inline; margin:0 3px 0 0; }
+   #areaativa ul li a { float:left; display:inline; width:70px; background:#000; color:#FFF; padding:3px; margin-bottom:3px; }
+   .area { display:none; padding:3px; background:#888; }
+   .ativo1 #area1, .ativo2 #area2, .ativo3 #area3 { display:block; } 
+   .ativo1 #item1 a, .ativo2 #item2 a, .ativo3 #item3 a { background:#888; margin:0; padding-bottom:6px; }
+
+#subpopup { width:49%; margin:0 0 10px 1%; float:left; display:inline; position:relative; }
+ #popup { position:absolute; top:-70px; left:100px; width:130px; height:80px; background:#000; color:#FFF; padding:10px;  }
+  #popup a { color:#FFF; margin:0 0 20px  }
+
+#interruptor { width:47%; margin:0 1% 10px 0; float:left; display:inline; background:#000; color:#FFF; padding:1%; height:58px; }
+ #interruptor a { color:#FFF; }
+  #cambio { background:#888; padding:10px; }

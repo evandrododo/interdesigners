@@ -1,0 +1,10 @@
+.lettering { position:absolute; top:70px;}
+.lettering span { display:block; }
+.lettering span.inter { font-size:163px; line-height:100px; }
+.lettering span.designers { font-size:85px; border-bottom:1px dashed #8F4758; margin-bottom:3px; }
+.lettering span.date-place { font-size:46px; border-top:1px dashed #8F4758; font-style:normal; }
+.lettering span.networks { margin-top:10px; }
+.lettering span.networks a { float:left; margin-right:10px; }
+
+.home .photo { position:absolute; top:100px; left:360px; }
+.content-limit { background:url(../img/main/line.png) no-repeat 580px bottom; }

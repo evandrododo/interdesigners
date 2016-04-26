@@ -1,0 +1,581 @@
+* {
+	margin:0;
+	padding:0;
+	border: 0;
+}
+
+body { 
+	overflow: hidden; 
+	background: #5a6476 url('img/bg.png');
+}
+
+@font-face {
+	font-family: CreteRound;
+	font-style: normal;
+	src: url("CreteRound-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: CreteRound;
+	font-style: italic;
+	src: url("CreteRound-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('aller_lt-webfont.eot');
+    src: url('aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aller_lt-webfont.woff') format('woff'),
+         url('aller_lt-webfont.ttf') format('truetype'),
+         url('aller_lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a, p.texto {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 2.2em;
+	font-style: italic;
+}
+
+.rosa {
+	color: #D770AB;
+	text-align: right;
+	font-weight: bold;
+}
+
+.textos p {
+	margin-left: 40px;
+	margin-top: 10px;
+	font-size: 1.2em;
+}
+
+.textos a {
+	color:#d671ac;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.textos h3 {
+	margin-top: 10px;
+	font-style: italic;
+}
+
+.fltLeft {
+	float: left;
+}
+
+.page {
+	position: absolute;
+	min-width: 1024px;
+	min-height: 600px;
+	width: 100%;
+	height: 100%;
+	font-family: 'CreteRound', sans-serif;
+	color: #fff;
+}
+
+.fita {
+	overflow: hidden;
+	height: 49px;
+}
+
+.fita img {
+	float: left;
+	width: 147px;
+	height: 49px;
+	background-color: #5a6476;
+}
+
+.fita img:not(:first-child) {
+	margin-left: 49px;
+}
+
+.fita-vert img {
+	display: block;
+	width: 49px;
+	height: 147px;
+	background-color: #5a6476;
+}
+
+.fita-vert img:not(:first-child) {
+	margin-top: 49px;
+}
+
+/* ------------------ */
+/* ----- INICIO ----- */
+/* ------------------ */
+#inicio {
+	left: 0;
+	top: 0;
+	z-index: 5;
+}
+
+#logo-inter {
+	padding:40px;
+}
+
+#data {
+	margin-left: 100px;
+	color:#fff;
+	font-family: 'CreteRound', sans-serif;
+	font-size: 3em;
+	text-align: center;
+	font-style: italic;
+}
+
+span#u_0_1 a { display:none !important; }
+
+#fita-verde {
+	margin-top: 0px;
+	margin-left: -24px;
+	padding-right: 50px;
+}
+
+#fita-verde-05 {
+	float: left;
+	width: 147px;
+	height: 49px;
+	margin-left: 49px;
+	background: url("img/fitas-novas/fita-verde-05.png") no-repeat;
+}
+
+#fita-verde-r {
+	position: absolute;
+	height: 49px;
+	width: 196px;
+	left: 956px;
+	background: url("img/fitas-novas/fita-verde-r.png") repeat-x;
+}
+
+#fita-rosa {
+	margin-top: 49px;
+	margin-right: 0;
+	padding:0;
+}
+
+#fita-rosa-05 {
+	float: left;
+	width: 343px;
+	height: 49px;
+	margin-left: 49px;
+	background: url("img/fitas-novas/fita-rosa-05.png") no-repeat;
+}
+
+#fita-rosa-r {
+	position: absolute;
+	margin-top: 49px;
+	height: 49px;
+	width: 196px;
+	left: 1054px;
+	background: url("img/fitas-novas/fita-rosa-r.png") repeat-x;
+}
+
+#fita-laranja {
+	margin-top: 49px;
+}
+
+#fita-laranja-04 {
+	float: left;
+	width: 343px;
+	height: 49px;
+	margin-left: 49px;
+	background: url("img/fitas-novas/fita-laranja-04.png") no-repeat;
+}
+
+#fita-laranja-r {
+	position: absolute;
+	margin-top: 49px;
+	height: 49px;
+	width: 196px;
+	left: 956px;
+	background: url("img/fitas-novas/fita-laranja-r.png") repeat-x;
+}
+/* ------------------- */
+/* ----- /INICIO ----- */
+/* ------------------- */
+
+/* ---------------------- */
+/* ----- INSCRICOES ----- */
+/* ---------------------- */
+
+#inscricoes-janela { top:80px; width:auto; height:auto; display:block; padding:20px; background:#f5f6f7; left:50%; margin-left:-350px; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; position:absolute; z-index:200; -moz-box-shadow: 0 0 100px rgba(0,0,0,.8); -webkit-box-shadow: 0 0 100px rgba(0,0,0,.8); -box-shadow: 0 0 100px rgba(0,0,0,.8); }
+#inscricoes-janela a.fechara { position:absolute; cursor:pointer; top:-48px; right:30px; display:block; width:116px; height:48px; text-align: center; padding-top: 13px; margin-left: 20px; background: transparent url("img/aba-verde.png") no-repeat; font-size:1.2em;}
+
+
+#inscricoes {
+	left:100%;
+}
+
+#fita-verde-grande {
+	position: absolute;
+	left: -1453px;
+	top: 161px;
+	z-index: 1;
+}
+
+#fita-rosa-grande {
+	position: absolute;
+	top: 231px;
+	left:-142px;
+	z-index: 3;
+}
+
+#fita-laranja-grande {
+	position: absolute;
+	top:512px;
+	left:-240px;
+	z-index: 3;
+}
+
+
+#fita-laranja-topo {
+	position: absolute;
+	width: 200%;
+	top:24px;
+	left:-508px;
+	z-index: 3;
+}
+
+#fita-verde-topo {
+	position: absolute;
+	width: 49px;
+	height: auto;
+	top:-123px;
+	left:300px;
+	z-index: 3;
+}
+
+#fita-rosa-topo {
+	position: absolute;
+	width: 49px;
+	height: auto;
+	top:-123px;
+	left:300px;
+	z-index: 3;
+}
+
+#fita-verde-baixo {
+	position: absolute;
+	width: 49px;
+	background: #91baa1;
+	top: 622px;
+}
+
+#fita-laranja-baixo {
+	position: absolute;
+	width: 49px;
+	background: #ee9a75;
+	top: 602px;
+}
+
+#texto-inscricoes {
+	position: absolute;
+	top:88px;
+	left:400px;
+	width: 450px;
+	height: 400px;
+	z-index: 100;
+	padding-left:105px;
+	background: url("img/preco.png") left 0 no-repeat;
+	line-height:1.1em;
+}
+
+#texto-inscricoes  h3 { display:inline;}
+#texto-inscricoes  p { font-family:"aller_lightregular"; font-size:14px; display:inline; margin-left:5px; }
+#texto-inscricoes  a { margin-left:5px; font-family:"CreteRound"; font-size:18px; }
+#texto-inscricoes  span { font-size:12px; font-family:"aller_lightregular"; display:block; line-height:14px; margin:5px 0 34px;}
+
+#botoes-inscricoes {
+	position: absolute;
+	z-index: 5;
+	top: 513px;
+	left: 320px;
+}
+
+#botoes-inscricoes p {
+	float: left;
+	width: 116px;
+	height: 48px;
+	text-align: center;
+	padding-top: 9px;
+	margin-left: 20px;
+	background: transparent url("img/aba-rosa.png") no-repeat;
+}
+#botoes-inscricoes a { font-size:1em; }
+
+#titulo-inscricoes {
+	position: absolute;
+	z-index: 5;
+	top: 467px;
+	left:850px;
+	margin:0 0 0 510px;
+}
+
+#titulo-inscricoes p {
+	color:#fff;
+	font-size: 2em;
+}
+
+#inscricoes .janela { left:50%; }
+#inscricoes iframe { -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; width:100%; height:100%; }
+
+/* ----------------------- */
+/* ----- /INSCRICOES ----- */
+/* ----------------------- */
+
+
+/* ------------------ */
+/* ----- EVENTO ----- */
+/* ------------------ */
+#evento {
+	top:100%;
+}
+
+#fita-verde-tudo {
+	position: absolute;
+	width: 80%;
+	height: 49px;
+	left: 0;
+	z-index: 3;
+	background: #91baa1;
+}
+
+#fita-verde-tudo p {
+	text-align: right;
+	padding-right:20px;
+}
+
+#fita-laranja-lateral {
+	position: absolute;
+	width: 49px;
+	left: 24px;
+}
+
+#botoes-evento {
+	position: absolute;
+	z-index: 5;
+	top: 43px;
+	left: 90px;
+}
+
+#botoes-evento p {
+	float: left;
+	width: 116px;
+	height: 48px;
+	text-align: center;
+	padding-top: 14px;
+	margin-left: 20px;
+	background: transparent url("img/aba-verde.png") no-repeat;
+}
+#botoes-evento a { font-size:1em; }
+
+#texto-evento {
+	position: absolute;
+	top:0;
+	left:45px;
+	width: 900px;
+	height: 400px;
+	z-index: 4;
+}
+
+#texto-evento p {
+	font-size: 0.8em;
+	margin-left: 20px;
+	font-family:"aller_lightregular";
+}
+
+.patrocinio {
+	position: absolute;
+	bottom:100px;
+	left:20px;
+	z-index: 4;
+	vertical-align:middle;
+}
+
+.patrocinio a {
+	font-size: 0em;
+	margin-right:15px;
+}
+
+.patrocinio img {
+	max-height:35px;
+	vertical-align:middle;
+}
+
+.patrocinio h3 {
+	padding-top: 10px;
+}
+
+.apoio { left:auto; right:0px; }
+
+/* ------------------- */
+/* ----- /EVENTO ----- */
+/* ------------------- */
+
+
+/* ----------------------- */
+/* ----- PROGRAMACAO ----- */
+/* ----------------------- */
+#programacao {
+	top:100%;
+	left:100%;
+}
+
+#fita-laranja-grande-02 {
+	position: absolute;
+	z-index: 3;
+}
+
+#fita-laranja-v {
+	position: absolute;
+	width: 49px;
+	height: auto;
+	z-index: 3;
+}
+
+#fita-verde-grande-02 {
+	position: absolute;
+	z-index: 3;
+}
+
+#fita-verde-p {
+	position: absolute;
+	top:263px;
+	left:-410px;
+	width: 200%;
+	z-index: 2;
+}
+
+#fita-verde-p-02 {
+	position: absolute;
+	top:459px;
+	left:-410px;
+	width: 200%;
+	z-index: 2;
+}
+
+#fita-rosa-p {
+	position: absolute;
+	width: auto;
+	top:361px;
+	left:-410px;
+	width: 200%;
+	z-index: 2;
+	max-height: 49px;
+}
+
+#fita-rosa-p-02 {
+	position: absolute;
+	width: auto;
+	top:557px;
+	left:-410px;
+	width: 200%;
+	z-index: 2;
+	max-height: 49px;
+}
+
+.fita-verde-p-05 {
+	position: absolute;
+	z-index: 5;
+	width: 147px;
+	height: 49px;
+	background: url("img/fitas-novas/fita-verde-05.png") no-repeat;
+}
+
+.fita-verde-p-05 p, .fita-rosa-p-05 p {
+	margin-top:11px;
+}
+
+.fita-verde-p-05 a, .fita-rosa-p-05 a {
+	font-size:1.3em;
+}
+
+.fita-rosa-p-05 {
+	position: absolute;
+	z-index: 5;
+	width: 147px;
+	height: 49px;
+	background: url("img/fitas-novas/fita-rosa-06.png") no-repeat;
+}
+
+#botoes-programacao { position:absolute; z-index:5; top:43px; left:240px; margin:97px 0 0 357px; }
+
+#botoes-programacao p {
+	float: left;
+	width: 116px;
+	height: 48px;
+	text-align: center;
+	padding-top: 9px;
+	margin-left: 20px;
+	background: transparent url("img/aba-laranja.png") no-repeat;
+}
+#botoes-programacao a { font-size:1em; }
+
+#titulo-programacao {
+	position: absolute;
+	z-index: 5;
+	top: 40px;
+	left:850px;
+}
+
+#titulo-programacao p { color:#fff; margin-left:542px; font-size: 2em; }
+
+span.aindanao {
+	cursor:progress;
+	background:transparent url("img/aindanao.png") right 16px no-repeat;
+	display:block;
+	width:150px;
+	height:81px;
+	position:absolute;
+	right:0;
+	top:0;
+	text-indent:-999px;
+	overflow:hidden;
+}
+
+.fita-verde-p-05 span.aindanao {
+	background-image:url("img/aindanao_rosa.png");
+}
+
+.janela { display:none; background:#f5f6f7; width:750px; padding:25px; height:450px; left:50%; margin-left:-390px; top:70px; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; position:absolute; z-index:200; -moz-box-shadow: 0 0 100px rgba(0,0,0,.8); -webkit-box-shadow: 0 0 100px rgba(0,0,0,.8); -box-shadow: 0 0 100px rgba(0,0,0,.8); }
+.janela a.fechar { position:absolute; cursor:pointer; top:-48px; color:#fff; text-decoration:none; right:30px; display:block; width:116px; height:48px; text-align: center; padding-top: 13px; margin-left: 20px; background: transparent url("img/aba-verde.png") no-repeat; font-size:1.2em;}
+.janela ul { overflow:auto; width:97%; max-height:100%; padding-right:3%;}
+.janela li { list-style:none; clear:both; margin-bottom:30px; overflow:hidden; }
+.janela ul img { float:left; }
+.janela h3 { color:#F39C76; font-style:italic; font-weight:normal; }
+.janela ul h3 { text-indent:-20px; }
+.janela ul em { color:#91BAA2; font-size:16px; margin-left:230px; display:block; font-style:normal; margin-bottom:20px; font-family:"aller_lightregular"; }
+.janela ul p { color:#000; font-size:13px; text-indent:20px; font-family:"aller_lightregular"; padding-bottom:5px; margin-left:210px;}
+li#putag p:first-letter { font-weight:bold; }
+.janela ul a { font-size:13px; color:#D771AB; font-family:"aller_lightregular"; font-style:normal;}
+
+.mascara { position:fixed; background:#000; left:0; top:0; width:100%; height:100%; z-index:199; display:none; opacity: 0.5; }
+
+table.cronograma  td { border-width:0 10px 0 2px; vertical-align:middle; }
+div.cronograma { overflow:auto; width:750px; height:390px; padding-right:10px; margin-bottom:50px; }
+table.cronograma td.convidados { background:url("img/convidado.gif"); }
+table { border-collapse:collapse; border-spacing:0; margin:10px 0 20px; }
+.cronograma table { width:730px; }
+table td { font-family:"aller_lightregular"; font-size:13px; vertical-align:top; border:2px solid #f5f6f7; padding:5px; }
+table td p { min-width:124px; }
+table td em { 	font-family: 'CreteRound', sans-serif; font-size:15px; }
+table td span { width:50%; float:left; padding:5px; margin:-5px 5px 5px -5px; border:solid #f5f6f7; border-width:0 2px 2px 0; }
+table td.hora { background:#d8d8d9; text-align:right; }
+table td.horario, table td.horario.naoclica:hover { background:#df92be; cursor:default; }
+table td.horario:hover { background:#d774ad; cursor:pointer; }
+table td.palestra, table td.palestra.naoclica:hover { background:#f4b396; cursor:default; }
+table td.palestra:hover { background:#F39C76; cursor:pointer; }
+table td.oficina, table td.oficina.naoclica:hover { background:#aac9b7; cursor:default; }
+table td.oficina:hover { background:#91BAA2; cursor:pointer; }
+table td.paralela, table td.paralela.naoclica:hover { background:#c9bee3; cursor:default; }
+table td.paralela:hover { background:#b4a7d6; cursor:pointer; }
+
+.janela a.voltacronograma { cursor:pointer; color:#fff; text-decoration:none; display:none; float:left; width:116px; height:56px; margin:-25px 0 30px; text-align: center; padding-top: 5px; margin-left: 20px; background: transparent url("img/aba-laranja.png") no-repeat; font-size:1.2em;}
+
+/* ------------------------ */
+/* ----- /PROGRAMACAO ----- */
+/* ------------------------ */

@@ -1,0 +1,17 @@
+* html .col { overflow-x: hidden; } /* IE6 fix */
+
+ul, ol { position: relative;} /* Keeps IE6 from cutting pulled/pushed images */
+
+legend { margin-bottom:1.4em; }
+
+.submenu li a { height:1%; } /* Sem isso, o ítem do menu fica "pulando" no IE 6 */
+
+ul.galeria div { width:200px; } 
+
+select { margin-left:-3px; }
+
+.pontameio { width:91%; }
+ .ponta2 span.pontaNE { right:-1px; }
+ .ponta2 span.pontaSO { bottom:-1px; }
+ .ponta2 span.pontaSE { right:-1px; bottom:-1px; }
+

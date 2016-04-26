@@ -1,0 +1,7 @@
+ul.galeria { overflow:hidden; width:100%; }
+ ul.galeria li { text-align:center; float:left; display:inline; margin:5px 5px 0; height:200px;  }
+  ul.galeria div { height:180px; line-height:180px; font-size:1px; overflow:hidden; }
+   ul.galeria img { vertical-align:middle; }
+   
+.galeriahome ul.galeria li { text-align:center; float:left; display:inline; margin:5px 1% 0; height:158px; width:48%;  }
+ .galeriahome ul.galeria div { height:139px; line-height:139px; font-size:1px; width:100%; overflow:hidden;  }

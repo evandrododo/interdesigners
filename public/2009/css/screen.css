@@ -1,0 +1,4 @@
+@import 'reset.css';	/* Zera valores igualando os navegadores */
+@import 'tipo.css';		/* Tipografia, fontes, cores e tamanhos */
+@import 'grid.css';		/* Estrutura (container, colunas, etc) */
+@import 'forms.css';	/* Formulários */

@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Interdesigners 2011</title>
+     <link href="css/estilos.css" rel="stylesheet" type="text/css">
+     <link href="css/estilos_interno.css" rel="stylesheet" type="text/css">
+     <link type="image/x-icon" href="imgs/icon.png" rel="icon" /> 
+    
+	 <script src="js/jquery.tools.min.js"></script>
+<?php include_once 'metatags.php'; ?>
+
+</head>
+<body>
+<div class="container">
+<header>
+  <nav class="menu">   
+    <ul>
+        <li><a class="cor1" href="home.html" >Home</a></li>
+        <li class="cor2"><a class="cor2" href="evento.html" >O evento</a>
+            <ul>
+            <li><a href="evento.html#historico" title="Anos anteriores">Histórico</a></li>
+            <li><a href="evento.html#conceito" title="Conceito">Conceito</a></li>
+              <li><a href="evento.html#dataelocal" title="Data e Local">Data e Local</a></li>
+            </ul>
+       </li>
+       <li><a class="cor3" href="cronograma.html" >Cronograma</a>
+       <li><a class="cor4" href="inscricoes.html#nada" >Inscrições</a>
+            <ul>
+            <li><a href="inscricoes.html#participante" title="Participante">Participante</a></li>
+            <li><a href="inscricoes.html#apoio" title="Apoio">Apoio</a></li>
+            <li><a href="inscricoes.html#oficina" title="Oficina">Oficina</a></li>
+            <li><a href="inscricoes.html#bazar" title="Bazar">Bazar</a></li>
+            <li><a href="inscricoes.html#exposicao" title="Exposição">Exposição</a></li>
+            </ul>
+      </li>
+      <li><a class="cor5" href="contato.html" >Contato</a></li>
+    </ul>
+   </nav> 
+    
+</header> 
+
+
+
+<div class="content_cinza">
+   	    <h1 class="verde">INSCRIÇÕES<img class="logo" src="imgs/logo_int_verde.png"/></h1>
+        
+        <!-- the tabs -->
+<ul class="tabs">
+	<li>
+    <div class="panel_interno" id="bmagenta" >
+            <div class="inside_int">
+                <h4><a href="#participante" class="preto">PARTICIPANTE</a></h4><br><br><br>
+            <!--<h5>Incrições abertas</h5> -->
+            </div>
+        </div></li>
+	<li> 
+    	<div class="panel_interno" id="bvermelho">
+            <div class="inside_int">
+                <h4><a href="#apoio" class="preto">APOIO</a></h4><br><br><br>
+              
+            </div>
+        </div></li>
+	<li> 
+    	<div class="panel_interno" id="bverde">
+            <div class="inside_int">
+                <h4><a href="#oficina" class="preto">OFICINA</a></h4>  <br><br><br>
+               <h5><a  class="verde"href="#00">.</a></h5> 
+          </div>
+        </div></li>
+    <li>
+      <div class="panel_interno" id="bazul">
+            <div class="inside_int">
+                <h4><a href="#bazar" class="preto">BAZAR</a></h4><br><br><br>
+                 
+           </div>
+        </div></li>
+    <li> 
+    	<div class="panel_last" id="bgelo">
+            <div class="inside_int">
+                <h4><a href="#exposicao" class="magenta">EXPOSIÇÃO</a></h4>
+                <br><br><br>
+                 
+          
+            </div>
+        </div></li>
+</ul>
+
+<!-- tab "panes" -->
+<div class="panes">
+	<div>
+    	<section class="magenta">
+            <h2 class="gelo"> <a name="participante">PARTICIPANTE</a> </h2> 
+            <p>Inscrições Encerradas! </p>
+             
+             <p>Estaremos recebendo pagamentos no dia do evento durante o horário do credenciamento ( quinta feira, 20, período da manhã) E somente até este período. Bem como realizando inscrições presenciais, para as inscrições no dia do evento o kit que vem de brinde não está garantido. </p>
+           
+           
+             <!--<form action="inscricao_participante.php"  method="POST" id="FormInscricoes" >
+       
+           <label>Nome* 
+                 <input name="Nome" type="text" required id="bmagenta"  size="40" maxlength="50" /></label>
+                <label class="linha">Curso
+                 <input type="text" name="Curso"  maxlength="20" id="bmagenta" size="10"  />
+            </label>
+              <label class="linha">Semestre
+                 <input type="text" name="Semestre"  maxlength="5" id="bmagenta" size="10"  />
+            </label>
+              <label class="linha">Período
+                 <input type="text" name="Periodo"  maxlength="10" id="bmagenta" size="10"  />
+            </label>
+            <label class="linha">RA
+                 <input type="text" name="RA"  maxlength="9" id="bmagenta" size="10" />
+                 <span class="magenta"> * Se aluno da Unesp </span>
+            </label>
+            <label>Ministrará alguma oficina? Qual?
+<input type="text" name="TituloOficina" maxlength="50" id="bmagenta" size="70" /></label>
+
+			
+            <label>Tamanho da Camiseta 
+                  <select size=1 name= "Camiseta" id="bmagenta" class="gelo" >
+                    <option value="P">P</option>
+                    <option value="M">M</option>
+                    <option value="G">G</option>
+                    <option value="GG">GG</option>
+				    </select>
+                    <input type=radio name="Genero"checked  value="Feminino">
+                    Feminino
+                    <input type=radio name="Genero" value="Masculino">
+            Masculino</label>
+    
+            <label>Email para contato* 
+                                  <input type="email" name="Email" id="bmagenta" size="30" required /></label>
+                <label>Telefone para contato* 
+                  <input type="tel" name="Telefone" size="12" id="bmagenta" required/> 
+                 <span class="magenta"> * ex: (99) 9999-9999</span></label>
+               
+            <bR>
+              <button type="submit">Enviar</button>
+              <button type="reset">Reset</button>
+        </form>
+        <p>* Campos necessários
+		<p>Salve e imprima o PDF que será gerado. Ele é o comprovante de Inscrição para o Interdesigners e deverá ser apresentado para pagamento.    -->             
+    	</section>
+    </div>
+
+	<div>  
+    		<section class="vermelho">
+            <h2 class="gelo"> <a name="apoio">APOIO</a> </h2> 
+            <p>Você quer ajudar a organização do Inter? Nós precisamos de apoios que serão nosso braço direito no evento. O seu trabalho vai ser ajudar a fazer tarefas gerais, monitorar oficinas e palestras, ajudar a organização, correr por aí, enfim, pau pra toda obra. Mas tem um lado bom: você conhece os bastidores do evento, pessoas importantes, e ainda tem um descontaço na inscrição.</p>
+            <p>Os apoios são uma parte essencial do Interdesigners. Apoio não é bagunça! E é muito divertido.</p>
+            <p>Inscrições encerradas dia 02/10</p>
+        
+            <!--  
+       		<form action="inscricao_apoio.php"  method="POST" id="FormInscricaoApoio" >
+     		
+            <label>Nome 
+               <input type="text" name="Nome"  maxlength="250" id="bvermelho" size="50" required/></label>
+           	
+            <label class="linha">Curso
+                 <input type="text" name="Curso"  maxlength="30" id="bvermelho" size="10" required />
+            </label>
+              <label class="linha">Semestre
+                 <input type="text" name="Semestre"  maxlength="30" id="bvermelho" size="10" required />
+            </label>
+              <label class="linha">Período
+                 <input type="text" name="Periodo"  maxlength="30" id="bvermelho" size="10" required />
+            </label>
+            <label class="linha">RA
+                 <input type="text" name="RA"  maxlength="9" id="bvermelho" size="10" />
+                 <span class="vermelho"> * Se aluno da Unesp </span>
+            </label>
+                  <label>Tamanho da Camiseta
+                  <input type="text" name="Camiseta"  maxlength="10" id="bvermelho" size="10"  /><span class="vermelho">* P, M, G, GG masculino ou feminino </span></label>
+                <label>Ministrará alguma oficina? Qual o nome dela? 
+                  <input type="text" name="TituloOficina"  maxlength="250" id="bvermelho" size="63"  /></label>
+                 <label>Participará de algum bazar? Qual? 
+                  <input type="text" name="TituloBazar"  maxlength="250" id="bvermelho" size="78"  /></label>
+                <label>Irá fazer alguma exposição durante o evento? Qual? 
+                  <input type="text" name="TituloExposicao"  maxlength="250" id="bvermelho" size="60" /></label> 
+                 <label>Por que você deseja colaborar com o evento?
+                 <textarea name="Just" cols="39" rows="4"id="bvermelho" required ></textarea></label>
+                 <label>Já teve alguma experiência com monitoria de eventos?
+                 <textarea name="Experiencia" cols="30" rows="4"id="bvermelho" required ></textarea></label>
+                  <label>Disponibilidade de horário
+                  <input type="text" name="Disponivel"  maxlength="50" id="bvermelho" size="20" /><span class="vermelho">* Integral, apenas diurno ou apenas noturno.</span></label>
+               <label>Email para contato 
+                  <input type="email" name="Email" id="bvermelho" size="40" required /></label>
+                <label>Telefone para contato 
+                  <input type="tel" name="Telefone" size="12" id="bvermelho" required/> 
+                 <span class="vermelho"> * ex: (99) 9999-9999</span></label>
+               
+                
+        
+              <bR>
+              <button type="submit">Enviar</button>
+              <button type="reset">Reset</button>
+        </form> -->
+  	      	</section></div>
+	<div>
+    	   
+            <section class="verde">
+            <h2 class="gelo"> <a name="oficina">OFICINA</a> </h2> 
+            <p>Se você sente que a unidade é mais do que só assistir ao evento, por que não aproveitar a oportunidade compartilhando seu conhecimento? As oficinas são as atividades em que você atua como instrutor* em atividades, porque viver a experiência sempre é o melhor aprendizado.</p>
+            <p>O principal ponto de todo o evento é a unidade, tema do Interdesigners desse ano, assim a oficina também pode aplicar esse conceito através da atividade prática proposta. </p>
+            <p>*Lembre-se de que você está cadastrando sua oficina. Para participar do evento, você deve inscrever-se como participante </p>
+            <p>*Haverá desconto nas inscrições para o oficineiro responsável. </p>
+             <p>Inscrições encerradas </p>
+            <!--
+        <form action="formularios.php"  method="POST" id="FormInscricoes" >
+       
+           <label>Título da oficina 
+                 <input type="text" name="TituloOficina" pattern="[a-zA-Z ]{5,}" maxlength="30" id="bverde" required /></label>
+                <label>Descrição da oficina 
+                  <input type="text" name="Descricao"  maxlength="250" id="bverde" size="80" required /></label>
+             
+                  <label>Nome do oficineiro responsável 
+                    <input type="text" name="NomeResp" pattern="[a-zA-Z ]{5,}" maxlength="250" id="bverde" size="50" required/></label>
+            
+          		 <label>Número de oficineiros 
+                   <input type="number" name="NumOficineiros" pattern="[0-5]" size="4" id="bverde" required /><span class="verde"> *máximo de 5 pessoas</span></label>
+    
+                  <label>Nome de cada oficineiro e/ou grupo
+                
+                    <textarea name="NomeExtra" cols="30" rows="4"id="bverde" required ></textarea> </label>
+             
+              <label>Limite de pessoas 
+                 <input type="number" name="Limite" pattern="[0-9]{2}" size="4"  id="bverde" required /></label>
+                  <label>Tempo de duração da sua oficina será de 2 ou de 4 horas. 
+                 <input type="number" name="Duracao" pattern="[2-4]{1}" size="4"  id="bverde" required /></label>
+            <label>Materiais necessários
+                    <textarea name="Materiais" cols="30" rows="4"id="bverde" required ></textarea></label>
+                                <label>Email para contato 
+                                  <input type="email" name="Email" id="bverde" size="40" required /></label>
+                <label>Telefone para contato 
+                  <input type="tel" name="Telefone" size="12" id="bverde" required/> 
+                 <span class="verde"> * ex: (99) 9999-9999</span></label>
+               
+                
+        
+              <bR>
+              <button type="submit">Enviar</button>
+              <button type="reset">Reset</button>
+        </form> -->
+
+  	      	</section>
+    </div>
+   <div>  
+    		
+    </div>
+    <div>   
+    		<section class="azul">
+            <h2 class="gelo"> <a name="bazar">BAZAR</a> </h2> 
+            <p>...E tem um espaço pra você oferecer seus trabalhos e ganhar uns trocados com isso. O Bazar é uma área direcionada à compra e venda durante o Interdesigners. Participe com a sua produção!</p>
+            <p>*Lembre-se de que  você está cadastrando seus produtos de venda.  Para participar do evento, você deve inscrever-se como participante.</p>
+             <p>Inscrições encerradas dia 02/10</p>
+        	<!--<form action="formularios.php"  method="POST" id="FormInscricoes" >
+		     <label>Nome do responsável 
+                 <input type="text" name="NomeResp" pattern="[a-zA-Z ]{5,}" maxlength="30" id="bazul" required /></label>
+                <label>Nome do bazar 
+                  <input type="text" name="TituloBazar"  maxlength="250" id="bazul" size="50" required/></label>
+                
+                <label>Vínculo com a UNESP 
+                  <input type="text" name="Vinculo"  maxlength="250" id="bazul" size="50" required/>
+                  <span class="azul">Curso, recém formado ou instituição </span></label>
+             
+              
+                  <label>Produtos à venda
+e preços  estimados                 
+                    <textarea name="Produtos" cols="80" rows="4"id="bazul" required></textarea></label>
+                                <label>Email para contato 
+                                  <input type="email" name="Email" id="bazul" size="40" required /></label>
+                <label>Telefone para contato 
+                  <input type="tel" name="Telefone" size="12"  id="bazul"  required/> 
+                 <span class="azul"> ex: (99)9999-9999</span></label>
+               
+                
+              
+              <bR>
+              <button type="submit">Enviar</button>
+              <button type="reset">Reset</button>
+        </form> -->
+  	      	</section>
+     </div>
+      <div>   
+    		<section class="gelo">
+            <h2 class="gelo"> <a name="exposicao">EXPOSIÇÃO</a> </h2> 
+            <p>O que te faz único? A exposição é o lugar pra você mostrar que suas habilidades, mesmo aquelas que raramente são pedidas na faculdade, são um diferencial. Contribua exibindo seus projetos, ilustrações, instalações e produtos, ou apresente na Mostra de Vídeos os seus trabalhos!</p>
+            
+            <p>Lembre-se de que você está cadastrando seu trabalho. Para participar do evento, você deve inscrever-se como participante.</p>
+            <p>Inscrições encerradas dia 17/10</p> 
+             
+         <!--  <form action="formularios.php"  method="POST" id="FormInscricoes" >
+           <label>Título da trabalho 
+                 <input type="text" name="TituloExposicao" pattern="[a-zA-Z ]{5,}" maxlength="30" id="bvermelho" required /></label>
+                <label>Descrição da trabalho 
+                  <input type="text" name="Descricao"  maxlength="250" id="bvermelho" size="50" required /></label>
+             
+                  <label>Nome do expositor responsável 
+                    <input type="text" name="NomeResp" pattern="[a-zA-Z ]{5,}" maxlength="250" id="bvermelho" size="50" required /></label>
+            
+       		  <label>Nome dos expositores ou grupo
+                
+                    <textarea name="NomeExpositores" cols="50" rows="4"id="bvermelho" required ></textarea> </label>
+                  <label>Produtos e materiais para exposição *para mostra de vídeos, colocar o link do trabalho<textarea name="Produtos" cols="70" rows="4"id="bvermelho" required ></textarea></label>
+                                <label>Email para contato 
+                                  <input type="email" name="Email" id="bvermelho" size="40" required /></label>
+                <label>Telefone para contato 
+                  <input type="number" name="Telefone" size="12"  id="bvermelho"  required/> 
+                 <span class="vermelho"> ex: (99)9999-9999</span></label>
+               
+                
+              
+              <bR>
+              <button type="submit">Enviar</button>
+              <button type="reset">Reset</button>
+        </form> -->
+          		
+  	      	</section>
+     </div>
+</div>
+
+
+<!-- This JavaScript snippet activates those tabs -->
+<script>
+
+// perform JavaScript after the document is scriptable.
+$(function() {
+	// setup ul.tabs to work as tabs for each div directly under div.panes
+	$("ul.tabs").tabs("div.panes > div");
+});
+</script>
+        
+        
+ </div> 
+
+  <footer>  
+ 
+  <div class="abaixo">
+  <div class="face">
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#appId=217700604955540&xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        
+        <div class="fb-like" data-href="www.facebook.com/interdesigners" data-send="true" data-layout="box_count" data-width="150" data-show-faces="true" data-colorscheme="dark"></div>
+	</div>
+    <div class="rodape" id="realizacao">
+    	<h6>Realização:</h6>
+        <a href="http://www.unesp.br/"><img src="imgs_foot/logo_unesp.png"/></a>
+        <a href="http://www.faac.unesp.br/"><img src="imgs_foot/logo_faac.png"/></a>
+   	  <a href="contato.html"><img src="imgs_foot/logo_coid.png"/></a></div>
+    <div class="rodape" id="apoio">
+	    <h6>Apoio:</h6>
+        <a href="http://www.zupi.com.br/"><img src="imgs_foot/logo_zupi.png"/></a>
+        <a href="http://www.computerarts.com.br/"><img src="imgs_foot/logo_computerarts.png"/></a><a href="http://www.ltia.fc.unesp.br"><img src="imgs_foot/logo_ltia.png"/></a>
+        <a href="http://www.camiseteria.com"><img src="imgs_foot/logo_camiseteria.png"/></a>
+        <a href="http://abcdesign.com.br/"><img src="imgs_foot/logo_abcdesign.png"/></a>
+    </div>
+    <div class="rodape" id="patrocinio">
+    	<h6>Patrocínio:</h6>
+      
+       
+        <a href="http://www.mstech.com.br/"><img src="imgs_foot/logo_mstech.png"/></a>
+        <a href="http://www.2design.com.br/"><img src="imgs_foot/logo_2design.png"/></a>
+        <a href="http://www.centrohermes.com.br/fgv/Portugues/"><img src="imgs_foot/logo_hermes.png"/></a></div>
+    </div>
+  </div> 
+  </footer>
+  <!-- end .container --></div>  
+
+</body>
+</html>

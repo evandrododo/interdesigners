@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+	
+	}
+	
+body {
+	background:#f4f4f4;
+	font-family:"Arial";
+	font-size:11px;
+	text-align: center;
+	}
+	
+	
+.geral {
+	width:800px;
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+	padding-top:30px;}
+
+	
+	
+#topo {
+	width:800px;
+	height:124px;
+	}
+
+#flash {
+	width:585px;
+	height:90px;
+	padding-left: 16px;
+	float:left;}
+	
+#logo {
+	width:199px;
+	height:105px;
+	float:left;}	
+	
+	
+/* link */
+a { color: #f06459; text-decoration: none; outline:0; }
+a:focus { text-decoration:none; color: #f06459; outline:0}
+a:hover { text-decoration:none; color: #c95369; outline:0}
+	
+
+
+.forma { padding-right: 5px;}
+.camiseta { padding: 10px 5px 0 0; text-align:left;}
+.envia { padding: 10px 5px 0 0; text-align:center;}
+
+#formula {text-align:center;}
+
+
+
+div#content {
+	width:800px;
+	height:600px;
+	position:absolute;
+	top:150px;
+	left:50%;
+	margin-left:-400px;
+}
+
+#titulo {
+	width:434px;
+	height:68px;
+	padding-left: 176px;}
+
+div#texto {
+	position:relative;
+	top:20px;
+	left:120px;
+	width:400px;
+	height:600px;
+}
+
+h1 {
+	font-family:"Arial";
+	color:#843685;
+	font-size:12px;
+	font-weight:bold;
+}
+
+h2 {
+	font-family:"Arial";
+	color:#000;
+	font-size:11px;
+	font-weight:200;
+}
+
+h3 {
+	font-family:"Arial";
+	color:#f06459;
+	font-size:11px;
+	font-weight:200;
+}

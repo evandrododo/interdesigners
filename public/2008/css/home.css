@@ -1,0 +1,192 @@
+* {
+outline:none;
+border:none;
+}
+
+body {
+background:url(../img/bg_home.jpg) no-repeat top center #e0e0e0;
+margin:0;
+padding:0;
+font:12px verdana,tahoma,sans-serif;
+}
+
+h1 {
+position:absolute;
+top:250px;
+text-indent:-9999px;
+}
+
+h1 a {
+display:block;
+background:url(../img/tit_home.png) no-repeat;
+width:234px;
+height:88px;
+}
+
+h2 {
+padding:0;
+margin:0;
+line-height:0;
+font-size:0;
+background-repeat:no-repeat;
+text-indent:-9999px;
+}
+
+h2#realizacao {
+background:url(../img/tit_realizacao.png) no-repeat;
+height:20px;
+}
+
+h2#apoio {
+background:url(../img/tit_apoio.png) no-repeat;
+height:19px;
+clear:left;
+}
+
+h2#ultimas-blog {
+background:url(../img/tit_ultimas.png) no-repeat;
+width:97px;
+height:24px;
+}
+
+h2#blog a {
+display:block;
+}
+
+h3 {
+margin:0 0 5px 0;
+}
+
+.limpa {
+margin:0;
+padding:0;
+line-height:0;
+clear:both;
+}
+
+#home-geral {
+width:974px;
+margin:auto;
+padding:0 15px;
+}
+
+#logo {
+width:647px;
+height:503px;
+text-align:center;
+margin:175px auto 0 auto;
+}
+
+#patrocinadores {
+width:491px;
+margin:-65px 0 0 0;
+float:left;
+}
+
+/*#patrocinadores img {
+margin-right:20px;
+}*/
+
+#patrocinadores ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+#patrocinadores li {
+float:left;
+}
+
+ul#espaco img {
+margin-bottom:20px;
+}
+
+#ultimas-menu2 {
+float:right;
+width:480px;
+margin:-81px 0 15px 0;
+}
+
+#ultimas {
+background:url(../img/bg_ultimas.jpg) no-repeat;
+width:256px;
+height:195px;
+margin:0 0 0 194px;
+padding:10px 15px;
+}
+
+#ultimas h3 {
+font-size:12px;
+margin:5px 0 0 0;
+color:#778818;
+}
+
+#ultimas p {
+margin-top:5px;
+}
+
+#ultimas a {
+color:#778818;
+}
+
+#ultimas a:hover {
+color:#fff;
+background-color:#778818;
+}
+
+ul#menu2 {
+list-style-type:none;
+margin:10px 0 0 0;
+width:480px;
+padding:0;
+}
+
+ul#menu2 li {
+float:left;
+padding:0;
+margin:0px;
+}
+
+ul#menu2 li a {
+background-repeat:no-repeat;
+background-position:bottom;
+display:block;
+text-indent:-9999px;
+height:28px;
+}
+
+ul#menu2 li a:hover {
+background-position:top;
+background-color:inherit;
+color:inherit;
+}
+
+li#inscricao a {
+display:none;
+background-image:url(../img/bt_home_inscricao.png);
+width:75px;
+margin:0 8px 0 0;
+}
+
+li#sobre-inter a {
+background-image:url(../img/bt_home_inter.png);
+width:104px;
+margin:0 8px 0 0;
+}
+
+li#sobre-corde a {
+background-image:url(../img/bt_home_corde.png);
+width:116px;
+margin:0 8px 0 0;
+}
+
+li#programacao a {
+background-image:url(../img/bt_home_programacao.png);
+width:106px;
+margin:0 8px 0 0;
+}
+
+li#blog a {
+background-image:url(../img/bt_home_blog.png);
+width:47px;
+}

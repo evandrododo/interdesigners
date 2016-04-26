@@ -1,0 +1,4 @@
+ul.lislinkhome { padding:10px 0 0 10px; overflow:hidden; }
+ul.lislinkhome li { float:left; display:inline; width:46%; margin-right:4%; }
+ul.lislinkhome a { text-decoration:underline; }
+ul.lislinkhome a:hover { text-decoration:none; }

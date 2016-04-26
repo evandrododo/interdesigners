@@ -1,0 +1,154 @@
+/* reset */
+* { margin:0; padding:0; border:0 none; outline:0; vertical-align:baseline; background:transparent; text-decoration:none; font:inherit; list-style:none; quotes:none; border-collapse:collapse; border-spacing:0; resize:none; box-sizing:border-box; }
+a { cursor:pointer; color:inherit; }
+:focus { outline:0; }
+
+/* geral */
+html { min-height:100%; font-size:14px; }
+body { background:#fff url('../img/bg.png') -50px repeat-y; color:#fff; font:normal 1em/1.375 "Maven Pro", sans-serif; letter-spacing:0px; min-height:100%; width:100%; position:absolute; }
+/* fundo cor*/
+.cor1 { background-color:#ee394a; } /*vermelho*/
+.cor2 { background-color:#fdc25b; } /*amarelo*/
+.cor3 { background-color:#1378b5; } /*azul*/
+.cor4 { background-color:#033652; } /*anil*/
+/* fundo cor complementar*/
+.cor2 a.bt, .cor2 .texto a.bt, .cor2 .topo li { background-color:#1378b5; }
+/*texto cor complementar*/
+.cor4 h1, .cor4 .topo ul ul li { color:#1378b5; }
+/*texto cor subcomplementar*/
+.cor2 h2, .cor2 legend, .cor2 .texto a, .cor2 .texto a.bt, .cor2 .texto strong { color:#1378b5; }
+/*texto cor igual*/
+.cor1 .cordetexto,	.cor1 input, .cor1 select, .cor1 textarea, .cor1 .topo>.container>ul>li>a, .cor1 a.bt, .cor1 .texto a.bt { color:#ee394a; }
+.cor2 .cordetexto,	.cor2 input, .cor2 select, .cor2 textarea, .cor2 .topo>.container>ul>li>a, .cor2 a.bt, .cor2 .texto a.bt { color:#fdc25b; }
+.cor3 .cordetexto,	.cor3 input, .cor3 select, .cor3 textarea, .cor3 .topo>.container>ul>li>a, .cor3 a.bt, .cor3 .texto a.bt { color:#1378b5; }
+.cor4 .cordetexto,	.cor4 input, .cor4 select, .cor4 textarea, .cor4 .topo>.container>ul>li>a, .cor4 a.bt, .cor4 .texto a.bt { color:#033652; }
+	.container { width:995px; padding:30px 20px 10px; clear: both; margin:auto; overflow:hidden;}
+.topo { background:#fff; box-shadow:0 5px 15px 0 rgba(0,0,0,0.5); padding:10px 0; clear:both; position:relative; z-index:10;  }
+	.topo .container { overflow:visible; height:100px; padding:0 20px; position:relative; }
+	.topo a.logo { background:url(../img/logo.png) left top; height:100px; width:75px; margin-left:25px; float:left; }
+	.cor1 a.logo { background-position:left top; }
+	.cor2 a.logo { background-position:right bottom; }
+	.cor3 a.logo { background-position:right top; }
+	.cor4 a.logo { background-position:left bottom; }
+	.simposio .topo a.logo { background-image:url(../img/simp_logo.png); width:300px; float:left; }
+	.topo .container>ul { float:right; margin-top:40px; font-size:1.2em; }
+		.topo li { float:left; text-transform:uppercase; font-weight:bold; margin:0 5px; cursor:default; position:relative; background-color:#fdc25b; }
+		.topo li.menu_simp, .simposio .topo li.menu_enc { display:none; }
+		.simposio .topo li.menu_simp { display:block; }
+			.topo li a { float:left; background:#fff; padding:5px; }
+			.topo li a:hover, .topo li a:hover span, body .topo>.container>ul>li>a:hover  { background:transparent; color:#fff; }
+			.topo ul ul { display:none; position:absolute; z-index:1; top:100%; left:0px;  min-width:100%; }
+			.topo ul li:hover>ul { display:block; }
+				.topo ul ul li { clear:both; min-width:100%; margin:0; margin:0 0 2px; padding:0; box-shadow: 0 5px 15px 0 rgba(0,0,0,0.5); color:#033652; }
+				.topo ul ul li:first-child { box-shadow: 0 20px 10px 0 rgba(0,0,0,0.5); }
+				html body .topo li.inativo { background:#fff; }
+					.topo li.inativo a, body .topo>.container>ul>li.inativo>a{ opacity:0.2; color:inherit; cursor:not-allowed; }
+					.topo ul ul li a { width:100%; white-space:nowrap; }
+						.topo ul ul li a span { text-transform:lowercase; font-weight:normal; display:block; font-size:0.9em; color:#ccc; }
+					.topo ul ul ul { left:100%; top:0; padding-left:2px; }
+		.topo form { position:absolute; right:25px; }
+			.topo form span { color:initial; }
+			.topo form a { font-size:2em; line-height:0.9em; vertical-align:bottom; }
+			.topo form a:hover { position:relative; top:1px; left:1px; }
+			.topo form a img { margin-left:-13px; }
+	.banner { height:400px; background-position:center; background-attachment:fixed; background-size:cover; overflow:hidden; position:relative; }
+	.banner:before { box-shadow:0 5px 15px 0 rgba(0,0,0,0.5); width:100%; background:#fff; height:10px; display:block; content:''; position:absolute; top:-10px; }
+	.banner:after { box-shadow:0 -5px 15px 0 rgba(0,0,0,0.5); width:100%; background:#fff; height:10px; display:block; content:''; position:absolute; bottom:-10px; }
+	.col { float:left; width:50%; clear:none; padding:0 40px 0 0;}
+	.col+.col { padding-right:0;}
+		h1, a.bt, .texto a.bt { font:800 5em/1 "Exo", sans-serif; color:#033652; text-transform:uppercase; padding:43px 0 20px; clear:both; }
+		h1:first-child { padding-top:0; }
+		.texto p { margin-bottom:20px; }
+		.texto a { text-decoration:underline; color:#fdc25b; }
+		.texto strong { font-weight:bold; color:#fdc25b; }
+		.texto em { text-decoration:underline; }
+		.texto ul { padding-left:1em; margin-bottom:20px; }
+			.texto li { list-style:disc; padding-bottom:5px; line-height:1.2em; }
+		table { width:100%; border-spacing:3px; border-collapse:separate; margin:-3px -3px 20px; }
+			td { padding:5px; vertical-align:middle; font-weight:bold; text-transform:uppercase; background:rgba(255,255,255,0.2); }
+				td span { font-weight:normal; font-style:italic; display:block; text-transform:none; }
+					td span span { font-size:1.5em; line-height:1em; display:inline; text-decoration:none; margin-left:3px; }
+		fieldset { position:relative; padding-bottom:20px; }
+			legend, h2 { font:bold 2em/1 "Maven Pro", sans-serif; padding:0 0 20px; color:#fdc25b; }
+			h1+h2 { margin-top:-20px; }
+			input, select, textarea { background:#fff; width:97%; padding:1% 2%; margin:5px 0 0; vertical-align:text-top; }
+			form :focus { position:relative; left:1px; top:1px; }
+			input.erro, select.erro, textarea.erro, .erro p, a.bt.erro { background:#f66; color:#fff; }
+			.erro p { width:97%; padding:5px; margin:5px 0 5px; }
+			input:-webkit-autofill { -webkit-box-shadow: 0 0 0 1000px #fff inset; color:inherit !important;}
+			input[type=radio], input[type=checkbox] { width:auto; display:inline; width:1em; height:1em; vertical-align:middle; margin:3px;}
+			select, input[type=file] { padding-left:0; text-indent:3px; }
+			textarea { height:5em; resize:vertical; }
+			iframe.upload { width:100%; height:63px; overflow:hidden; margin-bottom:-38px; position:relative; z-index:1; }
+			form p, .texto form p { padding:10px 0; margin:0; }
+			a.bt, .texto a.bt { position:relative; clear:both; text-transform:none; font-size:2em; max-width:97%; padding:5px; margin-bottom:40px; float:left; text-decoration:none; background-color:#fdc25b;}
+			a.bt:hover { top:1px; left:1px; }
+			form strong.aviso { font-size:2em; display:none; position:relative; top:-10px; }
+			
+/* home */
+ul.nav { position:absolute; right:50%; margin-right:-540px; top:150px; z-index:3; }
+ul.fixo { position:fixed; top:20px; }
+	ul.nav li { margin:0 0 20px; box-shadow:5px 5px 15px rgba(0,0,0,0.5); border-radius:50%; }
+		ul.nav li a { display:block; width:40px; height:40px; }
+		ul.nav li a:hover { position:relative; top:1px; left:1px; }
+		a.nav_oque 			{ background:url('../img/ico_oque.png'); }
+		a.nav_conceito	{ background:url('../img/ico_conceito.png'); }
+		a.nav_simposio	{ background:url('../img/ico_simposio.png'); }
+		a.nav_id 				{ background:url('../img/ico_id.png'); }
+		a.nav_aloja 			{ background:url('../img/ico_aloja.png'); }
+		a.nav_pacotes		{ background:url('../img/ico_pacotes.png'); }
+		a.nav_corde 			{ background:url('../img/ico_corde.png'); }
+		a.nav_editais 		{ background:url('../img/ico_editais.png'); }
+		a.nav_unesp 			{ background:url('../img/ico_unesp.png'); }
+.faixa { background-image:url('../img/bg.png'); background-position:-50px; background-repeat:repeat-y; }
+	.home ul.hist li { list-style:none; font-size:2em; clear:both; position:relative; margin:0 0 0.5em 2em;}
+		.home ul.hist strong { position:absolute; right:102%;}
+		.home ul.hist span { display:block; margin-top:-10px; font-size:0.5em;}
+.home .banner { background-position:0; }
+	.home .banner h1 { text-align:center; color:#fff; }
+	.home .banner h2 { margin:200px 0 -30px; text-align:center;  }
+.home .editais th { min-width:120px; }
+
+/* editais */
+form.col { float:right; padding:0 0 0 40px; }
+body.edital h1 {clear:none; font-size:4.8em; }
+
+/* simposio */
+.simposio td span { display:block; max-width:225px; }
+ul.comite a { background:url('../img/ico_lattes.png') right 90px no-repeat; padding-right:20px; overflow:hidden; }
+ul.comite a:hover { background-position:right center; }
+input.autores, input.autores + a { display:none; }
+legend a, input + a { background:#FFF; padding:5px; font:bold 15px/25px "Verdana"; vertical-align:bottom; margin:0 -26px 0 -1px; }
+input#nome_final { margin:0 0; }
+.simposio textarea {height:8em;}
+html.simposio_arquivo, html.simposio_arquivo body { background:none transparent; overflow:hidden; }
+	.template { position:relative; }
+		a.template:after { content:''; background:url(../img/ico_editais.png) right top no-repeat; position:absolute; left:120%; top:-10px; display:block; width:40px; height:40px; }
+		legend.template:after { content:''; background:url(../img/ico_editais.png) right top no-repeat; position:absolute; left:405%; top:10px; display:block; width:40px; height:40px; }
+	.simposio_arquivo .loading { display:block; margin:13px 0 30px 45%; position:absolute; left:-100%; }
+	.simposio_arquivo a { text-decoration:underline; }
+	.simposio_arquivo input { background:transparent; color:#000; }	
+
+/* inscricao */
+input.outraresp { float:right; margin:0 14px 0 5px; width:80%; height:1.5em; display:none; }
+	
+/* contato */
+.contato .col { width:750px;}
+	.contato .col select { padding-left:10px; }
+	.contato .col textarea { height:200px;}
+.contato .col+.col { padding-top:90px; width:auto; margin-left:-40px;}
+	.ico a { display:block; width:40px; height:40px; background:url('../img/ico_face.png') no-repeat 0 0; padding:10px 0 10px 50px; margin:0 0 20px;  }
+	.ico a:hover { position:relative; top:1px; left:1px; }
+	a.ico_r { background-image:url('../img/ico_id.png'); }
+	a.ico_s { background-image:url('../img/ico_simposio.png'); }
+
+/* erro */
+.loucura { background-image:url('../img/loucura.png'); background-size:cover; background-position:center; }
+	.loucura h1 { color:#fff; }
+	.loucura p { font-size:2em; }
+
+/* rodape */
+.rodape { background:#fff; clear:both; position:relative; box-shadow:0 -5px 15px 0 rgba(0,0,0,0.5); }
+ .rodape h2 { color:#ccc; margin-top:-10px; }
+ .rodape a { margin-right:20px; }
+ .rodape a:last-child { margin:0 0 0 -10px; }

@@ -1,0 +1,1590 @@
+﻿Paula Larissa de Souza Cruz	832561	2ª feira - noite - marizilda - desenho III	9	6	7	8	6	9	6	9
+
+Paula Larissa de Souza Cruz	832561	3ª feira - noite - paula - met. cient.	9	10	7	8	9	9	7	9
+
+Paula Larissa de Souza Cruz	832561	3ª feira - noite - winck - semiotica I	6	9	7	7	4	8	9	9
+
+Paula Larissa de Souza Cruz	832561	4ª feira - noite - paschoarelli - ergonomia	10	10	10	10	10	10	9	10
+
+Paula Larissa de Souza Cruz	832561	5ª feira - noite - chico - modelagem	8	10	8	9	10	9	9	10
+
+Paula Larissa de Souza Cruz	832561	6ª feira - noite - eiji - rec. computac. (turma B)	6	10	7	8	10	8	8	8
+
+Paula Larissa de Souza Cruz	832561	6ª feira - noite - olimpio - hist.arte III (turma B)	6	10	6	9	8	9	8	10
+
+Karine Moreto Massoca	832278	2ª feira - manhã - paula - met. científica	10	10	10	10	10	9	9	10
+
+Karine Moreto Massoca	832278	3ª feira - manhã - marta - ergonomia	9	10	10	8	10	8	 7	9
+
+Karine Moreto Massoca	832278	3ª feira - noite - winck - semiotica I	7	8	9	9	4	6	7	7
+
+Karine Moreto Massoca	832278	4ª feira - manhã - marizilda - desenho III	7	7	6	6	8	7	7	6
+
+Karine Moreto Massoca	832278	5ª feira - manhã - olímpio - his. arte III	7	9	7	7	10	7	8	8
+
+Karine Moreto Massoca	832278	5ª feira - manhã - j.marcelo - rec. computac.	8	8	9	10	8	8	9	10
+
+Karine Moreto Massoca	832278	6ª feira - manhã - chico - modelagem	9	9	9	10	10	10	10	9
+
+Bruno Zequim	933521	2ª feira - manhã - m.luiza - hist. arte I	10	10	10	10	10	10	10	10
+
+Bruno Zequim	933521	3ª feira - manhã - vânia - desenho I	10	10	10	10	10	10	10	10
+
+Bruno Zequim	933521	3ª feira - tarde - dorival - plástica I	10	10	10	10	10	10	10	10
+
+Bruno Zequim	933521	4ª feira - manhã - carbone - filosofia	10	10	10	10	10	10	10	10
+
+Bruno Zequim	933521	5ª feira - manhã - nakata - des. observ. I	10	10	10	10	10	10	10	10
+
+Bruno Zequim	933521	6ª feira - manhã - marta - int. design	7	7	6	10	10	10	5	7
+
+Bruno Zequim	933521	6ª feira - tarde - priscila - antropol.	10	10	7	10	10	10	10	10
+
+Debora Cristina Zaninotti	632538	2ª feira - noite - dorival - ling. contemp.	9	10	10	8	10	10	7	9
+
+Debora Cristina Zaninotti	632538	6ª feira - noite - osmar -  of. mat. plásticos	7	10	7	10	10	8	9	8
+
+Debora Cristina Zaninotti	632538	sábado - eiji    - projeto V	6	7	7	8	10	9	8	7
+
+Debora Cristina Zaninotti	632538	5ª feira - noite - sérgio busato - foto II	5	7	9	9	9	9	8	7
+
+Joelma Sueko Tokusato	832723	2ª feira - noite - marizilda - desenho III	10	7	7	7	10	5	5	3
+
+Joelma Sueko Tokusato	832723	3ª feira - noite - paula - met. cient.	10	7	7	7	10	5	5	3
+
+Joelma Sueko Tokusato	832723	3ª feira - noite - paula - met. cient.	9	9	7	9	10	8	9	10
+
+Joelma Sueko Tokusato	832723	3ª feira - noite - winck - semiotica I	5	9	8	8	3	7	5	7
+
+Joelma Sueko Tokusato	832723	4ª feira - noite - paschoarelli - ergonomia	10	10	10	10	10	9	9	10
+
+Joelma Sueko Tokusato	832723	5ª feira - noite - chico - modelagem	9	9	9	9	10	9	7	5
+
+Joelma Sueko Tokusato	832723	6ª feira - noite - eiji - rec. computac. (turma B)	7	8	6	5	9	6	7	5
+
+Joelma Sueko Tokusato	832723	6ª feira - noite - olimpio - hist.arte III (turma B)	7	9	8	10	6	8	8	9
+
+Leandro Adad Jammal	932299	2ª feira - manhã - m.luiza - hist. arte I	7	8	6	6	9	6	7	6
+
+Leandro Adad Jammal	932299	3ª feira - manhã - vânia - desenho I	5	10	9	8	9	8	8	7
+
+Leandro Adad Jammal	932299	3ª feira - tarde - dorival - plástica I	10	9	9	9	9	8	9	8
+
+Leandro Adad Jammal	932299	4ª feira - manhã - carbone - filosofia	8	10	5	9	9	8	9	6
+
+Leandro Adad Jammal	932299	5ª feira - manhã - nakata - des. observ. I	5	8	8	7	9	5	5	5
+
+Leandro Adad Jammal	932299	6ª feira - manhã - marta - int. design	8	8	9	7	9	8	6	6
+
+Leandro Adad Jammal	932299	6ª feira - tarde - priscila - antropol.	8	8	4	8	9	7	8	5
+
+Erica Nonaka	933031	2ª feira - noite - plácido - des. observação I	8	9	9	10	10	8	9	7
+
+Erica Nonaka	933031	3ª feira - noite - carbone - filosofia (turma C)	9	9	8	9	6	7	7	8
+
+Erica Nonaka	933031	3ª feira - noite - m.luiza - hist. arte I (turma C)	10	9	8	8	10	7	8	9
+
+Erica Nonaka	933031	4ª feira - noite - vânia - desenho I	9	10	10	9	9	8	9	8
+
+Erica Nonaka	933031	5ª feira - noite - goya - plástica I	9	10	9	6	8	9	8	9
+
+Erica Nonaka	933031	6ª feira - noite - priscila - antropol.	9	8	7	8	10	8	8	9
+
+Erica Nonaka	933031	6ª feira - noite - marta - int. design	10	9	8	8	10	10	9	8
+
+Lucas Eduardo Laronga	732427	2ª feira - manhã - ronise -  projeto I	10	2	2	8	8	10	5	10
+
+Amanda Soares Fardelone 	932361	2ª feira - manhã - m.luiza - hist. arte I	9	10	9	10	10	10	10	10
+
+Amanda Soares Fardelone 	932361	3ª feira - manhã - vânia - desenho I	10	10	10	10	10	10	10	10
+
+Amanda Soares Fardelone 	932361	3ª feira - tarde - dorival - plástica I	10	10	9	9	10	10	10	10
+
+Amanda Soares Fardelone 	932361	4ª feira - manhã - carbone - filosofia	10	10	9	10	9	10	10	10
+
+Amanda Soares Fardelone 	932361	5ª feira - manhã - nakata - des. observ. I	10	10	10	10	10	10	10	10
+
+Amanda Soares Fardelone 	932361	6ª feira - manhã - chico - modelagem	9	9	10	10	9	10	10	10
+
+Lucas Eduardo laronga	732427	3ª feira - manhã - cássia - tipografia II	10	10	10	10	10	10	10	10
+
+Lucas Eduardo laronga	732427	3ª feira - manhã - glória - metod.pjto. II	2	1	1	1	5	8	5	2
+
+Lucas Eduardo laronga	732427	4ª feira - manhã - furtado - foto II	10	10	10	10	10	10	10	10
+
+Lucas Eduardo laronga	732427	5ª feira - manhã - cássia - prod.gráf. II	10	10	10	10	10	10	10	10
+
+Lucas Eduardo laronga	732427	5ª feira - noite - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+Lucas Eduardo laronga	732427	2ª feira - manhã - ronise -  projeto I	10	2	2	8	8	10	5	10
+
+Victor Claudio de Paula e Silva	932256	2ª feira - manhã - m.luiza - hist. arte I	8	10	9	8	10	10	9	9
+
+Victor Claudio de Paula e Silva	932256	3ª feira - manhã - vânia - desenho I	9	10	10	10	10	10	9	9
+
+Victor Claudio de Paula e Silva	932256	3ª feira - tarde - dorival - plástica I	10	10	8	9	10	10	10	10
+
+Victor Claudio de Paula e Silva	932256	4ª feira - manhã - carbone - filosofia	10	10	10	10	9	10	9	9
+
+Victor Claudio de Paula e Silva	932256	5ª feira - manhã - nakata - des. observ. I	8	10	9	10	10	10	9	9
+
+Victor Claudio de Paula e Silva	932256	6ª feira - manhã - marta - int. design	9	9	9	10	10	9	9	9
+
+Victor Claudio de Paula e Silva	932256	6ª feira - tarde - priscila - antropol.	9	10	9	10	10	10	9	9
+
+Bruno Gonçalves	632406	2ª feira - manhã - bigal - animação	1	1	1	2	10	8	8	9
+
+Bruno Gonçalves	632406	3ª feira - manhã - sérgio busato - foto II	8	8	8	8	10	8	9	8
+
+Bruno Gonçalves	632406	3ª feira - tarde - j.marcelo - projeto V	1	1	1	5	10	5	1	1
+
+Bruno Gonçalves	632406	4ª feira - manhã - osmar- of. mat. plásticos	5	7	4	8	8	7	7	5
+
+Bruno Gonçalves	632406	5ª feira - manhã - celso - el. computação	1	1	1	5	5	1	6	6
+
+Bruno Gonçalves	632406	6ª feira - manhã - eiji - prod.gráfica II	9	9	9	9	10	9	8	8
+
+Bruna Tiemi Kochi	732737	2ª feira - noite - furtado - foto II	8	10	9	8	9	8	8	8
+
+Bruno Ferraz de Arruda	832618	2ª feira - noite - marizilda - desenho III	9	6	6	3	7	8	7	5
+
+Bruno Ferraz de Arruda	832618	3ª feira - noite - paula - met. cient.	9	8	8	6	10	6	7	9
+
+Bruno Ferraz de Arruda	832618	3ª feira - noite - winck - semiotica I	2	6	4	2	1	2	1	1
+
+Bruno Ferraz de Arruda	832618	4ª feira - noite - paschoarelli - ergonomia	9	10	9	10	10	9	9	10
+
+Bruno Ferraz de Arruda	832618	5ª feira - noite - chico - modelagem	9	10	9	7	10	8	9	8
+
+Bruno Ferraz de Arruda	832618	6ª feira - noite - eiji - rec. computac. (turma B)	7	10	8	9	9	6	7	9
+
+Bruno Ferraz de Arruda	832618	6ª feira - noite - olimpio - hist.arte III (turma B)	3	9	2	9	9	8	5	8
+
+Anderson Kamimura Saito	732745	2ª feira - noite - furtado - foto II	9	10	9	8	10	9	8	9
+
+Anderson Kamimura Saito	732745	4ª feira - noite - cássia - tipografia II	10	9	10	10	10	10	10	10
+
+Anderson Kamimura Saito	732745	2ª feira - noite - furtado - foto II	9	10	9	8	10	9	8	9
+
+Anderson Kamimura Saito	732745	4ª feira - noite - cássia - tipografia II	10	9	10	10	10	10	10	10
+
+Anderson Kamimura Saito	732745	5ª feira - noite - dorival - ling.contemp.	10	10	9	10	10	10	9	10
+
+Anderson Kamimura Saito	732745	5ª feira - tarde - fábio - of. madeira	9	10	9	10	10	10	10	8
+
+Anderson Kamimura Saito	732745	5ª feira - noite - glória - met. projeto II	5	4	6	2	6	5	5	4
+
+Anderson Kamimura Saito	732745	6ª feira - noite - ronise - projeto I	8	9	8	10	7	10	10	9
+
+Caroline de Moraes Guilherme	932825	2ª feira - noite - plácido - des. observação I	9	10	10	10	10	10	10	9
+
+Amália Maria Gagliazzi Lage	732401	6ª feira - manhã - suzi - projeto I	8	9	8	10	8	10	8	9
+
+Amália Maria Gagliazzi Lage	732401	5ª feira - manhã - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+Amália Maria Gagliazzi Lage	732401	5ª feira - manhã - cássia - prod.gráf. II	9	9	8	9	10	9	8	5
+
+Amália Maria Gagliazzi Lage	732401	4ª feira - manhã - furtado - foto II	5	8	4	3	7	7	3	5
+
+Amália Maria Gagliazzi Lage	732401	3ª feira - noite - winck - semiotica I	3	5	5	1	3	5	7	4
+
+Amália Maria Gagliazzi Lage	732401	3ª feira - tarde - sileide - projeto I	4	1	1	5	6	5	1	4
+
+Amália Maria Gagliazzi Lage	732401	3ª feira - manhã - cássia - tipografia II	10	9	10	10	10	9	7	5
+
+Amália Maria Gagliazzi Lage	732401	3ª feira - manhã - glória - metod.pjto. II	4	3	5	1	7	5	4	4
+
+Amália Maria Gagliazzi Lage	732401	2ª feira - manhã - ronise -  projeto I	7	6	7	8	9	9	8	5
+
+Caroline de Moraes Guilherme	932825	3ª feira - noite - carbone - filosofia (turma C)	9	10	8	9	9	6	7	8
+
+Caroline de Moraes Guilherme	932825	3ª feira - noite - m.luiza - hist. arte I (turma C)	10	10	10	8	10	8	8	9
+
+Caroline de Moraes Guilherme	932825	4ª feira - noite - vânia - desenho I	10	10	9	10	10	10	10	9
+
+Caroline de Moraes Guilherme	932825	5ª feira - noite - goya - plástica I	7	10	8	7	9	8	7	7
+
+Caroline de Moraes Guilherme	932825	6ª feira - noite - priscila - antropol.	10	10	8	8	10	9	9	8
+
+Caroline de Moraes Guilherme	932825	6ª feira - noite - marta - int. design	8	10	9	10	10	8	6	7
+
+Samanta Aline Teixeira	932191	2ª feira - manhã - m.luiza - hist. arte I	8	10	10	10	10	10	10	10
+
+Samanta Aline Teixeira	932191	3ª feira - manhã - vânia - desenho I	10	9	8	10	8	10	9	9
+
+Samanta Aline Teixeira	932191	3ª feira - tarde - dorival - plástica I	10	10	10	10	10	10	10	10
+
+Samanta Aline Teixeira	932191	4ª feira - manhã - carbone - filosofia	10	10	10	10	10	10	10	10
+
+Samanta Aline Teixeira	932191	5ª feira - manhã - nakata - des. observ. I	8	8	10	8	10	10	10	10
+
+Samanta Aline Teixeira	932191	6ª feira - tarde - priscila - antropol.	5	10	5	10	10	10	6	8
+
+Samanta Aline Teixeira	932191	6ª feira - manhã - marta - int. design	6	4	4	10	10	10	3	8
+
+Jorge Teivelis Neto	932167	2ª feira - manhã - m.luiza - hist. arte I	08	10	07	08	10	07	07	07
+
+Jorge Teivelis Neto	932167	3ª feira - manhã - vânia - desenho I	10	10	10	10	10	10	09	10
+
+Jorge Teivelis Neto	932167	3ª feira - tarde - dorival - plástica I	10	10	09	08	10	10	10	10
+
+Jorge Teivelis Neto	932167	4ª feira - manhã - carbone - filosofia	10	09	10	10	07	10	08	10
+
+Jorge Teivelis Neto	932167	5ª feira - manhã - nakata - des. observ. I	10	10	10	10	09	10	10	10
+
+Jorge Teivelis Neto	932167	6ª feira - manhã - marta - int. design	10	09	09	10	10	10	08	10
+
+Jorge Teivelis Neto	932167	6ª feira - tarde - priscila - antropol.	10	10	08	10	10	10	10	10
+
+Daniel Giullianni Matheus Vieira	933597	2ª feira - noite - plácido - des. observação I	10	10	10	10	10	10	10	10
+
+Vinicius Marin Romeiro	833568	3ª feira - noite - paula - met. cient.	10	10	8	10	10	10	10	10
+
+Vinicius Marin Romeiro	833568	3ª feira - noite - winck - semiotica I	5	10	6	10	1	5	8	5
+
+Vinicius Marin Romeiro	833568	5ª feira - noite - paschoarelli - ergonomia	10	10	10	10	10	10	10	10
+
+Vinicius Marin Romeiro	833568	6ª feira - noite - eiji - rec. computac. (turma   C)	5	10	8	10	10	5	5	6
+
+Vinicius Marin Romeiro	833568	6ª feira - noite - olimpio - hist.arte III (turma C)	10	10	1	5	1	5	8	3
+
+Vinicius Marin Romeiro	833568	2ª feira - noite - osmar - modelagem	8	10	8	10	10	8	7	9
+
+Felipe Estevan Ribeiro	932779	2ª feira - noite - plácido - des. observação I	10	10	10	10	10	10	10	10
+
+Felipe Estevan Ribeiro	932779	3ª feira - noite - carbone - filosofia (turma C)	9	9	9	9	9	9	9	9
+
+Felipe Estevan Ribeiro	932779	3ª feira - noite - m.luiza - hist. arte I (turma C)	9	9	9	9	9	9	9	9
+
+Felipe Estevan Ribeiro	932779	4ª feira - noite - vânia - desenho I	10	10	10	10	10	10	10	10
+
+Felipe Estevan Ribeiro	932779	5ª feira - noite - goya - plástica I	10	10	10	10	10	10	10	10
+
+Felipe Estevan Ribeiro	932779	6ª feira - tarde - priscila - antropol.	7	7	7	7	7	7	7	7
+
+Felipe Estevan Ribeiro	932779	6ª feira - noite - marta - int. design	8	8	8	8	8	8	8	8
+
+Daniel Giullianni Matheus Vieira	933597	3ª feira - noite - carbone - filosofia (turma C)	10	10	8	10	10	10	10	10
+
+Daniel Giullianni Matheus Vieira	933597	2ª feira - noite - plácido - des. observação I	10	10	10	10	10	10	10	10
+
+Daniel Giullianni Matheus Vieira	933597	3ª feira - noite - paula - met. cient.	10	10	10	10	10	10	10	10
+
+Daniel Giullianni Matheus Vieira	933597	4ª feira - noite - vânia - desenho I	10	8	9	10	10	10	10	10
+
+Daniel Giullianni Matheus Vieira	933597	5ª feira - noite - goya - plástica I	10	10	10	10	10	10	10	10
+
+Daniel Giullianni Matheus Vieira	933597	6ª feira - manhã - marta - int. design	10	6	10	10	10	8	10	10
+
+Daniel Giullianni Matheus Vieira	933597	6ª feira - noite - priscila - antropol.	8	8	6	10	10	10	8	10
+
+Vinicius Silva dos Santos	832677	2ª feira - noite - marizilda - desenho III	9	6	7	8	9	8	7	8
+
+Vinicius Silva dos Santos	832677	3ª feira - noite - paula - met. cient.	9	9	9	9	9	9	9	9
+
+Vinicius Silva dos Santos	832677	4ª feira - noite - paschoarelli - ergonomia	9	9	9	9	9	9	9	9
+
+Vinicius Silva dos Santos	832677	5ª feira - noite - chico - modelagem	9	9	9	9	9	9	9	9
+
+Vinicius Silva dos Santos	832677	6ª feira - noite - eiji - rec. computac. (turma B)	9	9	9	9	9	9	9	9
+
+Vinicius Silva dos Santos	832677	3ª feira - noite - winck - semiotica I	5	5	5	5	5	5	5	5
+
+Vinicius Silva dos Santos	832677	6ª feira - noite - olimpio - hist.arte III (turma B)	8	8	8	8	8	8	8	8
+
+Leandro Gazignato Caetano	732699	2ª feira - noite - furtado - foto II	9	10	10	10	10	10	10	10
+
+Leandro Gazignato Caetano	732699	2ª feira - noite - furtado - foto II	10	10	10	10	10	10	10	10
+
+Leandro Gazignato Caetano	732699	4ª feira - noite - cássia - tipografia II	10	10	10	10	10	10	10	10
+
+Leandro Gazignato Caetano	732699	4ª feira - noite - cássia - prod. gráfica II	10	10	10	10	10	10	10	10
+
+Leandro Gazignato Caetano	732699	5ª feira - noite - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+Leandro Gazignato Caetano	732699	5ª feira - noite - glória - met. projeto II	6	6	5	5	8	8	5	5
+
+Leandro Gazignato Caetano	732699	6ª feira - noite - ronise - projeto I	10	10	10	10	10	10	10	10
+
+Aluísio Cervelle Santos	632163	2ª feira - manhã - bigal - animação	1	1	1	7	10	5	1	5
+
+Aluísio Cervelle Santos	632163	3ª feira - manhã - sérgio busato - foto II	7	5	9	10	10	8	7	1
+
+Aluísio Cervelle Santos	632163	3ª feira - tarde - j.marcelo - projeto V	5	1	1	7	10	10	5	1
+
+Aluísio Cervelle Santos	632163	4ª feira - manhã - osmar- of. mat. plásticos	7	10	5	10	10	5	5	1
+
+Aluísio Cervelle Santos	632163	5ª feira - manhã - celso - el. computação	5	1	1	1	1	1	1	1
+
+Aluísio Cervelle Santos	632163	6ª feira - manhã - eiji - prod.gráfica II	10	10	10	10	10	8	8	1
+
+Laura Gonçalves Mattara	932345	2ª feira - manhã - m.luiza - hist. arte I	9	10	10	8	10	9	9	9
+
+Laura Gonçalves Mattara	932345	3ª feira - manhã - vânia - desenho I	10	9	10	10	10	10	8	9
+
+Laura Gonçalves Mattara	932345	3ª feira - tarde - dorival - plástica I	8	9	6	7	10	9	8	9
+
+Laura Gonçalves Mattara	932345	4ª feira - manhã - carbone - filosofia	10	10	10	10	10	10	10	10
+
+Laura Gonçalves Mattara	932345	5ª feira - manhã - nakata - des. observ. I	10	10	9	9	10	9	10	9
+
+Laura Gonçalves Mattara	932345	6ª feira - manhã - marta - int. design	9	8	8	9	10	9	7	9
+
+Laura Gonçalves Mattara	932345	6ª feira - tarde - priscila - antropol.	9	9	7	9	10	10	8	9
+
+Alan Marcel Couto Nagatomo	732591	2ª feira - noite - furtado - foto II	9	10	9	8	7	6	8	1
+
+Antonio Henrique Garcia Vieira	832979	2ª feira - noite - marizilda - desenho III	6	4	4	7	10	8	6	9
+
+Antonio Henrique Garcia Vieira	832979	3ª feira - noite - paula - met. cient.	5	4	6	8	10	5	5	10
+
+Antonio Henrique Garcia Vieira	832979	4ª feira - noite - paschoarelli - ergonomia	6	10	10	10	6	10	9	10
+
+Antonio Henrique Garcia Vieira	832979	5ª feira - noite - chico - modelagem	7	10	10	8	8	7	8	10
+
+Antonio Henrique Garcia Vieira	832979	6ª feira - noite - eiji - rec. computac. (turma B)	7	8	10	9	10	8	7	10
+
+Antonio Henrique Garcia Vieira	832979	6ª feira - noite - olimpio - hist.arte III (turma B)	3	7	3	3	4	10	1	5
+
+Maria Celeste de Oliveira Rosa Rodrigues	733555	2ª feira - manhã - ronise -  projeto I	8	8	7	8	9	8	7	8
+
+Maria Celeste de Oliveira Rosa Rodrigues	733555	3ª feira - manhã - glória - metod.pjto. II	6	6	6	5	7	6	6	6
+
+Maria Celeste de Oliveira Rosa Rodrigues	733555	3ª feira - manhã - cássia - tipografia II	9	10	10	10	9	9	9	9
+
+Maria Celeste de Oliveira Rosa Rodrigues	733555	3ª feira - tarde - sileide - projeto I	7	8	7	7	7	7	7	7
+
+Maria Celeste de Oliveira Rosa Rodrigues	733555	4ª feira - manhã - furtado - foto II	8	9	8	8	10	9	9	9
+
+Maria Celeste de Oliveira Rosa Rodrigues	733555	4ª feira - tarde - fábio - of. madeira	9	9	9	10	10	9	9	8
+
+Maria Celeste de Oliveira Rosa Rodrigues	733555	5ª feira - manhã - cássia - prod.gráf. II	9	10	9	10	10	9	9	9
+
+Maria Celeste de Oliveira Rosa Rodrigues	733555	5ª feira - manhã - dorival - ling.contemp.	9	10	10	9	10	10	9	10
+
+Maria Celeste de Oliveira Rosa Rodrigues	733555	6ª feira - manhã - suzi - projeto I	8	8	8	9	8	8	8	7
+
+José Henrique Ronchi	932272	2ª feira - manhã - m.luiza - hist. arte I	8	10	9	9	10	10	10	10
+
+José Henrique Ronchi	932272	3ª feira - manhã - vânia - desenho I	10	10	10	10	10	10	10	10
+
+José Henrique Ronchi	932272	3ª feira - tarde - dorival - plástica I	10	10	9	10	10	10	10	10
+
+José Henrique Ronchi	932272	4ª feira - manhã - carbone - filosofia	10	10	10	10	10	10	10	10
+
+José Henrique Ronchi	932272	5ª feira - manhã - nakata - des. observ. I	10	10	9	9	10	10	9	10
+
+José Henrique Ronchi	932272	6ª feira - manhã - marta - int. design	10	10	10	10	10	10	10	10
+
+José Henrique Ronchi	932272	6ª feira - tarde - priscila - antropol.	9	10	9	10	10	10	10	10
+
+Alessandra Palma Amélio	732338	2ª feira - noite - glória - met. projeto. II	6	6	6	6	8	8	6	6
+
+Edgar Nobuo Yamada	632309	2ª feira - manhã - bigal - animação	1	3	1	3	5	5	5	3
+
+Edgar Nobuo Yamada	632309	3ª feira - manhã - sérgio busato - foto II	5	8	6	6	5	6	6	6
+
+Edgar Nobuo Yamada	632309	3ª feira - tarde - j.marcelo - projeto V	3	1	1	6	6	7	5	3
+
+Edgar Nobuo Yamada	632309	4ª feira - manhã - osmar- of. mat. plásticos	5	8	6	6	8	7	6	3
+
+Edgar Nobuo Yamada	632309	5ª feira - manhã - celso - el. computação	1	1	1	1	1	1	1	1
+
+Edgar Nobuo Yamada	632309	6ª feira - manhã - eiji - prod.gráfica II	5	6	7	8	7	7	8	7
+
+Gabriel Fernandes dos Santos	932663	2ª feira - noite - nakata - des. observação I	8	10	10	10	10	10	10	1
+
+Gabriel Fernandes dos Santos	932663	3ª feira - noite - carbone - filosofia (turma B)	10	10	10	10	10	10	8	7
+
+Gabriel Fernandes dos Santos	932663	3ª feira - noite - m.luiza - hist. arte I   (turma B)	10	10	9	8	10	10	8	7
+
+Gabriel Fernandes dos Santos	932663	4ª feira - noite - goya - plástica I	10	10	9	10	10	10	10	10
+
+Gabriel Fernandes dos Santos	932663	6ª feira - noite - priscila - antropol.	7	8	4	8	10	10	1	1
+
+Gabriel Fernandes dos Santos	932663	6ª feira - noite - marta - int. design	8	7	6	7	10	9	1	1
+
+Nathalia Siqueira Totti	832251	2ª feira - noite - marizilda - desenho III	6	9	3	3	10	10	9	5
+
+Nathalia Siqueira Totti	832251	3ª feira - noite - paula - met. cient.	7	10	10	10	10	10	9	8
+
+Nathalia Siqueira Totti	832251	4ª feira - noite - paschoarelli - ergonomia	9	10	10	10	10	10	9	10
+
+Nathalia Siqueira Totti	832251	5ª feira - noite - chico - modelagem	10	10	10	10	10	10	10	7
+
+Nathalia Siqueira Totti	832251	6ª feira - noite - eiji - rec. computac. (turma B)	7	8	5	9	10	5	8	5
+
+Nathalia Siqueira Totti	832251	6ª feira - noite - olimpio - hist.arte III (turma B)	6	9	5	10	10	10	9	5
+
+Cecília Martins da Conceição	932973	2ª feira - noite - plácido - des. observação I	10	10	10	10	10	10	10	10
+
+Cecília Martins da Conceição	932973	3ª feira - noite - carbone - filosofia (turma C)	10	10	10	10	8	5	1	8
+
+Cecília Martins da Conceição	932973	3ª feira - noite - m.luiza - hist. arte I (turma C)	10	10	10	10	10	10	10	10
+
+Cecília Martins da Conceição	932973	4ª feira - noite - vânia - desenho I	10	10	10	10	9	10	10	10
+
+Cecília Martins da Conceição	932973	5ª feira - noite - goya - plástica I	10	10	10	8	10	10	10	10
+
+Cecília Martins da Conceição	932973	6ª feira - noite - priscila - antropol.	10	10	10	10	10	10	10	10
+
+Cecília Martins da Conceição	932973	6ª feira - noite - marta - int. design	3	3	5	8	6	2	5	2
+
+Milton Tanabe	632945	2ª feira - noite - reinaldo - of. metal	6	8	7	5	2	7	7	6
+
+Milton Tanabe	632945	3ª feira - noite - guarnetti - el. máquina	8	9	8	10	10	9	8	8
+
+Milton Tanabe	632945	4ª feira - noite - reinaldo - teor. fab.	7	6	8	5	2	7	7	6
+
+Milton Tanabe	632945	5ª feira - noite - celso - el. computação	8	9	8	9	9	8	8	8
+
+Milton Tanabe	632945	6ª feira - noite - gilberto - mat. construção	5	6	5	8	9	7	6	5
+
+Milton Tanabe	632945	sábado - sileide - projeto V	7	7	7	8	9	7	7	6
+
+Camila de Arruda Botelho	733008	2ª feira - noite - dorival - ling. contemp.	10	10	10	10	10	10	10	10
+
+Camila de Arruda Botelho	733008	2ª feira - noite - glória - met. projeto. II	3	1	1	1	1	1	1	1
+
+Camila de Arruda Botelho	733008	3ª feira - noite - furtado - foto II	10	10	9	10	10	10	9	10
+
+Camila de Arruda Botelho	733008	4ª feira - noite - fábio - of.   madeira	9	10	10	10	10	10	10	10
+
+Camila de Arruda Botelho	733008	5ª feira - noite - plácido - projeto I	8	8	8	10	10	10	7	8
+
+Camila de Arruda Botelho	733008	6ª feira - noite - goya - projeto I	8	10	9	9	7	10	10	10
+
+Adriana Mayumi kubota	832261	2ª feira - manhã - paula - met. científica	10	10	9	10	10	10	8	8
+
+Adriana Mayumi kubota	832261	3ª feira - manhã - marta - ergonomia	10	8	9	8	10	7	7	6
+
+Adriana Mayumi kubota	832261	4ª feira - manhã - marizilda - desenho III	10	6	7	5	10	7	6	6
+
+Adriana Mayumi kubota	832261	5ª feira - manhã - olímpio - his. arte III	3	5	1	5	10	7	5	7
+
+Adriana Mayumi kubota	832261	5ª feira - manhã - j.marcelo - rec. computac.	8	8	8	10	10	7	9	7
+
+Adriana Mayumi kubota	832261	6ª feira - manhã - chico - modelagem	9	9	10	9	10	7	8	7
+
+Adriana Mayumi kubota	832261	3ª feira - tarde - winck - semiótica II	2	3	1	1	1	3	1	7
+
+Luciana Grechi Grandesso	932949	2ª feira - noite - plácido - des. observação I	10	10	10	10	10	10	9	10
+
+Luciana Grechi Grandesso	932949	3ª feira - noite - carbone - filosofia (turma C)	10	10	10	10	10	10	8	9
+
+Luciana Grechi Grandesso	932949	3ª feira - noite - m.luiza - hist. arte I (turma C)	10	10	10	10	10	10	10	10
+
+Luciana Grechi Grandesso	932949	4ª feira - noite - vânia - desenho I	10	10	10	10	10	10	10	10
+
+Luciana Grechi Grandesso	932949	5ª feira - noite - goya - plástica I	7	10	8	8	10	8	8	10
+
+Luciana Grechi Grandesso	932949	6ª feira - noite - priscila - antropol.	10	10	10	10	10	10	10	10
+
+Luciana Grechi Grandesso	932949	6ª feira - noite - marta - int. design	6	6	8	9	10	7	5	5
+
+Rafael corazza Ronchetti	932736	2ª feira - noite - nakata - des. observação I	10	10	10	10	10	10	10	10
+
+Rafael corazza Ronchetti	932736	3ª feira - noite - carbone - filosofia (turma B)	03	09	01	10	10	05	05	05
+
+Rafael corazza Ronchetti	932736	3ª feira - noite - m.luiza - hist. arte I   (turma B)	10	10	10	10	10	05	05	05
+
+Rafael corazza Ronchetti	932736	4ª feira - noite - goya - plástica I	10	10	10	10	10	10	10	10
+
+Rafael corazza Ronchetti	932736	6ª feira - noite - priscila - antropol.	03	08	01	10	10	05	05	05
+
+Alessandra Palma Amélio	732338	2ª feira - noite - dorival - ling. contemp.	10	9	9	9	10	10	9	10
+
+Alessandra Palma Amélio	732338	3ª feira - noite - cássia - tipografia II	9	9	9	8	8	10	9	7
+
+Alessandra Palma Amélio	732338	3ª feira - noite - cássia - prod. gráfica II	9	9	9	8	8	10	9	7
+
+Alessandra Palma Amélio	732338	4ª feira - noite - fábio - of.   madeira	10	9	9	9	10	9	9	7
+
+Laís Mayumi Shiraishi	932231	2ª feira - manhã - m.luiza - hist. arte I	10	10	9	8	9	10	5	6
+
+Laís Mayumi Shiraishi	932231	3ª feira - manhã - vânia - desenho I	10	10	10	10	8	10	10	10
+
+Laís Mayumi Shiraishi	932231	3ª feira - tarde - dorival - plástica I	8	10	1	5	10	10	8	9
+
+Laís Mayumi Shiraishi	932231	4ª feira - manhã - carbone - filosofia	10	10	10	10	8	10	10	10
+
+Laís Mayumi Shiraishi	932231	5ª feira - manhã - nakata - des. observ. I	10	10	9	8	10	8	8	9
+
+Laís Mayumi Shiraishi	932231	6ª feira - manhã - marta - int. design	5	1	1	2	9	8	1	2
+
+Laís Mayumi Shiraishi	932231	6ª feira - tarde - priscila - antropol.	9	10	7	10	10	9	9	9
+
+Roberta de Moura Leite Lourenço	832782	3ª feira - noite - paula - met. cient.	5	9	10	9	10	8	5	8
+
+Roberta de Moura Leite Lourenço	832782	3ª feira - noite - winck - semiotica I	6	8	7	4	1	1	1	1
+
+Roberta de Moura Leite Lourenço	832782	5ª feira - noite - paschoarelli - ergonomia	10	10	9	10	10	10	7	10
+
+Roberta de Moura Leite Lourenço	832782	6ª feira - noite - olimpio - hist.arte III (turma C)	1	5	8	1	10	1	3	2
+
+Roberta de Moura Leite Lourenço	832782	6ª feira - noite - eiji - rec. computac. (turma   C)	2	10	10	5	10	5	4	4
+
+Débora Elisa Jacinto da Costa	832341	5ª feira - manhã - olímpio - his. arte III	1	10	1	5	10	5	1	5
+
+Thamy Tsutsui	832332	2ª feira - manhã - paula - met. científica	9	10	10	9	10	9	9	10
+
+Thamy Tsutsui	832332	3ª feira - manhã - marta - ergonomia	9	9	9	9	10	8	9	9
+
+Thamy Tsutsui	832332	4ª feira - manhã - marizilda - desenho III	8	7	7	4	7	5	5	7
+
+Thamy Tsutsui	832332	5ª feira - manhã - olímpio - his. arte III	5	7	2	6	7	5	4	6
+
+Thamy Tsutsui	832332	5ª feira - manhã - j.marcelo - rec. computac.	8	7	8	8	8	8	8	8
+
+Thamy Tsutsui	832332	6ª feira - manhã - chico - modelagem	10	9	8	8	9	9	10	9
+
+Felipe Cabral Minutti	932892	2ª feira - noite - plácido - des. observação I	10	10	10	10	10	10	10	10
+
+Felipe Cabral Minutti	932892	3ª feira - noite - carbone - filosofia (turma C)	10	10	10	10	10	10	8	10
+
+Lucas Sartorato Busatto	732494	4ª feira - noite - cássia - tipografia II	10	9	10	9	8	7	8	9
+
+Lucas Sartorato Busatto	732494	4ª feira - noite - cássia - prod. gráfica II	10	9	10	9	8	7	8	9
+
+Lucas Sartorato Busatto	732494	5ª feira - noite - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+Lucas Sartorato Busatto	732494	5ª feira - noite - glória - met. projeto II	8	7	3	5	5	5	5	5
+
+Lucas Sartorato Busatto	732494	6ª feira - noite - ronise - projeto I	9	8	8	10	10	9	10	9
+
+Lucas Sartorato Busatto	732494	2ª feira - noite - furtado - foto II	10	10	10	9	10	8	8	9
+
+Matheus Henrique Bonetti	932681	2ª feira - noite - nakata - des. observação I	10	10	10	8	10	10	9	9
+
+Matheus Henrique Bonetti	932681	2ª feira - noite - nakata - des. observação I	10	10	9	8	10	9	9	9
+
+Matheus Henrique Bonetti	932681	3ª feira - noite - carbone - filosofia (turma B)	10	10	8	9	10	8	8	9
+
+Matheus Henrique Bonetti	932681	3ª feira - noite - m.luiza - hist. arte I   (turma B)	10	10	10	8	10	8	9	8
+
+Matheus Henrique Bonetti	932681	4ª feira - noite - goya - plástica I	10	10	10	10	9	10	10	10
+
+Matheus Henrique Bonetti	932681	6ª feira - noite - marta - int. design	10	8	7	8	10	9	8	8
+
+lais munhoz mastelari	932728	2ª feira - noite - nakata - des. observação I	8	9	9	9	9	9	9	9
+
+lais munhoz mastelari	932728	3ª feira - noite - carbone - filosofia (turma B)	10	9	7	9	10	10	8	7
+
+lais munhoz mastelari	932728	3ª feira - noite - m.luiza - hist. arte I   (turma B)	10	10	10	10	9	9	9	9
+
+lais munhoz mastelari	932728	4ª feira - noite - goya - plástica I	5	9	9	9	5	9	9	9
+
+Ana Helena de Caires Schiavinato	832367	2ª feira - manhã - paula - met. científica	10	10	9	9	10	10	10	10
+
+Ana Helena de Caires Schiavinato	832367	3ª feira - manhã - marta - ergonomia	9	8	9	10	10	8	9	10
+
+Ana Helena de Caires Schiavinato	832367	3ª feira - tarde - winck - semiótica II	8	7	6	8	5	8	6	6
+
+Ana Helena de Caires Schiavinato	832367	4ª feira - noite - marizilda - desenho III	9	7	7	9	10	9	9	7
+
+Ana Helena de Caires Schiavinato	832367	5ª feira - manhã - j.marcelo - rec. computac.	9	6	9	10	10	9	9	7
+
+Ana Helena de Caires Schiavinato	832367	5ª feira - manhã - olímpio - his. arte III	7	9	7	8	9	8	7	6
+
+Ana Helena de Caires Schiavinato	832367	6ª feira - manhã - chico - modelagem	10	9	10	10	10	10	10	9
+
+Rogério Carvalho Rossi	632521	2ª feira - noite - j.marcelo - prod. gráf. II	9	8	8	10	9	10	9	1
+
+Rogério Carvalho Rossi	632521	3ª feira - noite - bigal - animação	7	8	8	8	10	10	6	9
+
+Rogério Carvalho Rossi	632521	4ª feira - noite - marar - el. computação	5	3	1	4	10	2	5	10
+
+Rogério Carvalho Rossi	632521	5ª feira - noite - sérgio busato - foto II	5	5	5	8	7	5	6	8
+
+Rogério Carvalho Rossi	632521	6ª feira - noite - osmar -  of. mat. plásticos	10	10	10	10	10	10	8	8
+
+Rogério Carvalho Rossi	632521	sábado - eiji    - projeto V	10	8	8	8	10	9	9	1
+
+Anderson Thiago Generozo	833789	2ª feira - manhã - paula - met. científica	8	9	9	8	9	8	8	9
+
+Anderson Thiago Generozo	833789	3ª feira - manhã - marta - ergonomia	7	7	7	8	10	6	7	7
+
+Anderson Thiago Generozo	833789	3ª feira - tarde - winck - semiótica II	3	3	3	2	2	3	2	1
+
+Anderson Thiago Generozo	833789	4ª feira - manhã - marizilda - desenho III	8	7	7	8	8	6	7	7
+
+Anderson Thiago Generozo	833789	5ª feira - manhã - olímpio - his. arte III	8	8	7	6	7	7	6	8
+
+Anderson Thiago Generozo	833789	5ª feira - manhã - j.marcelo - rec. computac.	8	6	7	8	8	5	6	6
+
+Anderson Thiago Generozo	833789	6ª feira - manhã - chico - modelagem	8	9	9	8	9	8	8	7
+
+Murilo Silva Tanajura	732583	2ª feira - noite - furtado - foto II	7	8	5	6	7	10	3	1
+
+Murilo Silva Tanajura	732583	3ª feira - noite - sileide - projeto I	2	5	7	3	1	3	4	2
+
+Murilo Silva Tanajura	732583	4ª feira - noite - cássia - tipografia II	10	9	10	10	10	8	7	5
+
+Murilo Silva Tanajura	732583	4ª feira - noite - cássia - prod. gráfica II	10	9	10	10	10	8	9	5
+
+Murilo Silva Tanajura	732583	5ª feira - noite - dorival - ling.contemp.	10	9	10	9	10	10	7	8
+
+Murilo Silva Tanajura	732583	5ª feira - noite - glória - met. projeto II	5	1	1	3	7	7	1	1
+
+Murilo Silva Tanajura	732583	6ª feira - noite - ronise - projeto I	7	3	5	5	3	7	1	5
+
+Murilo Silva Tanajura	732583	sábado - susy    - projeto I	5	7	10	10	3	10	4	10
+
+Paula Lumi Goulart Nishimura	932809	2ª feira - noite - plácido - des. observação I	10	10	10	10	10	10	10	10
+
+Paula Lumi Goulart Nishimura	932809	4ª feira - noite - goya - plástica I	10	10	10	9	10	10	10	10
+
+Paula Lumi Goulart Nishimura	932809	6ª feira - noite - marta - int. design	10	10	10	9	10	9	8	10
+
+Paula Lumi Goulart Nishimura	932809	4ª feira - noite - vânia - desenho I	10	10	10	10	10	10	10	10
+
+Paula Lumi Goulart Nishimura	932809	3ª feira - noite - carbone - filosofia (turma C)	10	10	10	10	10	9	9	10
+
+Paula Lumi Goulart Nishimura	932809	3ª feira - noite - m.luiza - hist. arte I (turma C)	10	10	10	10	10	9	9	10
+
+Paula Lumi Goulart Nishimura	932809	6ª feira - noite - priscila - antropol.	10	10	8	10	10	10	10	10
+
+Ana Julia Troya Raineri Fiocco	832227	2ª feira - manhã - paula - met. científica	8	10	9	9	10	10	9	10
+
+ana julia troya raineri fiocco	832227	3ª feira - manhã - marta - ergonomia	6	8	7	7	10	8	8	6
+
+Adilson Gonzales de Oliveira Junior	632619	2ª feira - noite - j.marcelo - prod. gráf. II	10	8	4	10	8	10	9	8
+
+Adilson Gonzales de Oliveira Junior	632619	3ª feira - noite - bigal - animação	6	7	7	4	8	8	7	10
+
+Adilson Gonzales de Oliveira Junior	632619	4ª feira - noite - marar - el. computação	2	4	2	1	6	2	2	8
+
+Adilson Gonzales de Oliveira Junior	632619	5ª feira - noite - sérgio busato - foto II	5	4	3	5	1	2	6	6
+
+Adilson Gonzales de Oliveira Junior	632619	6ª feira - noite - osmar -  of. mat. plásticos	10	10	10	9	10	10	10	9
+
+Adilson Gonzales de Oliveira Junior	632619	sábado - eiji    - projeto V	8	7	7	8	8	10	8	6
+
+Maísa Gabrielle Pagani Pires	633526	3ª feira - manhã - sérgio busato - foto II	2	3	3	5	2	5	8	7
+
+Maísa Gabrielle Pagani Pires	633526	3ª feira - noite - bigal - animação	5	9	4	9	7	10	6	10
+
+Maísa Gabrielle Pagani Pires	633526	4ª feira - manhã - osmar- of. mat. plásticos	10	9	9	10	9	10	10	9
+
+Maísa Gabrielle Pagani Pires	633526	5ª feira - manhã - celso - el. computação	2	4	3	2	2	1	1	5
+
+Maísa Gabrielle Pagani Pires	633526	6ª feira - manhã - eiji - prod.gráfica II	10	8	8	8	10	8	10	8
+
+Maísa Gabrielle Pagani Pires	633526	sábado - eiji    - projeto V	10	8	8	8	10	8	10	8
+
+Fabiana Paulino Martins	632171	2ª feira - manhã - bigal - animação	5	1	1	6	3	1	1	1
+
+Fabiana Paulino Martins	632171	3ª feira - tarde - j.marcelo - projeto V	9	6	1	9	9	8	7	5
+
+Fabiana Paulino Martins	632171	4ª feira - manhã - osmar- of. mat. plásticos	10	9	5	10	10	10	8	8
+
+Fabiana Paulino Martins	632171	5ª feira - manhã - celso - el. computação	7	4	4	4	3	3	1	3
+
+Fabiana Paulino Martins	632171	5ª feira - noite - sérgio busato - foto II	6	7	8	9	2	8	5	3
+
+carolina juliao avancini	932442	2ª feira - manhã - m.luiza - hist. arte I	9	8	8	7	9	7	8	6
+
+carolina juliao avancini	932442	3ª feira - manhã - vânia - desenho I	9	7	9	10	5	6	4	4
+
+carolina juliao avancini	932442	3ª feira - tarde - dorival - plástica I	10	10	7	7	10	10	10	08
+
+carolina juliao avancini	932442	4ª feira - manhã - carbone - filosofia	09	9	8	10	8	8	7	5
+
+carolina juliao avancini	932442	5ª feira - manhã - nakata - des. observ. I	9	9	7	9	8	9	9	5
+
+carolina juliao avancini	932442	6ª feira - manhã - marta - int. design	10	8	8	8	8	8	6	4
+
+carolina juliao avancini	932442	6ª feira - noite - priscila - antropol.	9	10	6	9	9	8	7	7
+
+Thomas Musmann de Carvalho	932329	2ª feira - manhã - m.luiza - hist. arte I	9	10	8	10	10	10	10	10
+
+Thomas Musmann de Carvalho	932329	3ª feira - manhã - vânia - desenho I	6	6	10	10	9	9	7	6
+
+Thomas Musmann de Carvalho	932329	3ª feira - tarde - dorival - plástica I	10	10	6	9	10	9	10	10
+
+Thomas Musmann de Carvalho	932329	4ª feira - manhã - carbone - filosofia	7	8	8	10	10	9	6	7
+
+Thomas Musmann de Carvalho	932329	5ª feira - manhã - nakata - des. observ. I	10	10	8	10	8	10	10	7
+
+Thomas Musmann de Carvalho	932329	6ª feira - manhã - marta - int. design	9	8	10	10	10	7	7	7
+
+Thomas Musmann de Carvalho	932329	6ª feira - noite - priscila - antropol.	7	10	6	10	10	8	7	6
+
+Victor Sanches Macedo	632384	2ª feira - noite - j.marcelo - prod. gráf. II	5	5	4	9	5	5	5	4
+
+Victor Sanches Macedo	632384	3ª feira - noite - bigal - animação	8	10	10	10	10	10	10	10
+
+Victor Sanches Macedo	632384	4ª feira - noite - marar - el. computação	8	8	7	9	8	10	9	10
+
+Victor Sanches Macedo	632384	3ª feira - tarde - j.marcelo - projeto V	4	4	3	8	5	6	4	4
+
+Victor Sanches Macedo	632384	5ª feira - noite - sérgio busato - foto II	4	4	4	6	4	4	4	4
+
+Victor Sanches Macedo	632384	6ª feira - noite - osmar -  of. mat. plásticos	10	10	8	10	10	10	10	8
+
+Mariana De Luca Reis 	832588	2ª feira - noite - marizilda - desenho III	5	5	3	5	8	6	7	6
+
+Mariana De Luca Reis 	832588	3ª feira - noite - paula - met. cient.	10	10	10	7	9	5	5	6
+
+Mariana De Luca Reis 	832588	3ª feira - tarde - winck - semiótica II	3	6	6	5	1	5	4	5
+
+Mariana De Luca Reis 	832588	4ª feira - noite - paschoarelli - ergonomia	10	10	9	10	8	10	7	7
+
+Mariana De Luca Reis 	832588	5ª feira - noite - chico - modelagem	10	9	9	9	9	8	9	8
+
+Mariana De Luca Reis 	832588	6ª feira - noite - eiji - rec. computac. (turma B)	4	7	8	8	8	7	6	5
+
+Mariana De Luca Reis 	832588	6ª feira - noite - olimpio - hist.arte III (turma B)	5	10	5	7	6	8	7	7
+
+Ana Luiza de Souza Carvalho	932183	2ª feira - manhã - m.luiza - hist. arte I	9	10	10	10	10	8	10	8
+
+Ana Luiza de Souza Carvalho	932183	3ª feira - manhã - vânia - desenho I	8	10	9	10	8	8	8	8
+
+Ana Luiza de Souza Carvalho	932183	3ª feira - tarde - dorival - plástica I	10	10	8	10	10	10	10	10
+
+Ana Luiza de Souza Carvalho	932183	4ª feira - manhã - carbone - filosofia	10	10	10	10	8	8	7	10
+
+Ana Luiza de Souza Carvalho	932183	5ª feira - manhã - nakata - des. observ. I	8	10	10	10	9	8	8	8
+
+Ana Luiza de Souza Carvalho	932183	6ª feira - manhã - marta - int. design	10	10	8	10	10	8	8	8
+
+Ana Luiza de Souza Carvalho	932183	6ª feira - tarde - priscila - antropol.	10	10	8	10	10	8	8	8
+
+Helena van Kampen	732567	2ª feira - noite - furtado - foto II	7	9	5	8	5	7	6	7
+
+Helena van Kampen	732567	4ª feira - noite - cássia - tipografia II	9	8	9	10	10	8	8	9
+
+Helena van Kampen	732567	2ª feira - noite - furtado - foto II	7	9	5	8	5	7	6	7
+
+Helena van Kampen	732567	4ª feira - noite - cássia - tipografia II	9	8	9	10	10	8	8	9
+
+Helena van Kampen	732567	4ª feira - noite - cássia - prod. gráfica II	9	9	9	10	10	8	8	9
+
+Helena van Kampen	732567	5ª feira - tarde - fábio - of. madeira	8	9	7	7	9	7	7	8
+
+Helena van Kampen	732567	5ª feira - noite - dorival - ling.contemp.	9	10	10	9	10	9	10	10
+
+Helena van Kampen	732567	5ª feira - noite - glória - met. projeto II	6	4	4	2	5	5	6	5
+
+Helena van Kampen	732567	6ª feira - noite - ronise - projeto I	6	9	7	8	8	8	7	6
+
+Bruno Tavares de Toledo	732788	2ª feira - noite - dorival - ling. contemp.	10	10	8	10	10	10	10	10
+
+monise s takasaki	833721	5ª feira - manhã - olímpio - his. arte III	1	8	1	1	1	2	1	5
+
+Marcelo Coelho Pereira	832571	2ª feira - noite - marizilda - desenho III	9	10	9	9	10	10	7	8
+
+Marcelo Coelho Pereira	832571	2ª feira - noite - marizilda - desenho III	9	10	9	9	10	10	7	8
+
+Marcelo Coelho Pereira	832571	3ª feira - noite - winck - semiotica I	3	9	7	2	2	4	1	2
+
+Marcelo Coelho Pereira	832571	3ª feira - noite - paula - met. cient.	10	10	10	9	10	10	8	10
+
+Marcelo Coelho Pereira	832571	4ª feira - noite - paschoarelli - ergonomia	10	10	10	10	10	10	10	10
+
+Marcelo Coelho Pereira	832571	5ª feira - noite - chico - modelagem	10	10	9	9	10	10	10	10
+
+Marcelo Coelho Pereira	832571	6ª feira - noite - eiji - rec. computac. (turma B)	6	7	9	10	10	9	5	5
+
+Marcelo Coelho Pereira	832571	6ª feira - noite - olimpio - hist.arte III (turma B)	7	10	8	10	9	9	10	8
+
+Alexandra Yumi Yanagiwara	932612	2ª feira - noite - nakata - des. observação I	10	10	10	10	10	10	10	10
+
+Alexandra Yumi Yanagiwara	932612	6ª feira - noite - priscila - antropol.	10	10	10	10	10	10	10	10
+
+Alexandra Yumi Yanagiwara	932612	2ª feira - noite - nakata - des. observação I	10	10	10	10	10	10	10	10
+
+Alexandra Yumi Yanagiwara	932612	3ª feira - noite - m.luiza - hist. arte I   (turma B)	10	10	10	10	10	10	10	10
+
+Alexandra Yumi Yanagiwara	932612	4ª feira - noite - goya - plástica I	10	10	10	9	10	10	10	10
+
+Alana Leme Sales	932752	2ª feira - noite - plácido - des. observação I	9	10	8	10	10	8	6	7
+
+Alana Leme Sales	932752	3ª feira - noite - carbone - filosofia (turma C)	10	10	9	10	10	9	10	9
+
+Alana Leme Sales	932752	3ª feira - noite - m.luiza - hist. arte I (turma C)	8	10	8	8	10	7	8	7
+
+Alana Leme Sales	932752	4ª feira - noite - vânia - desenho I	9	10	10	10	10	9	10	9
+
+Alana Leme Sales	932752	5ª feira - noite - goya - plástica I	8	10	9	6	9	10	7	10
+
+Alana Leme Sales	932752	6ª feira - noite - priscila - antropol.	7	10	6	9	10	8	7	6
+
+Alana Leme Sales	932752	6ª feira - noite - marta - int. design	10	10	10	10	10	9	9	9
+
+Lucas da Silva Siqueira	732486	2ª feira - noite - furtado - foto II	5	7	5	5	5	5	7	5
+
+Lucas da Silva Siqueira	732486	3ª feira - tarde - sileide - projeto I	3	2	1	4	4	4	3	2
+
+Lucas da Silva Siqueira	732486	4ª feira - noite - cássia - tipografia II	5	5	5	8	8	7	8	5
+
+Lucas da Silva Siqueira	732486	4ª feira - noite - cássia - prod. gráfica II	5	8	5	8	8	7	8	5
+
+Lucas da Silva Siqueira	732486	5ª feira - noite - dorival - ling.contemp.	8	10	10	8	10	10	7	10
+
+Lucas da Silva Siqueira	732486	5ª feira - noite - glória - met. projeto II	2	1	1	1	4	3	1	1
+
+Lucas da Silva Siqueira	732486	6ª feira - noite - ronise - projeto I	2	2	2	7	4	4	3	1
+
+Lucas da Silva Siqueira	732486	sábado - susy    - projeto I	4	3	4	9	8	4	4	1
+
+Dailene Nogueira da Silva	832464	3ª feira - noite - paula - met. cient.	8	7	8	7	10	8	8	9
+
+Dailene Nogueira da Silva	832464	3ª feira - tarde - winck - semiótica II	1	8	5	5	1	8	5	3
+
+Dailene Nogueira da Silva	832464	4ª feira - noite - paschoarelli - ergonomia	10	9	9	10	10	9	8	9
+
+Dailene Nogueira da Silva	832464	5ª feira - noite - chico - modelagem	10	9	8	10	10	10	9	9
+
+Dailene Nogueira da Silva	832464	6ª feira - noite - eiji - rec. computac. (turma B)	3	10	7	8	10	7	8	7
+
+Dailene Nogueira da Silva	832464	6ª feira - noite - olimpio - hist.arte III (turma B)	8	10	7	10	8	6	7	6
+
+Igor Maximiliano de Jesus	732362	2ª feira - noite - furtado - foto II	6	8	9	9	8	7	6	1
+
+Igor Maximiliano de Jesus	732362	4ª feira - noite - cássia - tipografia II	9	9	9	10	10	9	7	2
+
+Igor Maximiliano de Jesus	732362	4ª feira - noite - cássia - prod. gráfica II	9	9	9	10	10	9	7	2
+
+Igor Maximiliano de Jesus	732362	5ª feira - tarde - fábio - of. madeira	10	10	10	10	10	10	8	7
+
+Igor Maximiliano de Jesus	732362	5ª feira - noite - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+Igor Maximiliano de Jesus	732362	5ª feira - noite - glória - met. projeto II	4	3	2	2	6	7	1	1
+
+Igor Maximiliano de Jesus	732362	6ª feira - noite - ronise - projeto I	8	7	7	10	10	10	8	10
+
+Chiara Valverde Zanotti	832431	2ª feira - manhã - paula - met. científica	9	9	8	8	9	8	8	8
+
+Chiara Valverde Zanotti	832431	3ª feira - manhã - marta - ergonomia	8	8	8	7	9	7	7	7
+
+Chiara Valverde Zanotti	832431	3ª feira - tarde - winck - semiótica II	2	4	2	5	1	1	5	2
+
+Chiara Valverde Zanotti	832431	4ª feira - manhã - marizilda - desenho III	7	8	6	8	8	7	8	7
+
+Chiara Valverde Zanotti	832431	5ª feira - manhã - olímpio - his. arte III	8	10	7	5	9	7	6	7
+
+Chiara Valverde Zanotti	832431	6ª feira - manhã - chico - modelagem	8	8	7	8	10	8	9	7
+
+Chiara Valverde Zanotti	832431	5ª feira - manhã - j.marcelo - rec. computac.	9	6	6	8	8	8	8	8
+
+Rebeca	732982	2ª feira - noite - dorival - ling. contemp.	10	10	7	10	10	8	8	10
+
+Rebeca	732982	2ª feira - noite - glória - met. projeto. II	1	1	1	1	1	1	1	1
+
+Rebeca	732982	4ª feira - noite - fábio - of.   madeira	10	10	7	9	10	8	10	10
+
+Rebeca	732982	5ª feira - noite - plácido - projeto I	10	10	10	10	10	10	7	10
+
+Rebeca	732982	6ª feira - noite - goya - projeto I	7	8	5	8	10	10	10	10
+
+Fernanda Rodrigues de Paula	632261	3ª feira - manhã - sérgio busato - foto II	4	7	4	7	5	6	6	4
+
+Fernanda Rodrigues de Paula	632261	3ª feira - tarde - j.marcelo - projeto V	9	7	5	10	8	9	9	9
+
+Fernanda Rodrigues de Paula	632261	4ª feira - manhã - osmar- of. mat. plásticos	6	10	6	6	10	7	8	9
+
+Fernanda Rodrigues de Paula	632261	5ª feira - manhã - celso - el. computação	6	1	2	5	3	7	7	9
+
+Fernanda Rodrigues de Paula	632261	6ª feira - manhã - eiji - prod.gráfica II	8	8	7	7	9	8	8	7
+
+Elissa Soares	932469	2ª feira - noite - nakata - des. observação I	10	10	09	10	10	10	10	09
+
+Elissa Soares	932469	3ª feira - noite - m.luiza - hist. arte I   (turma B)	10	10	10	10	10	10	10	10
+
+Elissa Soares	932469	3ª feira - noite - carbone - filosofia (turma B)	10	10	10	10	10	10	08	10
+
+Elissa Soares	932469	4ª feira - noite - goya - plástica I	10	10	10	09	10	10	10	10
+
+Elissa Soares	932469	6ª feira - noite - priscila - antropol.	10	10	10	10	10	10	07	10
+
+Elissa Soares	932469	6ª feira - noite - marta - int. design	10	07	07	09	10	09	07	06
+
+Jamille Noretza de Lima Lanutti	632708	2ª feira - noite - j.marcelo - prod. gráf. II	10	5	6	10	10	10	10	5
+
+Caio Henrique S.Oliveira	832499	2ª feira - noite - j.marcelo - prod. gráf. II	10	10	10	10	10	10	10	10
+
+Caio Henrique S. Oliveira	832499	2ª feira - manhã - paula - met. científica	10	10	10	10	10	6	6	5
+
+Caio Herique S. Oliveira	832499	3ª feira - manhã - marta - ergonomia	10	10	10	10	10	8	8	8
+
+Caio Henrique S. Oliveira	832499	3ª feira - tarde - winck - semiótica II	5	8	2	8	6	2	1	2
+
+Caio Henrique S. Oliveira	832499	4ª feira - manhã - marizilda - desenho III	8	9	9	10	10	10	10	7
+
+Marina Burity Francisco	732435	2ª feira - manhã - ronise -  projeto I	1	3	2	5	7	6	5	5
+
+Marina Burity Francisco	732435	3ª feira - manhã - cássia - tipografia II	9	9	9	9	10	8	7	5
+
+Marina Burity Francisco	732435	3ª feira - manhã - glória - metod.pjto. II	2	1	1	1	6	2	1	1
+
+Marina Burity Francisco	732435	4ª feira - manhã - furtado - foto II	6	9	7	7	8	7	8	5
+
+Marina Burity Francisco	732435	4ª feira - tarde - fábio - of. madeira	8	9	7	9	9	7	8	6
+
+Marina Burity Francisco	732435	5ª feira - manhã - cássia - prod.gráf. II	9	9	8	9	10	8	8	5
+
+Marina Burity Francisco	732435	5ª feira - manhã - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+tatiana aleixo lima fernandes	932337	2ª feira - manhã - m.luiza - hist. arte I	9	10	10	9	10	9	9	8
+
+tatiana aleixo lima fernandes	932337	3ª feira - manhã - vânia - desenho I	9	10	10	10	10	10	10	8
+
+tatiana aleixo lima fernandes	932337	3ª feira - tarde - dorival - plástica I	10	10	10	10	10	10	10	10
+
+tatiana aleixo lima fernandes	932337	4ª feira - manhã - carbone - filosofia	9	10	8	10	10	8	8	8
+
+tatiana aleixo lima fernandes	932337	6ª feira - manhã - marta - int. design	10	9	10	10	10	10	8	8
+
+tatiana aleixo lima fernandes	932337	6ª feira - tarde - priscila - antropol.	10	10	10	10	10	8	8	8
+
+tatiana aleixo lima fernandes	932337	5ª feira - manhã - nakata - des. observ. I	10	10	10	10	10	10	9	8
+
+Patrícia Harumi Masuyama	633569	2ª feira - manhã - bigal - animação	3	5	4	8	6	5	5	6
+
+Patrícia Harumi Masuyama	633569	3ª feira - manhã - sérgio busato - foto II	3	4	1	7	3	7	6	4
+
+Patrícia Harumi Masuyama	633569	3ª feira - tarde - j.marcelo - projeto V	4	1	1	4	7	8	6	7
+
+Patrícia Harumi Masuyama	633569	4ª feira - manhã - osmar- of. mat. plásticos	9	8	9	8	8	9	8	7
+
+Patrícia Harumi Masuyama	633569	5ª feira - manhã - celso - el. computação	5	3	3	2	1	3	3	1
+
+Patrícia Harumi Masuyama	633569	6ª feira - manhã - eiji - prod.gráfica II	7	6	9	8	9	8	8	7
+
+Ana Carolina Yukari Toyama	932248	2ª feira - manhã - m.luiza - hist. arte I	10	10	9	8	10	10	10	10
+
+Ana Carolina Yukari Toyama	932248	3ª feira - manhã - vânia - desenho I	8	10	10	10	10	8	8	7
+
+Ana Carolina Yukari Toyama	932248	3ª feira - tarde - dorival - plástica I	10	10	9	5	10	9	10	10
+
+Ana Carolina Yukari Toyama	932248	4ª feira - manhã - carbone - filosofia	8	10	8	4	10	5	8	10
+
+Ana Carolina Yukari Toyama	932248	5ª feira - manhã - nakata - des. observ. I	5	10	8	10	10	6	8	10
+
+Ana Carolina Yukari Toyama	932248	6ª feira - noite - priscila - antropol.	10	10	5	9	10	7	9	10
+
+Liara Takemoto Monteiro	632724	2ª feira - noite - reinaldo - of. metal	10	10	9	8	6	8	9	1
+
+Liara Takemoto Monteiro	632724	5ª feira - manhã - celso - el. computação	6	7	6	8	9	8	7	5
+
+Juliana Eiko Kikuchi	732541	2ª feira - noite - furtado - foto II	7	9	8	8	6	3	5	2
+
+Juliana Eiko Kikuchi	732541	2ª feira - noite - furtado - foto II	7	9	8	8	6	3	5	2
+
+Juliana Eiko Kikuchi	732541	4ª feira - noite - cássia - tipografia II	9	9	10	10	10	10	10	7
+
+Juliana Eiko Kikuchi	732541	4ª feira - noite - cássia - prod. gráfica II	9	10	10	10	10	10	10	7
+
+Juliana Eiko Kikuchi	732541	5ª feira - noite - dorival - ling.contemp.	10	10	8	8	10	9	6	9
+
+Juliana Eiko Kikuchi	732541	5ª feira - tarde - fábio - of. madeira	10	10	10	10	10	10	10	10
+
+Juliana Eiko Kikuchi	732541	6ª feira - noite - ronise - projeto I	7	7	5	7	8	7	8	9
+
+Giovana Milanetto	932175	2ª feira - manhã - m.luiza - hist. arte I	10	10	10	10	10	10	10	10
+
+Giovana Milanetto	932175	3ª feira - manhã - vânia - desenho I	7	9	8	10	5	9	9	10
+
+Giovana Milanetto	932175	3ª feira - tarde - dorival - plástica I	10	10	10	8	10	10	10	10
+
+Giovana Milanetto	932175	4ª feira - manhã - carbone - filosofia	10	10	10	10	8	9	8	7
+
+Giovana Milanetto	932175	5ª feira - manhã - nakata - des. observ. I	10	10	5	10	10	8	10	7
+
+Giovana Milanetto	932175	6ª feira - manhã - marta - int. design	5	4	6	10	10	3	5	5
+
+Giovana Milanetto	932175	6ª feira - tarde - priscila - antropol.	10	10	8	10	10	5	7	7
+
+diego xavier crivelin	832162	2ª feira - manhã - paula - met. científica	3	9	8	10	10	10	10	7
+
+diego xavier crivelin	832162	3ª feira - manhã - marta - ergonomia	8	8	7	10	10	7	10	10
+
+diego xavier crivelin	832162	4ª feira - manhã - marizilda - desenho III	1	1	1	3	5	1	1	1
+
+diego xavier crivelin	832162	3ª feira - tarde - winck - semiótica II	1	8	1	1	1	1	1	10
+
+diego xavier crivelin	832162	5ª feira - manhã - j.marcelo - rec. computac.	1	1	8	8	10	1	1	10
+
+diego xavier crivelin	832162	6ª feira - manhã - chico - modelagem	10	10	9	7	10	7	8	7
+
+Luiz Gustavo Ferreira Zanotello	732559	2ª feira - noite - furtado - foto II	4	10	5	3	7	4	6	4
+
+Luiz Gustavo Ferreira Zanotello	732559	3ª feira - noite - sileide - projeto I	1	1	4	6	6	1	1	1
+
+Luiz Gustavo Ferreira Zanotello	732559	4ª feira - noite - cássia - tipografia II	5	6	10	10	10	10	8	2
+
+Luiz Gustavo Ferreira Zanotello	732559	4ª feira - noite - cássia - prod. gráfica II	6	10	10	10	10	10	8	6
+
+Luiz Gustavo Ferreira Zanotello	732559	5ª feira - noite - dorival - ling.contemp.	10	10	10	10	10	10	8	10
+
+Luiz Gustavo Ferreira Zanotello	732559	5ª feira - noite - glória - met. projeto II	1	1	1	1	10	1	1	1
+
+Luiz Gustavo Ferreira Zanotello	732559	6ª feira - noite - ronise - projeto I	6	4	5	10	10	8	7	5
+
+Luiz Gustavo Ferreira Zanotello	732559	sábado - susy    - projeto I	4	6	8	10	10	8	7	7
+
+André de Souza Rodrigues	932884	2ª feira - noite - plácido - des. observação I	7	8	10	10	10	7	9	7
+
+André de Souza Rodrigues	932884	3ª feira - noite - carbone - filosofia (turma C)	10	8	9	10	10	7	6	7
+
+André de Souza Rodrigues	932884	3ª feira - noite - m.luiza - hist. arte I (turma C)	8	6	7	8	10	7	7	5
+
+André de Souza Rodrigues	932884	4ª feira - noite - vânia - desenho I	10	8	10	10	10	7	9	7
+
+André de Souza Rodrigues	932884	5ª feira - noite - goya - plástica I	9	10	9	7	10	10	6	10
+
+André de Souza Rodrigues	932884	6ª feira - tarde - priscila - antropol.	10	9	7	7	9	6	8	7
+
+André de Souza Rodrigues	932884	6ª feira - noite - marta - int. design	9	6	7	10	10	8	6	8
+
+Henrique Manetta Perticarati	632236	2ª feira - manhã - bigal - animação	2	5	1	7	5	1	5	1
+
+Henrique Manetta Perticarati	632236	3ª feira - manhã - sérgio busato - foto II	5	9	7	9	8	8	10	1
+
+Henrique Manetta Perticarati	632236	3ª feira - tarde - j.marcelo - projeto V	5	9	6	8	7	5	8	1
+
+Henrique Manetta Perticarati	632236	4ª feira - manhã - osmar- of. mat. plásticos	10	9	8	9	9	10	7	1
+
+Henrique Manetta Perticarati	632236	5ª feira - manhã - celso - el. computação	3	5	5	5	4	6	4	5
+
+Henrique Manetta Perticarati	632236	6ª feira - manhã - eiji - prod.gráfica II	9	9	10	10	8	8	10	1
+
+Rômulo Pellizzaro	932711	2ª feira - noite - nakata - des. observação I	9	10	10	10	10	10	10	9
+
+Rômulo Pellizzaro	932711	3ª feira - noite - carbone - filosofia (turma B)	10	10	8	10	10	10	8	9
+
+Rômulo Pellizzaro	932711	3ª feira - noite - m.luiza - hist. arte I   (turma B)	10	9	8	7	8	8	8	9
+
+Rômulo Pellizzaro	932711	4ª feira - noite - goya - plástica I	8	9	9	10	8	10	10	10
+
+Rômulo Pellizzaro	932711	6ª feira - noite - priscila - antropol.	9	10	10	8	10	8	7	8
+
+Rômulo Pellizzaro	932711	6ª feira - noite - marta - int. design	10	7	8	9	10	6	9	7
+
+Guilherme Rodrigues Colosio	932701	2ª feira - noite - nakata - des. observação I	9	10	9	10	10	9	9	8
+
+Guilherme Rodrigues Colosio	932701	3ª feira - noite - carbone - filosofia (turma B)	9	9	8	9	10	9	9	9
+
+Guilherme Rodrigues Colosio	932701	3ª feira - noite - m.luiza - hist. arte I   (turma B)	9	9	10	9	10	9	9	8
+
+Guilherme Rodrigues Colosio	932701	4ª feira - noite - goya - plástica I	9	9	8	9	10	9	10	10
+
+Guilherme Rodrigues Colosio	932701	6ª feira - noite - priscila - antropol.	9	9	8	8	10	9	9	9
+
+Guilherme Rodrigues Colosio	932701	6ª feira - noite - marta - int. design	9	8	7	8	9	9	9	9
+
+Natália Mariê Nakata	832456	2ª feira - noite - marizilda - desenho III	8	7	5	5	8	5	6	5
+
+Natália Mariê Nakata	832456	3ª feira - noite - paula - met. cient.	9	10	9	10	10	9	9	10
+
+Natália Mariê Nakata	832456	3ª feira - noite - winck - semiotica I	4	5	3	6	3	4	5	3
+
+Natália Mariê Nakata	832456	4ª feira - noite - paschoarelli - ergonomia	10	10	10	10	10	9	9	10
+
+Natália Mariê Nakata	832456	5ª feira - noite - chico - modelagem	10	10	10	8	10	9	10	10
+
+Natália Mariê Nakata	832456	6ª feira - noite - eiji - rec. computac. (turma B)	8	9	8	10	10	9	7	6
+
+Natália Mariê Nakata	832456	6ª feira - noite - olimpio - hist.arte III (turma B)	7	10	7	10	9	8	8	10
+
+Fabiana Alves dos Santos	632341	2ª feira - noite - j.marcelo - prod. gráf. II	6	5	3	7	4	8	6	3
+
+Fabiana Alves dos Santos	632341	3ª feira - noite - bigal - animação	4	9	7	5	3	8	5	9
+
+Fabiana Alves dos Santos	632341	5ª feira - noite - sérgio busato - foto II	6	7	7	9	8	8	9	8
+
+mariana basso	732851	2ª feira - noite - glória - met. projeto. II	8	1	3	2	5	4	2	5
+
+mariana basso	732851	2ª feira - noite - dorival - ling. contemp.	8	10	8	9	8	9	10	10
+
+mariana basso	732851	5ª feira - noite - plácido - projeto I	7	9	2	8	5	8	4	8
+
+mariana basso	732851	3ª feira - noite - cássia - tipografia II	8	10	10	8	7	8	9	7
+
+mariana basso	732851	4ª feira - noite - fábio - of.   madeira	7	9	7	10	9	6	8	8
+
+mariana basso	732851	5ª feira - tarde - susy - projeto I	6	8	5	8	9	7	6	7
+
+mariana basso	732851	6ª feira - noite - goya - projeto I	8	5	4	5	7	8	6	9
+
+Paulo Soucheff Veloso Domingues	932507	2ª feira - noite - nakata - des. observação I	10	10	10	10	10	10	10	10
+
+Paulo Soucheff Veloso Domingues	932507	3ª feira - noite - m.luiza - hist. arte I   (turma B)	10	10	10	9	10	10	10	10
+
+Paulo Soucheff Veloso Domingues	932507	3ª feira - noite - carbone - filosofia (turma B)	10	10	10	10	10	10	10	10
+
+Paulo Soucheff Veloso Domingues	932507	4ª feira - noite - goya - plástica I	10	10	10	10	10	10	10	10
+
+Paulo Soucheff Veloso Domingues	932507	6ª feira - tarde - priscila - antropol.	7	10	6	10	10	10	8	10
+
+Paulo Soucheff Veloso Domingues	932507	6ª feira - noite - marta - int. design	8	8	8	9	10	10	8	9
+
+Vinicius Matsuei Sinzato	732249	2ª feira - manhã - ronise -  projeto I	5	3	3	5	2	5	5	5
+
+Vinicius Matsuei Sinzato	732249	3ª feira - manhã - cássia - tipografia II	8	10	8	9	10	5	10	8
+
+Vinicius Matsuei Sinzato	732249	3ª feira - manhã - glória - metod.pjto. II	3	3	3	1	5	5	3	2
+
+Vinicius Matsuei Sinzato	732249	4ª feira - manhã - furtado - foto II	9	10	7	7	10	5	10	8
+
+Vinicius Matsuei Sinzato	732249	5ª feira - manhã - cássia - prod.gráf. II	8	10	8	9	10	5	10	8
+
+Vinicius Matsuei Sinzato	732249	5ª feira - manhã - dorival - ling.contemp.	10	10	9	10	10	10	10	10
+
+Janine Cristina Pereira	932582	2ª feira - noite - nakata - des. observação I	10	10	10	10	10	10	10	8
+
+Janine Cristina Pereira	932582	3ª feira - noite - carbone - filosofia (turma B)	9	10	8	10	10	8	8	7
+
+Janine Cristina Pereira	932582	3ª feira - noite - m.luiza - hist. arte I   (turma B)	10	10	10	10	10	10	10	10
+
+Janine Cristina Pereira	932582	4ª feira - noite - goya - plástica I	10	10	10	10	10	10	10	10
+
+Janine Cristina Pereira	932582	6ª feira - noite - priscila - antropol.	10	10	8	9	10	10	10	9
+
+Janine Cristina Pereira	932582	6ª feira - noite - marta - int. design	5	4	5	4	7	5	6	4
+
+Janine Cristina Pereira	932582	5ª feira - noite - vânia - desenho I	10	8	10	10	10	10	10	10
+
+Miller Antonio Ramos Chamorro	732184	2ª feira - manhã - ronise -  projeto I	4	4	4	8	8	9	8	6
+
+Miller Antonio Ramos Chamorro	732184	2ª feira - manhã - ronise -  projeto I	4	4	4	8	8	9	8	6
+
+Miller Antonio Ramos Chamorro	732184	3ª feira - manhã - glória - metod.pjto. II	6	4	4	2	6	5	5	5
+
+Miller Antonio Ramos Chamorro	732184	3ª feira - manhã - cássia - tipografia II	8	9	9	10	10	10	9	9
+
+Miller Antonio Ramos Chamorro	732184	3ª feira - tarde - sileide - projeto I	4	3	3	5	5	8	4	5
+
+Miller Antonio Ramos Chamorro	732184	4ª feira - manhã - furtado - foto II	9	9	9	9	9	10	10	10
+
+Miller Antonio Ramos Chamorro	732184	4ª feira - tarde - fábio - of. madeira	10	10	10	10	10	10	8	9
+
+Miller Antonio Ramos Chamorro	732184	5ª feira - manhã - cássia - prod.gráf. II	9	10	9	10	10	10	9	9
+
+Miller Antonio Ramos Chamorro	732184	5ª feira - manhã - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+Miller Antonio Ramos Chamorro	732184	6ª feira - manhã - suzi - projeto I	4	5	6	8	6	9	8	5
+
+Livia Ferrari DAmico	732214	2ª feira - manhã - ronise -  projeto I	4	6	2	4	8	6	2	6
+
+Livia Ferrari DAmico	732214	3ª feira - manhã - cássia - tipografia II	9	10	10	10	10	9	8	9
+
+Livia Ferrari DAmico	732214	3ª feira - manhã - glória - metod.pjto. II	2	2	1	1	7	1	1	1
+
+Julia Martinussi	932621	2ª feira - noite - nakata - des. observação I	10	10	9	9	10	8	9	10
+
+Julia Martinussi	932621	3ª feira - noite - carbone - filosofia (turma B)	10	10	9	10	10	9	9	10
+
+Julia Martinussi	932621	3ª feira - noite - m.luiza - hist. arte I   (turma B)	10	10	9	9	10	10	9	10
+
+Julia Martinussi	932621	4ª feira - noite - goya - plástica I	10	10	9	9	9	10	9	10
+
+João José Laranjeira Brizzi	732321	2ª feira - manhã - ronise -  projeto I	7	6	6	8	7	7	7	7
+
+João José Laranjeira Brizzi	732321	3ª feira - manhã - cássia - tipografia II	10	10	10	10	10	10	10	9
+
+João José Laranjeira Brizzi	732321	3ª feira - manhã - glória - metod.pjto. II	5	6	6	5	7	7	7	5
+
+João José Laranjeira Brizzi	732321	4ª feira - manhã - furtado - foto II	7	9	8	7	8	7	7	7
+
+João José Laranjeira Brizzi	732321	4ª feira - tarde - fábio - of. madeira	8	9	8	9	9	9	9	9
+
+João José Laranjeira Brizzi	732321	5ª feira - manhã - cássia - prod.gráf. II	10	10	10	10	10	10	10	9
+
+João José Laranjeira Brizzi	732321	5ª feira - manhã - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+João José Laranjeira Brizzi	732321	3ª feira - tarde - sileide - projeto I	7	7	7	8	8	7	6	7
+
+João José Laranjeira Brizzi	732321	6ª feira - manhã - suzi - projeto I	7	8	7	9	7	9	9	8
+
+André Augusto Fernandes Pedro	632791	2ª feira - noite - osmar - modelagem	10	10	10	10	10	10	8	8
+
+André Augusto Fernandes Pedro	632791	3ª feira - noite - guarnetti - el. máquina	5	10	8	10	10	10	5	10
+
+André Augusto Fernandes Pedro	632791	5ª feira - manhã - celso - el. computação	7	7	3	10	5	6	5	2
+
+Patrícia Pimenta Medeiros	732631	2ª feira - noite - furtado - foto II	7	9	7	5	7	5	3	3
+
+Patrícia Pimenta Medeiros	732631	4ª feira - noite - cássia - tipografia II	6	7	8	8	10	8	7	5
+
+Patrícia Pimenta Medeiros	732631	4ª feira - noite - cássia - prod. gráfica II	6	8	8	8	10	5	5	5
+
+Patrícia Pimenta Medeiros	732631	5ª feira - noite - dorival - ling.contemp.	9	10	10	8	10	9	9	10
+
+Patrícia Pimenta Medeiros	732631	5ª feira - noite - glória - met. projeto II	1	1	1	1	9	1	1	1
+
+Patrícia Pimenta Medeiros	732631	6ª feira - noite - ronise - projeto I	8	8	7	7	8	8	8	8
+
+Ian Gonçalves Albiero	932965	2ª feira - noite - plácido - des. observação I	10	10	10	10	10	10	10	10
+
+Ian Gonçalves Albiero	932965	3ª feira - noite - carbone - filosofia (turma C)	10	10	10	10	10	10	10	10
+
+Ian Gonçalves Albiero	932965	3ª feira - noite - m.luiza - hist. arte I (turma C)	10	10	10	10	10	10	10	10
+
+Ian Gonçalves Albiero	932965	4ª feira - noite - vânia - desenho I	10	10	10	10	10	10	10	10
+
+Ian Gonçalves Albiero	932965	5ª feira - noite - goya - plástica I	09	10	09	07	10	10	09	10
+
+Ian Gonçalves Albiero	932965	6ª feira - noite - priscila - antropol.	09	09	08	10	10	10	10	10
+
+Ian Gonçalves Albiero	932965	6ª feira - noite - marta - int. design	10	09	10	10	09	10	10	10
+
+antonio fernandes gonçalves da silva filho	723672	2ª feira - noite - furtado - foto II	8	10	10	9	10	9	9	8
+
+antonio fernandes gonçalves da silva filho	723672	4ª feira - noite - cássia - tipografia II	10	10	9	10	10	10	10	10
+
+antonio fernandes gonçalves da silva filho	723672	4ª feira - noite - cássia - prod. gráfica II	10	10	9	10	10	10	10	10
+
+antonio fernandes gonçalves da silva filho	723672	5ª feira - noite - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+antonio fernandes gonçalves da silva filho	723672	5ª feira - noite - glória - met. projeto II	7	7	7	5	7	7	4	4
+
+antonio fernandes gonçalves da silva filho	723672	6ª feira - noite - ronise - projeto I	8	8	8	10	9	9	8	9
+
+Bruno Sanches Cassano	632627	2ª feira - noite - j.marcelo - prod. gráf. II	9	9	10	10	10	10	8	9
+
+Bruno Sanches Cassano	632627	3ª feira - noite - bigal - animação	7	10	8	8	10	10	5	10
+
+Bruno Sanches Cassano	632627	4ª feira - noite - marar - el. computação	5	3	3	3	8	3	1	6
+
+Bruno Sanches Cassano	632627	5ª feira - noite - sérgio busato - foto II	3	3	1	6	1	4	7	3
+
+Bruno Sanches Cassano	632627	6ª feira - noite - osmar -  of. mat. plásticos	10	10	10	9	10	10	10	3
+
+Bruno Sanches Cassano	632627	sábado - eiji    - projeto V	7	7	7	7	9	5	5	3
+
+Camila Gevartosky do Amaral	632961	2ª feira - noite - reinaldo - of. metal	5	2	2	2	1	2	2	2
+
+Camila Gevartosky do Amaral	632961	3ª feira - noite - guarnetti - el. máquina	7	7	5	7	9	9	6	2
+
+Camila Gevartosky do Amaral	632961	4ª feira - noite - reinaldo - teor. fab.	5	5	7	5	2	1	3	1
+
+Camila Gevartosky do Amaral	632961	5ª feira - noite - celso - el. computação	3	5	4	5	8	5	3	5
+
+Camila Gevartosky do Amaral	632961	6ª feira - noite - gilberto - mat. construção	7	2	2	7	6	8	6	1
+
+Camila Gevartosky do Amaral	632961	sábado - sileide - projeto V	6	2	2	8	8	5	2	1
+
+Thiago Rafael R. Ribeiro	732761	2ª feira - noite - glória - met. projeto. II	5	2	4	6	8	2	4	4
+
+Thiago Rafael Rodrigues. Ribeiro	732761	2ª feira - noite - glória - met. projeto. II	5	2	4	6	8	2	4	4
+
+Thiago Rafael Rodrigues. Ribeiro	732761	2ª feira - noite - dorival - ling. contemp.	8	7	6	9	7	7	7	9
+
+Thiago Rafael Rodrigues. Ribeiro	732761	3ª feira - noite - cássia - tipografia II	8	7	8	9	9	8	9	7
+
+Thiago Rafael Rodrigues. Ribeiro	732761	3ª feira - noite - cássia - prod. gráfica II	8	7	8	9	9	8	9	7
+
+Thiago Rafael Rodrigues. Ribeiro	732761	5ª feira - noite - plácido - projeto I	4	5	6	7	7	7	2	3
+
+Thiago Rafael Rodrigues. Ribeiro	732761	6ª feira - noite - goya - projeto I	3	2	3	5	2	4	3	3
+
+Camila de Lima Vieira dos Santos	632899	2ª feira - noite - reinaldo - of. metal	1	1	2	1	1	1	1	1
+
+Camila de Lima Vieira dos Santos	632899	3ª feira - noite - guarnetti - el. máquina	8	10	6	10	10	8	10	10
+
+Camila de Lima Vieira dos Santos	632899	4ª feira - noite - reinaldo - teor. fab.	1	3	3	1	1	1	1	1
+
+Camila de Lima Vieira dos Santos	632899	5ª feira - noite - celso - el. computação	9	10	10	10	10	10	9	10
+
+Nina Gimenez Madueño Silva	932906	2ª feira - noite - plácido - des. observação I	10	10	9	10	10	10	8	9
+
+Nina Gimenez Madueño Silva	932906	3ª feira - noite - carbone - filosofia (turma C)	10	10	9	10	10	9	7	9
+
+Nina Gimenez Madueño Silva	932906	3ª feira - noite - m.luiza - hist. arte I (turma C)	10	10	10	10	10	9	10	10
+
+Nina Gimenez Madueño Silva	932906	4ª feira - noite - vânia - desenho I	10	10	10	10	10	10	9	10
+
+Nina Gimenez Madueño Silva	932906	5ª feira - noite - goya - plástica I	10	10	10	8	9	8	10	10
+
+Nina Gimenez Madueño Silva	932906	6ª feira - noite - priscila - antropol.	8	10	8	10	10	10	10	10
+
+Nina Gimenez Madueño Silva	932906	6ª feira - noite - marta - int. design	9	8	10	8	10	10	7	10
+
+Alvaro Antonio Assis Pontes	832804	2ª feira - noite - osmar - modelagem	10	10	10	10	10	10	10	10
+
+Alvaro Antonio Assis Pontes	832804	3ª feira - tarde - winck - semiótica II	1	1	1	1	1	3	1	1
+
+Alvaro Antonio Assis Pontes	832804	5ª feira - noite - paschoarelli - ergonomia	10	10	10	10	10	10	10	10
+
+Alvaro Antonio Assis Pontes	832804	6ª feira - noite - olimpio - hist.arte III (turma C)	3	3	3	3	3	5	3	3
+
+Alvaro Antonio Assis Pontes	832804	6ª feira - manhã - eiji - prod.gráfica II	1	1	1	1	2	1	1	1
+
+Alan Marcel Couto Nagatomo	732591	2ª feira - noite - furtado - foto II	8	9	9	7	6	7	6	1
+
+Alan Marcel Couto Nagatomo	732591	2ª feira - noite - furtado - foto II	8	9	9	7	6	7	6	1
+
+Alan Marcel Couto Nagatomo	732591	4ª feira - noite - cássia - tipografia II	9	7	8	8	7	8	7	1
+
+Alan Marcel Couto Nagatomo	732591	4ª feira - noite - cássia - prod. gráfica II	9	9	8	8	7	8	7	1
+
+Alan Marcel Couto Nagatomo	732591	5ª feira - noite - glória - met. projeto II	6	3	4	1	6	2	7	1
+
+Alan Marcel Couto Nagatomo	732591	5ª feira - noite - dorival - ling.contemp.	10	10	9	10	9	10	9	6
+
+Alan Marcel Couto Nagatomo	732591	6ª feira - noite - ronise - projeto I	7	6	5	8	5	8	7	1
+
+mauricio siquinelli nakane	832961	2ª feira - noite - osmar - modelagem	10	10	10	10	10	10	10	10
+
+mauricio siquinelli nakane	832961	3ª feira - noite - paula - met. cient.	9	9	9	8	9	9	9	9
+
+mauricio siquinelli nakane	832961	3ª feira - noite - winck - semiotica I	4	4	4	4	1	4	4	4
+
+mauricio siquinelli nakane	832961	5ª feira - noite - paschoarelli - ergonomia	10	10	10	10	10	10	10	10
+
+mauricio siquinelli nakane	832961	6ª feira - noite - olimpio - hist.arte III (turma C)	5	10	9	10	9	10	5	10
+
+mauricio siquinelli nakane	832961	6ª feira - noite - eiji - rec. computac. (turma   C)	5	8	9	8	9	1	7	4
+
+Lucas Campoi Trípodi	733032	2ª feira - noite - glória - met. projeto. II	7	4	5	10	9	5	7	2
+
+Lucas Campoi Trípodi	733032	2ª feira - noite - dorival - ling. contemp.	9	10	9	10	9	8	9	10
+
+Lucas Campoi Trípodi	733032	3ª feira - noite - cássia - tipografia II	9	10	9	10	9	8	10	10
+
+Lucas Campoi Trípodi	733032	3ª feira - noite - cássia - prod. gráfica II	9	10	9	10	9	8	10	10
+
+Lucas Campoi Trípodi	733032	4ª feira - noite - fábio - of.   madeira	10	10	10	10	10	10	10	10
+
+Lucas Campoi Trípodi	733032	5ª feira - noite - plácido - projeto I	7	7	8	10	9	9	7	7
+
+Lucas Campoi Trípodi	733032	6ª feira - noite - goya - projeto I	6	7	8	9	9	8	7	8
+
+Tulio da Cunha Ribeiro de Carvalho	932426	2ª feira - manhã - m.luiza - hist. arte I	9	9	8	9	10	10	9	9
+
+Tulio da Cunha Ribeiro de Carvalho	932426	3ª feira - manhã - vânia - desenho I	8	9	9	10	8	10	9	9
+
+Tulio da Cunha Ribeiro de Carvalho	932426	3ª feira - tarde - dorival - plástica I	10	10	10	9	10	10	10	10
+
+Tulio da Cunha Ribeiro de Carvalho	932426	4ª feira - manhã - carbone - filosofia	10	9	9	10	9	9	9	9
+
+Tulio da Cunha Ribeiro de Carvalho	932426	5ª feira - manhã - nakata - des. observ. I	9	9	9	8	10	9	10	8
+
+Tulio da Cunha Ribeiro de Carvalho	932426	6ª feira - manhã - marta - int. design	9	8	9	8	10	9	9	9
+
+Tulio da Cunha Ribeiro de Carvalho	932426	6ª feira - tarde - priscila - antropol.	9	9	8	9	10	9	9	8
+
+Aila Maira Sato dos Santos	732771	2ª feira - noite - glória - met. projeto. II	5	2	6	6	10	7	6	4
+
+Aila Maira Sato dos Santos	732771	2ª feira - noite - dorival - ling. contemp.	9	10	9	10	9	10	9	10
+
+Aila Maira Sato dos Santos	732771	3ª feira - noite - cássia - tipografia II	10	9	10	10	10	10	10	10
+
+Aila Maira Sato dos Santos	732771	3ª feira - noite - cássia - prod. gráfica II	10	9	10	10	10	10	10	10
+
+Aila Maira Sato dos Santos	732771	4ª feira - noite - fábio - of.   madeira	10	10	9	10	10	9	10	10
+
+Aila Maira Sato dos Santos	732771	5ª feira - noite - plácido - projeto I	10	9	9	10	9	10	10	10
+
+Aila Maira Sato dos Santos	732771	6ª feira - noite - goya - projeto I	9	10	9	10	10	10	10	10
+
+Aila Maira Sato dos Santos	732771	5ª feira - tarde - susy - projeto I	10	10	10	10	10	10	10	10
+
+Daniela Yumi Onari	933651	2ª feira - manhã - m.luiza - hist. arte I	9	10	8	8	10	9	8	7
+
+Daniela Yumi Onari	933651	3ª feira - manhã - vânia - desenho I	8	10	9	10	10	10	8	7
+
+Daniela Yumi Onari	933651	3ª feira - tarde - dorival - plástica I	9	10	9	9	9	10	7	10
+
+Daniela Yumi Onari	933651	4ª feira - manhã - carbone - filosofia	10	10	9	9	10	10	7	8
+
+Daniela Yumi Onari	933651	5ª feira - manhã - nakata - des. observ. I	9	10	10	8	10	10	9	8
+
+Daniela Yumi Onari	933651	6ª feira - manhã - marta - int. design	9	9	8	10	9	8	8	6
+
+Daniela Yumi Onari	933651	6ª feira - tarde - priscila - antropol.	8	5	6	5	7	9	7	4
+
+Caio Henrique oliveira	832499	6ª feira - manhã - chico - modelagem	10	10	10	10	10	10	10	10
+
+Marianna Konyosi Miyashiro	732257	2ª feira - manhã - ronise -  projeto I	7	6	6	9	9	10	8	9
+
+Marianna Konyosi Miyashiro	732257	4ª feira - manhã - furtado - foto II	7	7	7	7	9	6	8	3
+
+Marianna Konyosi Miyashiro	732257	5ª feira - manhã - cássia - prod.gráf. II	9	9	9	9	9	6	9	3
+
+Marianna Konyosi Miyashiro	732257	5ª feira - manhã - dorival - ling.contemp.	10	9	10	10	10	10	9	10
+
+Marianna Konyosi Miyashiro	732257	5ª feira - noite - glória - met. projeto II	10	3	5	8	3	5	4	3
+
+Fabio Kiyoshi Uehara	632686	2ª feira - noite - j.marcelo - prod. gráf. II	10	7	9	8	10	9	8	7
+
+Fabio Kiyoshi Uehara	632686	3ª feira - noite - bigal - animação	8	7	8	10	10	10	6	10
+
+Fabio Kiyoshi Uehara	632686	4ª feira - noite - marar - el. computação	8	8	7	4	10	7	3	10
+
+Fabio Kiyoshi Uehara	632686	5ª feira - noite - sérgio busato - foto II	9	8	6	9	6	7	8	7
+
+Fabio Kiyoshi Uehara	632686	6ª feira - noite - osmar -  of. mat. plásticos	10	10	10	10	10	10	8	9
+
+Fabio Kiyoshi Uehara	632686	sábado - eiji    - projeto V	10	10	9	10	10	9	9	8
+
+Amanda Tharen Marcondes Rezende	933007	2ª feira - noite - plácido - des. observação I	5	10	7	10	10	3	5	1
+
+Amanda Tharen Marcondes Rezende	933007	3ª feira - noite - carbone - filosofia (turma C)	10	7	5	10	10	7	5	1
+
+Amanda Tharen Marcondes Rezende	933007	3ª feira - noite - m.luiza - hist. arte I (turma C)	10	10	10	1	10	8	5	7
+
+Amanda Tharen Marcondes Rezende	933007	4ª feira - noite - vânia - desenho I	5	10	8	10	10	3	5	3
+
+Amanda Tharen Marcondes Rezende	933007	5ª feira - noite - goya - plástica I	1	10	1	1	10	5	1	5
+
+Amanda Tharen Marcondes Rezende	933007	6ª feira - noite - priscila - antropol.	10	10	10	10	10	5	5	5
+
+Amanda Tharen Marcondes Rezende	933007	6ª feira - noite - marta - int. design	10	10	10	10	10	5	6	5
+
+Mariana Yuri Takeda Ribeiro	733016	2ª feira - noite - glória - met. projeto. II	6	4	5	6	8	6	5	5
+
+Mariana Yuri Takeda Ribeiro	733016	2ª feira - noite - dorival - ling. contemp.	9	10	10	10	8	8	8	10
+
+Mariana Yuri Takeda Ribeiro	733016	3ª feira - noite - furtado - foto II	5	7	6	7	8	5	7	5
+
+Mariana Yuri Takeda Ribeiro	733016	4ª feira - noite - fábio - of.   madeira	8	6	7	8	9	9	8	7
+
+Mariana Yuri Takeda Ribeiro	733016	5ª feira - tarde - susy - projeto I	10	10	10	10	9	10	9	10
+
+Mariana Yuri Takeda Ribeiro	733016	5ª feira - noite - plácido - projeto I	6	6	6	6	8	8	5	5
+
+Mariana Yuri Takeda Ribeiro	733016	6ª feira - noite - goya - projeto I	6	8	5	6	8	8	6	7
+
+alessandra casali	833037	2ª feira - noite - osmar - modelagem	10	10	10	10	10	10	10	10
+
+Daniela Moreira da Silva 	832391	2ª feira - manhã - paula - met. científica	9	8	8	8	8	7	6	8
+
+Daniela Moreira da Silva 	832391	2ª feira - manhã - paula - met. científica	9	8	8	8	8	7	6	8
+
+Daniela Moreira da Silva 	832391	3ª feira - manhã - marta - ergonomia	8	5	5	4	8	6	5	5
+
+Daniela Moreira da Silva 	832391	3ª feira - tarde - winck - semiótica II	7	8	8	7	8	7	7	7
+
+Daniela Moreira da Silva 	832391	4ª feira - manhã - marizilda - desenho III	8	7	9	8	9	7	7	7
+
+Daniela Moreira da Silva 	832391	5ª feira - manhã - j.marcelo - rec. computac.	7	8	8	8	8	7	7	7
+
+Daniela Moreira da Silva 	832391	5ª feira - manhã - olímpio - his. arte III	1	6	1	5	3	3	1	2
+
+Daniela Moreira da Silva 	832391	6ª feira - manhã - chico - modelagem	9	9	8	8	8	8	8	7
+
+Alessandra casali	833037	2ª feira - noite - osmar - modelagem	10	10	10	10	10	10	10	10
+
+Alessandra casali	833037	3ª feira - noite - paula - met. cient.	10	10	10	10	10	10	10	10
+
+Alessandra casali	833037	5ª feira - noite - paschoarelli - ergonomia	10	10	10	10	10	10	10	10
+
+Alessandra casali	833037	6ª feira - noite - eiji - rec. computac. (turma   C)	08	10	07	08	10	08	08	08
+
+Alessandra casali	833037	6ª feira - noite - olimpio - hist.arte III (turma C)	06	09	07	10	10	07	05	07
+
+Mayara Cristina Ochiai	932418	2ª feira - manhã - m.luiza - hist. arte I	9	9	9	8	10	8	7	7
+
+Mayara Cristina Ochiai	932418	3ª feira - manhã - vânia - desenho I	9	9	9	9	7	7	8	7
+
+Mayara Cristina Ochiai	932418	3ª feira - tarde - dorival - plástica I	10	10	10	7	8	4	9	9
+
+Mayara Cristina Ochiai	932418	4ª feira - manhã - carbone - filosofia	10	9	9	10	6	7	5	7
+
+Mayara Cristina Ochiai	932418	5ª feira - manhã - nakata - des. observ. I	7	10	8	10	10	8	9	7
+
+Mayara Cristina Ochiai	932418	6ª feira - manhã - marta - int. design	7	8	8	7	5	7	5	7
+
+Mayara Cristina Ochiai	932418	6ª feira - tarde - priscila - antropol.	8	9	9	10	9	7	5	7
+
+Juliano Benatti Rossi	732621	2ª feira - noite - furtado - foto II	10	10	10	10	10	10	10	10
+
+Juliano Benatti Rossi	732621	4ª feira - noite - cássia - tipografia II	10	8	8	10	10	10	10	10
+
+Juliano Benatti Rossi	732621	4ª feira - noite - cássia - prod. gráfica II	10	10	8	10	10	10	10	10
+
+Juliano Benatti Rossi	732621	5ª feira - noite - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+Juliano Benatti Rossi	732621	5ª feira - noite - glória - met. projeto II	5	1	1	1	1	1	1	1
+
+Juliano Benatti Rossi	732621	6ª feira - noite - ronise - projeto I	10	10	10	10	10	10	10	10
+
+Vitor Bull de Oliveira	732834	2ª feira - noite - glória - met. projeto. II	5	2	4	3	1	4	2	2
+
+Vitor Bull de Oliveira	732834	2ª feira - noite - dorival - ling. contemp.	10	10	9	9	8	10	7	10
+
+Vitor Bull de Oliveira	732834	3ª feira - noite - cássia - tipografia II	10	10	10	10	10	10	10	7
+
+Vitor Bull de Oliveira	732834	3ª feira - noite - cássia - prod. gráfica II	10	10	10	10	10	10	10	7
+
+Vitor Bull de Oliveira	732834	4ª feira - noite - fábio - of.   madeira	10	10	10	10	10	10	9	10
+
+Vitor Bull de Oliveira	732834	5ª feira - tarde - susy - projeto I	10	10	10	10	7	10	9	9
+
+Vitor Bull de Oliveira	732834	5ª feira - noite - plácido - projeto I	8	8	10	10	7	10	7	5
+
+Vitor Bull de Oliveira	732834	6ª feira - noite - goya - projeto I	8	10	9	10	7	10	8	5
+
+Karina Sayuri Nakata	932205	2ª feira - manhã - m.luiza - hist. arte I	10	10	10	8	10	10	10	10
+
+Karina Sayuri Nakata	932205	3ª feira - manhã - vânia - desenho I	10	10	10	10	10	10	10	10
+
+Karina Sayuri Nakata	932205	3ª feira - tarde - dorival - plástica I	10	10	8	7	10	10	8	10
+
+Karina Sayuri Nakata	932205	4ª feira - manhã - carbone - filosofia	10	10	10	10	10	10	10	10
+
+Karina Sayuri Nakata	932205	5ª feira - manhã - nakata - des. observ. I	10	10	10	10	10	10	10	10
+
+Karina Sayuri Nakata	932205	6ª feira - manhã - marta - int. design	8	8	10	9	10	9	9	10
+
+Karina Sayuri Nakata	932205	6ª feira - tarde - priscila - antropol.	9	10	9	10	10	10	10	10
+
+bruno perazzelli	632201	2ª feira - manhã - bigal - animação	2	3	5	8	9	9	3	3
+
+bruno perazzelli	632201	3ª feira - manhã - sérgio busato - foto II	3	8	5	9	8	10	9	8
+
+bruno perazzelli	632201	3ª feira - tarde - j.marcelo - projeto V	4	6	4	7	8	10	8	8
+
+bruno perazzelli	632201	4ª feira - manhã - osmar- of. mat. plásticos	8	8	5	8	10	10	9	8
+
+bruno perazzelli	632201	5ª feira - manhã - celso - el. computação	3	2	5	7	7	8	7	7
+
+bruno perazzelli	632201	6ª feira - manhã - eiji - prod.gráfica II	3	5	5	5	7	9	7	7
+
+Luiza de Oliveira Sequeira	732168	3ª feira - manhã - cássia - tipografia II	9	9	9	10	10	9	9	8
+
+Luiza de Oliveira Sequeira	732168	3ª feira - manhã - glória - metod.pjto. II	7	6	7	5	7	6	5	6
+
+Luiza de Oliveira Sequeira	732168	4ª feira - manhã - furtado - foto II	8	8	8	8	9	7	7	8
+
+Luiza de Oliveira Sequeira	732168	4ª feira - tarde - fábio - of. madeira	9	9	9	9	9	9	9	9
+
+Luiza de Oliveira Sequeira	732168	5ª feira - manhã - cássia - prod.gráf. II	9	9	9	10	10	9	9	8
+
+Luiza de Oliveira Sequeira	732168	5ª feira - manhã - dorival - ling.contemp.	10	10	10	10	10	10	10	10
+
+Érica Yoko Honda	632601	2ª feira - noite - j.marcelo - prod. gráf. II	7	9	8	10	10	9	10	7
+
+Érica Yoko Honda	632601	3ª feira - noite - bigal - animação	8	10	9	9	9	10	8	10
+
+Érica Yoko Honda	632601	4ª feira - noite - marar - el. computação	7	8	7	5	5	6	7	9
+
+Érica Yoko Honda	632601	5ª feira - noite - sérgio busato - foto II	7	8	8	8	6	7	8	7
+
+Érica Yoko Honda	632601	6ª feira - noite - osmar -  of. mat. plásticos	10	10	10	10	10	10	9	7
+
+Érica Yoko Honda	632601	sábado - eiji    - projeto V	9	9	10	10	10	10	8	7
+
+Miki Hayashi	832987	3ª feira - tarde - winck - semiótica II	5	5	3	6	2	6	5	8
+
+Miki Hayashi	832987	6ª feira - noite - olimpio - hist.arte III (turma B)	5	9	6	6	8	6	5	8
+
+caroline pazian	732818	2ª feira - manhã - paula - met. científica	5	6	5	7	6	6	7	5
+
+caroline pazian	732818	2ª feira - noite - dorival - ling. contemp.	10	10	9	10	10	9	10	9
+
+caroline pazian	732818	2ª feira - noite - furtado - foto II	8	10	9	7	9	7	10	5
+
+caroline pazian	732818	2ª feira - noite - glória - met. projeto. II	2	1	1	1	2	2	2	1
+
+caroline pazian	732818	4ª feira - tarde - fábio - of. madeira	10	10	10	10	10	10	10	10
+
+caroline pazian	732818	4ª feira - noite - paschoarelli - ergonomia	10	10	10	7	7	4	2	8
+
+caroline pazian	732818	5ª feira - noite - plácido - projeto I	8	6	6	7	5	4	9	2
+
+caroline pazian	732818	6ª feira - noite - goya - projeto I	8	9	6	8	5	8	9	2
+

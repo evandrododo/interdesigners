@@ -1,0 +1,156 @@
+<div id="container">
+    <span id="phrase" class="t-bitter italic">CORRE NEGADS!</span>
+    <div class="content-container">
+      <table id="pg-inscricoes" class="content">
+        <script src="js/inscricoes.js"></script>
+        <tr>
+          <td class="apoio"><div class="cell">
+              <div class="content-limit">
+                <form name="formapoio" id="formapoio" method="post"  >
+                  <ul class="form t-bitter t-white">
+                    <li class="error aviso">
+                      <p> Todos os campos são obrigatórios. </p>
+                    </li>
+                    <li class="fail aviso error">
+                      <p> Erro no envio, tente novamente mais tarde. </p>
+                    </li>
+                    <li class="succes aviso">
+                      <p> Sucesso! </p>
+                    </li>
+                    <li>
+                      <label for="nome">Nome Completo</label>
+                      <input  type="text" name="nome" id="nome" maxlength="50" size="30">
+                    </li>
+                    <li>
+                      <label>Sexo</label>
+                      <input class="m-zero sexo" id="gender_masc" type="radio" name="sexo" value="Masculino">
+                      <label for="gender_masc">Masculino</label>
+                      <input id="gender_fem" class="sexo" type="radio" name="sexo" value="Feminino">
+                      <label for="gender_fem">Feminino</label>
+                    </li>
+                    <li>
+                      <label for="ra">R.A.</label>
+                      <input  type="text" name="ra" id="ra" maxlength="50" size="30">
+                    </li>
+                    <li>
+                      <label for="rg">R.G.</label>
+                      <input  type="text" name="rg" id="rg" maxlength="50" size="30">
+                    </li>
+                    <li>
+                      <label for="curso">Curso (habilitação, período)</label>
+                      <input  type="text" name="curso" id="curso" maxlength="50" size="30">
+                    </li>
+                    <li>
+                      <label for="faculdade">Faculdade</label>
+                      <input  type="text" name="faculdade" id="faculdade" maxlength="50" size="30">
+                    </li>
+                    <li>
+                      <label for="email">Email</label>
+                      <input  type="text" name="email" id="email" maxlength="80" size="30">
+                    </li>
+                    <li>
+                      <label>Tamanho da camiseta</label>
+                      <input class="m-zero camiseta" id="size_p" type="radio" name="camiseta" value="P">
+                      <label for="size_p">P</label>
+                      <input id="size_m" class="camiseta" type="radio" name="camiseta" value="M">
+                      <label for="size_m">M</label>
+                      <input id="size_g" class="camiseta" type="radio" name="camiseta" value="G">
+                      <label for="size_g">G</label>
+                      <input id="size_gg" class="camiseta" type="radio" name="camiseta" value="GG">
+                      <label for="size_gg">GG</label>
+                    </li>
+                    <li>
+                      <label>Já participou como apoio em outros eventos ?</label>
+                      <input class="m-zero participou" id="yes" type="radio" name="participou" value="Sim">
+                      <label for="yes">Sim, senhor.</label>
+                      <input id="no" class="participou" type="radio" name="participou" value="Não">
+                      <label for="no">Não, senhor.</label>
+                    </li>
+                    <li>
+                      <label for="just">Justificativa</label>
+                      <textarea  name="just" id="just" maxlength="1000" cols="25" rows="6"></textarea>
+                    </li>
+                    <li>
+                      <input href="javascript:;" class="t-bitter t-yellow italic" id="btapoio" type="submit" onClick="javascript:;" value="Me inscrever!"/>                    </li>
+                  </ul>
+                </form>
+                <div class="lettering t-bitter t-white"> <span class="certo italic">Tá certo que as nuvens flutuam</span> <span class="coid t-red t-quicksand">Mas a COID é feita de gente normal</span> <span class="porisso t-yellow italic">Por isso</span> <span class="seu">seu apoio é essencial</span> <span class="ajudando t-yellow italic">ajudando nas tarefas gerais</span> <span class="monitoria italic t-red">monitoria de atividades e correrias</span> <span class="alem">Além disso, você vai conhecer os bastidores do evento, trabalhar com gente nova e ganhar um super desconto na inscrição!</span> </div>
+              </div>
+            </div></td>
+          <td class="oficina"><div class="cell">
+              <div class="content-limit">
+                <form name="formoficina" method="post" id="formoficina" >
+                  <ul class="form t-bitter t-white">
+                    <li class="error aviso">
+                      <p> Todos os campos são obrigatórios. </p>
+                    </li>
+                    <li class="fail aviso error">
+                      <p> Erro no envio, tente novamente mais tarde. </p>
+                    </li>
+                    <li class="succes aviso">
+                      <p> Sucesso! </p>
+                    </li>
+                    <li>
+                      <label for="email">Email</label>
+                      <input  type="text" name="email" id="email" maxlength="80" size="30">
+                    </li>
+                    <li>
+                      <label for="o_title">Título da oficina</label>
+                      <input  type="text" id="o_title" name="o_title" maxlength="50" size="30">
+                    </li>
+                    <li>
+                      <label for="n_oficineiros">Número de oficineiros</label>
+                      <input  type="text" name="n_oficineiros" id="n_oficineiros" maxlength="50" size="30">
+                    </li>
+                    <li>
+                      <label for="theme">Tema</label>
+                      <input  type="text" name="theme" id="theme" maxlength="50" size="30">
+                    </li>
+                    <li>
+                      <label for="limit">Limite de participantes</label>
+                      <input class="m-zero limit" id="dez" type="radio" name="limit" value="10">
+                      <label for="dez">10</label>
+                      <input id="vinte" class="limit" type="radio" name="limit" value="20">
+                      <label for="vinte">20</label>
+                      <input id="trinta" class="limit" type="radio" name="limit" value="30">
+                      <label for="trinta">30</label>
+                    </li>
+                    <li>
+                      <label for="time">Duração da oficina (horas)</label>
+                      <input class="m-zero time" id="dois" type="radio" name="time" value="2">
+                      <label for="dois">2</label>
+                      <input id="tres" class="time" type="radio" name="time" value="3">
+                      <label for="tres">3</label>
+                      <input id="quatro" class="time" type="radio" name="time" value="4">
+                      <label for="quatro">4</label>
+                      <input id="cinco" class="time" type="radio" name="time" value="5">
+                      <label for="cinco">5</label>
+                    </li>
+                    <li>
+                      <label for="materials">Materiais</label>
+                      <textarea  type="text" id="materials" name="materials" maxlength="1000" size="30"></textarea>
+                    </li>
+                    <li>
+                      <label for="comments">Descrição e ligação com o tema</label>
+                      <textarea  name="comments" id="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                    </li>
+                    <li class="obs t-bitter t-white italic"> Lembre-se de que você está cadastrando sua oficina. Para participar do evento, você deve inscrever-se como participante. </li>
+                    <li>
+                      <input class="t-bitter t-yellow italic" onClick="javascript:;" id="btoficina" type="submit" value="Mandar minha oficina!"/></li>
+                  </ul>
+                </form>
+                <div class="lettering t-bitter t-white"> <span class="nuvens italic">As nuvens não tem uma forma definida</span> <span class="nunca t-red">e nunca sabemos o desenho que podem formar</span> <span class="porisso t-yellow italic">Por isso</span> <span class="oficinas t-quicksand">oficinas dos mais variados conteúdos</span> <span class="saobem t-red italic">são bem-vindas</span> <span class="atividades">Oficinas são atividades em que você é o instrutor e também aprende! Participe dessa nuvem e inscreva sua oficina</span> </div>
+              </div>
+            </div></td>
+          <td class="soon"><div class="cell">
+              <div class="content-limit">
+                <div class="lettering-container">
+                  <div class="lettering t-bitter t-yellow"> <span class="entao italic">ENTÃO...</span> <span class="ainda t-quicksand t-red">ainda não abrimos todas as inscrições</span> <span class="esperar t-white">MAS É SÓ ESPERAR</span> <span class="alguns italic t-red">e em alguns dias você</span> <span class="podera t-yellow">poderá se inscrever :)</em></span> </div>
+                </div>
+              </div>
+            </div></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="close"> <a class="close-button"><img src="img/close.png"/></a> <span class="t-bitter italic t-red">Chega desse site, quero desenhar! :D</span> </div>

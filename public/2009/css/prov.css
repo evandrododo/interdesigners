@@ -1,0 +1,22 @@
+/* CSS Document */
+
+body { background: url(../imgs/prov/provisoria.gif) repeat-y ; margin: 0 auto; text-align:left; width:auto; height:auto; background-color:#f4f4f4; 
+       }
+	   
+.cont { border:0; background: url(../imgs/prov/contfundo.gif) no-repeat top left; margin: 0; height:auto;
+        }
+
+.logo { width: 224px; height: 118px; padding: 130px 0px 31px 50px;}
+.rodape { width: auto; height: auto;}
+.data { height: 269px;  width: auto;}
+.apoio { padding: 148px 0px 0px 169px;}
+
+.tabelas {padding-left: 20px }
+
+/* tipo */
+body { font-size: 7pt ; color:#ababab; font-family: "Arial", Verdana, Tahoma, sans-serif; }
+
+/* link */
+a { color: #ababab; text-decoration: none; outline:0; }
+a:focus { text-decoration:none; color: #ababab; outline:0}
+a:hover { text-decoration:none; color: #f06459; outline:0}

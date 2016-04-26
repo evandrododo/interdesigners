@@ -1,0 +1,84 @@
+/* -------------------------------------------------------------- 
+   
+   Estilos de tipografia (fontes, cores, tamanhos, etc)
+	 * baseado no framework Blueprint v0.6 - http://code.google.com/p/blueprintcss/
+  
+-------------------------------------------------------------- */
+
+/* tamanho de fonte inicial ( porcentagem a partir de 16px )( áreas internas com tamanho proporcional a fonte da área externa ):
+ 9px = 0.5625em / 10px = 0.625em / 11px = 0.6875em / 12px = 0.75em / 13px = 0.8125em  *//* Line-height igual a 18px (1.5 x 12px = 18px) */
+
+	 
+body { font-size: 12px; line-height: 1.5em; } 
+body, h1, h2, h3, h4, h5, h6, input, textarea, select, button, a { color: #222; font-family: Arial, Verdana, Tahoma, sans-serif; }
+
+@font-face {
+	font-family: 'til';
+	src: url('titilliumtext22l001-webfont.eot');
+	src: local('?'), url('titilliumtext22l001-webfont.woff') format('woff'), url('titilliumtext22l001-webfont.ttf') format('truetype'), url('titilliumtext22l001-webfont.svg#webfont0anJmznv') format('svg');
+}
+
+/* -------------------- Títulos -------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; }
+
+h1 { font-size: 3em; line-height:1; margin-bottom:0.5em; }
+h2 { font-size: 45px; line-height:1em; font-family:"til"; margin:10px 0 0; text-transform:uppercase; clear:both; }
+.atividades h2, h2.atividades { color:#009FEB; }
+.kit h2, h2.kit { color:#888; }
+.md h2, h2.md { color:#e7007c; }
+h3 { font-size: 16px; margin: 13px 0 10px; line-height:1em; }
+ h3 strong {font-weight:bold;}
+h4 { font-size: 26px; line-height:1em; font-family:"Times New Roman", Times, serif; margin:15px 0 5px; width:100%; }
+h5 { font-size: 1.2em; font-weight: bold; }
+h6 { font-size: 1em; font-weight: bold; }
+
+/* -------------------- Elementos de texto -------------------- */
+
+.info	{ margin:0 0 0 0; font-size:24px; font-weight:bold; font-family:Georgia; font-style:italic; line-height:1em; margin:15px 0; display:block; }
+.info em { color:#009FEB; }
+.ipack p    { margin: 0 0 1.5em; }
+p.orelha	{ text-align:left; font-size:26px; margin-top:15px; font-weight:bold; }
+.atividades p.orelha a { color:#009FEB; }
+p.orelha a:hover { color:#000; }
+.ipack ul, .ipack ol	{ margin:0 1.5em 1.5em 2em; }
+.ipack ul				{ list-style-type: disc; }
+.ipack ol				{ list-style-type: decimal; }
+.ipack a        	{ color: #444; text-decoration:underline; outline:0 none; }
+.md a { color:#e7007c; }
+.ipack a:visited,
+.ipack a:focus,
+.ipack a:hover   	{ text-decoration:none; }
+.ipack img    { margin: 0 1em 1.5em; }
+.ipack strong { font-weight: bold; font-size:1.2em; }
+.ipack em	  { font-style: italic; }
+.ipack cite   {  font-style: italic; font-weight:bold; }
+.ipack hr     { background:#ddd; color:#ddd; clear:both; float:none; width:100%; height:0.1em; margin:0 0 1.4em; }
+.ipack blockquote    { margin: 1.5em; color: #666; font-style: italic; }
+abbr, acronym { border-bottom: 1px dotted #666; }
+address       { margin-top: 1.5em; font-style: italic; }
+
+/* -------------------- Botões -------------------- */
+
+.lis_bt { float:left; display:inline; margin:25px 0 -25px; list-style:none; clear:left; }
+#lis_btfora { margin-bottom:0; }
+ .lis_bt li { padding:0 0 3px; float:left; display:inline; clear:left; height:30px; }
+  .lis_bt li a.botao span span { width:55px; padding:0 0 0 20px; height:22px; background:left 7px no-repeat; }
+  .lis_bt li.bt_anexo a.botao span span { background-image:url(../img/bt_anexo.gif); }
+  .lis_bt li.bt_envia a.botao span span { background-image:url(../img/bt_email.gif); }
+  .lis_bt li.bt_imprime a.botao span span { background-image:url(../img/bt_imprime.png); }
+
+/* -------------------- Paginação -------------------- */
+
+li#paginacao {clear:both; text-align:center; clear:both; border:none; padding:10px 0; margin:0 auto; background:none; height:auto; width:100%; }
+li#paginacao a { text-decoration:none; font-weight:bold; }
+span.paginacaoAtual { color:#fff; font-weight:bold; background:#2891cb; padding:0 2px;}
+
+/* -------------------- Tabelas -------------------- */
+
+.ipack table   { margin-bottom: 1.5em; }
+.ipack th      { border-bottom: 2px solid #ccc; font-weight: bold; }
+.ipack td      { border-bottom: 1px solid #ddd; }
+.ipack th, .ipack td   { padding: 4px 10px 4px 0; }
+.ipack tfoot   { font-style: italic; }
+.ipack caption { background: #ffc; }

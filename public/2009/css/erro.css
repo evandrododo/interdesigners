@@ -1,0 +1,26 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ VERIFICAÇÃO DE ERROS
+ 
+ Para determinar se elementos depreciados estão em uso.
+ Se estiverem, devem ser substituídos:
+ 
+ 1a. <font> e
+ 1b. <font color="xxx">…</font>: Não devem ser utilizados. O CSS deve ditar a aparência do texto.
+
+ 2. <center>: Não deve ser utilizado. CSS deve ditar alinhamento horizontal.
+ 
+ 3a. <div align="xxx">…</div>
+ 3b. <p align="xxx">…</p>
+ 3c. <table align="xxx">…</table>: Não devem ser utilizado. CSS deve ditar alinhamento horizontal.
+ 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+ /* CSS Begin */
+ font, center, div[align], p[align], table[align], font[color] {
+   color : #cd0000;
+   font-weight : bold;
+   background : #eecc11 url(images/warning.gif) repeat 0 0;
+   margin : 10px;
+   padding : 10px;
+   border : 2px dashed #cd0000;
+   font-size : 2em;
+}
